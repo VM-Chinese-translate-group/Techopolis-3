@@ -111,6 +111,7 @@ def convert_snbt_to_json(snbt_path: str, json_path: str):
     同时对 FTBQuests 的 desc 条目做拆分处理，方便 ParaTranz 逐行翻译。
     """
     if not os.path.exists(snbt_path):
+        print("没有找到ftb任务文件！")
         return False
 
     # 读取 SNBT 并解析为 NBT 对象
