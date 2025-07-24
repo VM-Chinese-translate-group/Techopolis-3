@@ -1,0 +1,15 @@
+{
+    "item_settings": {
+      "display_name": {
+        "type": "translatable",
+        "translate": "Techopolis 3 Guide Book"
+      },
+      "tooltip_lines": [
+        {
+          "text": "The Ultimate Techopolis 3 Guide Book",
+          "color": "dark_gray"
+        }
+      ],
+      "model": "techopolis:item/guide"
+    }
+  }
