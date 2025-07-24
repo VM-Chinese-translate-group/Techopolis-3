@@ -1,0 +1,231 @@
+{
+	autofocus_id: "53CB797F3DB754AE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elite"
+	group: "4A795F5C0EB4D29D"
+	icon: {
+		id: "techopolis:elite_research"
+	}
+	id: "3BD8BE176F1CE05E"
+	images: [
+		{
+			height: 0.59d
+			image: "techopolis:textures/quests/elite_research.png"
+			rotation: 0.0d
+			width: 7.11d
+			x: 0.1785714285714306d
+			y: -4.982142857142858d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/elite_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.3928571428571317d
+			y: -4.977857142857147d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/elite_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.6785714285714377d
+			y: -4.977857142857147d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"523C2224DA195636"
+				"70FED206562250EE"
+			]
+			id: "53CB797F3DB754AE"
+			tasks: [{
+				id: "387F6961FB5E742F"
+				item: { count: 1, id: "techopolis:elite_research" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "62DF8FF775DE6C93"
+			tasks: [{
+				id: "7BCED11CC53C5DA9"
+				item: { count: 1, id: "techopolis:ender_storage_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62DF8FF775DE6C93"]
+			id: "4FF792FEB07EA0C4"
+			tasks: [{
+				id: "5FA231300C3E882C"
+				item: { count: 1, id: "techopolis:ender_teleportation_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "207BCFEA8B24CCCD"
+			tasks: [{
+				id: "36FD1A62CAE28613"
+				item: { count: 1, id: "techopolis:elevator_blueprint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["207BCFEA8B24CCCD"]
+			id: "3BC8A50893D13520"
+			tasks: [{
+				id: "4F0D2072F0675F46"
+				item: { count: 1, id: "techopolis:elevator_teleportation_core" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "79B74AC9E283EF20"
+			tasks: [{
+				id: "275541E837DC5BCA"
+				item: { count: 1, id: "techopolis:ultimine_blueprint" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79B74AC9E283EF20"]
+			id: "17DE850E2399B19E"
+			tasks: [{
+				id: "3B9557134F3C8FAE"
+				item: { count: 1, id: "ultimine_addition:miner_certificate" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "7B0EC944239934EE"
+			tasks: [{
+				id: "4C96C89F01E2B08C"
+				item: { count: 1, id: "techopolis:unbreakable_electrodes_blueprint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B0EC944239934EE"]
+			id: "1D5701EA3D0D3097"
+			tasks: [{
+				id: "1B734801E1B66FBD"
+				item: { components: { "minecraft:unbreakable": { } }, count: 1, id: "immersiveengineering:graphite_electrode" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C85F2581BC19785"]
+			id: "308FD73EE72B4134"
+			tasks: [{
+				id: "648D702D29B7D742"
+				item: { count: 1, id: "techopolis:speed_2_curio" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "5C85F2581BC19785"
+			tasks: [{
+				id: "01D090B6FD0A6F6D"
+				item: { count: 1, id: "techopolis:speed_2_curio_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "3F9593049FEE5C5D"
+			tasks: [{
+				id: "20DAAF4DC332925F"
+				item: { count: 1, id: "techopolis:waystones_blueprint" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F9593049FEE5C5D"]
+			id: "34FD3253812C2865"
+			tasks: [{
+				id: "13927424FAE0F4EC"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "387D214713BD6BF2"
+			tasks: [{
+				id: "6328AEB4470A542F"
+				item: { count: 1, id: "techopolis:elite_miners_blueprint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["387D214713BD6BF2"]
+			id: "4804DE10176710E3"
+			tasks: [{
+				id: "63D50CAD2939784D"
+				item: { count: 1, id: "techopolis:elite_miner" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53CB797F3DB754AE"]
+			id: "3574C7DE1F9C8660"
+			tasks: [{
+				id: "64BF193EC2071853"
+				item: { count: 1, id: "techopolis:elite_research_crafter_blueprint" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3574C7DE1F9C8660"]
+			id: "53D0B78F2FE3C115"
+			tasks: [{
+				id: "7DA642551336C913"
+				item: { count: 1, id: "techopolis:elite_research_crafter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+}

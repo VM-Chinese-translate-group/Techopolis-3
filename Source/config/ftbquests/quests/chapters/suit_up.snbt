@@ -1,0 +1,402 @@
+{
+	autofocus_id: "70FFEFD9FA7F8F79"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "suit_up"
+	group: "17F478C1B27DFED2"
+	icon: {
+		id: "stellaris:space_suit_chestplate"
+	}
+	id: "58C2785C6743FF34"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/suit_up.png"
+		rotation: 0.0d
+		width: 3.38d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			id: "1977A3BD061C4176"
+			tasks: [{
+				id: "17CA0D84A9DD9B54"
+				item: { count: 1, id: "stellaris:space_suit_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4E2F5B340EA252C3"
+				"0265FA8CABA2C511"
+			]
+			id: "1BE5521FEFB43D09"
+			tasks: [{
+				id: "76C75CEE31996BEA"
+				item: { count: 1, id: "techopolis:gas_injector" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E2F5B340EA252C3"]
+			id: "4D943C7F57CBB291"
+			tasks: [{
+				id: "4088032BDE31FCF1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:ultimate_crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			id: "0265FA8CABA2C511"
+			tasks: [{
+				id: "43694F4316206D12"
+				item: { count: 1, id: "stellaris:space_suit_chestplate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			id: "25B104BF86722D76"
+			tasks: [{
+				id: "13715CCD8F47026D"
+				item: { count: 1, id: "stellaris:space_suit_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			id: "3D1C21E317429A76"
+			tasks: [{
+				id: "4AA405EB8A46DBDE"
+				item: { count: 1, id: "stellaris:space_suit_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			id: "70FFEFD9FA7F8F79"
+			tasks: [{
+				id: "3ACB988330CC6DA5"
+				item: { count: 1, id: "techopolis:heavy_duty_plating" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E91D8C1186C1D45"]
+			id: "216DC8C847BC0701"
+			tasks: [{
+				id: "5EFA5697EC5A3988"
+				item: { count: 1, id: "stellaris:rocket_launch_pad" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4EE780299B5ED480"
+				"50AF2C988B2EE05D"
+				"00EF32F20DE35A98"
+			]
+			id: "6E91D8C1186C1D45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01370555683C85C9"
+				table_id: 1555873368870774438L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4605CB6301DD2DDE"
+				item: { count: 1, id: "stellaris:rocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70FFEFD9FA7F8F79"]
+			id: "00EF32F20DE35A98"
+			tasks: [{
+				id: "1AC86A6A4612A18A"
+				item: { count: 1, id: "stellaris:rocket_engine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70FFEFD9FA7F8F79"]
+			id: "4EE780299B5ED480"
+			tasks: [{
+				id: "37596EB52AA3BCEF"
+				item: { count: 1, id: "stellaris:rocket_fin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70FFEFD9FA7F8F79"]
+			id: "50AF2C988B2EE05D"
+			tasks: [{
+				id: "7AF7AE745CC0AEE2"
+				item: { count: 1, id: "stellaris:rocket_nose_cone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E91D8C1186C1D45"]
+			id: "3A819A471C879295"
+			tasks: [{
+				id: "1102BA626C257FE9"
+				item: { count: 1, id: "stellaris:fuel_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A819A471C879295"]
+			id: "3A37CCD1861B2A9F"
+			tasks: [{
+				dimension: "stellaris:moon"
+				id: "69058C429E46A1A3"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			id: "36F67240DEEF3BA1"
+			tasks: [{
+				id: "77D1364A3164DCA7"
+				item: { count: 1, id: "techopolis:canned_food" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A37CCD1861B2A9F"]
+			id: "501A04A1F1A2CD5B"
+			tasks: [{
+				id: "1D3E6BCE0BF28861"
+				item: { count: 1, id: "stellaris:moon_sand" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3A37CCD1861B2A9F"]
+			id: "3F0402923FABBCED"
+			tasks: [{
+				id: "48E93BF34F8DAFD1"
+				item: { count: 1, id: "stellaris:moon_stone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3A37CCD1861B2A9F"]
+			id: "19E16ABF1A0A8D3B"
+			tasks: [{
+				id: "3DC0F0B0380DB0B9"
+				item: { count: 1, id: "stellaris:moon_fruit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F0402923FABBCED"]
+			id: "312152E380856FAE"
+			tasks: [{
+				id: "50E36531F56EF775"
+				item: { count: 1, id: "stellaris:moon_stone_bricks" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["312152E380856FAE"]
+			id: "30FFEF26698DD916"
+			tasks: [{
+				id: "69904C501DD7A76B"
+				item: { count: 1, id: "techopolis:moon_quarry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["312152E380856FAE"]
+			id: "30D6C98EAFB63C07"
+			tasks: [{
+				id: "1BC9C7AB174E2866"
+				item: { count: 1, id: "stellaris:moon_cobblestone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["30FFEF26698DD916"]
+			id: "76F86D3F4FE7B518"
+			tasks: [{
+				id: "1F0601D08E57CEF1"
+				item: { count: 1, id: "stellaris:moon_stone_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"76F86D3F4FE7B518"
+				"5C6C15E3938EF0A6"
+			]
+			id: "7BD76766F64D6765"
+			tasks: [{
+				id: "431E36F5078A97D1"
+				item: { count: 1, id: "techopolis:industrial_strainer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7BD76766F64D6765"]
+			id: "12ACFAA26C54EC3C"
+			tasks: [{
+				id: "1D9C48D89849B8D0"
+				item: { count: 1, id: "techopolis:dirty_desh_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7BD76766F64D6765"]
+			id: "51F6C44EE630F91C"
+			tasks: [{
+				id: "39843777F8D96A9C"
+				item: { count: 1, id: "techopolis:dirty_neptunium_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7BD76766F64D6765"]
+			id: "0B592478EB281CBC"
+			tasks: [{
+				id: "4A546AB24771AF04"
+				item: { count: 1, id: "techopolis:dirty_ostrum_dust" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["51F6C44EE630F91C"]
+			id: "2C866E5624EFF5EC"
+			tasks: [{
+				id: "6C49C47A876EB789"
+				item: { count: 1, id: "techopolis:neptunium_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["12ACFAA26C54EC3C"]
+			id: "773F6EC876C0C621"
+			tasks: [{
+				id: "1258C5C4990C84CE"
+				item: { count: 1, id: "techopolis:desh_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0B592478EB281CBC"]
+			id: "7A49CB5EE131B7A1"
+			tasks: [{
+				id: "0FA7991DD88273C0"
+				item: { count: 1, id: "techopolis:ostrum_dust" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			hide_dependency_lines: true
+			id: "5C6C15E3938EF0A6"
+			tasks: [{
+				id: "2594A2932A67E117"
+				item: { count: 1, id: "modular_machinery_reborn:casing_gearbox" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["76F86D3F4FE7B518"]
+			icon: {
+				components: {
+					"mekanism:chemicals": {
+						chemical_tanks: [{
+							amount: 9223372036854775807L
+							id: "techopolis:lunar_gas"
+						}]
+					}
+				}
+				id: "mekanism:creative_chemical_tank"
+			}
+			id: "032C6576D6D8F727"
+			tasks: [{
+				id: "733419063A3048CA"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["76F86D3F4FE7B518"]
+			id: "14AF71808F5F56FD"
+			tasks: [{
+				id: "76778D90FCD92B67"
+				item: { count: 1, id: "techopolis:enriched_moon_dust" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+	]
+}

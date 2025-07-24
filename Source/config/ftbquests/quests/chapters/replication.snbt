@@ -1,0 +1,664 @@
+{
+	autofocus_id: "0D8A03FDDAC4C99B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replication"
+	group: "3BA381F087866ECD"
+	icon: {
+		id: "replication:replica_ingot"
+	}
+	id: "1B3CA7208B639EE2"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/replication.png"
+		rotation: 0.0d
+		width: 5.46d
+		x: 0.5d
+		y: -5.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"170D6090A1967B58"
+				"72DA0F2FE18017B9"
+			]
+			id: "17E750DF1D62C944"
+			rewards: [{
+				id: "410C974ACEF8C315"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "795633AB2ED07072"
+				item: { count: 1, id: "replication:disintegrator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23E7F88F7C88C7F8"]
+			id: "23420AE8F3F5942F"
+			rewards: [{
+				id: "7979F2EF125481D6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73EA818844D157C2"
+				item: { count: 1, id: "replication:replica_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23420AE8F3F5942F"]
+			id: "170D6090A1967B58"
+			rewards: [{
+				id: "3EF88B7274CAAFDD"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55DFD004C7E5A018"
+				item: { count: 1, id: "replication:matter_tank" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23420AE8F3F5942F"]
+			id: "72DA0F2FE18017B9"
+			rewards: [{
+				id: "39E89E8A0AE4B4B6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "088A7F6AF43805A2"
+				item: { count: 1, id: "replication:matter_network_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["623E8B19B918318F"]
+			id: "0BC3D907EA723897"
+			rewards: [{
+				id: "3BDA870794968E47"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FACB662635EDD63"
+				item: { count: 1, id: "replication:memory_chip" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23420AE8F3F5942F"]
+			id: "623E8B19B918318F"
+			rewards: [{
+				id: "3272802E05E99727"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D990D6E09F2C60C"
+				item: { count: 1, id: "replication:identification_chamber" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BC3D907EA723897"]
+			id: "73EEE2A6A65B7F30"
+			rewards: [{
+				id: "15D7D779C6B41598"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75481C2450066765"
+				item: { count: 1, id: "replication:chip_storage" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17E750DF1D62C944"]
+			id: "0D8A03FDDAC4C99B"
+			rewards: [{
+				id: "6BF09B7E7488A6CD"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CA42F84AB1810F4"
+				item: { count: 1, id: "replication:replicator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73EEE2A6A65B7F30"]
+			id: "2D197D7521FF6C10"
+			rewards: [{
+				id: "64E941EC0277B222"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E42CBF0B5BE0DFE"
+				item: { count: 1, id: "replication:replication_terminal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2D197D7521FF6C10"
+				"0D8A03FDDAC4C99B"
+				"31E5DFA65C07A226"
+			]
+			id: "1E16A3E140FE4129"
+			rewards: [{
+				id: "51D7EAA0B4D44EDA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75A53C946E43BC4F"
+				item: { components: { "replication:blueprint": { Item: { count: 1b, id: "techopolis:unstable_matter" }, Progress: 1b } }, count: 1, id: "replication:matter_blueprint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E16A3E140FE4129"]
+			id: "3AF4B40E1A1225E3"
+			rewards: [{
+				id: "3A983585D884450F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D4C6AD47FF60D95"
+				item: { count: 1, id: "techopolis:unstable_matter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AF4B40E1A1225E3"]
+			id: "4BE196D2143470C7"
+			rewards: [{
+				id: "733F3E38F62DF3CF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "547E45F450AD2795"
+				item: { count: 1, id: "techopolis:nuclear_reactor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BE196D2143470C7"]
+			id: "2E9774CC10710C35"
+			rewards: [{
+				id: "0E92AC7FBCE71645"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "212BEFEB1620533C"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BE196D2143470C7"]
+			id: "15E6A11E3325137D"
+			rewards: [{
+				id: "14A87F0F95BC097E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61F33A848ADA6C0F"
+				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E9774CC10710C35"]
+			id: "16D36D610F7D7A61"
+			rewards: [{
+				id: "1D0D27749E804CED"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "026B70AA411B14D3"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15E6A11E3325137D"]
+			id: "63F489CC590E6B73"
+			rewards: [{
+				id: "0D8630821AC75A1A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B65D85619CDF77C"
+				item: { count: 1, id: "mekanism:pellet_plutonium" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AF4B40E1A1225E3"]
+			id: "60B9BB29ECBF2C64"
+			rewards: [{
+				id: "539BF7041B329DBD"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "184C379C8E32262D"
+				item: { count: 1, id: "mekanism:radioactive_waste_barrel" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"15E6A11E3325137D"
+				"2E9774CC10710C35"
+			]
+			icon: {
+				id: "techopolis:nuclear_reactor"
+			}
+			id: "6E098B627CC384F6"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "3C7336C55A6CB7EA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7491714679712D2F"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3684A76E4D89E09E"]
+			id: "52FD22EBDAAE572B"
+			rewards: [{
+				id: "25EC28AE07EA0FC8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60AC638D3BD77A0F"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23420AE8F3F5942F"]
+			id: "5D2A32049BAC6C50"
+			rewards: [{
+				id: "1C67E20FCFB82DC5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C636A4F8F40A493"
+				item: { count: 1, id: "replication:replica_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BE196D2143470C7"]
+			id: "2B162778A44AD978"
+			rewards: [{
+				id: "27833E0A1B92B27F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2388A50445D59573"
+				item: { count: 1, id: "bigreactors:fluidizercasing" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B162778A44AD978"]
+			id: "72A1260F7EBBBE8C"
+			rewards: [{
+				id: "7CDEBAF4558CDCE6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B9602C73E7A1CA0"
+				item: { count: 1, id: "bigreactors:fluidizercontroller" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72A1260F7EBBBE8C"]
+			id: "54D31FFC18ADD45D"
+			rewards: [{
+				id: "06051317BC136C7B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB207E9F7B4FDCC"
+				item: { count: 1, id: "bigreactors:fluidizersolidinjector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72A1260F7EBBBE8C"]
+			id: "17BCE6CC64C79DFE"
+			rewards: [{
+				id: "56563068D027C779"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05FE3772E30B164D"
+				item: { count: 1, id: "bigreactors:fluidizerpowerport" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72A1260F7EBBBE8C"]
+			id: "10AFC37627A5BDD7"
+			rewards: [{
+				id: "0E2CBC5453220854"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F4254D40D42F2B0"
+				item: { count: 1, id: "bigreactors:fluidizeroutputport" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"17BCE6CC64C79DFE"
+				"10AFC37627A5BDD7"
+				"54D31FFC18ADD45D"
+			]
+			icon: {
+				id: "techopolis:molten_mob_essence_bucket"
+			}
+			id: "0166F6102DBEF6D6"
+			rewards: [{
+				id: "119A1519A86857C8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53098F41A5A9FA30"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"16D36D610F7D7A61"
+				"63F489CC590E6B73"
+			]
+			id: "3684A76E4D89E09E"
+			rewards: [{
+				id: "5F9594EEFC154F03"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "127044D58FB74CF3"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3684A76E4D89E09E"]
+			id: "05D479B9DDE194CF"
+			rewards: [{
+				id: "5B411BEEF14EB8AB"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23915BBB727D28B2"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["523C2224DA195636"]
+			id: "31E5DFA65C07A226"
+			rewards: [{
+				id: "58EDB8D0CB46C017"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F5D97D29913301C"
+				item: { count: 1, id: "techopolis:unstable_matter_blueprint" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60B9BB29ECBF2C64"]
+			id: "6D5D5A09B074CE13"
+			rewards: [{
+				id: "5C4D3BF46CAE7DF3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30FA5B337312B7E7"
+				item: { count: 1, id: "techopolis:radaway_machine" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D2A32049BAC6C50"]
+			id: "4B0A731AAFA96C2F"
+			tasks: [{
+				id: "7F5339F785C915E2"
+				item: { count: 1, id: "rep_ae2_bridge:rep_ae2_bridge" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["441B845CE0BD714C"]
+			id: "48E5FBDCA6305B35"
+			rewards: [{
+				id: "2054ED4C96903CAE"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5183E31E6E34E45C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:pure_matter)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AF4B40E1A1225E3"]
+			id: "441B845CE0BD714C"
+			rewards: [{
+				id: "4BCB532F386E0D94"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B629EF5B129B5C3"
+				item: { count: 1, id: "extendedcrafting:compressor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+	]
+}

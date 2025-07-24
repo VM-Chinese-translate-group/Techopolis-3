@@ -1,0 +1,372 @@
+{
+	autofocus_id: "1ADBF5520E2DD240"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_ores"
+	group: "6EDC13FEC885C0B2"
+	icon: {
+		id: "extendedcrafting:ender_crafter"
+	}
+	id: "0E48DAD5B3DAC398"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/ender_crafting.png"
+		rotation: 0.0d
+		width: 7.37d
+		x: -3.5d
+		y: -3.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "53B79DC98C5A5227"
+			tasks: [{
+				id: "434F7963D3164F2B"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53B79DC98C5A5227"]
+			id: "1ADBF5520E2DD240"
+			tasks: [{
+				id: "7C73718562B5571C"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53B79DC98C5A5227"]
+			id: "4B391E357097DC7E"
+			tasks: [{
+				id: "26E754B39C0399C3"
+				item: { count: 1, id: "bigreactors:anglesite_ore" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53B79DC98C5A5227"]
+			id: "70B0845C005C086F"
+			tasks: [{
+				id: "32F9B4A504B6B7C4"
+				item: { count: 1, id: "alltheores:end_iridium_ore" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5505966C314B5680"]
+			id: "53199DC5989D9325"
+			tasks: [{
+				id: "3D9C99849C233F37"
+				item: { count: 1, id: "alltheores:iridium_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["220755EE4A2E9143"]
+			id: "12CE1079D15E7F5D"
+			tasks: [{
+				id: "1A7B2F71AF25C410"
+				item: { count: 1, id: "bigreactors:anglesite_crystal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"12CE1079D15E7F5D"
+				"65B5A6E53B347435"
+			]
+			id: "61341E3493ED49A4"
+			tasks: [{
+				id: "22161F0ADA156144"
+				item: { count: 1, id: "extendedcrafting:ender_alternator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61341E3493ED49A4"]
+			id: "1705CFCE2C0CA200"
+			tasks: [{
+				id: "49CDB154DC19111C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:ender_crafters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1705CFCE2C0CA200"]
+			id: "513817E07AAA08AC"
+			tasks: [{
+				id: "78B62A880AA1D43C"
+				item: { count: 1, id: "extendedcrafting:ender_star" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["476383F3D06CA98D"]
+			id: "03BA21F0D2253622"
+			tasks: [{
+				id: "32BFC3EA991776FD"
+				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B391E357097DC7E"]
+			id: "220755EE4A2E9143"
+			tasks: [{
+				id: "4293912F07F5898F"
+				item: { count: 1, id: "techopolis:dimensional_anglesite_ore" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70B0845C005C086F"]
+			id: "5505966C314B5680"
+			tasks: [{
+				id: "543F5D1DA52621B1"
+				item: { count: 1, id: "techopolis:dimensional_iridium_ore" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53199DC5989D9325"]
+			id: "65B5A6E53B347435"
+			tasks: [{
+				id: "1B252CE0CF67BB81"
+				item: { count: 1, id: "extendedcrafting:ender_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["513817E07AAA08AC"]
+			id: "476383F3D06CA98D"
+			tasks: [{
+				id: "1E64B10E7EB90D1E"
+				item: { count: 1, id: "extendedcrafting:ender_star_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D5A0F86F791D59A"]
+			id: "6C7DFD686E52E2BF"
+			tasks: [{
+				id: "21ECD064ACCD2278"
+				item: { count: 1, id: "minecraft:chorus_flower" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C7DFD686E52E2BF"]
+			id: "57F67BA85B654CEF"
+			tasks: [{
+				id: "3A5969AC98C2C9DF"
+				item: { count: 1, id: "techopolis:ender_data_model" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57F67BA85B654CEF"]
+			id: "49F8FC32BCE16B53"
+			tasks: [{
+				id: "49CAE19532852A26"
+				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:phantom" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["57F67BA85B654CEF"]
+			id: "358F878B0744308A"
+			tasks: [{
+				id: "0A268AD6C82BBAB9"
+				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:shulker" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["57F67BA85B654CEF"]
+			id: "7A9C15D139B50B42"
+			tasks: [{
+				id: "4B4EAB8D0079E3CA"
+				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:endermite" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06F34439F284357B"]
+			id: "3491F0FBE638D596"
+			tasks: [{
+				id: "63C758CB53FD52F3"
+				item: { count: 1, id: "techopolis:shulker_pearl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["49F8FC32BCE16B53"]
+			id: "77598D88D3876238"
+			tasks: [{
+				id: "61CFC359AC77CAA4"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:phantom" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A9C15D139B50B42"]
+			id: "62D482A82B885372"
+			tasks: [{
+				id: "53554A20921BE989"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:endermite" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["358F878B0744308A"]
+			id: "06F34439F284357B"
+			tasks: [{
+				id: "0BEFF405B0594612"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:shulker" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["03BA21F0D2253622"]
+			id: "1D5A0F86F791D59A"
+			tasks: [{
+				id: "260D68F7E6D22CF1"
+				item: { count: 1, id: "techopolis:chorus_flower_harvester" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53199DC5989D9325"]
+			id: "5DD2B25202B1423D"
+			tasks: [{
+				id: "334B030D8461DAE6"
+				item: { count: 1, id: "alltheores:iridium_gear" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["607A238EB94A9119"]
+			id: "169753582E9B8F26"
+			tasks: [{
+				id: "3904B3A33069E429"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["169753582E9B8F26"]
+			id: "67921496F57AAC5D"
+			tasks: [{
+				id: "4B505B92976266CD"
+				item: { count: 1, id: "minecraft:popped_chorus_fruit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67921496F57AAC5D"]
+			id: "1736CCBC0F8B3CB8"
+			tasks: [{
+				id: "2460B00AEE990A56"
+				item: { count: 1, id: "minecraft:end_rod" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77598D88D3876238"]
+			id: "28B2BD513757B1CB"
+			tasks: [{
+				id: "5B6976E00FC24F84"
+				item: { count: 1, id: "minecraft:phantom_membrane" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3491F0FBE638D596"]
+			id: "2C718D186D749D2C"
+			tasks: [{
+				id: "2CF77975536DD8F5"
+				item: { count: 1, id: "techopolis:shulker_plate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["62D482A82B885372"]
+			id: "416EE681FCB51948"
+			tasks: [{
+				id: "5C82B3F54C1B0C77"
+				item: { count: 1, id: "opolisutilities:ender_pearl_fragment" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+	]
+}

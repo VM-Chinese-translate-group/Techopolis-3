@@ -1,0 +1,359 @@
+{
+	autofocus_id: "00CCDA4B2A03A02C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "netherite"
+	group: "6841E1F349A301FC"
+	icon: {
+		id: "actuallyadditions:empowerer"
+	}
+	id: "5E946E592C72AA24"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/empowering.png"
+		rotation: 0.0d
+		width: 5.95d
+		x: -8.0d
+		y: -6.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29700A37CA34ABB2"]
+			id: "1342D985E7312F0D"
+			rewards: [{
+				id: "50FA336AB8852344"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "364D4FCC25007A1E"
+				item: { count: 1, id: "techopolis:super_empowered_crystal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00CCDA4B2A03A02C"]
+			id: "5A71F3ACE4FE87E2"
+			rewards: [{
+				id: "29E690C455FEB4DF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ABFEF6869277E95"
+				item: { count: 1, id: "actuallyadditions:empowered_enori_crystal_block" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00CCDA4B2A03A02C"]
+			id: "73524FA07A7BA2CD"
+			rewards: [{
+				id: "059CDD6F600F1EC5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6432F3E9CBC21123"
+				item: { count: 1, id: "actuallyadditions:empowered_restonia_crystal_block" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00CCDA4B2A03A02C"]
+			id: "733B7101FEF02C8F"
+			rewards: [{
+				id: "0C45FD685F907B58"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A347D619D10B743"
+				item: { count: 1, id: "actuallyadditions:empowered_diamatine_crystal_block" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00CCDA4B2A03A02C"]
+			id: "1FEF2C4ED174C01C"
+			rewards: [{
+				id: "690419E2D263A0F3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10A5909E970DB77B"
+				item: { count: 1, id: "actuallyadditions:empowered_void_crystal_block" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00CCDA4B2A03A02C"]
+			id: "4615EDD0AC0131B6"
+			rewards: [{
+				id: "7FE43226C4045540"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "591AD25330C07E01"
+				item: { count: 1, id: "actuallyadditions:empowered_palis_crystal_block" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"05D479B9DDE194CF"
+				"00CCDA4B2A03A02C"
+			]
+			id: "13F549974E8EF66E"
+			rewards: [{
+				id: "13DF01C6A9E06305"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6498C6E5FF14FF92"
+				item: { count: 1, id: "actuallyadditions:empowered_emeradic_crystal_block" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13F549974E8EF66E"
+				"5A71F3ACE4FE87E2"
+				"73524FA07A7BA2CD"
+				"733B7101FEF02C8F"
+				"1FEF2C4ED174C01C"
+				"4615EDD0AC0131B6"
+			]
+			id: "29700A37CA34ABB2"
+			rewards: [{
+				id: "4CD7DD7F53516CF6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E0D81DF1DE057CC"
+				item: { count: 1, id: "techopolis:super_empowered_crystal_block" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"203E2671B160424E"
+				"58ACDE41DF999D34"
+			]
+			id: "00CCDA4B2A03A02C"
+			rewards: [{
+				id: "1DA46C4A36C1D5E4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E8B62E81D542531"
+				item: { count: 1, id: "actuallyadditions:empowerer" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["795B98C57909A168"]
+			id: "203E2671B160424E"
+			rewards: [{
+				id: "2A7388209130D4B9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D13892C73835C00"
+				item: { count: 1, id: "actuallyadditions:display_stand" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F353CFB1B7B7D8D"]
+			id: "58ACDE41DF999D34"
+			rewards: [{
+				id: "214772D9EE9A0DEF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41FEB0FF85AC1FB6"
+				item: { count: 1, id: "actuallyadditions:double_battery" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00CCDA4B2A03A02C"]
+			id: "7C9D956A4FA66C01"
+			rewards: [{
+				id: "1EEE8719F75F28FF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E8BF32C58E9297"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A13BC63FA45322D"]
+			id: "1F353CFB1B7B7D8D"
+			rewards: [{
+				id: "4CB08D281E8DED57"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5543C2DAF44604D5"
+				item: { count: 1, id: "actuallyadditions:single_battery" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["606240D5E846A6C4"]
+			id: "795B98C57909A168"
+			rewards: [{
+				id: "03F7ABC918588226"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D41C541F46C7BFC"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00CCDA4B2A03A02C"]
+			id: "53C3000A6DD25671"
+			rewards: [{
+				id: "178BB51E869C41BC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BED4053AF0F044B"
+				item: { count: 1, id: "actuallyadditions:empowered_canola_seed" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1342D985E7312F0D"]
+			id: "5F647946716B835A"
+			rewards: [{
+				id: "798EC36BEAC8482F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F7899500264D376"
+				item: { count: 1, id: "techopolis:nether_data_model" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1342D985E7312F0D"]
+			id: "1388F020E6896AC6"
+			rewards: [{
+				id: "1B902D541AED36A3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "512BAF8B37EAE177"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+	]
+}

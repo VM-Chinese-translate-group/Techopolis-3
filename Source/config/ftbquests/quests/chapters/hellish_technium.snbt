@@ -1,0 +1,357 @@
+{
+	autofocus_id: "78321DD6F1C4E464"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hellish_technium"
+	group: "6841E1F349A301FC"
+	icon: {
+		id: "techopolis:hellish_technium_ingot"
+	}
+	id: "1F397164BBEF8D8C"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/hellish_technium.png"
+		rotation: 0.0d
+		width: 8.23d
+		x: -0.5d
+		y: -4.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"19EC5DB0E55B994B"
+				"404033C491222AD3"
+				"325A807061175161"
+				"0180950FFA87D3C7"
+			]
+			id: "78321DD6F1C4E464"
+			rewards: [{
+				id: "556F2AF752B3BFBA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F4105B97130EDAD"
+				item: { count: 1, id: "techopolis:hellish_technium_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78321DD6F1C4E464"]
+			id: "31A67F321AC64A03"
+			rewards: [{
+				id: "6CF05DC4573A6BD1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08BF96A011B4E451"
+				item: { count: 1, id: "techopolis:hellish_technium_nugget" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["063CD8B83507C100"]
+			id: "19EC5DB0E55B994B"
+			rewards: [{
+				id: "351768502D7C6930"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "714C92BE2AE93D71"
+				item: { count: 1, id: "techopolis:hellish_technium_machine" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31A67F321AC64A03"]
+			id: "4E2F5B340EA252C3"
+			rewards: [{
+				id: "41DEA5659C50153F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65ED5994C2756E21"
+				item: { count: 1, id: "techopolis:hellish_technium_machine_frame" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03CB98BB60DD3FC4"]
+			id: "2CFE90E35E66724F"
+			rewards: [{
+				id: "51ADED0A9D637A37"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "319C9CD1DACCECC0"
+				item: { count: 1, id: "techopolis:oil_pump" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CFE90E35E66724F"]
+			id: "063CD8B83507C100"
+			rewards: [{
+				id: "263688C7C66D9122"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58BDED3B0521F3F4"
+				item: { count: 1, id: "techopolis:oil_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["374DA6879146C1D1"]
+			id: "404033C491222AD3"
+			rewards: [{
+				id: "58125E669D3F00EC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "587EC274D3BE38D9"
+				item: { count: 1, id: "minecraft:magma_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17E12CCD15AABAF1"]
+			id: "325A807061175161"
+			rewards: [{
+				id: "24CCBA28A86EA0F5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18BFD20B0D8D5506"
+				item: { count: 1, id: "minecraft:netherite_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"02E8DF1B56173DBF"
+				"5B72B5E76B8EC0FB"
+			]
+			id: "0180950FFA87D3C7"
+			rewards: [{
+				id: "2DE1EA62A0805CA3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "131B797770E6EFBA"
+				item: { count: 1, id: "minecraft:red_nether_bricks" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32EA60F0550234C1"]
+			id: "02E8DF1B56173DBF"
+			rewards: [{
+				id: "1399AC619CDE9AD2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "543975D40C945043"
+				item: { count: 1, id: "minecraft:nether_brick" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32EA60F0550234C1"]
+			id: "5B72B5E76B8EC0FB"
+			rewards: [{
+				id: "07BE5E8774A30633"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02337AD082138495"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AEDDEE25B95D0C8"]
+			id: "421CAB71DE919312"
+			rewards: [{
+				id: "049C4DE1DB2E68FC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "125EB6598EE472E3"
+				item: { count: 1, id: "advanced_ae:quantum_alloy" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E2F5B340EA252C3"]
+			id: "1022FBAF8115651D"
+			rewards: [{
+				id: "6126F6BD18D7F642"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6726C10EF48559E4"
+				item: { count: 1, id: "advanced_ae:reaction_chamber" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1022FBAF8115651D"]
+			id: "24814E5E23240951"
+			rewards: [{
+				id: "5933AF5AE570C5B8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F6FE1691C13732"
+				item: { count: 1, id: "advanced_ae:shattered_singularity" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24814E5E23240951"]
+			id: "0AEDDEE25B95D0C8"
+			rewards: [{
+				id: "5799A91B0D48A27E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "579FB3A71F17D966"
+				item: { count: 1, id: "advanced_ae:quantum_infused_dust" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24814E5E23240951"]
+			id: "77B2D78EF43BBC13"
+			rewards: [{
+				id: "5CA31D40F9E510F9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A9FE142CDF8D360"
+				item: { count: 1, id: "advanced_ae:quantum_processor_press" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"77B2D78EF43BBC13"
+				"421CAB71DE919312"
+			]
+			id: "4296168019E02456"
+			rewards: [{
+				id: "399BCBEFFB0AFBBF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "542D6AAB735EB6CB"
+				item: { count: 1, id: "advanced_ae:quantum_processor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+	]
+}

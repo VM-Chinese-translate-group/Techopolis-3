@@ -1,0 +1,761 @@
+{
+	autofocus_id: "6C12BA6141A6A6C5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dirt"
+	group: "758C9087ACEC8F78"
+	icon: {
+		id: "minecraft:dirt"
+	}
+	id: "352D842B47601587"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/dirt.png"
+		rotation: 0.0d
+		width: 2.1d
+		x: 3.5d
+		y: -7.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["356054777EAE6B7C"]
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "6C12BA6141A6A6C5"
+			rewards: [
+				{
+					id: "42F257B71F62DE40"
+					item: {
+						count: 1
+						id: "opolisutilities:b_bucks"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A56DA439CF49BE9"
+					table_id: 6686001907942284163L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DC57A8EE1FFE5A9"
+					table_id: 6686001907942284163L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7490EAE141240ADC"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C12BA6141A6A6C5"]
+			id: "56B8827D0A75A80F"
+			rewards: [{
+				id: "7497343BEEFC5030"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DFB6DED56253EF7"
+				item: { count: 1, id: "projectvibrantjourneys:twigs" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C12BA6141A6A6C5"]
+			id: "53EA4B2648B45CBD"
+			rewards: [{
+				id: "35ABA94BDE07C4D8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD812DE145D737E"
+				item: { count: 1, id: "projectvibrantjourneys:rocks" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["56B8827D0A75A80F"]
+			id: "79913BB2000EAA2B"
+			rewards: [{
+				id: "094F0B577AE1CD4A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6825014D346787E5"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53EA4B2648B45CBD"]
+			id: "64142A6E7C0D6469"
+			rewards: [{
+				id: "4364E19149FADA4E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A3282CFCAE520F0"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79913BB2000EAA2B"]
+			id: "379DC4BB243A420A"
+			rewards: [{
+				id: "0D4A7F0BC75F1085"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "705629513C523A84"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["379DC4BB243A420A"]
+			id: "0DE9B2C6FE0A05CF"
+			rewards: [{
+				id: "62D6F27763DAD601"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A0DD43CFCB7D4AD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DE9B2C6FE0A05CF"]
+			id: "462C80341227BDB0"
+			rewards: [{
+				id: "0C2EFD2704D65DC3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "239067B1B53367A9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:axes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["379DC4BB243A420A"]
+			id: "1743EA1ABE7F6661"
+			rewards: [{
+				id: "13002D45AD124140"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "638B13739C48439B"
+				item: { count: 1, id: "opolisutilities:wooden_shears" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1743EA1ABE7F6661"]
+			id: "3A7A81CE95B5E41F"
+			rewards: [{
+				id: "6EF1DD176AF408C1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3355F93FBEB3E80B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A7A81CE95B5E41F"]
+			id: "07E6B3BA5FC9E1D4"
+			rewards: [{
+				id: "434A127404A7C12A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AA7CA85A3F39333"
+				item: { count: 1, id: "opolisutilities:leafy_string" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07E6B3BA5FC9E1D4"]
+			id: "73B1C328C3075F14"
+			rewards: [{
+				id: "6025A461EBCBA194"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A59B38C37AC97D"
+				item: { count: 1, id: "minecraft:green_wool" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73B1C328C3075F14"]
+			id: "33E169632E2DC6FF"
+			rewards: [{
+				id: "28E34171DD219BDD"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74926C4441A33E96"
+				item: { count: 1, id: "minecraft:green_bed" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E6B36EA11603917"]
+			id: "60BE0700CA919BF6"
+			rewards: [{
+				id: "7845E85B963DF199"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BB420E2EF09713D"
+				item: { count: 1, id: "onlyhammersandexcavators:stone_excavator" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E6B36EA11603917"]
+			id: "019BCC696C72050D"
+			rewards: [{
+				id: "429705666E25D7D4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "284D385083F5F4C1"
+				item: { count: 1, id: "onlyhammersandexcavators:stone_hammer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0DE9B2C6FE0A05CF"
+				"64142A6E7C0D6469"
+			]
+			id: "72B3A37A09994640"
+			rewards: [{
+				id: "7AEF285B13A52BB9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BB93676C1B09C36"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72B3A37A09994640"]
+			id: "7E6B36EA11603917"
+			rewards: [{
+				id: "20EB56203BA55E6B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C9542DCF24FE28A"
+				item: { count: 1, id: "compressedblocks:c0_cobblestone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E6B36EA11603917"]
+			id: "39F5BC13576E3BB5"
+			rewards: [{
+				id: "3B305139D42D39C8"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6FBEA96BD7C82A"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39F5BC13576E3BB5"]
+			id: "083CAE2D8111C611"
+			rewards: [{
+				id: "4DA328CD63BA2C5C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E89CBE5D577CD7D"
+				item: { count: 1, id: "minecraft:charcoal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["083CAE2D8111C611"]
+			id: "578FA8744A0B28D8"
+			rewards: [{
+				id: "3E4CECABF57F6E44"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F7E4248804E84EF"
+				item: { count: 1, id: "opolisutilities:mini_charcoal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["083CAE2D8111C611"]
+			id: "0890C86BAB7A4D5F"
+			rewards: [{
+				id: "796B026D81306D29"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C6DBC18A9CDE52E"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0DE9B2C6FE0A05CF"]
+			id: "2897996747BAA771"
+			rewards: [{
+				id: "4A45B64B76EFE6EC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64607912C8C2A9B2"
+				item: { count: 1, id: "techopolis:wooden_gear" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2897996747BAA771"]
+			id: "14ADD310DF8D01F7"
+			rewards: [{
+				id: "570BEAFD49AA1BB3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F5492C9B76E33A"
+				item: { count: 1, id: "woodenhopper:wooden_hopper" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"67DB77596516FCB4"
+				"6B656CAFA613B835"
+				"2FD8E7C4F97E6C86"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "3B4A980A5AECA6FF"
+			optional: true
+			rewards: [{
+				id: "319099A625B8F782"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2F14A9F9DC7C1C50"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C4A3389ED1CABCF"]
+			id: "5561367DE4D71434"
+			optional: true
+			rewards: [{
+				id: "18EBCE176B7C54B4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0386BF9926B6F855"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["019BCC696C72050D"]
+			id: "4C4A3389ED1CABCF"
+			optional: true
+			rewards: [{
+				id: "7C3206AC46CC8875"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C697E128C9C1615"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["591CE056198CE119"]
+			icon: {
+				id: "minecraft:bone_meal"
+			}
+			id: "6B656CAFA613B835"
+			optional: true
+			rewards: [{
+				id: "6D9E1EE62214BC6B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "129C930020BB4752"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6B656CAFA613B835"
+				"67DB77596516FCB4"
+				"2FD8E7C4F97E6C86"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "opolisutilities:sapling_grower"
+			}
+			id: "5C1EE19AC946C250"
+			optional: true
+			rewards: [{
+				id: "54E37F1528F38326"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "129B766E05E7D822"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["591CE056198CE119"]
+			icon: {
+				id: "minecraft:bone_meal"
+			}
+			id: "67DB77596516FCB4"
+			optional: true
+			rewards: [{
+				id: "3F1445D6C4AF6318"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72B0375C3C9B5799"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C12BA6141A6A6C5"]
+			id: "591CE056198CE119"
+			rewards: [{
+				id: "59E15D0A833AFB14"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34AD0C56096C20C1"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["39F5BC13576E3BB5"]
+			id: "1AD7FACB7A282A3A"
+			rewards: [{
+				id: "62AD264F84D2339D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57AD22A1396DC271"
+				item: { count: 1, id: "opolisutilities:catalogue" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72B3A37A09994640"]
+			id: "3A0D69B21D5779B7"
+			rewards: [{
+				id: "079B9D421A37EC89"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "740C4A4AA82673DF"
+				item: { count: 1, id: "minecraft:stonecutter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DE9B2C6FE0A05CF"]
+			id: "56E3D5402F8C79BF"
+			rewards: [{
+				id: "70CD9CDF0DC36DCE"
+				item: {
+					count: 1
+					id: "bibliocraft:stockroom_catalog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C5FD47D2CC92EF8"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60BE0700CA919BF6"]
+			id: "1DFE26F8448F9F1C"
+			optional: true
+			rewards: [{
+				id: "75B03B64E5D7F4E2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62202E96414D201A"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["591CE056198CE119"]
+			icon: {
+				id: "minecraft:bone_meal"
+			}
+			id: "2FD8E7C4F97E6C86"
+			optional: true
+			rewards: [{
+				id: "62C5A54279DA3951"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "521B783682AAD7E5"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0DE9B2C6FE0A05CF"]
+			id: "26BFA170207CD0A7"
+			rewards: [{
+				id: "0C9E44B71BF2ACC6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43E5B09BDD97421F"
+				item: { count: 1, id: "smartcrafting:smart_crafting_table" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+	]
+}

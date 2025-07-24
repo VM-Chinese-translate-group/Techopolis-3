@@ -1,0 +1,631 @@
+{
+	autofocus_id: "32EA60F0550234C1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_new_world"
+	group: "6841E1F349A301FC"
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "3C7DDDF726455D1A"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/a_new_world.png"
+		rotation: 0.0d
+		width: 6.4d
+		x: 0.5d
+		y: -4.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5150AEB0840FE0EE"]
+			id: "6806FD653554696B"
+			rewards: [{
+				id: "44224C1CA03E7380"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E22F08AAEA72622"
+				item: { count: 1, id: "techopolis:nether_portal_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6806FD653554696B"
+				"35769CDC6E69B612"
+			]
+			id: "32EA60F0550234C1"
+			rewards: [{
+				id: "72F6709585152DF4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "710CC184D8155896"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05C21693A27255DC"]
+			id: "35769CDC6E69B612"
+			rewards: [{
+				id: "4700EABB91D1E49D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57E332F6170EA368"
+				item: { count: 1, id: "techopolis:heat_protection_curio_1" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5150AEB0840FE0EE"]
+			id: "05C21693A27255DC"
+			rewards: [{
+				id: "2DB6895239B10665"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61530C08AE13299A"
+				item: { count: 1, id: "techopolis:fluid_injector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32EA60F0550234C1"]
+			id: "18139E48823588C6"
+			rewards: [{
+				id: "6CE6FFB4473EFE32"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78080559658CCB56"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32EA60F0550234C1"]
+			id: "03E6D3A4D7F8CE8F"
+			rewards: [{
+				id: "06C5BE3861366D45"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40594CF9EFB23482"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03E6D3A4D7F8CE8F"]
+			id: "7BAF6EB30AB2D040"
+			rewards: [{
+				id: "4A26814186ECF11E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5940AEF75176234C"
+				item: { count: 1, id: "alltheores:nether_zinc_ore" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03E6D3A4D7F8CE8F"]
+			id: "2436734739033064"
+			rewards: [{
+				id: "2EB80F8DD83CF758"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72E29F276FBB00E8"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BAF6EB30AB2D040"]
+			id: "07ACC46AA884FC37"
+			rewards: [{
+				id: "630E594D72684D97"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18067C1E2DE5A29A"
+				item: { count: 1, id: "techopolis:dimensional_zinc_ore" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07ACC46AA884FC37"]
+			id: "7A13BC63FA45322D"
+			rewards: [{
+				id: "4822245E0FF9784F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76B00858A7A452EB"
+				item: { count: 1, id: "alltheores:zinc_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A13BC63FA45322D"]
+			id: "27F176A1447B88BD"
+			rewards: [{
+				id: "58768678C3A58904"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FFE34239C1F59A1"
+				item: { count: 1, id: "alltheores:brass_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2436734739033064"]
+			id: "2796C64B863DA6EF"
+			rewards: [{
+				id: "098870D52986BAA4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AB60C3C67BC0EAE"
+				item: { count: 1, id: "minecraft:netherite_scrap" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2796C64B863DA6EF"]
+			id: "606240D5E846A6C4"
+			rewards: [{
+				id: "4806DE098EEE5B8B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC25929EA389294"
+				item: { count: 1, id: "alltheores:netherite_dust" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C71965881E41F72"
+				"25BEDD3E36706DCB"
+			]
+			id: "4C5D016B83FAF41D"
+			rewards: [{
+				id: "1D838D6FD60A242F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "458FEA970D302528"
+				item: { count: 1, id: "alltheores:ruby" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C71965881E41F72"
+				"1757F2A54B7E06B9"
+			]
+			id: "114DAE1A7C9139F1"
+			rewards: [{
+				id: "18E5CD437187CB00"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F954B9AE387B9EA"
+				item: { count: 1, id: "alltheores:sapphire" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C71965881E41F72"
+				"1C76F7A850CCE209"
+			]
+			id: "5B83147024303540"
+			rewards: [{
+				id: "34169ECEFB3F2D63"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E1686C55B6B4BF9"
+				item: { count: 1, id: "alltheores:peridot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03E6D3A4D7F8CE8F"]
+			id: "25BEDD3E36706DCB"
+			rewards: [{
+				id: "2B530932583EDE38"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DC308C520C22DCD"
+				item: { count: 1, id: "alltheores:nether_ruby_ore" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03E6D3A4D7F8CE8F"]
+			id: "1757F2A54B7E06B9"
+			rewards: [{
+				id: "1F1323F15CA1BA6C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43ED71255835CF31"
+				item: { count: 1, id: "alltheores:nether_sapphire_ore" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03E6D3A4D7F8CE8F"]
+			id: "1C76F7A850CCE209"
+			rewards: [{
+				id: "3318F4396E165D6F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FDCF93092C1655B"
+				item: { count: 1, id: "alltheores:nether_peridot_ore" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03E6D3A4D7F8CE8F"]
+			id: "2E8F060A959C36BE"
+			rewards: [{
+				id: "4C9BE5A87BEAA4CA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C5ABF387703A56F"
+				item: { count: 1, id: "minecraft:nether_quartz_ore" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18139E48823588C6"]
+			id: "1ACB353EAB64C46D"
+			rewards: [{
+				id: "23D98B795B5C5A2D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F6BB6A9E9732744"
+				item: { count: 1, id: "compressedblocks:c0_netherrack" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1ACB353EAB64C46D"]
+			id: "5B2681181BC3444A"
+			rewards: [{
+				id: "31316B5256048022"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2464BC97AA59374E"
+				item: { count: 1, id: "techopolis:blank_netherrack_ore" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E8F060A959C36BE"]
+			id: "6084CC24C07515D4"
+			rewards: [{
+				id: "6502D1A7CBBCAB5B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E3591492694C939"
+				item: { count: 1, id: "techopolis:dimensional_quartz_ore" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6084CC24C07515D4"]
+			icon: {
+				id: "casting:molten_quartz_bucket"
+			}
+			id: "7C71965881E41F72"
+			rewards: [{
+				id: "6BCD48442E6EB4E2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2224198B265FD610"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27F176A1447B88BD"]
+			id: "651AB1A32CC2F417"
+			rewards: [{
+				id: "639017F16DFE3FC1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AE361A4959BB159"
+				item: { count: 1, id: "modular_machinery_reborn:dimensional_detector" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32EA60F0550234C1"]
+			id: "6D1B624991EC9362"
+			rewards: [{
+				id: "09F07505047F5BAA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A8433EE25C737BF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:nether_stems)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27F176A1447B88BD"]
+			id: "4A07DC8BAF13B947"
+			rewards: [{
+				id: "2B7F5DC6A0EB9415"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CCBD821A4EEE824"
+				item: { count: 1, id: "alltheores:brass_plate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A13BC63FA45322D"]
+			id: "60821E270DEB132A"
+			rewards: [{
+				id: "12383572ED58D146"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D290FB0DF5DDBB8"
+				item: { count: 1, id: "alltheores:zinc_gear" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4C5D016B83FAF41D"
+				"5B83147024303540"
+				"114DAE1A7C9139F1"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:healing"
+					}
+				}
+				id: "immersiveengineering:potion_bucket"
+			}
+			id: "39BC8E83729DD648"
+			rewards: [{
+				id: "712F5B3BB8DC479A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C09E1B7FDBFD4C4"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["606240D5E846A6C4"]
+			id: "0CE0403325AA1864"
+			rewards: [{
+				id: "30A8BC7B460E73F4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E5325E7FD5D27EB"
+				item: { count: 1, id: "techopolis:heat_protection_curio_2" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["32EA60F0550234C1"]
+			id: "27A997335DA96826"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "44F2B2EE5B14F05A"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+}

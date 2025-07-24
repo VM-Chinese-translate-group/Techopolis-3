@@ -1,0 +1,275 @@
+{
+	autofocus_id: "5DDF900CF155DD55"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple"
+	group: "4A795F5C0EB4D29D"
+	icon: {
+		id: "techopolis:basic_research"
+	}
+	id: "44680667E0136040"
+	images: [
+		{
+			height: 0.59d
+			image: "techopolis:textures/quests/basic_research.png"
+			rotation: 0.0d
+			width: 7.35d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/basic_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.214285714285715d
+			y: -3.522499999999983d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/basic_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.107142857142861d
+			y: -3.486785714285702d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2209EB068AA919FE"]
+			id: "5DDF900CF155DD55"
+			tasks: [{
+				id: "592414690100C8F8"
+				item: { count: 1, id: "techopolis:basic_research" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DDF900CF155DD55"]
+			id: "57426A474E2A69E6"
+			tasks: [{
+				id: "4EF132BD3FDF3035"
+				item: { count: 1, id: "techopolis:flight_block_blueprint" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57426A474E2A69E6"]
+			id: "395B58B75ECF34B2"
+			tasks: [{
+				id: "0C0F51FDFDBB8CD7"
+				item: { count: 1, id: "flightblocks:flight_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5DDF900CF155DD55"
+				"1FD1F68CC0DBB2A0"
+			]
+			id: "4572522C7F2E519C"
+			tasks: [{
+				id: "20CB86522FF849A8"
+				item: { count: 1, id: "techopolis:automatic_alloy_kiln_blueprint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4572522C7F2E519C"]
+			id: "39B27FAC187F5E0C"
+			tasks: [{
+				id: "1C3CBF29E1006FE5"
+				item: { count: 1, id: "techopolis:alloy_kiln" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39B27FAC187F5E0C"]
+			id: "53456CED3FF86FB8"
+			tasks: [{
+				id: "08B8DF41D0C3F863"
+				item: { count: 1, id: "techopolis:obsidian_blueprint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53456CED3FF86FB8"]
+			id: "3EDC27A1F6FA367B"
+			tasks: [{
+				id: "556846A5B9601AC0"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DDF900CF155DD55"]
+			id: "1B51A32EC808AAFC"
+			tasks: [{
+				id: "42D259DCF06635FF"
+				item: { count: 1, id: "techopolis:drawers_blueprint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B51A32EC808AAFC"]
+			id: "1B3B893B6EBE9E8B"
+			tasks: [{
+				id: "01240028A0F7863E"
+				item: { count: 1, id: "techopolis:drawer_core" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5981AEE66B5D6C59"]
+			id: "526B8AC890B5D186"
+			tasks: [{
+				id: "33BF6ECEF955B766"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B3B893B6EBE9E8B"]
+			id: "5981AEE66B5D6C59"
+			tasks: [{
+				id: "4F84A1BE2E1BBE9C"
+				item: { count: 1, id: "techopolis:drawer_controller_blueprint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DDF900CF155DD55"]
+			id: "32E491D15303E893"
+			tasks: [{
+				id: "4EDCCD1CEE8D19F1"
+				item: { count: 1, id: "techopolis:auto_crafter_blueprint" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32E491D15303E893"]
+			id: "3C595BA3D1D3CD74"
+			tasks: [{
+				id: "55BC9B5EAEEE008F"
+				item: { count: 1, id: "rftoolsutility:crafter1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DDF900CF155DD55"]
+			id: "3AFED249E73796AA"
+			tasks: [{
+				id: "24E18FDB6F626481"
+				item: { count: 1, id: "techopolis:toms_blueprint" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AFED249E73796AA"]
+			id: "2AAFC394BF52970E"
+			tasks: [{
+				id: "46C711AC0DDEE727"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DDF900CF155DD55"]
+			id: "6390449292A46ECB"
+			tasks: [{
+				id: "6700B403C4F6F570"
+				item: { count: 1, id: "techopolis:compressed_furnace_blueprint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6390449292A46ECB"]
+			id: "653424A3D6AD3C3C"
+			tasks: [{
+				id: "208FF851DEA93E34"
+				item: { count: 1, id: "compressedfurnace:compressed_furnace" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DDF900CF155DD55"]
+			id: "70CE3624FE54C162"
+			tasks: [{
+				id: "1B283795CD775E8B"
+				item: { count: 1, id: "techopolis:summoning_block_blueprint" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70CE3624FE54C162"]
+			id: "63718127F5015BBD"
+			tasks: [{
+				id: "6A2A9334C9A34AAA"
+				item: { count: 1, id: "opolisutilities:summoning_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DDF900CF155DD55"]
+			id: "6D8834A1F7440FEA"
+			tasks: [{
+				id: "647812F5973B2DB1"
+				item: { count: 1, id: "mekanism:dye_base" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D8834A1F7440FEA"]
+			id: "054406E766E69913"
+			tasks: [{
+				id: "315054772E52548F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:colored_spray_cans)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+}

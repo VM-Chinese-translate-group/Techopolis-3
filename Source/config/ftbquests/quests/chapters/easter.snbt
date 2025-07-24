@@ -1,0 +1,362 @@
+{
+	autofocus_id: "528E36202C54198E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "easter"
+	group: "4880093E3460D512"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "techopolis:basic_easter_egg"
+	}
+	id: "24E812A2E93C1D37"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/easter_eggs.png"
+		rotation: 0.0d
+		width: 5.89d
+		x: 1.5d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["296653CFA5A9D3AC"]
+			id: "1A68742A30D301C3"
+			rewards: [{
+				id: "3844BD8F28B4114C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "780957F3EA7D6774"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "296653CFA5A9D3AC"
+			rewards: [{
+				id: "20E0048531AD4129"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7217A5F246679AE3"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A68742A30D301C3"]
+			icon: {
+				id: "techopolis:chocolate_bucket"
+			}
+			id: "2A7F946F0F65C27C"
+			rewards: [{
+				id: "47D3BDF150ACC8F5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5835C0B24EB29833"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A7F946F0F65C27C"]
+			id: "595DDC56B4A8EA48"
+			rewards: [{
+				id: "7CEE79F5854ED4CA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09851C6D516E7560"
+				item: { count: 1, id: "techopolis:easter_egg_mold" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["595DDC56B4A8EA48"]
+			id: "153B62DEC5635C8D"
+			rewards: [{
+				id: "0437C30DAAE80E6B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F6D5477C8A51425"
+				item: { count: 1, id: "techopolis:easter_egg_shell" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35EEB41F6158501A"]
+			hide_until_deps_complete: true
+			id: "3D0EBF4ADE123F4A"
+			rewards: [{
+				id: "1B2220DD9A7BA595"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A7AA461DA5CC2D"
+				item: { count: 1, id: "techopolis:basic_easter_egg" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D0EBF4ADE123F4A"]
+			hide_until_deps_complete: true
+			id: "3AECEAE143DF01E3"
+			rewards: [{
+				id: "4A41A5C198172491"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55488336249EFF06"
+				item: { count: 1, id: "techopolis:advanced_easter_egg" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AECEAE143DF01E3"]
+			hide_until_deps_complete: true
+			id: "5883370EB13238C0"
+			rewards: [{
+				id: "3FCB7BD6F502A8B8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "026657FF91FA95D3"
+				item: { count: 1, id: "techopolis:elite_easter_egg" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5883370EB13238C0"]
+			hide_until_deps_complete: true
+			id: "26CD7918432D3393"
+			rewards: [{
+				id: "3C92C3D5248B9447"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A12A2CBCE3387A7"
+				item: { count: 1, id: "techopolis:ultimate_easter_egg" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26CD7918432D3393"]
+			hide_until_deps_complete: true
+			id: "41DE4B7C762DBDDD"
+			rewards: [{
+				id: "534FF56499DF5238"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DF5496FB8BD3101"
+				item: { count: 1, id: "techopolis:hellish_easter_egg" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41DE4B7C762DBDDD"]
+			hide_until_deps_complete: true
+			id: "0A395A395EBDD868"
+			rewards: [{
+				id: "370E9E9BD5CC8DD4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AEE8C39D60FD6B8"
+				item: { count: 1, id: "techopolis:lunar_easter_egg" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A395A395EBDD868"]
+			hide_until_deps_complete: true
+			id: "67B69CD9736AA493"
+			rewards: [{
+				id: "4591A82B8DB0EA65"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B5CDBCEF4585CA7"
+				item: { count: 1, id: "techopolis:end_easter_egg" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["153B62DEC5635C8D"]
+			id: "35EEB41F6158501A"
+			rewards: [{
+				id: "350C930A275FB335"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F3F75C15B504A79"
+				item: { count: 1, id: "techopolis:simple_easter_egg" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2A7F946F0F65C27C"
+				"26CD7918432D3393"
+				"153B62DEC5635C8D"
+				"595DDC56B4A8EA48"
+				"296653CFA5A9D3AC"
+				"3AECEAE143DF01E3"
+				"41DE4B7C762DBDDD"
+				"1A68742A30D301C3"
+				"35EEB41F6158501A"
+				"0A395A395EBDD868"
+				"67B69CD9736AA493"
+				"3D0EBF4ADE123F4A"
+				"5883370EB13238C0"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "528E36202C54198E"
+			rewards: [{
+				count: 64
+				id: "39713AC2AEB6A6A3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "527B768CA7038BBF"
+					item: { count: 1, id: "techopolis:basic_easter_egg" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4BD86294EDF0A161"
+					item: { count: 1, id: "techopolis:advanced_easter_egg" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7A568B9A711F1650"
+					item: { count: 1, id: "techopolis:elite_easter_egg" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "65882CCA2BE73391"
+					item: { count: 1, id: "techopolis:ultimate_easter_egg" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "671C8E620604E026"
+					item: { count: 1, id: "techopolis:hellish_easter_egg" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1708E42435E46A5A"
+					item: { count: 1, id: "techopolis:lunar_easter_egg" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "122B9D5FE52351CE"
+					item: { count: 1, id: "techopolis:end_easter_egg" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

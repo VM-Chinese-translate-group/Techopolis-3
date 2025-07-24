@@ -1,0 +1,41 @@
+{
+  "block.modular_machinery_reborn.casing_plain": "Wooden Scaffolding",
+
+  "block.modular_machinery_reborn.inputbus_tiny": "Simple Item Input",
+  "block.modular_machinery_reborn.inputbus_small": "Basic Item Input",
+  "block.modular_machinery_reborn.inputbus_reinforced": "Advanced Item Input",
+  "block.modular_machinery_reborn.inputbus_big": "Elite Item Input",
+  "block.modular_machinery_reborn.inputbus_huge": "Ultimate Item Input",
+
+  "block.modular_machinery_reborn.outputbus_tiny": "Simple Item Output",
+  "block.modular_machinery_reborn.outputbus_small": "Basic Item Output",
+  "block.modular_machinery_reborn.outputbus_reinforced": "Advanced Item Output",
+  "block.modular_machinery_reborn.outputbus_big": "Elite Item Output",
+  "block.modular_machinery_reborn.outputbus_huge": "Ultimate Item Output",
+
+  "block.modular_machinery_reborn.fluidoutputhatch_tiny": "Simple Fluid Output",
+  "block.modular_machinery_reborn.fluidoutputhatch_small": "Basic Fluid Output",
+  "block.modular_machinery_reborn.fluidoutputhatch_reinforced": "Advanced Fluid Output",
+  "block.modular_machinery_reborn.fluidoutputhatch_big": "Elite Fluid Output",
+  "block.modular_machinery_reborn.fluidoutputhatch_huge": "Ultimate Fluid Output",
+  
+  "block.modular_machinery_reborn.fluidinputhatch_tiny": "Simple Fluid Input",
+  "block.modular_machinery_reborn.fluidinputhatch_small": "Basic Fluid Input",
+  "block.modular_machinery_reborn.fluidinputhatch_reinforced": "Advanced Fluid Input",
+  "block.modular_machinery_reborn.fluidinputhatch_big": "Elite Fluid Input",
+  "block.modular_machinery_reborn.fluidinputhatch_huge": "Ultimate Fluid Input",
+
+  "block.modular_machinery_reborn.energyinputhatch_tiny": "Simple Energy Input",
+  "block.modular_machinery_reborn.energyinputhatch_small": "Basic Energy Input",
+  "block.modular_machinery_reborn.energyinputhatch_reinforced": "Advanced Energy Input",
+  "block.modular_machinery_reborn.energyinputhatch_big": "Elite Energy Input",
+  "block.modular_machinery_reborn.energyinputhatch_huge": "Ultimate Energy Input",
+
+  "block.modular_machinery_reborn.energyoutputhatch_tiny": "Simple Energy Output",
+  "block.modular_machinery_reborn.energyoutputhatch_small": "Basic Energy Output",
+  "block.modular_machinery_reborn.energyoutputhatch_reinforced": "Advanced Energy Output",
+  "block.modular_machinery_reborn.energyoutputhatch_big": "Elite Energy Output",
+  "block.modular_machinery_reborn.energyoutputhatch_huge": "Ultimate Energy Output"
+
+
+}

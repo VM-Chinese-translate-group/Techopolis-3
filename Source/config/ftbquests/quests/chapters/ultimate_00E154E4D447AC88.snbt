@@ -1,0 +1,228 @@
+{
+	autofocus_id: "1C3A6DEE82F81476"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimate_00E154E4D447AC88"
+	group: "4A795F5C0EB4D29D"
+	icon: {
+		id: "techopolis:ultimate_research"
+	}
+	id: "00E154E4D447AC88"
+	images: [
+		{
+			height: 0.59d
+			image: "techopolis:textures/quests/ultimate_research.png"
+			rotation: 0.0d
+			width: 8.84d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/ultimate_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.857142857142861d
+			y: -4.022500000000004d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/ultimate_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.75d
+			y: -4.022500000000001d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["739F2153AB9F0162"]
+			id: "1C3A6DEE82F81476"
+			tasks: [{
+				id: "190B4ACD717C4F58"
+				item: { count: 1, id: "techopolis:ultimate_research" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "77E2D0A20E5B3A22"
+			tasks: [{
+				id: "4A58E7656C4508BD"
+				item: { count: 1, id: "techopolis:speed_3_curio_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77E2D0A20E5B3A22"]
+			id: "3031F05D79BAD18D"
+			tasks: [{
+				id: "170DBF301CBE0D9F"
+				item: { count: 1, id: "techopolis:speed_3_curio" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "470CAA8FE5F0E5C0"
+			tasks: [{
+				id: "706B13B723BFBDC3"
+				item: { count: 1, id: "techopolis:infinity_cells_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["470CAA8FE5F0E5C0"]
+			id: "5752D9267316F462"
+			tasks: [{
+				id: "13CEAB9829DFFE2D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:infinity_cells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "4B906FB04006C3BC"
+			tasks: [{
+				id: "61D9734D70D0DBE8"
+				item: { count: 1, id: "techopolis:ultimate_research_crafter_blueprint" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "1A1B32B71B33B49B"
+			tasks: [{
+				id: "78EAD24B05CE99AD"
+				item: { count: 1, id: "techopolis:ultimate_miners_blueprint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "0378DC2310179750"
+			tasks: [{
+				id: "58FDF74BAD778424"
+				item: { count: 1, id: "techopolis:bigger_reactors_blueprint" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A1B32B71B33B49B"]
+			id: "581E810C8E5F20A7"
+			tasks: [{
+				id: "020E449679CC2344"
+				item: { count: 1, id: "techopolis:ultimate_miner" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B906FB04006C3BC"]
+			id: "2168DA83073B6E6F"
+			tasks: [{
+				id: "5407AB0E9AD7A491"
+				item: { count: 1, id: "techopolis:ultimate_research_crafter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0378DC2310179750"]
+			id: "25D117DF7A9ABBA9"
+			tasks: [{
+				id: "09DE653EEECF5C58"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcasing" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "1092DD1D298FA2C9"
+			tasks: [{
+				id: "416944B1BC01EE8A"
+				item: { count: 1, id: "techopolis:wireless_charging_blueprint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1092DD1D298FA2C9"]
+			id: "3F6B87C90BB21A50"
+			tasks: [{
+				id: "6FD9E2EA1FED4426"
+				item: { count: 1, id: "chargers:wireless_charger" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "36B87E225E2329B4"
+			tasks: [{
+				id: "60DDEF08F5865F5F"
+				item: { count: 1, id: "techopolis:boss_data_model_blueprint" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["36B87E225E2329B4"]
+			id: "15499AC0CD9B7843"
+			tasks: [{
+				id: "213BFD7153259380"
+				item: { count: 1, id: "techopolis:boss_data_model" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C3A6DEE82F81476"]
+			id: "13038665472BB42A"
+			tasks: [{
+				id: "1BCF1466C0063836"
+				item: { count: 1, id: "techopolis:time_in_a_bottle_blueprint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13038665472BB42A"]
+			id: "3A4E5F33D36C1A1F"
+			tasks: [{
+				id: "650234CBF735724D"
+				item: { count: 1, id: "techopolis:time_crystal" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+}

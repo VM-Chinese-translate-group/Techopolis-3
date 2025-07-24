@@ -1,0 +1,197 @@
+{
+	autofocus_id: "3BD7671C9A18D365"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_technium"
+	group: "6EDC13FEC885C0B2"
+	icon: {
+		id: "techopolis:end_technium_ingot"
+	}
+	id: "2E00C08CEA228C7A"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/end_technium.png"
+		rotation: 0.0d
+		width: 6.54d
+		x: -4.0d
+		y: 1.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3491F0FBE638D596"
+				"37BC662493F856C4"
+				"5D2E1701D70DB09C"
+			]
+			id: "14B780516CB2F6C7"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "67112C11793E5538"
+				item: { count: 1, id: "techopolis:end_technium_machine" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["14B780516CB2F6C7"]
+			id: "3BD7671C9A18D365"
+			tasks: [{
+				id: "25EDC0D673A699EE"
+				item: { count: 1, id: "techopolis:end_technium_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BD7671C9A18D365"]
+			id: "2447F9EEBDB0455A"
+			tasks: [{
+				id: "7F8DF8358945C4F3"
+				item: { count: 1, id: "techopolis:end_technium_nugget" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2447F9EEBDB0455A"]
+			id: "4985A9A2BD437665"
+			tasks: [{
+				id: "04128F07D62A11CC"
+				item: { count: 1, id: "techopolis:end_technium_machine_frame" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["13B67788D1340EA7"]
+			icon: {
+				id: "techopolis:molten_ender_fuel_bucket"
+			}
+			id: "37BC662493F856C4"
+			tasks: [{
+				id: "5AB30C491C1CDE4C"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "techopolis:ender_ethanol_bucket"
+			}
+			id: "13B67788D1340EA7"
+			tasks: [{
+				id: "67CA130DCAB6E5CE"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4985A9A2BD437665"]
+			id: "66662070856AC6E2"
+			tasks: [{
+				id: "55FB90FFF3C0C9F2"
+				item: { count: 1, id: "techopolis:technium_compressor" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["66662070856AC6E2"]
+			hide_dependent_lines: true
+			id: "4BBFF3B96CED4FAC"
+			tasks: [{
+				id: "36AA936776BB5F63"
+				item: { count: 1, id: "techopolis:undefined_singularity" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4985A9A2BD437665"]
+			id: "5991B544B9729143"
+			tasks: [{
+				id: "3BE6DE0E921AE265"
+				item: { count: 1, id: "techopolis:weather_machine" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4985A9A2BD437665"]
+			id: "6E250595483B4E28"
+			tasks: [{
+				id: "0B90A43C6917DBDB"
+				item: { count: 1, id: "techopolis:end_technium_turbine_coil" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5991B544B9729143"]
+			id: "4D099BCFEB914A2A"
+			tasks: [{
+				id: "6BCEB09B0227897C"
+				item: { count: 1, id: "techopolis:weather_module_thunder" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5991B544B9729143"]
+			id: "4B23385C139B24C4"
+			tasks: [{
+				id: "16AE4AFD855059EC"
+				item: { count: 1, id: "techopolis:weather_module_clear" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5991B544B9729143"]
+			id: "2C86585189F3CE78"
+			tasks: [{
+				id: "2B2156C7991C1D46"
+				item: { count: 1, id: "techopolis:weather_module_rain" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["13B67788D1340EA7"]
+			icon: {
+				id: "opolisutilities:floating_block_item"
+			}
+			id: "5D2E1701D70DB09C"
+			optional: true
+			rewards: [{
+				id: "02FE6C442EB3698A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE8B17228529C19"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+	]
+}

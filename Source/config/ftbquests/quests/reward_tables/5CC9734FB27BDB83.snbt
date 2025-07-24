@@ -1,0 +1,40 @@
+{
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "5CC9734FB27BDB83"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "46CFA79640697563", item: { count: 1, id: "colors:orange_sapling" } }
+		{ id: "45CBA443026F929B", item: { count: 1, id: "colors:brown_sapling" } }
+		{ id: "6CAA91607EF0D186", item: { count: 1, id: "colors:pink_sapling" } }
+		{ id: "15005ACF98059AF8", item: { count: 1, id: "colors:cyan_sapling" } }
+		{ id: "4318D201D3AD6D11", item: { count: 1, id: "colors:purple_sapling" } }
+		{ id: "2A49EE93914102E0", item: { count: 1, id: "colors:red_sapling" } }
+		{ id: "31B28692CFD641CC", item: { count: 1, id: "colors:gray_sapling" } }
+		{ id: "4FC986FB4892DDF7", item: { count: 1, id: "minecraft:oak_sapling" } }
+		{ id: "082032ED4B14FD14", item: { count: 1, id: "minecraft:spruce_sapling" } }
+		{ id: "02B55340F42F19FC", item: { count: 1, id: "minecraft:cherry_sapling" } }
+		{
+			count: 4
+			id: "5DAB933D5992D27E"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_sapling"
+			}
+		}
+		{ id: "728694C82A734941", item: { count: 1, id: "minecraft:acacia_sapling" } }
+		{ id: "286441E6D05402EC", item: { count: 1, id: "minecraft:jungle_sapling" } }
+		{ id: "73A3C3B4190C6119", item: { count: 1, id: "minecraft:birch_sapling" } }
+		{ id: "2BB3DE33095EC973", item: { count: 1, id: "colors:yellow_sapling" } }
+		{ id: "70ED1EB9E14D8D01", item: { count: 1, id: "colors:white_sapling" } }
+		{ id: "49567B0DB1A642C0", item: { count: 1, id: "colors:green_sapling" } }
+		{ id: "25B113F8F1E74C86", item: { count: 1, id: "colors:light_blue_sapling" } }
+		{ id: "548CC9ECD0EA66F7", item: { count: 1, id: "colors:light_gray_sapling" } }
+		{ id: "42A2695E2187AA04", item: { count: 1, id: "colors:lime_sapling" } }
+		{ id: "70B166262605DE73", item: { count: 1, id: "colors:black_sapling" } }
+		{ id: "5C81A647D6329802", item: { count: 1, id: "colors:magenta_sapling" } }
+		{ id: "2794C705D19D423D", item: { count: 1, id: "colors:blue_sapling" } }
+	]
+}
