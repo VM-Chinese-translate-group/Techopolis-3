@@ -1,0 +1,228 @@
+{
+	autofocus_id: "6BACC14E3F05254E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced"
+	group: "4A795F5C0EB4D29D"
+	icon: {
+		id: "techopolis:advanced_research"
+	}
+	id: "003454BDCB2A4B2B"
+	images: [
+		{
+			height: 0.59d
+			image: "techopolis:textures/quests/advanced_research.png"
+			rotation: 0.0d
+			width: 9.41d
+			x: -0.3478571428571655d
+			y: -7.482142857142865d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/advanced_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.11642857142855d
+			y: -7.477857142857147d
+		}
+		{
+			height: 1.0d
+			image: "techopolis:item/advanced_research"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.88357142857145d
+			y: -7.5135714285714315d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70FED206562250EE"]
+			id: "6BACC14E3F05254E"
+			tasks: [{
+				id: "104697152BDD789D"
+				item: { count: 1, id: "techopolis:advanced_research" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "059999914CE99711"
+			tasks: [{
+				id: "4D3D1C5B60DD60E9"
+				item: { count: 1, id: "techopolis:drawer_compacting_blueprint" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["059999914CE99711"]
+			id: "164B6FAB9100BA01"
+			tasks: [{
+				id: "12729A0E575BCA0B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:research/storage_drawer_compacting)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "71E0A475C0F3370A"
+			tasks: [{
+				id: "2BDF62A2F89F1A39"
+				item: { count: 1, id: "techopolis:drawer_upgrades_blueprint" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71E0A475C0F3370A"]
+			id: "71CE3D552A73D26D"
+			tasks: [{
+				id: "0414C0D062CAF1D0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:research/storage_drawer_upgrades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "316D284633B0FC2A"
+			tasks: [{
+				id: "53CE9C650226AB15"
+				item: { count: 1, id: "techopolis:fluid_recycling_blueprint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["316D284633B0FC2A"]
+			id: "10A61FF7B8C47750"
+			tasks: [{
+				id: "6FBC3ABCCCF74816"
+				item: { count: 1, id: "techopolis:fluid_recycling_coupon" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "0FAC56A475DB164F"
+			tasks: [{
+				id: "469988AA6B25D594"
+				item: { count: 1, id: "techopolis:advanced_miners_blueprint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "783FCE5894B5465D"
+			tasks: [{
+				id: "609089B4361BFFBB"
+				item: { count: 1, id: "techopolis:advanced_research_crafter_blueprint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FAC56A475DB164F"]
+			id: "62AD904AF9F057C7"
+			tasks: [{
+				id: "4148DB61AC260008"
+				item: { count: 1, id: "techopolis:advanced_miner" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["783FCE5894B5465D"]
+			id: "297F5435D1AA105D"
+			tasks: [{
+				id: "66EF5AA1C6253D9E"
+				item: { count: 1, id: "techopolis:advanced_research_crafter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "274071D8FC23B3BD"
+			tasks: [{
+				id: "0AA0C3E4E98AF4B5"
+				item: { count: 1, id: "techopolis:hunger_curio_blueprint" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["274071D8FC23B3BD"]
+			id: "686545FF4779D60F"
+			tasks: [{
+				id: "72E3AA67867FBB60"
+				item: { count: 1, id: "techopolis:hunger_curio" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "36C4B2291BED0A6E"
+			tasks: [{
+				id: "583FAF13EE3C9088"
+				item: { count: 1, id: "techopolis:speed_1_curio_blueprint" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36C4B2291BED0A6E"]
+			id: "36E6A9B3C8AF2B3E"
+			tasks: [{
+				id: "50C9F1FFA66D3455"
+				item: { count: 1, id: "techopolis:speed_1_curio" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6BACC14E3F05254E"]
+			id: "1149674B45943F10"
+			tasks: [{
+				id: "78185647DBAAB5A0"
+				item: { count: 1, id: "techopolis:item_recycling_blueprint" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1149674B45943F10"]
+			id: "18B7ACB34D6A5BC1"
+			tasks: [{
+				id: "02BE0A6EFE29CA78"
+				item: { count: 1, id: "techopolis:item_recycling_coupon" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+	]
+}

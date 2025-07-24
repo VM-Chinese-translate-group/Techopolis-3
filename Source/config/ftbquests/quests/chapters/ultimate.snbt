@@ -1,0 +1,557 @@
+{
+	autofocus_id: "3FBED83FEF57A3DD"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimate"
+	group: "3BA381F087866ECD"
+	icon: {
+		id: "hostilenetworks:sim_chamber"
+	}
+	id: "6F79DAF4007E988B"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/simulation.png"
+		rotation: 0.0d
+		width: 5.15d
+		x: 0.0d
+		y: -4.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["09D5E36EB0574F45"]
+			id: "535453CB7762AEFC"
+			rewards: [{
+				id: "03B74CFF7E04109B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D0E18CD9F23E29A"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"523C2224DA195636"
+				"71BC21748842E49D"
+			]
+			id: "3FBED83FEF57A3DD"
+			rewards: [{
+				id: "18EFA73AF524433C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11DD5AA503D62ECA"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["535453CB7762AEFC"]
+			id: "41C0081B97930CDC"
+			rewards: [{
+				id: "2A9D4CB51DC87D31"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67AEA37F98BC3DE7"
+				item: { count: 1, id: "techopolis:mob_infuser" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FBED83FEF57A3DD"]
+			id: "5F24BFC5B102AD82"
+			rewards: [{
+				id: "1C15555AC0843C93"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0377121F055316C5"
+				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D7D9A9A3222C22C"]
+			id: "4AF705F1406F5CB9"
+			rewards: [{
+				id: "09ADAB64541903DC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C3744C08C6CF383"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41C0081B97930CDC"]
+			id: "6D7D9A9A3222C22C"
+			rewards: [{
+				id: "395BEFF8AB9BBBCC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "681CF25BAC4C4F0C"
+				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AF705F1406F5CB9"]
+			id: "0B6CFA77F78F9359"
+			rewards: [{
+				id: "4C7DFCB18A90A697"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "702BC79EC8D564D6"
+				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CC9643D3ABBDBAA"]
+			id: "1E366DDAB2C69D21"
+			rewards: [{
+				id: "69543F49FB53DF5E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0420A53921125D6B"
+				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71BC21748842E49D"]
+			id: "7CC9643D3ABBDBAA"
+			rewards: [{
+				id: "682A58C87B93904D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46CAD4F84BFA7495"
+				item: { count: 1, id: "minecraft:bone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E366DDAB2C69D21"
+				"62BF4D616D05BB42"
+			]
+			id: "18949AE304924FF4"
+			rewards: [{
+				id: "175A0D2D7A73E221"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C863BC0BD51B280"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B6CFA77F78F9359"]
+			id: "62BF4D616D05BB42"
+			rewards: [{
+				id: "184E5705A6DC7EE8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45FBFE17B4797F09"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18949AE304924FF4"]
+			id: "7586F9DFA6DF4CC3"
+			rewards: [{
+				id: "25E3437A94163197"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CADD77122BEDBCC"
+				item: { count: 1, id: "minecraft:skeleton_skull" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3FBED83FEF57A3DD"
+				"2FEC625A6725CD89"
+			]
+			id: "64EC869186D59EF8"
+			rewards: [{
+				id: "35BD65A01175F468"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C55CE3CC1859C0"
+				item: { count: 1, id: "alltheores:enderium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64EC869186D59EF8"]
+			id: "0BE2D11B6AAFEC01"
+			rewards: [{
+				id: "43E7626B2F0DECA4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2661500DB8F3B789"
+				item: { count: 1, id: "alltheores:enderium_gear" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23E7F88F7C88C7F8"]
+			id: "7330EA4CC2EE4E5B"
+			rewards: [{
+				id: "56FB336526FBB43D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD42A7724FA9C61"
+				item: { count: 1, id: "replication:deepslate_replica_ore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7330EA4CC2EE4E5B"]
+			id: "1A2093BEC631C4C8"
+			rewards: [{
+				id: "0B5625CD3EDDB6D7"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3320C9C2F01FFDD0"
+				item: { count: 1, id: "techopolis:dimensional_replica_ore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D7D9A9A3222C22C"]
+			id: "75F6D7D41E50498C"
+			rewards: [{
+				id: "3B553A787E6632B0"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0729F80CDBFCD3AF"
+				item: { count: 1, id: "techopolis:passive_data_model" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7D9A9A3222C22C"]
+			id: "71BC21748842E49D"
+			rewards: [{
+				id: "5AD8DB39D63091DA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75825A8C2D6B2D7B"
+				item: { count: 1, id: "techopolis:hostile_data_model" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71BC21748842E49D"]
+			id: "3AA6769C77675887"
+			rewards: [{
+				id: "284FD7DC40BFC9B4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5672A2E9410D6E8E"
+				item: { count: 1, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AA6769C77675887"]
+			id: "6D6B47ACEFFFA619"
+			rewards: [{
+				id: "4D3DD76D91BA9638"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04E6C26A7BB2F69F"
+				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AA6769C77675887"]
+			id: "1CE2087B6190F0AA"
+			rewards: [{
+				id: "38B83FC0DEF3AE17"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34DC55BA63B81BC2"
+				item: { count: 1, id: "compressedblocks:crated_rotten_flesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CE2087B6190F0AA"]
+			id: "5BE16EC567FBE306"
+			rewards: [{
+				id: "240C00AA208FA306"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AEE8BD63F530F38"
+				item: { count: 1, id: "compressedblocks:double_crated_rotten_flesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A56F3D4663098AB"]
+			id: "7DE85BDFA6B98846"
+			rewards: [{
+				id: "5D96AFD5CF95C180"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08CB067B75B21736"
+				item: { count: 1, id: "minecraft:zombie_head" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01690697BC82295D"]
+			id: "6954AA71B77C3E07"
+			rewards: [{
+				id: "20D78247CA936293"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EA56AC067C48AA3"
+				item: { count: 1, id: "techopolis:simulation_pearl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F24BFC5B102AD82"
+				"62BF4D616D05BB42"
+			]
+			id: "01690697BC82295D"
+			rewards: [{
+				id: "37724F8817CE406F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23ACA1DEAD5A6140"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6D6B47ACEFFFA619"
+				"62BF4D616D05BB42"
+			]
+			id: "5A56F3D4663098AB"
+			rewards: [{
+				id: "1B961BD257558159"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79542A10EB60D2BA"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6954AA71B77C3E07"]
+			id: "23E7F88F7C88C7F8"
+			rewards: [{
+				id: "0D5432F02F0A6683"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "618A6547BE3D2A38"
+				item: { count: 1, id: "techopolis:replica_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}

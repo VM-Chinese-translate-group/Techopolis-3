@@ -1,0 +1,17 @@
+{
+
+  "block.modular_machinery_reborn_mekanism.chemicalinputhatch_tiny": "Simple Chemical Input",
+  "block.modular_machinery_reborn_mekanism.chemicalinputhatch_small": "Basic Chemical Input",
+  "block.modular_machinery_reborn_mekanism.chemicalinputhatch_reinforced": "Advanced Chemical Input",
+  "block.modular_machinery_reborn_mekanism.chemicalinputhatch_big": "Elite Chemical Input",
+  "block.modular_machinery_reborn_mekanism.chemicalinputhatch_huge": "Ultimate Chemical Input",
+
+  "block.modular_machinery_reborn_mekanism.chemicaloutputhatch_tiny": "Simple Chemical Output",
+  "block.modular_machinery_reborn_mekanism.chemicaloutputhatch_small": "Basic Chemical Output",
+  "block.modular_machinery_reborn_mekanism.chemicaloutputhatch_reinforced": "Advanced Chemical Output",
+  "block.modular_machinery_reborn_mekanism.chemicaloutputhatch_big": "Elite Chemical Output",
+  "block.modular_machinery_reborn_mekanism.chemicaloutputhatch_huge": "Ultimate Chemical Output"
+
+
+
+}

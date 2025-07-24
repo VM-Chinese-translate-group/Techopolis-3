@@ -1,0 +1,653 @@
+{
+	autofocus_id: "7E40BDDD788324CB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "melting"
+	group: "758C9087ACEC8F78"
+	icon: {
+		components: {
+			"bucketlib:fluid": {
+				amount: 1000
+				id: "techopolis:hot_water"
+			}
+		}
+		id: "ceramicbucket:ceramic_bucket"
+	}
+	id: "3DC9B3127DB86B0A"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/melting.png"
+		rotation: 0.0d
+		width: 3.72d
+		x: 0.0d
+		y: -6.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"621CB46DAD84AE84"
+				"43D6EA4605E23805"
+			]
+			id: "06503659AE472AD3"
+			rewards: [{
+				id: "3102CCDF4D9B4B4A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "351FD7506E6A8BFA"
+				item: { count: 1, id: "casting:black_brick" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DD898130B4B07FD"]
+			id: "621CB46DAD84AE84"
+			rewards: [{
+				id: "79ED525E207C3B95"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28D3523C011FE750"
+				item: { count: 1, id: "techopolis:grout" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0823F549D6991801"]
+			id: "7E40BDDD788324CB"
+			rewards: [{
+				id: "73924ED95B938476"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23513FDC838E99EA"
+				item: { count: 1, id: "casting:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823F549D6991801"]
+			id: "13BEA6EA396820A5"
+			rewards: [{
+				id: "1FBFF044BD31705D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C9EE589A009C239"
+				item: { count: 1, id: "casting:solidifier" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823F549D6991801"]
+			id: "4AE327C67D18A195"
+			rewards: [{
+				id: "3E6E4AD20E53BC17"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DBF57B29B84E054"
+				item: { count: 1, id: "casting:tank" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4AE327C67D18A195"]
+			id: "73C264670B494FAC"
+			rewards: [{
+				id: "2A3AAC3F709AF0A6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D27AEB21295DBFC"
+				item: { components: { "bucketlib:fluid": { amount: 1000, id: "techopolis:hot_water" } }, count: 1, id: "ceramicbucket:ceramic_bucket" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7E40BDDD788324CB"
+				"4AE327C67D18A195"
+				"13BEA6EA396820A5"
+			]
+			id: "41DF22E33B6B46A0"
+			rewards: [{
+				id: "3A1E68B1BBCFB09F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4028D61CA6E2356D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DAEB6C26422F3DA"]
+			id: "5B7F4891F5FC6208"
+			rewards: [{
+				id: "3BDF26D6369FE50C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D4A68673F9A17FE"
+				item: { count: 1, id: "minecraft:coal_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41DF22E33B6B46A0"]
+			id: "3DAEB6C26422F3DA"
+			rewards: [{
+				id: "0CE9EF1EF0E52F9A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7119420AD819060D"
+				item: { count: 1, id: "casting:block_mold" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B7F4891F5FC6208"]
+			id: "3B581375F1A72F7D"
+			rewards: [{
+				id: "7FC4795E5A72C18C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5355711035E8F56A"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B581375F1A72F7D"]
+			id: "149BF1FC5BDBED7C"
+			rewards: [{
+				id: "773DF56755602146"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CB5B4FAF025E9A8"
+				item: { count: 1, id: "casting:gem_mold" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41DF22E33B6B46A0"]
+			id: "221592A59487802C"
+			rewards: [{
+				id: "6495E7499C75DCFB"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5274357D59EF31C8"
+				item: { count: 1, id: "casting:gear_mold" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221592A59487802C"]
+			id: "6B35D23A996569A0"
+			rewards: [{
+				id: "2856C0AD1464DA08"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "597089158C48BA26"
+				item: { count: 1, id: "techopolis:coal_gear" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B35D23A996569A0"]
+			id: "3CC2216E4FE7DCF0"
+			rewards: [{
+				id: "13ADC0175DC5258E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "064465E3226D7047"
+				item: { count: 1, id: "techopolis:sturdy_machine_frame" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3B581375F1A72F7D"
+				"515779B505E5D0A1"
+			]
+			id: "737F13286F75F8B3"
+			rewards: [{
+				id: "555776AE36A1B609"
+				item: {
+					count: 1
+					id: "immersiveengineering:manual"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B67A57AAC526AED"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["515779B505E5D0A1"]
+			id: "6F69EB295CBF31E2"
+			rewards: [{
+				id: "05CB7BD7404A9B0F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D6E58F28B2D64C"
+				item: { count: 1, id: "modular_machinery_reborn:casing_plain" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["737F13286F75F8B3"]
+			id: "26CFD5E497C882E3"
+			rewards: [{
+				id: "0D593E1EDC7F5B2E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "489396915538A048"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["737F13286F75F8B3"]
+			id: "7A4D119ED01918E7"
+			rewards: [{
+				id: "27D39400B95A6FB6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "33EA97D4456B746E"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06503659AE472AD3"]
+			id: "6CB6F2EF8B370BCF"
+			rewards: [{
+				id: "7E3B2F59660B808A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77DEA0742D1F9C7F"
+				item: { count: 1, id: "casting:fluid_mover" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26CFD5E497C882E3"]
+			id: "2E205FFE0E8B00B7"
+			rewards: [{
+				id: "1C5A212D77C1BF70"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3924B977D8E83B9D"
+				item: { count: 1, id: "techopolis:cobblestone_melter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["737F13286F75F8B3"]
+			icon: {
+				id: "cloche:cloche"
+			}
+			id: "2F8F2461BE4A9948"
+			rewards: [{
+				id: "2E62785BC90586A9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FF159357783E9B0"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["737F13286F75F8B3"]
+			id: "6C702C6D1CD2475A"
+			rewards: [{
+				id: "0C8C43CF83D78B47"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72BC005A3680EDC2"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CC2216E4FE7DCF0"]
+			id: "1A27BF2E3F573C8C"
+			rewards: [{
+				id: "0B9B8888115BF474"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5289597C2B7CAAFD"
+				item: { count: 1, id: "opolisutilities:resource_generator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B35D23A996569A0"]
+			id: "62915A582CCFF6AD"
+			rewards: [{
+				id: "70F4DCEE77FAEB21"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A6715D905044824"
+				item: { count: 1, id: "cloche:fixed_speed_upgrade_2" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B581375F1A72F7D"]
+			id: "709CBE9FCBEC9C10"
+			rewards: [{
+				id: "64E0CA2D11CB7166"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "014C9C0E9F6D6673"
+				item: { count: 1, id: "opolisutilities:mini_coal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["709CBE9FCBEC9C10"]
+			id: "50DF9640E4C2EC78"
+			rewards: [{
+				id: "612FEA6115229212"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "316481528319D1F1"
+				item: { count: 1, id: "casting:nugget_mold" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06503659AE472AD3"]
+			id: "0823F549D6991801"
+			rewards: [{
+				id: "754A5C84C5CCA344"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A39F09833322E9"
+				item: { count: 1, id: "casting:black_bricks" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A4D119ED01918E7"]
+			id: "11374EF234EBD027"
+			tasks: [{
+				id: "151656BE23B77AE4"
+				item: { count: 1, id: "immersiveengineering:sorter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A4D119ED01918E7"]
+			id: "17455D6476E03296"
+			tasks: [{
+				id: "0141C2CC827AE16C"
+				item: { count: 1, id: "immersiveengineering:fluid_sorter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11374EF234EBD027"]
+			id: "6D65A162D3C5AF8A"
+			tasks: [{
+				id: "4C5937C98563B457"
+				item: { count: 1, id: "mekanism:logistical_sorter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7A4D119ED01918E7"]
+			id: "5BACBB4F61A69430"
+			tasks: [{
+				id: "60EF4510EA5AE278"
+				item: { count: 1, id: "immersiveengineering:item_batcher" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3CC2216E4FE7DCF0"]
+			id: "515779B505E5D0A1"
+			tasks: [{
+				id: "53404F539A7FDCA8"
+				item: { count: 1, id: "techopolis:basic_miner" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["515779B505E5D0A1"]
+			icon: {
+				id: "techopolis:basic_miner"
+			}
+			id: "5494CD4C6BBA021B"
+			tasks: [{
+				id: "484708E0D9423A5E"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13BEA6EA396820A5"]
+			id: "79F5BA778F1C3B01"
+			rewards: [{
+				id: "593B92FE3E0FDD2A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6627590428CE8036"
+				item: { count: 1, id: "casting:equipment_modifier" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A4D119ED01918E7"]
+			id: "5BEB919EC6CBA3A1"
+			tasks: [{
+				id: "2C8FC283FD8499C8"
+				item: { count: 1, id: "pipe_connector:pipe_connector" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+	]
+}

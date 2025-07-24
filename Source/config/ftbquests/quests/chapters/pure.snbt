@@ -1,0 +1,619 @@
+{
+	autofocus_id: "4BF582AFE6081D78"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pure"
+	group: "616080FF1DC44C02"
+	icon: {
+		id: "techopolis:purified_coal_block"
+	}
+	id: "15505F228A3E783D"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/pure.png"
+		rotation: 0.0d
+		width: 2.39d
+		x: 0.5d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["41278D9307F638FC"]
+			id: "1E0DBF1D7D633823"
+			rewards: [{
+				id: "151FD3C7851B8BBA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31204888A82B94AF"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["026A04E8FB27154F"]
+			id: "3E64E5C3BA109919"
+			rewards: [{
+				id: "18E0663C81827DED"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "255EBACBCAE26A10"
+				item: { count: 1, id: "techopolis:manufactured_osmium" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E0DBF1D7D633823"]
+			id: "026A04E8FB27154F"
+			rewards: [{
+				id: "08707D5313528FB7"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A1FEA4287B712E0"
+				item: { count: 1, id: "techopolis:manufactured_osmium_blueprint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E64E5C3BA109919"]
+			id: "4BF582AFE6081D78"
+			rewards: [{
+				id: "277181D67B96AC20"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31CDF57CCDF99530"
+				item: { count: 1, id: "techopolis:dirty_osmium_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BF582AFE6081D78"]
+			id: "542297433C1D1CB5"
+			rewards: [{
+				id: "4306ECF3BF518FD2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1830DC0C5C8516DC"
+				item: { count: 1, id: "techopolis:osmium_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["542297433C1D1CB5"]
+			id: "6FD5BDEB4A1C538D"
+			rewards: [{
+				id: "51D0E51681ADD063"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39A458B2FC4451AD"
+				item: { count: 1, id: "alltheores:osmium_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6FD5BDEB4A1C538D"]
+			id: "45CA52A902A5694D"
+			rewards: [{
+				id: "7BDBC85B2C34CE97"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "198D9D24E89711B6"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E0DBF1D7D633823"]
+			id: "16DB448912997A88"
+			rewards: [{
+				id: "3BF8C87E3D67905B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07B266F226BD161A"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45CA52A902A5694D"]
+			id: "166A2386E894F6B2"
+			rewards: [{
+				id: "5A3943C2ADC67F57"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E979DE14D925B03"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"16DB448912997A88"
+				"166A2386E894F6B2"
+			]
+			id: "0745AB834C47356A"
+			rewards: [{
+				id: "200A41781E3FDA36"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "429F2B22B9C50AA8"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["166A2386E894F6B2"]
+			id: "3BDC8305E8BA948B"
+			rewards: [{
+				id: "3BBE4A1EA39106BC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60E344339FFC3163"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0745AB834C47356A"
+				"3BDC8305E8BA948B"
+			]
+			id: "654C564E03AB150F"
+			rewards: [{
+				id: "7F9075BF74ADA875"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F1942630C63A5EB"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["654C564E03AB150F"]
+			icon: {
+				id: "strainers:purifying_salt_mulch"
+			}
+			id: "7E93D28AC288DC0B"
+			rewards: [{
+				id: "69C4A4301962152D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F6138F1A167493C"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["654C564E03AB150F"]
+			id: "7A873C3D4F693A8B"
+			rewards: [{
+				id: "3F42C095FF278466"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30BCDA5745F2403B"
+				item: { count: 1, id: "techopolis:purified_coal_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A873C3D4F693A8B"]
+			id: "6BADE1A73A9065B1"
+			rewards: [{
+				id: "120F450EB5C785BB"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4789260E8E034A5D"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0745AB834C47356A"]
+			id: "4F4966F44EEF92E2"
+			rewards: [{
+				id: "2B058999D10443B6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25A26F342B093AB1"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F4966F44EEF92E2"]
+			id: "6EC7E04C3FFBE331"
+			rewards: [{
+				id: "7F842198D4E946C4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B32AC2429795343"
+				item: { count: 1, id: "mekanism:bio_fuel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6EC7E04C3FFBE331"]
+			id: "3F5CAA269FB50482"
+			rewards: [{
+				id: "0971A41087FF05FB"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1118F041A0E4A12E"
+				item: { count: 1, id: "techopolis:bio_generator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["16DB448912997A88"]
+			id: "73058C76507C88CC"
+			rewards: [{
+				id: "5A8CE4A7F7E0958D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62D84087E1DB6121"
+				item: { count: 1, id: "mekanism:electric_pump" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["654C564E03AB150F"]
+			id: "1ACCFB94A4652035"
+			rewards: [{
+				id: "15C908EF0026B604"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70C9D88F12F74149"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1ACCFB94A4652035"]
+			id: "320AEE53496EDF6A"
+			rewards: [{
+				id: "2B57682944B92F5C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B524FA2337863D4"
+				item: { count: 1, id: "minecraft:glowstone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["320AEE53496EDF6A"]
+			id: "6856E575370FEEEE"
+			rewards: [{
+				id: "51B0788299B0DC85"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "397BA2864C88F3F9"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6856E575370FEEEE"]
+			id: "0A3CB43A3D868208"
+			rewards: [{
+				id: "1014BC972FF0FC90"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D39A2E78E28B3F6"
+				item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6856E575370FEEEE"]
+			id: "40F1237CE082DB64"
+			rewards: [{
+				id: "2CF1223F9136E8E5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24E949A95A5323DF"
+				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0A3CB43A3D868208"
+				"40F1237CE082DB64"
+			]
+			id: "2FEC0AD0A1D02C85"
+			rewards: [{
+				id: "5388C0FC5F7C4B09"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BB8B766A1E16484"
+				item: { count: 1, id: "techopolis:obsidiglow_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6BADE1A73A9065B1"]
+			id: "0CF51FE938E3830E"
+			rewards: [{
+				id: "765884DE28CB2424"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A832233E79736E7"
+				item: { count: 1, id: "alltheores:diamond_plate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6FD5BDEB4A1C538D"]
+			id: "4B22551F005560EB"
+			rewards: [{
+				id: "7FED797DEDE2BD77"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DEB1AE386A2204D"
+				item: { count: 1, id: "alltheores:osmium_rod" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7E93D28AC288DC0B"
+				"6EC7E04C3FFBE331"
+			]
+			id: "1DD38714228384B1"
+			tasks: [{
+				id: "4B541DCE0499CE98"
+				item: { count: 1, id: "techopolis:purified_bio_fuel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3BDC8305E8BA948B"]
+			id: "453A3A032C47415C"
+			rewards: [{
+				id: "5E072CD61A1024CF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D3C3289D04B9D03"
+				item: { count: 1, id: "techopolis:enriched_flint" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["16DB448912997A88"]
+			id: "2E818BD882DB685D"
+			optional: true
+			rewards: [{
+				id: "553082E7395DEF63"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B18CE9369135D7B"
+				item: { count: 1, id: "mekanism:upgrade_chemical" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["16DB448912997A88"]
+			id: "42AEF379BA248070"
+			rewards: [{
+				id: "2421A845FF33195B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45D3B711CBCF8440"
+				item: { count: 1, id: "mekanism:upgrade_speed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+	]
+}

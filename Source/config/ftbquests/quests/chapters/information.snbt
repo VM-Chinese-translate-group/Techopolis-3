@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information"
+	group: ""
+	id: "18F2AF0BE4B4F3DD"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/information.png"
+		rotation: 0.0d
+		width: 5.84d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "61BC9814DB13B72E"
+			tasks: [{
+				id: "1A550D252A5503FF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "41C24FEED4CAE49D"
+			tasks: [{
+				id: "767E021443965BBD"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "7F81760FA260294B"
+			tasks: [{
+				id: "131757603072EC55"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "60F506FC563D110C"
+			tasks: [{
+				id: "53423114EFEDF0F2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60F506FC563D110C"]
+			id: "7CEFB82BBEE9616E"
+			shape: "hexagon"
+			tasks: [{
+				id: "4F76C8BD7612A936"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "5A0BB3B29DF5F484"
+			tasks: [{
+				id: "39305F4029C79DF1"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "01DF5373D68A8CAA"
+			tasks: [{
+				id: "3F845F17BE2F8EA1"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "0F45C5B8AA2F3554"
+			tasks: [{
+				id: "1C51863E1A236AAA"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "5BEBA3DCA958DF0F"
+			tasks: [{
+				id: "49ECD681F161C132"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61BC9814DB13B72E"]
+			id: "0EFE2EA2AEE1E8FB"
+			tasks: [{
+				id: "06AA611485DB839A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BEBA3DCA958DF0F"]
+			id: "356054777EAE6B7C"
+			rewards: [{
+				id: "3924C9C974BD3BE0"
+				item: {
+					components: {
+						"guideme:guide_id": "techopolis:guide"
+					}
+					count: 1
+					id: "guideme:guide"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0268BD0C8D960413"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BEBA3DCA958DF0F"]
+			id: "0053618E0271F957"
+			tasks: [{
+				id: "4FFAE2AF2484C2A4"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BEBA3DCA958DF0F"]
+			id: "12DC6EA07981504F"
+			tasks: [{
+				id: "787942E9ABC7AF17"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

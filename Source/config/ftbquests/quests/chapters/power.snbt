@@ -1,0 +1,486 @@
+{
+	autofocus_id: "6C573A6A2E342AFF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power"
+	group: "1E7FB19A72E03BC7"
+	icon: {
+		id: "minecraft:deepslate"
+	}
+	id: "2F964226768854CD"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/deepslate.png"
+		rotation: 0.0d
+		width: 4.98d
+		x: -3.5d
+		y: 2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["493BA5645520B36A"]
+			id: "6C573A6A2E342AFF"
+			rewards: [{
+				id: "028E8766A5DDEB14"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5B8F11D32E3B84"
+				item: { count: 1, id: "strainers:silver_ore_piece" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C573A6A2E342AFF"]
+			id: "2359C61CD8CE974E"
+			rewards: [{
+				id: "0D23DFAD91AE1C5C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AC311F550439A4B"
+				item: { count: 1, id: "alltheores:raw_silver" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2359C61CD8CE974E"]
+			id: "0AC7CD4213D2CD1B"
+			rewards: [{
+				id: "06013337FC76D6D6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15807030153C2DF8"
+				item: { count: 1, id: "techopolis:silver_dust" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["287F3EA107089860"]
+			id: "6F47939FE1928792"
+			rewards: [{
+				id: "0733718E3AC3F03B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16837E7A4CB15581"
+				item: { count: 1, id: "techopolis:lead_dust" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0AC7CD4213D2CD1B"]
+			id: "6FD585D0DB077A75"
+			rewards: [{
+				id: "7C6E332D051C3FCF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E897E9022461C84"
+				item: { count: 1, id: "alltheores:silver_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6F47939FE1928792"]
+			id: "7D572741F38742C1"
+			rewards: [{
+				id: "167C5579E1F2A6FF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04EC6636543D5C37"
+				item: { count: 1, id: "alltheores:lead_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7D572741F38742C1"
+				"6FD585D0DB077A75"
+				"5A2E633AF5B2E16A"
+			]
+			id: "2D5B54661E6C6B91"
+			rewards: [{
+				id: "7AD5CE6EF7896075"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01D6F9D02CE53219"
+				item: { count: 1, id: "actuallyadditions:canola_press" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2D5B54661E6C6B91"]
+			id: "7BCA56579DE2D6DA"
+			rewards: [{
+				id: "0BFAD2BEE8775005"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54803A67093A43A7"
+				item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7BCA56579DE2D6DA"
+				"6246E91DC5BFEEC0"
+			]
+			id: "35E50D6E40C773BF"
+			rewards: [{
+				id: "55CF0080E5AD6BD3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "070E50CF666C4A48"
+				item: { count: 1, id: "actuallyadditions:oil_generator" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["267236F51DE8B842"]
+			id: "14149EA82A85D759"
+			rewards: [{
+				id: "72B5B9F8979D67C0"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BBBB6AA4DA92C49"
+				item: { count: 1, id: "techopolis:crushed_deepslate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B91D71F57CA5ECD"]
+			id: "267236F51DE8B842"
+			rewards: [{
+				id: "5531F05724904CBC"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B26925986EE607E"
+				item: { count: 1, id: "minecraft:deepslate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14149EA82A85D759"]
+			id: "3546DF9F8CB8B856"
+			rewards: [{
+				id: "0AA74375151D9794"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B712AEB77DEE3DE"
+				item: { count: 1, id: "techopolis:lead_focus" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3546DF9F8CB8B856"]
+			id: "7BCD2B09AF07B28A"
+			rewards: [{
+				id: "4DC02750C77A1465"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44A21A9E9FAD0641"
+				item: { count: 1, id: "strainers:lead_ore_piece" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14149EA82A85D759"]
+			id: "493BA5645520B36A"
+			rewards: [{
+				id: "292D6A474D211FED"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "123153DC66AE7C01"
+				item: { count: 1, id: "techopolis:silver_focus" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["14149EA82A85D759"]
+			id: "4E224899BB028D5E"
+			rewards: [{
+				id: "1D0117AA8433C8F8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "563D277D19A9D47A"
+				item: { count: 1, id: "techopolis:nickel_focus" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BCD2B09AF07B28A"]
+			id: "287F3EA107089860"
+			rewards: [{
+				id: "3B39A41D0244D4F3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "114DAD6EB6EE1DB0"
+				item: { count: 1, id: "alltheores:raw_lead" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F18FC1D1F5311E7"]
+			id: "072452455ED47638"
+			rewards: [{
+				id: "20D357B1DBDD98B9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E9B8069EE195353"
+				item: { count: 1, id: "alltheores:raw_nickel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E224899BB028D5E"]
+			id: "2F18FC1D1F5311E7"
+			rewards: [{
+				id: "3675A8D6982C2887"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16E59DFB94B6EC73"
+				item: { count: 1, id: "strainers:nickel_ore_piece" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072452455ED47638"]
+			id: "3939AB38E2606E3B"
+			rewards: [{
+				id: "603C7C9F74BAF104"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A7F3472FE6C6C5"
+				item: { count: 1, id: "techopolis:nickel_dust" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3939AB38E2606E3B"]
+			id: "01BFDC0B1C4A894B"
+			rewards: [{
+				id: "33538E611520B8F6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "315BF6205DE7520C"
+				item: { count: 1, id: "alltheores:nickel_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["01BFDC0B1C4A894B"]
+			id: "58F943B2FDEBC490"
+			rewards: [{
+				id: "1EA7E46C2DA8E6F8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2570CE34581B3AE2"
+				item: { count: 1, id: "alltheores:nickel_plate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["58F943B2FDEBC490"]
+			id: "6246E91DC5BFEEC0"
+			rewards: [{
+				id: "39A34896BF879E3E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CEAA01BF9D8E707"
+				item: { count: 1, id: "immersiveengineering:fluid_pump" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["01BFDC0B1C4A894B"]
+			id: "78D84F25E62AE1CE"
+			rewards: [{
+				id: "26F2B05F619D5B85"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FB67E706591CE54"
+				item: { count: 1, id: "alltheores:nickel_rod" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["01BFDC0B1C4A894B"]
+			id: "1E2ED96FBD8536CD"
+			rewards: [{
+				id: "343E77E002116A5A"
+				item: {
+					count: 1
+					id: "rftoolsbase:manual"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C65CF0FB26E6221"
+				item: { count: 1, id: "xnet:controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+	]
+}

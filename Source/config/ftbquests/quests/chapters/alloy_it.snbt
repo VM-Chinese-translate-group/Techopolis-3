@@ -1,0 +1,677 @@
+{
+	autofocus_id: "038576AD8DE4328B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alloy_it"
+	group: "1E7FB19A72E03BC7"
+	icon: {
+		id: "alltheores:steel_ingot"
+	}
+	id: "4F56581EBA28EE04"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/alloy_it.png"
+		rotation: 0.0d
+		width: 3.66d
+		x: -4.5d
+		y: -2.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31988F107947D2AD"]
+			id: "1A00BCA369503368"
+			rewards: [{
+				id: "668E27C13B524362"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32C274586718B918"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"038576AD8DE4328B"
+				"4E91FE1812814C48"
+			]
+			id: "4D67FB6027D1D8A1"
+			rewards: [{
+				id: "6CCAE024038E84EF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "234F9E46FDE6F8C5"
+				item: { count: 1, id: "immersiveengineering:wire_copper" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"25F7845D0087505C"
+				"1FD1F68CC0DBB2A0"
+			]
+			id: "038576AD8DE4328B"
+			rewards: [{
+				id: "46464918413977EF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70AD545C40D7D256"
+				item: { count: 1, id: "immersiveengineering:wirecutter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45AB301D735E263A"]
+			id: "2F3C0701CD490524"
+			rewards: [{
+				id: "18BDAD254AE66C37"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78DEB0DD0C7B0DBC"
+				item: { count: 1, id: "immersiveengineering:coil_lv" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D67FB6027D1D8A1"]
+			id: "45AB301D735E263A"
+			rewards: [{
+				id: "69D8B3D758DFE729"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19978686A75B9FA3"
+				item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45AB301D735E263A"]
+			id: "08405BECD7E39C63"
+			rewards: [{
+				id: "3900DDCD1DC8A691"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "216F1EDB6D0CDEA4"
+				item: { count: 1, id: "immersiveengineering:connector_lv" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["45AB301D735E263A"]
+			id: "01B3635697A7D3CA"
+			rewards: [{
+				id: "33CA7DEB9DCA919A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BEC7BF0FCD0E631"
+				item: { count: 1, id: "immersiveengineering:connector_lv_relay" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5CE99434CDBB30E3"
+				"50560F7E48E40996"
+			]
+			id: "25F7845D0087505C"
+			rewards: [{
+				id: "786E09766F79332C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2372B8445B20A2C1"
+				item: { count: 1, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0D5BD7BAE0512507"
+				"2511C2023D150059"
+			]
+			id: "1FD1F68CC0DBB2A0"
+			rewards: [{
+				id: "4CA2034684BB3AE2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09760A62EF5693F8"
+				item: { count: 1, id: "alltheores:bronze_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["407421AAFB534368"]
+			id: "5CE99434CDBB30E3"
+			rewards: [{
+				id: "312032314D86FE3C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0301B933E5061A46"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["407421AAFB534368"]
+			id: "0D5BD7BAE0512507"
+			rewards: [{
+				id: "645CD2B77C9D369E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AFBEFF2F58C5231"
+				item: { count: 1, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63F246401C62E29C"]
+			id: "407421AAFB534368"
+			rewards: [{
+				id: "11F00E018A90C057"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A14EDA52F1474A2"
+				item: { count: 1, id: "techopolis:alloys_blueprint" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CE99434CDBB30E3"]
+			id: "135FDE7256E2DDD9"
+			rewards: [{
+				id: "25EAE367ADABDD91"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B64A40D60FB0733"
+				item: { count: 1, id: "alltheores:salt" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2F3C0701CD490524"
+				"1A00BCA369503368"
+			]
+			id: "75953BCED281F045"
+			rewards: [{
+				id: "758FB1119AFB9B73"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24193BBE3EE3AB2D"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75953BCED281F045"]
+			id: "44CA9505CF5AC5C0"
+			rewards: [{
+				id: "1A69E16504915817"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31763829B680315A"
+				item: { count: 1, id: "immersiveengineering:watermill" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["75953BCED281F045"]
+			id: "19191B5AD2D17B42"
+			rewards: [{
+				id: "2D52BC965DC34764"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7819521CF4FE5BCB"
+				item: { count: 1, id: "immersiveengineering:windmill" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"19191B5AD2D17B42"
+				"44CA9505CF5AC5C0"
+			]
+			dependency_requirement: "one_completed"
+			id: "5091E4B981020A04"
+			rewards: [{
+				id: "51DE6D3750A737B8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C340401251A973F"
+				item: { count: 1, id: "immersiveengineering:rs_engineering" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"44CA9505CF5AC5C0"
+				"19191B5AD2D17B42"
+			]
+			dependency_requirement: "one_completed"
+			id: "0CABC38EA06FCA63"
+			rewards: [{
+				id: "7ACD3779C30EB0A1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "790461B68AB0D50F"
+				item: { count: 1, id: "minecraft:piston" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0CABC38EA06FCA63"
+				"5091E4B981020A04"
+			]
+			id: "5B91D71F57CA5ECD"
+			rewards: [{
+				id: "77AFBD6EAAE1C630"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73DA356E202CFD0D"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00E2AD8D91CA950B"
+					item: { count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "6AADC8FFFB078891"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["45AB301D735E263A"]
+			id: "186B144D8DBE5625"
+			rewards: [{
+				id: "0D100A31F187F354"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "560E72C657361767"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["135FDE7256E2DDD9"]
+			id: "70CD5F6D23D2F9FB"
+			rewards: [{
+				id: "11183A254BBAD8C8"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48A65E9255E6D7D5"
+				item: { count: 1, id: "techopolis:burnt_redstone" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70CD5F6D23D2F9FB"]
+			id: "31988F107947D2AD"
+			rewards: [{
+				id: "5FC5AA88350A4486"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2056FB3BFCAC754A"
+				item: { count: 1, id: "strainers:redstone_ore_piece" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["135FDE7256E2DDD9"]
+			id: "7A9B8E4BB8A9AE37"
+			rewards: [{
+				id: "212C43F35A077CFB"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "074AE3916344B80C"
+				item: { count: 1, id: "casting:dust_mold" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25F7845D0087505C"]
+			id: "41DD750F734DE819"
+			rewards: [{
+				id: "7C5FAA64F97B95E9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73A7BAB222512AF8"
+				item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A00BCA369503368"]
+			id: "598862207C11CCAF"
+			rewards: [{
+				id: "1E992B1955E263E1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1040F60B5C5CCDA9"
+				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["38F64BE800C7A9B8"]
+			id: "4E91FE1812814C48"
+			rewards: [{
+				id: "345B5BC680B9A7A2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35695B18448E160D"
+				item: { count: 1, id: "alltheores:copper_plate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06503659AE472AD3"]
+			id: "38F64BE800C7A9B8"
+			rewards: [{
+				id: "04EDC5D00114944C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4845101EA3C05BDF"
+				item: { count: 1, id: "casting:plate_mold" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FD1F68CC0DBB2A0"]
+			id: "2EC38F8E06E8B490"
+			rewards: [{
+				id: "233A5CAC36E94DA2"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70EE2865EF92BCF5"
+				item: { count: 1, id: "alltheores:bronze_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41DD750F734DE819"]
+			id: "2322F745ADC87FE1"
+			rewards: [{
+				id: "092E1A9CF69EA379"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B88ED87C7E86AE4"
+				item: { count: 1, id: "placers:immersive_multiblock_controller" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B91D71F57CA5ECD"]
+			id: "44A82988C82DFF3D"
+			optional: true
+			rewards: [{
+				id: "1AD6BDC2FEF7F79E"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3889374FFD48A4A4"
+				item: { count: 1, id: "placers:crusher_placer" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5B91D71F57CA5ECD"]
+			id: "0AF6328452C21974"
+			optional: true
+			rewards: [{
+				id: "58038E3132201D3B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE4B66109AF43B0"
+				item: { count: 1, id: "placers:metal_press_placer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"50560F7E48E40996"
+				"1A00BCA369503368"
+			]
+			icon: {
+				id: "moderndynamics:item_pipe"
+			}
+			id: "627070252CB1C1BA"
+			rewards: [{
+				id: "22BBFEA12873EF39"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "729DF4471563CA70"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+	]
+}

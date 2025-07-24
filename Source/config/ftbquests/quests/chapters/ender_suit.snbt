@@ -1,0 +1,344 @@
+{
+	autofocus_id: "7081AF4D35D9981E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_suit"
+	group: "6EDC13FEC885C0B2"
+	icon: {
+		id: "techopolis:eye_block"
+	}
+	id: "709F991F6D4FB36A"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/eye_craft.png"
+		rotation: 0.0d
+		width: 4.73d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13E5688859BE31A4"]
+			id: "607A238EB94A9119"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "03CEFCDA0F2D9D86"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0A0237AE923A1D54"
+				"5032F157A62CBD0B"
+				"34398ADAFC89B40F"
+				"7FD959BD6D5C635F"
+				"3856C92031398346"
+				"34444DB41F4FE551"
+				"2976E4906A3656FF"
+				"20B0985068138C43"
+				"64A466CE70C915F1"
+				"6D222C9ACCFD90B1"
+				"7E1C91427D27398E"
+				"4EF5AEA4CD59CE30"
+				"48D01691EE23BE9B"
+				"7620511248A6284F"
+				"35F3CDC8442E6068"
+				"1CCD49565947B2E2"
+			]
+			hide_dependency_lines: true
+			id: "13E5688859BE31A4"
+			tasks: [{
+				id: "2BF9DF1BD61E10D8"
+				item: { count: 1, id: "techopolis:dragon_slayer_5000" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["46822F1CB547D11E"]
+			hide_dependent_lines: true
+			id: "7B782BF5264D4318"
+			tasks: [{
+				id: "1B338FA6CE4E4D45"
+				item: { count: 1, id: "techopolis:ender_portal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "34398ADAFC89B40F"
+			tasks: [{
+				id: "297D8FB750556076"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "64A466CE70C915F1"
+			tasks: [{
+				id: "5D498A49407E4497"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "48D01691EE23BE9B"
+			tasks: [{
+				id: "152D9BDF906B79EC"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "20B0985068138C43"
+			tasks: [{
+				id: "2782BF12DFB2D472"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "7620511248A6284F"
+			tasks: [{
+				id: "61C0FB748B8F27DD"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "2976E4906A3656FF"
+			tasks: [{
+				id: "395E6034A48DDE79"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "0A0237AE923A1D54"
+			tasks: [{
+				id: "21DCBC66AC418869"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "3856C92031398346"
+			tasks: [{
+				id: "3F7901FA9D29323A"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "6D222C9ACCFD90B1"
+			tasks: [{
+				id: "378D25CD52D689A2"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "34444DB41F4FE551"
+			tasks: [{
+				id: "4934424D0FF5DEAF"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "4EF5AEA4CD59CE30"
+			tasks: [{
+				id: "293CD0E0386B3CB6"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "7FD959BD6D5C635F"
+			tasks: [{
+				id: "36241FD20A5BCC40"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "35F3CDC8442E6068"
+			tasks: [{
+				id: "0635C700D918168D"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "5032F157A62CBD0B"
+			tasks: [{
+				id: "5279BCC07F858C42"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "1CCD49565947B2E2"
+			tasks: [{
+				id: "1DE97252C93F7CFB"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B782BF5264D4318"]
+			id: "7E1C91427D27398E"
+			tasks: [{
+				id: "6C518CC471BFCB19"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "46822F1CB547D11E"
+			tasks: [{
+				id: "5C60AAE147AA946E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:flux_crafters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46822F1CB547D11E"]
+			id: "161B4D2963F205F1"
+			tasks: [{
+				id: "11A9ACF0331DFE95"
+				item: { count: 1, id: "extendedcrafting:flux_alternator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["607A238EB94A9119"]
+			id: "183C6F95344B0F96"
+			tasks: [{
+				id: "065BD74BA0487122"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["183C6F95344B0F96"]
+			icon: {
+				components: {
+					"mekanism:chemicals": {
+						chemical_tanks: [{
+							amount: 9223372036854775807L
+							id: "techopolis:dragon_breath"
+						}]
+					}
+				}
+				id: "mekanism:creative_chemical_tank"
+			}
+			id: "3CB6472F13D36897"
+			tasks: [{
+				id: "1A8D9E7716C12EBE"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0A0237AE923A1D54"
+				"5032F157A62CBD0B"
+				"34398ADAFC89B40F"
+				"7FD959BD6D5C635F"
+				"3856C92031398346"
+				"34444DB41F4FE551"
+				"2976E4906A3656FF"
+				"20B0985068138C43"
+				"64A466CE70C915F1"
+				"6D222C9ACCFD90B1"
+				"7E1C91427D27398E"
+				"4EF5AEA4CD59CE30"
+				"48D01691EE23BE9B"
+				"7620511248A6284F"
+				"35F3CDC8442E6068"
+				"1CCD49565947B2E2"
+			]
+			hide_dependency_lines: true
+			id: "7081AF4D35D9981E"
+			tasks: [{
+				id: "4AF93F245E732BBD"
+				item: { count: 1, id: "techopolis:eye_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["183C6F95344B0F96"]
+			id: "45688A4BFF742BC7"
+			tasks: [{
+				id: "1CCBF927194A625E"
+				item: { count: 1, id: "rftoolsbase:dimensionalshard" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+	]
+}

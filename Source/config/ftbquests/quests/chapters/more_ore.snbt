@@ -1,0 +1,320 @@
+{
+	autofocus_id: "608F27DF02EE7DCF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "more_ore"
+	group: "17F478C1B27DFED2"
+	icon: {
+		id: "techopolis:dimensional_desh_ore"
+	}
+	id: "0FD91DAEE809C3EA"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/more_ore.png"
+		rotation: 0.0d
+		width: 4.53d
+		x: 0.5d
+		y: -4.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5A623F099ADBE313"
+				"59744642E6E70669"
+				"198A1BEAAD34949E"
+				"21CBA4B0D9ADBA2D"
+			]
+			id: "5C64F60D7D9DBD30"
+			tasks: [{
+				id: "6F3BA6312C77E8D9"
+				item: { count: 1, id: "stellaris:neptunium_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"30FFEF26698DD916"
+				"074C320C2BAFEAAA"
+			]
+			id: "3A138558D1F52068"
+			tasks: [{
+				id: "5BF3EAEF263F46C7"
+				item: { count: 1, id: "techopolis:moon_neptunium_ore" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30FFEF26698DD916"
+				"074C320C2BAFEAAA"
+			]
+			id: "6BAC208511DD1765"
+			tasks: [{
+				id: "1D4741343E3440A0"
+				item: { count: 1, id: "techopolis:moon_ostrum_ore" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BAC208511DD1765"]
+			id: "755170EF56B5B021"
+			tasks: [{
+				id: "0D02D60383CF46AF"
+				item: { count: 1, id: "techopolis:dimensional_ostrum_ore" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A138558D1F52068"]
+			id: "4F582162DA90EFE4"
+			tasks: [{
+				id: "4E2817C0B433EA36"
+				item: { count: 1, id: "techopolis:dimensional_neptunium_ore" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5A623F099ADBE313"
+				"59744642E6E70669"
+				"198A1BEAAD34949E"
+				"21CBA4B0D9ADBA2D"
+			]
+			id: "1EE6011096E9602E"
+			tasks: [{
+				id: "03CE9A76EE9C1F20"
+				item: { count: 1, id: "techopolis:ostrum_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["411D2756165AC8FA"]
+			id: "21CBA4B0D9ADBA2D"
+			tasks: [{
+				id: "18A466E496BB12A1"
+				item: { count: 1, id: "stellaris:jet_suit_helmet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["411D2756165AC8FA"]
+			id: "198A1BEAAD34949E"
+			tasks: [{
+				id: "16BA2269DA773298"
+				item: { count: 1, id: "stellaris:jet_suit_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["411D2756165AC8FA"]
+			id: "59744642E6E70669"
+			tasks: [{
+				id: "6774487F1074AD71"
+				item: { count: 1, id: "stellaris:jet_suit_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["411D2756165AC8FA"]
+			id: "5A623F099ADBE313"
+			tasks: [{
+				id: "0AF147C3E6CFFDAF"
+				item: { count: 1, id: "stellaris:jet_suit_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EA588119C1C8F1D"]
+			id: "35115D2ED3BBD85C"
+			tasks: [{
+				id: "6AE99432EA1B9D86"
+				item: { count: 1, id: "techopolis:dimensional_desh_ore" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["074C320C2BAFEAAA"]
+			id: "6EA588119C1C8F1D"
+			tasks: [{
+				id: "0EDA53210C653934"
+				item: { count: 1, id: "stellaris:moon_desh_ore" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76F86D3F4FE7B518"]
+			id: "074C320C2BAFEAAA"
+			tasks: [{
+				id: "0047D87D85A9FC1E"
+				item: { count: 1, id: "techopolis:blank_moon_ore" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4F582162DA90EFE4"
+				"35115D2ED3BBD85C"
+				"755170EF56B5B021"
+			]
+			dependency_requirement: "one_completed"
+			id: "608F27DF02EE7DCF"
+			tasks: [{
+				id: "152DC6632849200F"
+				item: { count: 1, id: "techopolis:interdimensional_infuser" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["608F27DF02EE7DCF"]
+			id: "411D2756165AC8FA"
+			tasks: [{
+				id: "32C36E991B45696B"
+				item: { count: 1, id: "stellaris:desh_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["411D2756165AC8FA"]
+			id: "15F835CD334040B1"
+			tasks: [{
+				id: "2524AD86C7CA7188"
+				item: { count: 1, id: "stellaris:desh_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1EE6011096E9602E"]
+			id: "29CACB6338DE6A9C"
+			tasks: [{
+				id: "7B4868A5BFC67704"
+				item: { count: 1, id: "techopolis:ostrum_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C64F60D7D9DBD30"]
+			id: "6B94EDB5F4C3C12D"
+			tasks: [{
+				id: "5D89B574A3B618F7"
+				item: { count: 1, id: "stellaris:neptunium_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["15F835CD334040B1"]
+			id: "2D7925B03EA3FACC"
+			tasks: [{
+				id: "66C40A479537CA68"
+				item: { count: 1, id: "stellaris:venus_globe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B94EDB5F4C3C12D"]
+			id: "59A5EE87B8C4C9DE"
+			tasks: [{
+				id: "1962F0CB45B6A7F2"
+				item: { count: 1, id: "stellaris:mercury_globe" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["29CACB6338DE6A9C"]
+			id: "6D6092426604CEA3"
+			tasks: [{
+				id: "4DB49B516C3CFF05"
+				item: { count: 1, id: "stellaris:mars_globe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["608F27DF02EE7DCF"]
+			id: "7C56CD67F68BBC10"
+			optional: true
+			tasks: [{
+				id: "2A268B72D7C99E6C"
+				item: { count: 1, id: "techopolis:interdimensional_infuser_placer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["411D2756165AC8FA"]
+			id: "6F99F03829A647AB"
+			tasks: [{
+				id: "2F2F5C45F6E01AA7"
+				item: { count: 1, id: "techopolis:desh_gear" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EE6011096E9602E"]
+			id: "5C67983942444908"
+			tasks: [{
+				id: "2D6386876401618D"
+				item: { count: 1, id: "techopolis:ostrum_rod" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C64F60D7D9DBD30"]
+			id: "02D52E30F9E2D82E"
+			tasks: [{
+				id: "555D559D7545D482"
+				item: { count: 1, id: "techopolis:neptunium_plate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+}

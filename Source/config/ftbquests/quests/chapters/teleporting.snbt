@@ -1,0 +1,465 @@
+{
+	autofocus_id: "5A53BD4558AC1BD9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "teleporting"
+	group: "616080FF1DC44C02"
+	icon: {
+		id: "mekanism:teleportation_core"
+	}
+	id: "7118110DAA84E0A3"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/teleporting.png"
+		rotation: 0.0d
+		width: 5.8d
+		x: 1.0d
+		y: -4.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6BADE1A73A9065B1"
+				"02E90F7F56728D15"
+			]
+			id: "16BC5C3507E58E72"
+			rewards: [{
+				id: "57A5D9379BEBE213"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55C946316007F323"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16BC5C3507E58E72"]
+			id: "09D5E36EB0574F45"
+			rewards: [{
+				id: "03D4FEDC757B0207"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72FCA6429FD73233"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09D5E36EB0574F45"]
+			id: "5A53BD4558AC1BD9"
+			rewards: [{
+				id: "57976460702987B0"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49BCD3ED078FCB52"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A53BD4558AC1BD9"
+				"503BC43B0FA47F12"
+			]
+			id: "759F4312497E6920"
+			rewards: [{
+				id: "5A65689D7BF31CE3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "024E9643E6CDF2E0"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B6EEF27517D11D4"]
+			id: "503BC43B0FA47F12"
+			rewards: [{
+				id: "21E177EBC3E98601"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "529574D34A315FB7"
+				item: { count: 1, id: "mekanism:teleportation_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6BADE1A73A9065B1"]
+			id: "02E90F7F56728D15"
+			rewards: [{
+				id: "3E7F5A1D7843C02C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B6B94AB544499A2"
+				item: { count: 1, id: "mekanism:enriched_diamond" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09D5E36EB0574F45"]
+			id: "3C79CC58027100C7"
+			rewards: [{
+				id: "583249110473C1D7"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CFECF04D5CC1C50"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7D11D6E906DB67D7"
+				"3C79CC58027100C7"
+			]
+			id: "5943723564691E7A"
+			rewards: [{
+				id: "30C8252C3D55B686"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "403B8F409E79D4FB"
+				item: { count: 1, id: "ae2:silicon" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16BC5C3507E58E72"]
+			id: "38315E2DB3488C41"
+			rewards: [{
+				id: "759D7D237622BED5"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DF17DEBA9CDED27"
+				item: { count: 1, id: "mekanism:electrolytic_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38315E2DB3488C41"]
+			id: "7D11D6E906DB67D7"
+			rewards: [{
+				id: "5F8882A6CBC873F1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "632DBA20E1AF3D5E"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5943723564691E7A"
+				"5A53BD4558AC1BD9"
+			]
+			id: "6A416C09357B8FC7"
+			rewards: [{
+				id: "76FEFD12586E73C4"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D74BAC4BD4BB1AC"
+				item: { count: 1, id: "ae2:silicon_press" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A416C09357B8FC7"]
+			id: "644623E7553F227B"
+			rewards: [{
+				id: "704662A0BD68FF16"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16EB3AD7967163D8"
+				item: { count: 1, id: "ae2:printed_silicon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D11D6E906DB67D7"]
+			id: "30651B0E3FAD3C54"
+			rewards: [{
+				id: "6D21CE4388032048"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "481AA608152F0C00"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"30651B0E3FAD3C54"
+				"5A53BD4558AC1BD9"
+			]
+			id: "47558D0012668037"
+			rewards: [{
+				id: "538480555F86505A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FC78FFE47D7E99B"
+				item: { count: 1, id: "ae2:calculation_processor_press" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"644623E7553F227B"
+				"253ADDF82ACF3827"
+			]
+			id: "6B6EEF27517D11D4"
+			rewards: [{
+				id: "7BCBCD90E1FE4721"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4625135D6EFA76B3"
+				item: { count: 1, id: "ae2:calculation_processor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47558D0012668037"]
+			id: "253ADDF82ACF3827"
+			rewards: [{
+				id: "5F9E1008B8D1434F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "695025C099C757E6"
+				item: { count: 1, id: "ae2:printed_calculation_processor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"759F4312497E6920"
+				"2FEC0AD0A1D02C85"
+			]
+			id: "14A253EEAC066E54"
+			rewards: [{
+				id: "46EB4C1030F85881"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B184077B996068A"
+				item: { count: 1, id: "techopolis:dimensional_machine_frame" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16BC5C3507E58E72"]
+			id: "47968109FC945140"
+			rewards: [{
+				id: "2B2B5B4D2DDD72FB"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E6FD306FB18308"
+				item: { count: 1, id: "mekanism:combiner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6BADE1A73A9065B1"
+				"5A53BD4558AC1BD9"
+			]
+			id: "5B847CCE599C93BE"
+			rewards: [{
+				id: "0B8D30C1B58187BF"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "569FEB9C404893F8"
+				item: { count: 1, id: "ae2:engineering_processor_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["503BC43B0FA47F12"]
+			id: "7BBFFDBEFB33CBE5"
+			rewards: [{
+				id: "28A50965FA22374F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A591E45E991D183"
+				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["503BC43B0FA47F12"]
+			id: "6B32203AAD3861F4"
+			rewards: [{
+				id: "4FE5E4CCD5660589"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AD90E15F7DA8B76"
+				item: { count: 1, id: "entangled:block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B32203AAD3861F4"]
+			id: "7FE3987DEB946250"
+			rewards: [{
+				id: "18997E0B0E31868B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B5C6D5CE26827F"
+				item: { count: 1, id: "entangled:item" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+	]
+}

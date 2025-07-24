@@ -1,0 +1,529 @@
+{
+	autofocus_id: "63FD58A85CDCB592"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quarry"
+	group: "616080FF1DC44C02"
+	icon: {
+		id: "techopolis:dimensional_ore_extractor"
+	}
+	id: "688AC1F4D490A72C"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/dimensional_ores.png"
+		rotation: 0.0d
+		width: 8.45d
+		x: -1.0d
+		y: -5.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["503BC43B0FA47F12"]
+			id: "56AF5073083161FF"
+			rewards: [{
+				id: "093FB9CB8C033181"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "664B1845D077C653"
+				item: { count: 1, id: "techopolis:dimensional_dust" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["56AF5073083161FF"]
+			id: "15162CAC2C5ED379"
+			rewards: [{
+				id: "4DA2D6773C5F2FA3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A4CB80686B9DD08"
+				item: { count: 1, id: "modular_machinery_reborn:casing_reinforced" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15162CAC2C5ED379"]
+			id: "0E9C01587AF28CF7"
+			rewards: [{
+				id: "0BC3B2D522834C1C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D708A9132A44F5F"
+				item: { count: 1, id: "modular_machinery_reborn:casing_circuitry" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15162CAC2C5ED379"]
+			id: "6954CDE27C3CD472"
+			rewards: [{
+				id: "1FFE70D373FD29F0"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69540F69BD4F7461"
+				item: { count: 1, id: "modular_machinery_reborn:casing_vent" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0E9C01587AF28CF7"
+				"6954CDE27C3CD472"
+			]
+			icon: {
+				id: "techopolis:dimensional_infuser"
+			}
+			id: "63FD58A85CDCB592"
+			rewards: [{
+				id: "7C7B8A19E9B51BC0"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4523EEE99CD48F"
+				item: { count: 1, id: "techopolis:dimensional_infuser" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CF0ADF2E23B6D54"]
+			id: "405D7A3AF8216968"
+			rewards: [{
+				id: "0CF440F876E8018B"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "778E1A0B48A49B57"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:dimensional_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["405D7A3AF8216968"]
+			id: "106BD139F3CAB463"
+			rewards: [{
+				id: "6BCDAFAEA5B1C635"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "091729D4695A103F"
+				item: { count: 1, id: "techopolis:dimensional_ore_extractor" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["106BD139F3CAB463"]
+			id: "0904B8D5278992EA"
+			rewards: [{
+				id: "48511E314988402A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51444BEBAA7CDD53"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1025BFD3B7686103"]
+			id: "5219D6050C814F9C"
+			rewards: [{
+				id: "3E0876A22F13B23A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CBFDEAABA162AB4"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5219D6050C814F9C"]
+			id: "4DB62A41DDCECB29"
+			rewards: [{
+				id: "563589B7C7A4C756"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BB180EE9526A5C5"
+				item: { count: 1, id: "ae2:logic_processor_press" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DB62A41DDCECB29"]
+			id: "6AE08AB882B9B3BC"
+			rewards: [{
+				id: "2557DAC7291A799F"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EC1C16E21C190C0"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BF0E529EDF45F6D"]
+			id: "4D7F29ED8722779E"
+			rewards: [{
+				id: "057CF6A2D314A9D7"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18B4EF44A562C673"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"16DB448912997A88"
+				"5219D6050C814F9C"
+			]
+			id: "6B1EBB558E0E41B3"
+			rewards: [{
+				id: "60621B290095B409"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60EC0D6C5AB7B450"
+				item: { count: 1, id: "mekanism:energy_tablet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B1EBB558E0E41B3"]
+			id: "26C1D3374488F5FE"
+			rewards: [{
+				id: "6939B8E6FEBF39CD"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "563D902AD011D331"
+				item: { count: 1, id: "mekanism:resistive_heater" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6B1EBB558E0E41B3"
+				"3E674458485820CC"
+			]
+			id: "0ED198E1D3F5C6AB"
+			rewards: [{
+				id: "07618C8758201858"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "184B789F039655FA"
+				item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E674458485820CC"]
+			id: "69AE4F5A8FF21D33"
+			rewards: [{
+				id: "662ADA5276CE4F8A"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "072C37528DC23ABA"
+				item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15162CAC2C5ED379"]
+			id: "3E674458485820CC"
+			rewards: [{
+				id: "298A8D6C22FE8736"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6901C1C2917A2E1F"
+				item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0ED198E1D3F5C6AB"]
+			id: "649B75C17504F3C5"
+			rewards: [{
+				id: "2A7EDECFB7E66020"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35E3FE7BE4721312"
+				item: { count: 1, id: "alltheores:fluorite_dust" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["649B75C17504F3C5"]
+			id: "0BF0151D63C255BC"
+			rewards: [{
+				id: "750DE15926107DC6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13E4C01C08BCA9A1"
+				item: { count: 1, id: "alltheores:fluorite" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63FD58A85CDCB592"]
+			id: "21C88A0C46E4AE0C"
+			rewards: [{
+				id: "7328459845E45373"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2154AA8552A0A61B"
+				item: { count: 1, id: "ae2:sky_stone_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63FD58A85CDCB592"]
+			id: "0BF0E529EDF45F6D"
+			rewards: [{
+				id: "565FC2BDEEF8DD79"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C1B21BDEFECD36E"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BF0E529EDF45F6D"]
+			id: "05D1D1200F5E4844"
+			rewards: [{
+				id: "036701B0567FEDB3"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66A6F9F099DFE474"
+				item: { count: 1, id: "actuallyadditions:black_quartz_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5219D6050C814F9C"]
+			id: "478738FA093F3AE6"
+			rewards: [{
+				id: "636C4D81F64031C1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B7E1E997CF730E2"
+				item: { count: 1, id: "alltheores:gold_gear" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63FD58A85CDCB592"]
+			id: "1025BFD3B7686103"
+			rewards: [{
+				id: "6B120B0ADF768B17"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "039DA90F4FDD4218"
+				item: { count: 1, id: "techopolis:gold_dust" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63FD58A85CDCB592"]
+			id: "5CF0ADF2E23B6D54"
+			rewards: [{
+				id: "1188150E0A9D98F6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17E80526D442EF27"
+				item: { count: 1, id: "techopolis:blank_stone_ore" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1025BFD3B7686103"]
+			id: "0C3BE3E8AEDD8515"
+			rewards: [{
+				id: "71B886DA6F22ADD7"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B12EC6581D83227"
+				item: { count: 1, id: "mekanism:upgrade_energy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}

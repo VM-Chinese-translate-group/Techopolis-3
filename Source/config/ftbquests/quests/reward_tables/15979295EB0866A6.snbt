@@ -1,0 +1,15 @@
+{
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "15979295EB0866A6"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "1E15B5CC870AA542", item: { count: 1, id: "stellaris:skin_frozy" } }
+		{ id: "528183BFA7D0BE85", item: { count: 1, id: "stellaris:skin_normal" } }
+		{ id: "50515E0D12795CD7", item: { count: 1, id: "stellaris:skin_galaxy" } }
+		{ id: "3A59C3C99683A64F", item: { count: 1, id: "stellaris:skin_military" } }
+		{ id: "208337DB85A14988", item: { count: 1, id: "stellaris:skin_rusty" } }
+	]
+}

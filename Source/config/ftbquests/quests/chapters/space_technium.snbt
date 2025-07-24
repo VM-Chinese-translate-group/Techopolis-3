@@ -1,0 +1,99 @@
+{
+	autofocus_id: "4ED154EAD6586FF0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_technium"
+	group: "17F478C1B27DFED2"
+	icon: {
+		id: "techopolis:lunar_technium_ingot"
+	}
+	id: "2AD7999C77649A4B"
+	images: [{
+		height: 0.59d
+		image: "techopolis:textures/quests/lunar_technium.png"
+		rotation: 0.0d
+		width: 7.52d
+		x: 0.5d
+		y: -1.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "031A62A092B5CD45"
+			tasks: [{
+				id: "111D51A1CE1FA04B"
+				item: { count: 1, id: "techopolis:lunar_technium_machine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["031A62A092B5CD45"]
+			id: "66B6D2242D0D62C5"
+			tasks: [{
+				id: "754213275D5DA14A"
+				item: { count: 1, id: "techopolis:lunar_technium_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66B6D2242D0D62C5"]
+			id: "74F7D0DA3F413175"
+			tasks: [{
+				id: "7F1468870166E071"
+				item: { count: 1, id: "techopolis:lunar_technium_nugget" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74F7D0DA3F413175"]
+			id: "4ED154EAD6586FF0"
+			tasks: [{
+				id: "3D2904E17D7AEDFA"
+				item: { count: 1, id: "techopolis:lunar_technium_machine_frame" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4ED154EAD6586FF0"]
+			id: "4262DC3C15273494"
+			tasks: [{
+				id: "62B5430073ED9C23"
+				item: { count: 1, id: "bigreactors:reinforced_turbinecontroller" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74F7D0DA3F413175"]
+			id: "4B55624A4C762E7D"
+			tasks: [{
+				id: "474154D1BC6378DB"
+				item: { count: 1, id: "techopolis:turbine_coil_wire" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B55624A4C762E7D"]
+			id: "6E20392DADF9AE6D"
+			tasks: [{
+				id: "6508A54A7854CB76"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:all_coils)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+}

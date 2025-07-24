@@ -1,0 +1,289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "giga_compressed"
+	group: "4880093E3460D512"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "techopolis:gigatronium_ingot"
+	}
+	id: "53B84B6D2B37CE74"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2DF79E982C0C7C09"]
+			id: "76061960CB0D357C"
+			rewards: [{
+				id: "34CF56738617FDDA"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62609F3EDFB21036"
+				item: { count: 1, id: "techopolis:infinity_cell_extractor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20D6BEEE50323A1F"]
+			id: "2DF79E982C0C7C09"
+			rewards: [{
+				id: "2938B2B087F60485"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BE369690E01B137"
+				item: { count: 1, id: "extendedae:infinity_cobblestone_cell" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76061960CB0D357C"]
+			id: "71E7AEB6A988FC74"
+			rewards: [{
+				id: "5FCEB586C2579A23"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E88B5BB93B6E29F"
+				item: { count: 1, id: "compressedblocks:c4_cobblestone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71E7AEB6A988FC74"]
+			id: "217AEAA34BA73F71"
+			rewards: [{
+				id: "2695E649C25D6BC6"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CAD31F5E73A7B98"
+				item: { count: 1, id: "compressedblocks:c5_cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["217AEAA34BA73F71"]
+			id: "0B68208E5E5CC71C"
+			rewards: [{
+				id: "58B77CCD9C9B3EB1"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C91B1C7A4DA1409"
+				item: { count: 1, id: "compressedblocks:c6_cobblestone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B68208E5E5CC71C"]
+			id: "68F1D0EED1F4D9D6"
+			rewards: [{
+				id: "1993485F6641C1E9"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26323817000DA283"
+				item: { count: 1, id: "compressedblocks:c7_cobblestone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68F1D0EED1F4D9D6"]
+			id: "74771D298012AE01"
+			rewards: [{
+				id: "5070B7F707D07119"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3672AB0A05B1612E"
+				item: { count: 1, id: "compressedblocks:c8_cobblestone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74771D298012AE01"]
+			id: "0400F719BCB991C1"
+			rewards: [{
+				id: "09F407DC4676532C"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FCB72CC65DFF77F"
+				item: { count: 1, id: "compressedblocks:c9_cobblestone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0400F719BCB991C1"]
+			hide_dependency_lines: true
+			id: "4842BBC3C9696806"
+			rewards: [{
+				id: "3E2D5E0FFB2FEA19"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "134965582EA398C2"
+				item: { count: 1, id: "compressedblocks:c9_sand" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0400F719BCB991C1"]
+			hide_dependency_lines: true
+			id: "7B04CB225182C5EA"
+			rewards: [{
+				id: "46EB5B28E94A5335"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7059DBB48BEFE4B6"
+				item: { count: 1, id: "compressedblocks:c9_gravel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0400F719BCB991C1"]
+			hide_dependency_lines: true
+			id: "4F7DB6A15F305831"
+			rewards: [{
+				id: "143B3C14DCA80071"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01F9D049798748EB"
+				item: { count: 1, id: "compressedblocks:c9_clay" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0400F719BCB991C1"]
+			hide_dependency_lines: true
+			id: "431FFFFC2D686F6F"
+			rewards: [{
+				id: "645C028A4C1EBF58"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "267BDF608DE24F8F"
+				item: { count: 1, id: "compressedblocks:c9_stone" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "20D6BEEE50323A1F"
+			rewards: [{
+				id: "1CEE9C0D65630425"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5365F7A4D471BA62"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0400F719BCB991C1"
+				"431FFFFC2D686F6F"
+				"4F7DB6A15F305831"
+				"4842BBC3C9696806"
+				"7B04CB225182C5EA"
+			]
+			id: "7E37BAB9BBB7B6C4"
+			rewards: [{
+				id: "409A7F6B71F580E7"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A39DF61A7BD2BCA"
+				item: { count: 1, id: "techopolis:gigatronium_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+}
