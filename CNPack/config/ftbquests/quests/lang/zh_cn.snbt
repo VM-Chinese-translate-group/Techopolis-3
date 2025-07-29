@@ -139,7 +139,7 @@
 	quest.0A0237AE923A1D54.quest_subtitle: "blue"
 	quest.0A395A395EBDD868.quest_desc: ["Spacy"]
 	quest.0A3CB43A3D868208.quest_desc: ["&lOsmium&r infused &lGlowstone&r"]
-	quest.0A7C18B9B674C011.quest_desc: ["A simple &lMachine Frame &rfor &lSimple Machines&r"]
+	quest.0A7C18B9B674C011.quest_desc: ["&l简易机器&r的简易&l机器框架&r"]
 	quest.0AC7CD4213D2CD1B.quest_desc: ["Made from &lRaw Material&r in a &lCrusher&r"]
 	quest.0AF6328452C21974.quest_desc: ["Placing those presses"]
 	quest.0B1C5E41D5A8AE66.quest_desc: ["A nice rod"]
@@ -160,13 +160,13 @@
 	quest.0CFF664526B7426C.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.0D5BD7BAE0512507.quest_desc: ["An 2x2x2 of &lKiln Blocks&r can be transformed into the &lAlloy Kiln&r"]
 	quest.0D8A03FDDAC4C99B.quest_desc: ["Uses obtained matters to construct items"]
-	quest.0DBF58F1F7A297AF.quest_desc: ["Craft with any block in your crafting window and cover those pipes, useful"]
+	quest.0DBF58F1F7A297AF.quest_desc: ["与任意方块合成后可用于掩盖各种管道，十分好用。"]
 	quest.0DE9B2C6FE0A05CF.quest_desc: ["&l木板&r可以用于合成&l工作台&r。"]
 	quest.0DE9B2C6FE0A05CF.title: "工作台"
 	quest.0E2AE31FA80CF621.quest_desc: ["Made inside the &lMob Fabricatior&r"]
 	quest.0E2AE31FA80CF621.quest_subtitle: "&l&0Hellish Technium Part&r&r"
 	quest.0E9C01587AF28CF7.quest_desc: ["Advanced machines, these blocks can be collected with a wrench"]
-	quest.0EBD79868F379238.quest_desc: ["A more useful bucket, Hot fluids will break this!"]
+	quest.0EBD79868F379238.quest_desc: ["真正能用的桶，但是高温流体会使其碎裂！"]
 	quest.0ED198E1D3F5C6AB.quest_desc: ["The brains of the &lThermal Evaporation Plant&r. When provided with Water and Heat will produce &lBrine&r"]
 	quest.0EFE2EA2AEE1E8FB.quest_desc: [
 		"&l村民交易&r已被禁用！并且&l流浪商人&r不会生成！"
@@ -175,7 +175,7 @@
 	]
 	quest.0F0153682C016B95.quest_desc: ["A gear from &lCopper&r made inside the &lSolidifier&r"]
 	quest.0F45C5B8AA2F3554.quest_desc: ["在本整合包中，&l连锁破坏&r并不会直接解锁。然而，前期你可以使用&l锤&r来破坏3x3范围的石质方块，使用&l开掘铲&r来破坏3x3的土质方块。此外，斧头可以连锁破坏树上的&l原木&r。"]
-	quest.0F4BDDB5BE283D54.quest_desc: ["&lGlass&r can be made inside a &lBlast Furnace&r"]
+	quest.0F4BDDB5BE283D54.quest_desc: ["通过&l高炉&r可以冶炼&l玻璃&r。"]
 	quest.0F4BDDB5BE283D54.quest_subtitle: "&6&oA Technium Part&r"
 	quest.0FAC56A475DB164F.quest_desc: ["Allows the crafting of &lAdvanced Miners.&r These make double the amount compared to &lBasic Miners&r"]
 	quest.0FDC4D0B19E113B8.quest_desc: ["Control rods go ontop of your fuel rods"]
@@ -202,7 +202,7 @@
 		"&lAE2 Blackout&r用于降低AE2方块和GUI的亮度。"
 	]
 	quest.13038665472BB42A.quest_desc: ["Adds a recipe for the &lTime Crystal&r"]
-	quest.133404792B4C2194.quest_desc: ["A cheaper to craft &lFurnace&r"]
+	quest.133404792B4C2194.quest_desc: ["造价更便宜的&l熔炉&r"]
 	quest.1342D985E7312F0D.quest_desc: ["Nice Crystal"]
 	quest.135FDE7256E2DDD9.quest_desc: ["Made inside the &lCrude Blast Furnace&r from &lSand&r "]
 	quest.135FE971C49B4AA1.quest_desc: ["Its The Ultimate Ingot"]
@@ -232,8 +232,8 @@
 	quest.1524E6C567EBC7F9.quest_subtitle: "&l&3Lunar Technium Part&r&r"
 	quest.153B62DEC5635C8D.quest_desc: ["Made on the &lBottler&r"]
 	quest.15499AC0CD9B7843.quest_desc: ["Allows for &lBoss Data Models&r like &lWithers&r and &lDragons&r"]
-	quest.156D74B785F34B66.quest_desc: ["Simple fluid transport"]
-	quest.15829566832C5AB7.quest_desc: ["Smelted &lClay Balls &r"]
+	quest.156D74B785F34B66.quest_desc: ["简易流体传输"]
+	quest.15829566832C5AB7.quest_desc: ["通过烧炼&l黏土球&r获得。"]
 	quest.15E6A11E3325137D.quest_desc: ["Converts &lNuclear Waste&r into &lPlotonium&r. This machine will radiate your base if broken with radioactive materials inside"]
 	quest.15F835CD334040B1.quest_desc: ["A nice block"]
 	quest.161B4D2963F205F1.quest_desc: ["Providing more of these in the range of the Eye Crafter will increase its speed"]
@@ -265,7 +265,7 @@
 	quest.17E12CCD15AABAF1.quest_desc: ["The &lAncient Quarry&r allows you to create &lAncient Debris&r, this can be mined into &lNetherite Scrap&r or silk touched to get &lAncient Debris&r"]
 	quest.17E750DF1D62C944.quest_desc: ["Most items in the world are made up of various differernt matters. This machine allows items to be converted into matter.  Connect to tanks to export from the machine"]
 	quest.1809F8F24B9F7655.quest_desc: ["Broken down &lTechnium Ingots&r and produce &lBasic Research&r"]
-	quest.180DCF87D8AF7931.quest_desc: ["Obtained when breaking &lTall&r or &lShort Grass&r"]
+	quest.180DCF87D8AF7931.quest_desc: ["通过挖掘&l高草丛&r和&l矮草丛&r获得。"]
 	quest.18139E48823588C6.quest_desc: ["This world is full of &lNetherrack&r"]
 	quest.183C6F95344B0F96.quest_desc: ["Can be collected when the dragon fires a dragon ball at you. I would use the boss data model instead"]
 	quest.186B144D8DBE5625.quest_desc: ["A way to transport power"]
@@ -339,7 +339,7 @@
 	quest.20DD5606BE60C2D8.quest_desc: ["Removes all other drops apart from the &lMain Output&r, EG &lSaplings&r only drop wood"]
 	quest.20F4F341179255F7.quest_desc: ["A nice plate"]
 	quest.20F4F341179255F7.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
-	quest.21135B950EB08935.quest_desc: ["Used to connect or disconnect pipes, as well as set inputs and outputs"]
+	quest.21135B950EB08935.quest_desc: ["用于将管道连接与断开，还能设置管道的输入和抽出。"]
 	quest.212E0419EE0D22D2.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.2168DA83073B6E6F.quest_desc: ["Less time, yes please"]
 	quest.216DC8C847BC0701.quest_desc: ["A 3x3 of these will create the Rocket Launch Pad used to place and launch rockets from"]
@@ -558,9 +558,9 @@
 	quest.3D105267B40045B3.quest_desc: ["Allows the simulation of &lBlazes&r"]
 	quest.3D1C21E317429A76.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
 	quest.3D35E01E8F0C8930.quest_desc: ["Made inside the &lTechnium Compressor&r"]
-	quest.3D5D5435D526BF5A.quest_desc: ["Stores fluids for the &lStrainer&r to use"]
+	quest.3D5D5435D526BF5A.quest_desc: ["为&l木制过滤器&r储存流体。"]
 	quest.3DAEB6C26422F3DA.quest_desc: ["Can be used to mold&l Molten Fluids&r into &lBlocks&r"]
-	quest.3DD898130B4B07FD.quest_desc: ["Obtained from the &lStrainer&r"]
+	quest.3DD898130B4B07FD.quest_desc: ["通过&l木制过滤器&r获得。"]
 	quest.3E09C364727C763D.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.3E64E5C3BA109919.quest_desc: ["Unlocks &3&lManufactured &lOsmium&r&r which can be used in the &lInfuser&r to make dirty &3&lOsmium Dust&r&r"]
 	quest.3E674458485820CC.quest_desc: ["Casing used to create the &lThermal Evaporation Plant&r"]
@@ -593,14 +593,14 @@
 	quest.41DF22E33B6B46A0.quest_desc: ["&lMolten Coal&r can be obtained when melting &lCharcoal, &lMini Charcoal&r or &lCharcoal Dust&r in the Controller"]
 	quest.421CAB71DE919312.quest_desc: ["That like end game right!"]
 	quest.4262DC3C15273494.quest_desc: ["The &lTurbine&r can be used to create large amounts of power from &lSteam&r"]
-	quest.428D51D0B5DF5295.quest_desc: ["Obtained in the &lFurnace&r by &lSmelting Cobblestone&r"]
+	quest.428D51D0B5DF5295.quest_desc: ["通过使用&l熔炉烧炼圆石&r获得。"]
 	quest.4296168019E02456.quest_desc: ["Used for some pretty advanced AE&l2&r "]
 	quest.42AEF379BA248070.quest_desc: ["Makes your &lMechanism&r machines faster but use more power!"]
 	quest.431FFFFC2D686F6F.quest_desc: ["Thats a lot!"]
 	quest.4330A91B07B29A42.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.43AAFECB58D05B68.quest_desc: ["Made from &lCyanite&r in a &lReprocessor&r. A better fuel in a &lReactor&r"]
-	quest.43CB79B36E9A7D1D.quest_desc: ["Passively collects &lWater&r at 1mb per tick"]
-	quest.43D6EA4605E23805.quest_desc: ["A hotter &lFurnace&r. Can be used to turn &lCobblestone&r straight into &lSmooth Stone&r"]
+	quest.43CB79B36E9A7D1D.quest_desc: ["被动产生1mB/t的&l水&r。"]
+	quest.43D6EA4605E23805.quest_desc: ["炉内温度更高的&l熔炉&r。可以直接将&l圆石&r冶炼成&l平滑石头&r。"]
 	quest.441B845CE0BD714C.quest_desc: ["Allows the creation of &lPure Matter&r"]
 	quest.44A82988C82DFF3D.quest_desc: ["Placing those crushers"]
 	quest.44B1393D77C479E5.quest_desc: ["Not of the &lOverworld&r"]
@@ -658,7 +658,7 @@
 	quest.4B391E357097DC7E.quest_desc: ["Found inside &lThe End&r, a &lDigital Miner&r can be used to collect this quicker"]
 	quest.4B55624A4C762E7D.quest_desc: ["Made with &lLunar Technium&r inside a &lMetal Press&r"]
 	quest.4B906FB04006C3BC.quest_desc: ["75% less time to complete &lResearch Crafting&r"]
-	quest.4B921D2460264B00.quest_desc: ["Simple item transport"]
+	quest.4B921D2460264B00.quest_desc: ["简易物品传输"]
 	quest.4BBFF3B96CED4FAC.quest_desc: ["A blank &lSingularity&r to work with"]
 	quest.4BD4A130F916D041.quest_desc: ["&lPolonium&r and &lUnstable Matter&r"]
 	quest.4BE196D2143470C7.quest_desc: [
@@ -734,9 +734,9 @@
 		"生成于&l草方块&r上方。"
 	]
 	quest.5417C5C5FF2B29D3.quest_desc: [
-		"Like a &lWooden Hopper&r but for fluids"
+		"用于传输流体的&l漏斗&r"
 		""
-		"Placing a &lFlopper&r below a Water Collector will pull out the &lWater&r inside. Once there is a buckets worth of fluid it will be placed in world "
+		"在环境集水器下方放置&l流体漏斗&r可以将其中的&l水&r抽出。当流体漏斗中的流体满一桶时，流体漏斗会将其排放到世界中。"
 	]
 	quest.542297433C1D1CB5.quest_desc: ["&3&lDirty Osmium Dust&r&r can be turned into &3&lOsmium Dust&r&r in the &lCrusher&r"]
 	quest.546FC62092095D1A.quest_desc: ["A block of &lBlaze Powder&r"]
@@ -774,7 +774,7 @@
 	quest.581E810C8E5F20A7.quest_desc: ["Ultimate Miners produce 8 items at a time!"]
 	quest.5883370EB13238C0.quest_desc: ["An even even more complex egg"]
 	quest.58ACDE41DF999D34.quest_desc: ["A bigger Battery"]
-	quest.58DD0629D81E76DA.quest_desc: ["Used to craft the &lStrainer&r"]
+	quest.58DD0629D81E76DA.quest_desc: ["用于合成&l木制过滤器&r。"]
 	quest.58F943B2FDEBC490.quest_desc: ["A plate of &lNickel&r"]
 	quest.591CE056198CE119.quest_desc: ["The &lResource Curio &rallows some blocks to drop additional items"]
 	quest.591CE056198CE119.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
