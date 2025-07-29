@@ -44,7 +44,7 @@
 	chapter_group.6EDC13FEC885C0B2.title: "Ender"
 	chapter_group.758C9087ACEC8F78.title: "Basic"
 	file.0000000000000001.title: "Techopolis 3"
-	quest.0053618E0271F957.quest_desc: ["Techopolis 3 can be played with &lShaders&r. Open your&l Video Settings&r and click &lShader Packs&r on the top right!"]
+	quest.0053618E0271F957.quest_desc: ["科技城3支持使用&l光影&r。打开&l视频设置&r，在上方右侧点击&l光影包&r即可查看。"]
 	quest.00CCDA4B2A03A02C.quest_desc: [
 		"Infuses items from display stands into it. Example set up on the next page"
 		""
@@ -60,12 +60,12 @@
 	quest.017C162A050D129F.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.0180950FFA87D3C7.quest_desc: ["A nice block"]
 	quest.0180950FFA87D3C7.quest_subtitle: "&l&0Hellish Technium Part&r&r"
-	quest.019BCC696C72050D.quest_desc: ["Allows the mining of &lStone&r like blocks in a 3x3 area"]
+	quest.019BCC696C72050D.quest_desc: ["用于挖掘3x3范围的&l石质&r方块。"]
 	quest.01B3635697A7D3CA.quest_desc: ["Allows for multiple wires to be connected to it "]
 	quest.01B5ABED3DA40D63.quest_desc: ["Channels"]
 	quest.01BFDC0B1C4A894B.quest_desc: ["Smelted &lDusts&r"]
 	quest.01DF5373D68A8CAA.quest_desc: ["The &lChallenges Chapter&r contains unique challenges for you to complete, the &lFinal Technium&r recipe will require you to have obtained the final item in these &lQuestlines&r"]
-	quest.01DF5373D68A8CAA.title: "Challenges"
+	quest.01DF5373D68A8CAA.title: "挑战"
 	quest.0204CA6DDAEA7423.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.025B25994A61A108.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.0265FA8CABA2C511.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
@@ -114,12 +114,12 @@
 	quest.074C320C2BAFEAAA.quest_desc: ["Inside the &lDimensional Infuser&r, &lLunar Gas&r and &lMoon Stone&r can be turned in &lBlank Moon Ore&r"]
 	quest.07ACC46AA884FC37.quest_desc: ["Allows &lZinc&r to be directly obtained. Only works in &lThe Nether&r"]
 	quest.07C8351E6DCE3CBB.quest_desc: ["Made inside the &lTechnium Compressor&r"]
-	quest.07E6B3BA5FC9E1D4.quest_desc: ["Made with &lLeaves&r"]
+	quest.07E6B3BA5FC9E1D4.quest_desc: ["通过&l树叶&r合成。"]
 	quest.0823F549D6991801.quest_desc: ["A block of &lBricks&r"]
 	quest.0823F549D6991801.quest_subtitle: "&6&oA Technium Part&r"
-	quest.083CAE2D8111C611.quest_desc: ["Burning &lLogs&r produces &lCharcoal&r"]
+	quest.083CAE2D8111C611.quest_desc: ["烧炼&l原木&r可以获得&l木炭&r。"]
 	quest.08405BECD7E39C63.quest_desc: ["These connect to power receiving or power giving blocks "]
-	quest.0890C86BAB7A4D5F.quest_desc: ["Lighting the way"]
+	quest.0890C86BAB7A4D5F.quest_desc: ["照亮漫漫长路。"]
 	quest.08BC73B7535E3A35.quest_desc: ["From the bottom to the top"]
 	quest.08EA99E0B8085270.quest_desc: ["Used to create &lUpgrades&r for the &lCloche&r"]
 	quest.08F4F99CC66A81C0.quest_desc: ["Made inside the &lRock Washer&r"]
@@ -161,20 +161,20 @@
 	quest.0D5BD7BAE0512507.quest_desc: ["An 2x2x2 of &lKiln Blocks&r can be transformed into the &lAlloy Kiln&r"]
 	quest.0D8A03FDDAC4C99B.quest_desc: ["Uses obtained matters to construct items"]
 	quest.0DBF58F1F7A297AF.quest_desc: ["Craft with any block in your crafting window and cover those pipes, useful"]
-	quest.0DE9B2C6FE0A05CF.quest_desc: ["&lPlanks&r can be turned into a &lCrafting Table&r"]
-	quest.0DE9B2C6FE0A05CF.title: "Crafting Table"
+	quest.0DE9B2C6FE0A05CF.quest_desc: ["&l木板&r可以用于合成&l工作台&r。"]
+	quest.0DE9B2C6FE0A05CF.title: "工作台"
 	quest.0E2AE31FA80CF621.quest_desc: ["Made inside the &lMob Fabricatior&r"]
 	quest.0E2AE31FA80CF621.quest_subtitle: "&l&0Hellish Technium Part&r&r"
 	quest.0E9C01587AF28CF7.quest_desc: ["Advanced machines, these blocks can be collected with a wrench"]
 	quest.0EBD79868F379238.quest_desc: ["A more useful bucket, Hot fluids will break this!"]
 	quest.0ED198E1D3F5C6AB.quest_desc: ["The brains of the &lThermal Evaporation Plant&r. When provided with Water and Heat will produce &lBrine&r"]
 	quest.0EFE2EA2AEE1E8FB.quest_desc: [
-		"&lVillager Trades&r are disabled and &lWandering Traders&r do not spawn!"
+		"&l村民交易&r已被禁用！并且&l流浪商人&r不会生成！"
 		""
-		"&lHostile&r mobs do not spawn at night. Keep building your factory! "
+		"&l敌对&r生物不会在晚上生成。安心建造你的工厂吧！"
 	]
 	quest.0F0153682C016B95.quest_desc: ["A gear from &lCopper&r made inside the &lSolidifier&r"]
-	quest.0F45C5B8AA2F3554.quest_desc: ["&lUltimine&r is not available straight away in this modpack. However, &lHammers&r break a 3x3 area of stone-like blocks and &lExcavators&r do the same with dirt-like blocks. Additionally, axes will break all connected &lLogs&r on a tree."]
+	quest.0F45C5B8AA2F3554.quest_desc: ["在本整合包中，&l连锁破坏&r并不会直接解锁。然而，前期你可以使用&l锤&r来破坏3x3范围的石质方块，使用&l开掘铲&r来破坏3x3的土质方块。此外，斧头可以连锁破坏树上的&l原木&r。"]
 	quest.0F4BDDB5BE283D54.quest_desc: ["&lGlass&r can be made inside a &lBlast Furnace&r"]
 	quest.0F4BDDB5BE283D54.quest_subtitle: "&6&oA Technium Part&r"
 	quest.0FAC56A475DB164F.quest_desc: ["Allows the crafting of &lAdvanced Miners.&r These make double the amount compared to &lBasic Miners&r"]
@@ -193,13 +193,13 @@
 	quest.12CE1079D15E7F5D.quest_desc: ["Processed Ore"]
 	quest.12CE1079D15E7F5D.quest_subtitle: "&e&lEnd Technium Part&r&r"
 	quest.12DC6EA07981504F.quest_desc: [
-		"&lTechopolis 3 &ralso contains some optional &lResource Packs&r founds in the &lPause Menu&r -> Options -> &lResource Packs&r"
+		"&l科技城3&r还自带了几个可选的&l资源包&r。你可以在&l游戏菜单&r->选项->&l资源包&r里查看。"
 		""
-		"&lBBL Colors Connected Textures&r, provides some connected texture for the colored blocks"
+		"&lBBL Colors Connected Textures&r为一些彩色方块提供了连接材质。"
 		""
-		"&lSimple Font&r, provides a clean font"
+		"&lSimple Font&r提供了一种更简洁美观的字体。"
 		""
-		"&lAE2 Blackout&r, Reduces the brightness of AE2 blocks and GUI's"
+		"&lAE2 Blackout&r用于降低AE2方块和GUI的亮度。"
 	]
 	quest.13038665472BB42A.quest_desc: ["Adds a recipe for the &lTime Crystal&r"]
 	quest.133404792B4C2194.quest_desc: ["A cheaper to craft &lFurnace&r"]
@@ -220,7 +220,7 @@
 	quest.14149EA82A85D759.quest_subtitle: "&7&oAdvanced Technium Part&r&r"
 	quest.149BF1FC5BDBED7C.quest_desc: ["Allows you to make &lCoal&r directly in the &lSolidifier&r"]
 	quest.14A253EEAC066E54.quest_desc: ["Allows machine to work outside the limits of this dimension"]
-	quest.14ADD310DF8D01F7.quest_desc: ["Simple item transport"]
+	quest.14ADD310DF8D01F7.quest_desc: ["简易物品传输"]
 	quest.14AF71808F5F56FD.quest_desc: ["Provides a better conversion to &lLunar Gas&r than &lMoon Stone Dust&r"]
 	quest.14B780516CB2F6C7.quest_desc: [
 		"A huge multiblock structure used to create &lEnd Technium Ingots&r."
@@ -252,7 +252,7 @@
 	quest.170D6090A1967B58.quest_desc: ["Most items in the world are made up of various differernt matters. These tanks allow you to store these"]
 	quest.1736CCBC0F8B3CB8.quest_desc: ["A nice rod"]
 	quest.1736CCBC0F8B3CB8.quest_subtitle: "&e&lEnd Technium Part&r&r"
-	quest.1743EA1ABE7F6661.quest_desc: ["Simple shears"]
+	quest.1743EA1ABE7F6661.quest_desc: ["简易剪刀"]
 	quest.17455D6476E03296.quest_desc: ["Allows the sorting of fluids, see the guide book for more information on how to use"]
 	quest.1757F2A54B7E06B9.quest_desc: ["Found inside &lThe Nether&r, a &lDigital Miner&r can be used to collect this quicker"]
 	quest.178E2312A0BFE050.quest_desc: [
@@ -298,7 +298,7 @@
 	quest.1A68742A30D301C3.quest_desc: ["The first step in making &lChocolate&r. Can be purchased in the &lCatalogue&r"]
 	quest.1ACB353EAB64C46D.quest_desc: ["Compressed &lNetherrack&r"]
 	quest.1ACCFB94A4652035.quest_desc: ["Made inside the &lPurification Chamber&r"]
-	quest.1AD7FACB7A282A3A.quest_desc: ["Can be used to &lBuy&r and &lSell&r useful &lItems&r"]
+	quest.1AD7FACB7A282A3A.quest_desc: ["用于&l购买&r和&l出售&r一些有用的&l物品&r。"]
 	quest.1ADBF5520E2DD240.quest_desc: ["Spawns on the &lBedrock&r when killing the &lDragon&r"]
 	quest.1AE38351CBD01CFE.quest_desc: ["Made inside the &lLoot Fabricatior&r"]
 	quest.1B3B893B6EBE9E8B.quest_desc: ["Crafting those Drawers"]
@@ -318,7 +318,7 @@
 	quest.1D5A0F86F791D59A.quest_desc: ["Allows the collection of &lChuros Flowers&r"]
 	quest.1DD38714228384B1.quest_desc: ["A better &lBio Fuel&r, produces more power and lasts longer"]
 	quest.1DFE26F8448F9F1C.quest_desc: ["Right Clicking on a block of &lDirt&r with a &lExcavator&r will drop all loot that spawns when breaking &lDirt&r with the &lResource Curio&r"]
-	quest.1DFE26F8448F9F1C.quest_subtitle: "&l&oWorld Specific - SF, Sky, SG&r&r"
+	quest.1DFE26F8448F9F1C.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.1DFE26F8448F9F1C.title: "Faster Resources"
 	quest.1E0DBF1D7D633823.quest_desc: ["An Infuser allows for some materials to be infused into others"]
 	quest.1E16A3E140FE4129.quest_desc: ["A blueprint containing the data to create something unstable. Right click on a &lChip Storage&r with a &lChip&r inside to learn how to craft something new"]
@@ -377,7 +377,7 @@
 	quest.25F7845D0087505C.quest_desc: ["Made inside the &lCrude Blast Furnace&r from &lIron&r"]
 	quest.260080A59C77FD1D.quest_desc: ["Allows the &lCloche&r to obtain &lLeaves&r from &lSapling&r recipes. &lLeaves&r can also be grown"]
 	quest.267236F51DE8B842.quest_desc: ["Can be made from &lStone&r inside the &lBlast Furnace&r and found in &lNormal&r world types"]
-	quest.26BFA170207CD0A7.quest_desc: ["Easy Crafting, Checks your invenotry and show all items you can craft, place a &lStonecutter&r next to it to see those recipes as well "]
+	quest.26BFA170207CD0A7.quest_desc: ["傻瓜式合成！智能工作台会检查物品栏并列出所有可以合成的物品！在其相邻位置放置切石机可以让其支持切石机配方。"]
 	quest.26C1D3374488F5FE.quest_desc: ["Turns RF into &lHeat&r"]
 	quest.26CD7918432D3393.quest_desc: ["Eggs Eggs Eggs"]
 	quest.26CFD5E497C882E3.quest_desc: ["27 blocks of &lCoke Bricks&r can be used to create the &lCoke Oven&r. Place in a 3x3x3 and use the &lHammer&r on a center block to create the multiblock"]
@@ -387,7 +387,7 @@
 	quest.27A997335DA96826.title: "Skygrid Ores"
 	quest.27F176A1447B88BD.quest_desc: ["An alloy of &lZinc&r and &lCopper&r"]
 	quest.287F3EA107089860.quest_desc: ["&lCrafted Ore Pieces&r"]
-	quest.2897996747BAA771.quest_desc: ["The first of many, useful later"]
+	quest.2897996747BAA771.quest_desc: ["你的第一种齿轮。之后会用得到的。"]
 	quest.28B2BD513757B1CB.quest_desc: ["Made inside the &lLoot Fabricatior&r"]
 	quest.28B2BD513757B1CB.quest_subtitle: "&e&lEnd Technium Part&r&r"
 	quest.293A7DBCA786C9ED.quest_desc: ["Injecting P&llanks&r with &lLava&r"]
@@ -435,8 +435,8 @@
 		"&l3 cloches can be used to keep up with a single coke oven&r"
 	]
 	quest.2FD8E7C4F97E6C86.quest_desc: ["&lDirt and Grass &rwhen broken with a &lResource Curio&r equiped in a Curio slot, will drop a range of additional resources, Including &lBone Meal&r, &lTwigs&r and &lRocks&r "]
-	quest.2FD8E7C4F97E6C86.quest_subtitle: "&l&oWorld Specific - SG&r&r"
-	quest.2FD8E7C4F97E6C86.title: "More Drops"
+	quest.2FD8E7C4F97E6C86.quest_subtitle: "&l&o世界类型限定——SkyGrid&r&r"
+	quest.2FD8E7C4F97E6C86.title: "额外掉落物"
 	quest.2FEC0AD0A1D02C85.quest_desc: ["A very strong alloy"]
 	quest.2FEC625A6725CD89.quest_desc: ["Can be made in the &lDimensional Infuser&r"]
 	quest.3022037088021866.quest_desc: ["All the chemicals"]
@@ -471,7 +471,7 @@
 	quest.335484A17ED7350B.quest_desc: ["Requires a lot of power, lucky your making better power now!"]
 	quest.33C4C50E9F187BF6.quest_desc: ["The next tier of &lTechnium&r"]
 	quest.33C4C50E9F187BF6.quest_subtitle: "&e&oElite Technium Part&r&r"
-	quest.33E169632E2DC6FF.quest_desc: ["Sleepy Time"]
+	quest.33E169632E2DC6FF.quest_desc: ["该上床睡觉了！"]
 	quest.34398ADAFC89B40F.quest_desc: ["Eye see you crafting over there"]
 	quest.34398ADAFC89B40F.quest_subtitle: "black"
 	quest.34444DB41F4FE551.quest_desc: ["Eye see you crafting over there"]
@@ -481,9 +481,9 @@
 	quest.35115D2ED3BBD85C.quest_desc: ["Allows &lDesh&r to be directly obtained. Used to create &lThe Interdimensional Infuser&r"]
 	quest.3546DF9F8CB8B856.quest_desc: ["Targets Ore inside Rocks"]
 	quest.356054777EAE6B7C.quest_desc: [
-		"In the middle of your inventory screen, you will see the&l Techopolis Guide Book button&r. This shows a lot of additional information about the modpack."
+		"在物品栏界面中间，你可以看到&l科技城指南按钮&r。你可以在其中查阅许多关于本整合包的信息。"
 		""
-		"Additionally, you can press the &l[G]&r key on some items to open the specify entry in any guide book about that item."
+		"此外，你可以在鼠标指向部分物品时按&l[G]&r键查阅指南中关于此物品的条目。"
 	]
 	quest.3574C7DE1F9C8660.quest_desc: ["50% less time to complete &lResearch Crafting&r"]
 	quest.35769CDC6E69B612.quest_desc: ["&lThe Nether&r is an extremely hot environment. A heat protection curio will help"]
@@ -507,8 +507,8 @@
 		"Produces &lMilk&r when supplied with energy and having a &lCow&r nearby. Cows can be summoned with the "
 		"{ \"text\": \"Summoning Block\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63718127F5015BBD\" } }"
 	]
-	quest.379DC4BB243A420A.quest_desc: ["&lSticks&r can be crafted into &lOak Planks&r"]
-	quest.379DC4BB243A420A.title: "Planks"
+	quest.379DC4BB243A420A.quest_desc: ["&l木棍&r可以用于合成&l橡木木板&r。"]
+	quest.379DC4BB243A420A.title: "木板"
 	quest.37BC662493F856C4.quest_desc: ["Made inside the &lMixer&r"]
 	quest.37BC662493F856C4.quest_subtitle: "&e&lEnd Technium Part&r&r"
 	quest.37E5515086CCD4C0.quest_desc: ["Made inside the &lLoot Fabricatior&r"]
@@ -526,23 +526,23 @@
 	quest.39BC8E83729DD648.quest_subtitle: "&l&0Hellish Technium Part&r&r"
 	quest.39E133346EC5738B.quest_desc: ["Can be made in the &lSolidifier&r"]
 	quest.39E133346EC5738B.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
-	quest.39F5BC13576E3BB5.quest_desc: ["A simple &lSmelting&r device"]
-	quest.3A0D69B21D5779B7.quest_desc: ["Allows creation of various different building blocks "]
+	quest.39F5BC13576E3BB5.quest_desc: ["简易&l烧炼&r设备"]
+	quest.3A0D69B21D5779B7.quest_desc: ["用于制作众多建筑方块。"]
 	quest.3A138558D1F52068.quest_desc: ["As with most ores the &lCombiner&r can be used to make &lOres&r"]
 	quest.3A37CCD1861B2A9F.quest_desc: ["You must be wearing the Space Suit or you will instantly die on the moon"]
 	quest.3A37CCD1861B2A9F.title: "The Moon"
 	quest.3A4E5F33D36C1A1F.quest_desc: ["Used to craft the &lTime in a Bottle&r, You can also charge your &lTime in a Bottle&r in a &lTIAB Charger&r"]
-	quest.3A7A81CE95B5E41F.quest_desc: ["Obtained from &lLeaves&r when breaking them with &lShears&r"]
-	quest.3A7A81CE95B5E41F.title: "Leaves"
+	quest.3A7A81CE95B5E41F.quest_desc: ["用&l剪刀&r破坏以获取&l树叶&r。"]
+	quest.3A7A81CE95B5E41F.title: "树叶"
 	quest.3A819A471C879295.quest_desc: ["&lRocket Fuel&r can be made in the &lRefinery&r with &lEmpowered Canola Oil&r and &lOil&r. Shift right click on a placed rocket to fill with fuel"]
 	quest.3A819A471C879295.quest_subtitle: "&l&3Lunar Technium Part&r&r"
 	quest.3AA6769C77675887.quest_desc: ["Made inside the&l Mob Infuser&r"]
 	quest.3AECEAE143DF01E3.quest_desc: ["An even more complex egg"]
 	quest.3AF4B40E1A1225E3.quest_desc: ["Various different resources in the game contain &lMatter Values&r. These items can be transformed into &lMatter&r which can be used to make those items!"]
 	quest.3AFED249E73796AA.quest_desc: ["Unlocks Toms Storage, allows the viewing and crafting of items from connected inventories"]
-	quest.3B4A980A5AECA6FF.quest_desc: ["Can be crafted from &lTwigs&r and &lSticks&r "]
-	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&oWorld Specific - SF, Sky, SG&r&r"
-	quest.3B4A980A5AECA6FF.title: "Oak Sapling"
+	quest.3B4A980A5AECA6FF.quest_desc: ["通过&l树枝&r和&l木棍&r合成。"]
+	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
+	quest.3B4A980A5AECA6FF.title: "橡树树苗"
 	quest.3B581375F1A72F7D.quest_desc: ["From a &lBlock of Coal&r"]
 	quest.3BB15BF24034EFD2.quest_desc: ["Time to get &lComputing&r"]
 	quest.3BC8A50893D13520.quest_desc: ["Used to create Elevators to instantly move up and down"]
@@ -587,7 +587,7 @@
 	quest.416EE681FCB51948.quest_desc: ["Made inside the &lLoot Fabricatior&r. Can be used to make &lEnd Stone&r"]
 	quest.41BC01D0D4047EC7.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.41C0081B97930CDC.quest_desc: ["The &lMob Infuser&r can be used to create &lHostile Mob Drops &r"]
-	quest.41C24FEED4CAE49D.quest_desc: ["&lOres&r do spawn in normal world types, but they're not really useful."]
+	quest.41C24FEED4CAE49D.quest_desc: ["现在在世界中不会生成&l矿石&r了，但这不会影响本整合包的游戏流程。"]
 	quest.41DD750F734DE819.quest_desc: ["Replacing your &lCrude Blast Furnace&r with a &lImproved Blast Furnace&r allows for automation. Replace the &lBlast Bricks&r with &lReinforced Blast Bricks&r and add a &lHopper&r to the top. Use the &lHammer&r to form the &lImproved Blast Furnace&r"]
 	quest.41DE4B7C762DBDDD.quest_desc: ["Woah"]
 	quest.41DF22E33B6B46A0.quest_desc: ["&lMolten Coal&r can be obtained when melting &lCharcoal, &lMini Charcoal&r or &lCharcoal Dust&r in the Controller"]
@@ -613,8 +613,8 @@
 	quest.45AB301D735E263A.quest_desc: ["Used for Crafting and transporting power"]
 	quest.45CA52A902A5694D.quest_desc: ["Used to make various different &lCircuits&r and &lProcessors&r"]
 	quest.4615EDD0AC0131B6.quest_desc: ["Made on the &lEmpowerer&r"]
-	quest.462C80341227BDB0.quest_desc: ["A simple tool used to chop down &lTrees&r. Holding &lSHIFT&r will prevent the whole tree being cut down"]
-	quest.462C80341227BDB0.title: "Axe"
+	quest.462C80341227BDB0.quest_desc: ["可以砍倒一整棵&l树&r。按住&lSHIFT&r可以仅挖掘一个方块。"]
+	quest.462C80341227BDB0.title: "斧"
 	quest.46822F1CB547D11E.quest_desc: ["The &lEye Crafter&r uses energy and items to create various different eyes"]
 	quest.46822F1CB547D11E.quest_subtitle: "name eye crafter"
 	quest.46822F1CB547D11E.title: "Eye Crafter"
@@ -669,8 +669,8 @@
 	quest.4BF09914266002CF.quest_desc: ["Used to create a \"big\" reactor"]
 	quest.4BF582AFE6081D78.quest_desc: ["Made inside the &lInfuser&r"]
 	quest.4C02E93F68D03609.quest_desc: ["Made inside the &lSqueezer&r from &lRaw HOP Graphite Dust&r"]
-	quest.4C4A3389ED1CABCF.quest_desc: ["Right Clicking on a block of &lCobblestone&r with a &lHammer&r will create &lGravel&r"]
-	quest.4C4A3389ED1CABCF.quest_subtitle: "&l&oWorld Specific - SF, Sky, SG&r&r"
+	quest.4C4A3389ED1CABCF.quest_desc: ["手持&l锤&r右击&l圆石&r可以获得沙砾。"]
+	quest.4C4A3389ED1CABCF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.4C59A97F6EF31BFF.quest_desc: ["Targets Ore inside Rocks"]
 	quest.4C5D016B83FAF41D.quest_desc: ["Made inside the &lPressurized Reaction Chamber&r from its ore varient, both &lNether&r and &lDimensional Varients&r work"]
 	quest.4C72044332318428.quest_desc: ["Made inside the &lRock Washer&r"]
@@ -726,12 +726,12 @@
 	quest.53CB797F3DB754AE.quest_desc: ["The base of all Elite Research"]
 	quest.53D0B78F2FE3C115.quest_desc: ["Less time, yes please"]
 	quest.53EA4B2648B45CBD.quest_desc: [
-		"&lSuperflat&r"
+		"&l超平坦&r"
 		"Found when breaking&l Grass Blocks &rwhilst wearing the &lResource Curio &r"
-		"&lSky Block&r"
+		"&l空岛&r"
 		"Found when breaking&l Dirt Blocks &rwhilst wearing the &lResource Curio &r#"
-		"&lOther&r"
-		"Found ontop of &lGrass Blocks&r around the world"
+		"&l其他世界类型&r"
+		"生成于&l草方块&r上方。"
 	]
 	quest.5417C5C5FF2B29D3.quest_desc: [
 		"Like a &lWooden Hopper&r but for fluids"
@@ -743,32 +743,32 @@
 	quest.5494CD4C6BBA021B.quest_desc: ["There are 6 different &lMiner Placers&r using these on any tier of &lMiner&r will place the required structure for the &lMiner&r"]
 	quest.54D31FFC18ADD45D.quest_desc: ["This is where the items come in"]
 	quest.5505966C314B5680.quest_desc: ["Allows &lIridium&r to be directly obtained "]
-	quest.5561367DE4D71434.quest_desc: ["Right Clicking on a block of &lGravel&r with a &lHammer&r will create &lSand&r"]
-	quest.5561367DE4D71434.quest_subtitle: "&l&oWorld Specific - SF, Sky, SG&r&r"
+	quest.5561367DE4D71434.quest_desc: ["手持&l锤&r右击&l沙砾&r可以获得&l沙子&r。"]
+	quest.5561367DE4D71434.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.55867E1213B101AA.quest_desc: ["Allows the simulation of &lMartian Raptors&r"]
 	quest.55C35B7494E0C0EC.quest_desc: ["All the fluids"]
 	quest.569AA7A2E4BB962E.quest_desc: ["Yummy"]
 	quest.569DF6E327BFA131.quest_desc: ["Useful"]
 	quest.56AF5073083161FF.quest_desc: ["Crushed up &lTeleportation Cores&r"]
 	quest.56B8827D0A75A80F.quest_desc: [
-		"&lSuperflat&r"
+		"&l超平坦&r"
 		"Found when breaking&l Grass Blocks &rwhilst wearing the &lResource Curio &r"
-		"&lSky Block&r"
+		"&l空岛&r"
 		"Found when breaking&l Dirt Blocks &rwhilst wearing the &lResource Curio &r#"
-		"&lOther&r"
-		"Found ontop of &lGrass Blocks&r around the world"
+		"&l其他世界类型&r"
+		"生成于&l草方块&r上方。"
 	]
 	quest.56BC0048FB332057.quest_desc: ["The &lRock Washer&r can be used to find &lCopper Ore Pieces&r inside of &lCobblestone&r. &lCopper Ores&r can also be turned into &lCopper Ore Pieces&r"]
 	quest.56E3D5402F8C79BF.quest_desc: [
-		"Simple Storage"
+		"简易存储"
 		""
-		"The &lStockroom Catalog&r allows you to connect chests to it. Search for an item and press the locate button. Leave the book and the connected chest will show where the item is"
+		"你可以将箱子绑定到&l仓库目录&r上。你可以在仓库目录中搜索物品。点击定位按钮并退出仓库目录后将会显示存有该物品的箱子。"
 	]
 	quest.57426A474E2A69E6.quest_desc: ["&lFlight Blocks&r allow flight within the range of the block. Right click to view working area"]
 	quest.5746F2D13AA6DC19.quest_desc: ["Enriches &lStone&r into different &lStones.&r Requires a &lFocus&r to work"]
 	quest.5752D9267316F462.quest_desc: ["These cells use a lot of power!"]
 	quest.5752D9267316F462.title: "Infinity Cells"
-	quest.578FA8744A0B28D8.quest_desc: ["Smelts a &lSingle&r Item"]
+	quest.578FA8744A0B28D8.quest_desc: ["可以烧炼&l一个&r物品。"]
 	quest.579D78AF34073D1D.quest_desc: ["&lMolten Cheese&r can be used to transform any &lDimensional Ore&r into &lDimensional Cheesium Ore&r"]
 	quest.57F67BA85B654CEF.quest_desc: ["Allows you to craft &lEnd Mob Data Models&r"]
 	quest.581E810C8E5F20A7.quest_desc: ["Ultimate Miners produce 8 items at a time!"]
@@ -777,7 +777,7 @@
 	quest.58DD0629D81E76DA.quest_desc: ["Used to craft the &lStrainer&r"]
 	quest.58F943B2FDEBC490.quest_desc: ["A plate of &lNickel&r"]
 	quest.591CE056198CE119.quest_desc: ["The &lResource Curio &rallows some blocks to drop additional items"]
-	quest.591CE056198CE119.quest_subtitle: "&l&oWorld Specific - SF, Sky, SG&r&r"
+	quest.591CE056198CE119.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.5943723564691E7A.quest_desc: ["The &lChemical Injection Chamber&r can be used to transform &lSand&r into &lSilicon &r"]
 	quest.595DDC56B4A8EA48.quest_desc: ["Used to make &lEaster Egg Shells&r"]
 	quest.5964977D62377196.quest_desc: ["A sturdy casing"]
@@ -792,7 +792,7 @@
 	quest.598862207C11CCAF.quest_desc: ["Using 2 of these either side of the &lImproved Blast Furnace&r increases its speed"]
 	quest.59A5EE87B8C4C9DE.quest_desc: ["A &lGlobe&r of a &lDifferent Planet&r"]
 	quest.5A0BB3B29DF5F484.quest_desc: [
-		"&lResearch&r is an important part of &lTechopolis 3&r. "
+		"&l研究&r是&l科技城3&r中的一个重要环节。"
 		""
 		"After obtaining &lBasic Technium&r, you can start to create &lResearch.&r &lResearch&r allows you to unlock new mods, recipes, and more! The&l Tech Tree&r questlines will show the &lResearch&r available to you."
 	]
@@ -818,14 +818,14 @@
 	quest.5BE16EC567FBE306.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
 	quest.5BEB919EC6CBA3A1.quest_desc: ["Allows you to connect blocks together with pipes quickly!"]
 	quest.5BEBA3DCA958DF0F.quest_desc: [
-		"You can use the &lDark Mode&r button at the bottom left of your inventory to enable various levels of &lDark Mode&r"
+		"你可以通过物品栏左下方的&lDark Mode&r按钮来设置GUI的亮度等级。"
 		""
-		"By default, you can press the &lZ&r key to zoom in."
+		"你可以按默认&lZ&r键来进行缩放。"
 	]
 	quest.5BEBA3DCA958DF0F.title: "Useful Tips"
 	quest.5C082BD2A222FAAB.quest_desc: ["A useless bucket"]
-	quest.5C1EE19AC946C250.quest_desc: ["The&l Sapling Grower&r can be used to grow &lSaplings&r instantly"]
-	quest.5C1EE19AC946C250.quest_subtitle: "&l&oWorld Specific - SF, Sky, SG&r&r"
+	quest.5C1EE19AC946C250.quest_desc: ["&l树苗催熟器&r可以使&l树苗&r立即生长。"]
+	quest.5C1EE19AC946C250.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.5C64F60D7D9DBD30.quest_desc: ["Obtained from &lNeptunium Dust&r in the &lInterdimensional Infuser&r. This is Radioactive, you must wear the &lJet Suit&r to be protected"]
 	quest.5C67983942444908.quest_desc: ["A nice rod"]
 	quest.5C67983942444908.quest_subtitle: "&l&3Lunar Technium Part&r&r"
@@ -857,11 +857,11 @@
 	quest.6084CC24C07515D4.quest_desc: ["Allows &lQuartz&r to be directly obtained "]
 	quest.608F27DF02EE7DCF.quest_desc: ["&lThe Interdimensional Infuser&r can infuse our items with energy from another &lPlanets&r"]
 	quest.60B9BB29ECBF2C64.quest_desc: ["A barrel which can store &lNuclear Waste&r. Will decay"]
-	quest.60BE0700CA919BF6.quest_desc: ["Allows the mining of &lDirt&r like blocks in a 3x3 area"]
-	quest.60F506FC563D110C.quest_desc: ["Techopolis 3 can be played in Hexlands, Default, Superflat, Skyblock and Skygrid. Some world types will have additional recipes and features to help you"]
+	quest.60BE0700CA919BF6.quest_desc: ["可以挖掘3x3范围的&l土质&r方块。"]
+	quest.60F506FC563D110C.quest_desc: ["科技城3支持HexLands、默认、超平坦、空岛和SkyGrid五种世界类型。部分世界类型会有额外的配方和特性以推进游戏流程。"]
 	quest.61341E3493ED49A4.quest_desc: ["Powers the &lEnder Crafter&r. The more you have the faster the crafting"]
 	quest.619E903B2CA73254.quest_desc: ["Made with the &lBottler&r using &lCreosote Oil, HOP Grahite Dust&r and a &lRod Mold&r"]
-	quest.61BC9814DB13B72E.quest_desc: ["Please read the quests in this section; they will provide a lot of useful information."]
+	quest.61BC9814DB13B72E.quest_desc: ["请仔细阅读本节的任务，其中有许多有用的信息。"]
 	quest.6219BBDF93F656BD.quest_desc: ["Whats inside?"]
 	quest.621CB46DAD84AE84.quest_desc: ["A mix of &lSand,&r &lGravel&r and &lClay&r"]
 	quest.623E8B19B918318F.quest_desc: ["Used to Indentify items, these can be saved onto Memory Chips"]
@@ -882,7 +882,7 @@
 	quest.63F246401C62E29C.quest_desc: ["Made inside the Casting Solidifier"]
 	quest.63F489CC590E6B73.quest_desc: ["High end resource"]
 	quest.63FD58A85CDCB592.quest_desc: ["Uses the power of other dimensions to infuse our stuff "]
-	quest.64142A6E7C0D6469.quest_desc: ["&lRocks&r can be crafted into &lCobblestone&r"]
+	quest.64142A6E7C0D6469.quest_desc: ["&l石子&r可以用于合成&l圆石&r。"]
 	quest.64420CE0DEE3B4C2.quest_desc: ["Allows the simulation of &lGhasts&r"]
 	quest.644623E7553F227B.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.6482A429D1E1D36A.quest_desc: [
@@ -910,8 +910,8 @@
 	quest.67B69CD9736AA493.quest_subtitle: "&5&lFinal Technium Part&r&r"
 	quest.67BD2D1A04B70994.quest_desc: ["Made inside the &lMob Fabricatior&r"]
 	quest.67DB77596516FCB4.quest_desc: ["&lGrass Blocks &rwhen broken with a &lResource Curio&r equiped in a Curio slot, will drop a range of additional resources, Including &lBone Meal&r, &lTwigs&r and &lRocks&r "]
-	quest.67DB77596516FCB4.quest_subtitle: "&l&oWorld Specific - SF&r&r"
-	quest.67DB77596516FCB4.title: "More Drops "
+	quest.67DB77596516FCB4.quest_subtitle: "&l&o世界类型限定——超平坦&r&r"
+	quest.67DB77596516FCB4.title: "额外掉落物"
 	quest.6806FD653554696B.quest_desc: ["Well i have done every thing possible in this world. These frames can be used to create a portal to the &lNether&r. Created the same way as a normal &lNether Portal&r"]
 	quest.6807776E79B6A923.quest_desc: ["Providing the &lResearcher&r with &l Basic Technium Nuggets&r will create &lBasic Research&r. This can be used to create &lResearch Blueprints&r"]
 	quest.681171B2BB52DAEB.quest_desc: ["Made inside the &lTechnium Compressor&r"]
@@ -951,16 +951,16 @@
 	quest.6B32203AAD3861F4.quest_desc: ["Allows you to insert into and machine from anywhere"]
 	quest.6B35D23A996569A0.quest_desc: ["Made inside the &lSolidifier&r"]
 	quest.6B656CAFA613B835.quest_desc: ["&lDirt &rwhen broken with a &lResource Curio&r equiped in a Curio slot, will drop a range of additional resources, Including &lBone Meal&r, &lTwigs&r and &lRocks&r "]
-	quest.6B656CAFA613B835.quest_subtitle: "&l&oWorld Specific - Sky&r&r"
-	quest.6B656CAFA613B835.title: "More Drops"
+	quest.6B656CAFA613B835.quest_subtitle: "&l&o世界类型限定——空岛&r&r"
+	quest.6B656CAFA613B835.title: "额外掉落物"
 	quest.6B6EEF27517D11D4.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.6B94EDB5F4C3C12D.quest_desc: ["A nice block, Radioactive"]
 	quest.6B9A3F48C51E3A56.quest_desc: ["&lEnriched Matter Balls&r"]
 	quest.6BAC208511DD1765.quest_desc: ["As with most ores the &lCombiner&r can be used to make &lOres&r"]
 	quest.6BACC14E3F05254E.quest_desc: ["The base of Advanced Research"]
 	quest.6BADE1A73A9065B1.quest_desc: ["&d&lPurifying Water &r&rand &lPurified Coal Blocks&r and be combined to create &b&lDiamonds&r&r in the &lSolidifier&r. I need a lot of coal..."]
-	quest.6C12BA6141A6A6C5.quest_desc: ["Your &lTechopolis 3&r dream starts here"]
-	quest.6C12BA6141A6A6C5.title: "Lets Start"
+	quest.6C12BA6141A6A6C5.quest_desc: ["你的&l科技城3&r之旅从这里开始。"]
+	quest.6C12BA6141A6A6C5.title: "一切从这里开始"
 	quest.6C573A6A2E342AFF.quest_desc: ["Made inside the &lRock Washer&r"]
 	quest.6C702C6D1CD2475A.quest_desc: ["Allows the creation of &lImmersive Engineering&r multiblocks"]
 	quest.6C7DFD686E52E2BF.quest_desc: ["Spawns on the top of &lChuros Plants&r in the &lEnd&r"]
@@ -1020,7 +1020,7 @@
 	quest.7274579A211437D9.quest_desc: ["This can be added to a &lController Multiblock&r to allow your &lController&r to make &lAlloys&r "]
 	quest.727F2BFFFD189288.quest_desc: ["A &lCopper Focus&r can be used to get more&l Copper Ore Pieces &rfrom your &lStone&r"]
 	quest.72A1260F7EBBBE8C.quest_desc: ["Can be used to turn items into fluids "]
-	quest.72B3A37A09994640.quest_desc: ["A simple digging tool"]
+	quest.72B3A37A09994640.quest_desc: ["简易挖掘工具"]
 	quest.72DA0F2FE18017B9.quest_desc: ["A spical cable used to move &lMatter&r and &lPower&r"]
 	quest.73058C76507C88CC.quest_desc: ["Much better fluid collection"]
 	quest.7330EA4CC2EE4E5B.quest_desc: ["Made inside the &lCombiner&r"]
@@ -1035,7 +1035,7 @@
 	]
 	quest.739F2153AB9F0162.quest_desc: ["Broken down &lTechnium Ingots&r and produce &lUltimate Research&r"]
 	quest.739FBF6613CD387C.quest_desc: ["Using the &lAtomic Reconstructor&r, &lNickel&r can be converted to &lEnori Crystals&r"]
-	quest.73B1C328C3075F14.quest_desc: ["Made with &lLeafy String&r"]
+	quest.73B1C328C3075F14.quest_desc: ["通过&l叶制线&r合成。"]
 	quest.73C264670B494FAC.quest_desc: ["I know &lHot Water&r is such a lame fuel but here we are. Other fuels can be found in normal worlds such as Lava"]
 	quest.73E53E51D7957AF6.quest_desc: ["Processed &lDimensional Cheesium Ore&r"]
 	quest.73EEE2A6A65B7F30.quest_desc: ["Stores chips, allows you to obtain these items"]
@@ -1075,7 +1075,7 @@
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
 	quest.792A8FFFD3B8E171.quest_desc: ["Allows you to extend machines! Place above the machine to enabled input and output into it from the &lMachine Extender&r"]
 	quest.795B98C57909A168.quest_desc: ["Smelted &lNetherite Dust&r"]
-	quest.79913BB2000EAA2B.quest_desc: ["Crafted from &lTwigs&r"]
+	quest.79913BB2000EAA2B.quest_desc: ["通过&l树枝&r合成。"]
 	quest.79977AE15B5A119C.quest_desc: ["Used to store fluids, can also fill buckets"]
 	quest.79A4125E3F932A71.quest_desc: ["Allows the simulation of &lPygro&r"]
 	quest.79B74AC9E283EF20.quest_desc: ["Unlocks the recipe for the &lMiners Certificate&r"]
@@ -1110,7 +1110,7 @@
 	quest.7C9D956A4FA66C01.quest_desc: ["Allows you to use &lNetherite&r to upgrade tools and armor"]
 	quest.7CC9643D3ABBDBAA.quest_desc: ["Made inside the &lMob Infuser&r"]
 	quest.7CEFB82BBEE9616E.quest_desc: [
-		"Hexagon-shaped quests like this one may show ways to obtain an item in different world types. The quest titles will be formatted as **World Specific - World Type** to specify which world type has a way to obtain the item."
+		"和此任务一样形状为六边形的任务用于展示在特定世界类型中获取某物品的方法。这些任务均标有**世界类型限定——世界类型**，以指示该任务适用于何种世界类型。"
 		""
 		"SF - Super Flat"
 		"N - Default"
@@ -1118,7 +1118,7 @@
 		"SKY - Skyblock"
 		"SG - Sky Grid"
 	]
-	quest.7CEFB82BBEE9616E.title: "World Specific"
+	quest.7CEFB82BBEE9616E.title: "世界类型限定"
 	quest.7D11D6E906DB67D7.quest_desc: ["Separates &lWater&r into &lOxygen&r and &lHydrogen&r"]
 	quest.7D572741F38742C1.quest_desc: ["Smelted &lDusts&r"]
 	quest.7D59F7DEF39EC55B.quest_desc: ["Made inside the &lTechnium Compressor&r"]
@@ -1138,7 +1138,7 @@
 	quest.7E37BAB9BBB7B6C4.quest_desc: ["Such a compressed ingot"]
 	quest.7E37BAB9BBB7B6C4.quest_subtitle: "&5&lFinal Technium Part&r&r"
 	quest.7E40BDDD788324CB.quest_desc: ["The heart of &lCasting&r"]
-	quest.7E6B36EA11603917.quest_desc: ["A large amount of &lCobblestone&r"]
+	quest.7E6B36EA11603917.quest_desc: ["大量的&l圆石&r"]
 	quest.7E93D28AC288DC0B.quest_desc: ["&lPurifying Salt Mulch&r can be made more efficently in the &lPurification Chamber&r"]
 	quest.7ED9959F38B73908.quest_desc: ["The best protection, never runs out"]
 	quest.7F81760FA260294B.quest_desc: [
@@ -1152,32 +1152,32 @@
 	quest.7FE3987DEB946250.quest_desc: ["Link a &lMachine&r and the &lEntangled Block&r together to extract and insert whatever you need"]
 	reward_table.15979295EB0866A6.title: "RocketSkins"
 	reward_table.5CC9734FB27BDB83.title: "AllSaplings"
-	task.0268BD0C8D960413.title: "Guide Book"
+	task.0268BD0C8D960413.title: "指南"
 	task.0414C0D062CAF1D0.title: "Any #techopolis:research/storage_drawer_upgrades"
-	task.06AA611485DB839A.title: "Mobs"
+	task.06AA611485DB839A.title: "生物"
 	task.0A0DD43CFCB7D4AD.title: "Any #c:player_workstations/crafting_tables"
 	task.0A8433EE25C737BF.title: "Any #techopolis:nether_stems"
 	task.0C09E1B7FDBFD4C4.title: "Spent Nether Waste"
 	task.10484E9FFB511C7C.title: "Ultimate Gas"
 	task.12729A0E575BCA0B.title: "Any #techopolis:research/storage_drawer_compacting"
-	task.129B766E05E7D822.title: "Sapling Grower"
-	task.129C930020BB4752.title: "Bone Meal"
+	task.129B766E05E7D822.title: "树苗催熟器"
+	task.129C930020BB4752.title: "骨粉"
 	task.131757603072EC55.title: "Modular Machinery"
 	task.13CEAB9829DFFE2D.title: "Any #techopolis:infinity_cells"
 	task.19455DEF7D2AB6CE.title: "Molten Cheesium"
 	task.19738CEF25EFDE55.title: "Liquid Matter"
-	task.1A550D252A5503FF.title: "Welcome To Techopolis 3"
+	task.1A550D252A5503FF.title: "欢迎游玩科技城3"
 	task.1A8D9E7716C12EBE.title: "Dragon Breath"
-	task.1C51863E1A236AAA.title: "Ultimine"
+	task.1C51863E1A236AAA.title: "连锁破坏"
 	task.1D64E0B82814E393.title: "More Debris"
 	task.2224198B265FD610.title: "Clean Quartz Slurry"
 	task.239067B1B53367A9.title: "Any #minecraft:axes"
-	task.2F14A9F9DC7C1C50.title: "Oak Sapling"
+	task.2F14A9F9DC7C1C50.title: "橡树树苗"
 	task.315054772E52548F.title: "Any #techopolis:colored_spray_cans"
 	task.3355F93FBEB3E80B.title: "Any #minecraft:leaves"
 	task.34AD0C56096C20C1.title: "Resource Curio"
 	task.38A3105758925E54.title: "GG"
-	task.39305F4029C79DF1.title: "Research"
+	task.39305F4029C79DF1.title: "研究"
 	task.3EE8B17228529C19.title: "Floating Block"
 	task.3F6138F1A167493C.title: "Purifying Salt Mulch"
 	task.3F845F17BE2F8EA1.title: "Villagers"
@@ -1189,10 +1189,10 @@
 	task.49CDB154DC19111C.title: "Any #techopolis:ender_crafters"
 	task.49ECD681F161C132.title: "Dark Mode"
 	task.4F76C8BD7612A936.title: "Super Flat Recipes"
-	task.4FFAE2AF2484C2A4.title: "Shaders"
+	task.4FFAE2AF2484C2A4.title: "光影"
 	task.5183E31E6E34E45C.title: "Any #techopolis:pure_matter"
 	task.53098F41A5A9FA30.title: "Mod Essence"
-	task.53423114EFEDF0F2.title: "World Types"
+	task.53423114EFEDF0F2.title: "世界类型"
 	task.5365F7A4D471BA62.title: "Giga Compressed"
 	task.552527158455F867.title: "Any #techopolis:nether_planks"
 	task.5835C0B24EB29833.title: "Chocolate"
@@ -1205,11 +1205,11 @@
 	task.70810293312B19FA.title: "GG 2"
 	task.7217A5F246679AE3.title: "Easter"
 	task.729DF4471563CA70.title: "Modern Dynamics"
-	task.72B0375C3C9B5799.title: "Twigs"
+	task.72B0375C3C9B5799.title: "树枝"
 	task.733419063A3048CA.title: "Lunar Gas"
-	task.7490EAE141240ADC.title: "Techopolis 3"
+	task.7490EAE141240ADC.title: "科技城3"
 	task.7491714679712D2F.title: "Spent Nuclear Waste"
-	task.767E021443965BBD.title: "Ores"
+	task.767E021443965BBD.title: "矿石"
 	task.778E1A0B48A49B57.title: "Any #techopolis:dimensional_ores"
-	task.787942E9ABC7AF17.title: "Resource Packs"
+	task.787942E9ABC7AF17.title: "资源包"
 }
