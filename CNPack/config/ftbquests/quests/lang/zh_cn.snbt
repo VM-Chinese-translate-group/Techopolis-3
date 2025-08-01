@@ -103,7 +103,7 @@
 	quest.05D479B9DDE194CF.quest_desc: ["Made from &lAntimatter Gas&r, which can be made in the &lNuclear Reactor&r"]
 	quest.063CD8B83507C100.quest_desc: ["Obtained through the &lOil Pump&r"]
 	quest.063CD8B83507C100.quest_subtitle: "&l&0Hellish Technium Part&r&r"
-	quest.06503659AE472AD3.quest_desc: ["Made inside a &lBlast Furnace&r"]
+	quest.06503659AE472AD3.quest_desc: ["通过&l高炉&r冶炼获得。"]
 	quest.065B9B9AF769DB4B.quest_desc: ["Using the &lAtomic Reconstructor&r, &lLapis&r can be converted to &lPalis&r"]
 	quest.065B9B9AF769DB4B.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
 	quest.06C5F60B8492E319.quest_desc: ["Allows the simulation of &lMoglers&r"]
@@ -797,7 +797,7 @@
 		"After obtaining &lBasic Technium&r, you can start to create &lResearch.&r &lResearch&r allows you to unlock new mods, recipes, and more! The&l Tech Tree&r questlines will show the &lResearch&r available to you."
 	]
 	quest.5A1BE3B89382E340.quest_desc: ["Made inside the &lTechnium Compressor&r"]
-	quest.5A2E633AF5B2E16A.quest_desc: ["Obtained when growing &lCanola Seeds&r. Could be useful a bit later "]
+	quest.5A2E633AF5B2E16A.quest_desc: ["通过种植&l油菜种子&r获得。后面你会用到它的。"]
 	quest.5A53BD4558AC1BD9.quest_desc: ["The best Alloy"]
 	quest.5A56F3D4663098AB.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.5A623F099ADBE313.quest_desc: ["Part of the &lJet Suit&r, protects from &lRadiation&r and provides Flight"]
@@ -823,7 +823,7 @@
 		"你可以按默认&lZ&r键来进行缩放。"
 	]
 	quest.5BEBA3DCA958DF0F.title: "Useful Tips"
-	quest.5C082BD2A222FAAB.quest_desc: ["A useless bucket"]
+	quest.5C082BD2A222FAAB.quest_desc: ["没法用的桶"]
 	quest.5C1EE19AC946C250.quest_desc: ["&l树苗催熟器&r可以使&l树苗&r立即生长。"]
 	quest.5C1EE19AC946C250.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.5C64F60D7D9DBD30.quest_desc: ["Obtained from &lNeptunium Dust&r in the &lInterdimensional Infuser&r. This is Radioactive, you must wear the &lJet Suit&r to be protected"]
@@ -840,8 +840,8 @@
 	quest.5DD2B25202B1423D.quest_desc: ["A nice gear"]
 	quest.5DD2B25202B1423D.quest_subtitle: "&e&lEnd Technium Part&r&r"
 	quest.5DDF900CF155DD55.quest_desc: ["The base of all Basic Research"]
-	quest.5E0FF3793D57535C.quest_desc: ["Obtained in the &lFurnace&r by &lSmelting Stone&r"]
-	quest.5EB61E0820DDF575.quest_desc: ["&lBricks&r make &lBricks &r"]
+	quest.5E0FF3793D57535C.quest_desc: ["通过&l熔炉烧炼石头&r获得。"]
+	quest.5EB61E0820DDF575.quest_desc: ["&l红砖&r合成&l红砖块&r。"]
 	quest.5F24BFC5B102AD82.quest_desc: ["Allows the simulation of &lEnderman&r"]
 	quest.5F4133015199DF51.quest_desc: ["A nice nugget"]
 	quest.5F4133015199DF51.quest_subtitle: "&5&lFinal Technium Part&r&r"
@@ -875,7 +875,7 @@
 	quest.62DF8FF775DE6C93.quest_desc: ["Unlocks &lEnder Storage&r"]
 	quest.62E3086AA6595F01.quest_desc: ["The &lRock Washer&r allows for Gravel to be turned into &lFlint&r"]
 	quest.62E3086AA6595F01.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
-	quest.62F83F3D9065C896.quest_desc: ["Like a &lStick&r but from &lSmooth Stone&r"]
+	quest.62F83F3D9065C896.quest_desc: ["就像是用&l平滑石头&r做成的&l木棍&r。"]
 	quest.6359E63D7EFFE82D.quest_desc: ["Placing those arc furnaces"]
 	quest.63718127F5015BBD.quest_desc: ["Uses item to summon various different mobs"]
 	quest.6390449292A46ECB.quest_desc: ["Unlocks &lCompressed Furnaces&r, allows for multiple recipes inside a single furnace. Also has &lBlast Furnaces&r"]
@@ -920,11 +920,11 @@
 	quest.686545FF4779D60F.quest_desc: ["How does this work!"]
 	quest.686A25FBD8BEFCDE.quest_desc: ["The &lAncient Infuser&r is a huge Multiblock Structure which uses power, chemicals and fluids create &lAncient Debris&r. Debris must be placed on the &lBeacon&r blocks to be converted"]
 	quest.689E8142E81D09C1.quest_desc: [
-		"Can be used to grow &lSaplings&r and &lCrops&r for you"
+		"可以用来种植&l树苗&r和各种&l作物&r。"
 		""
 		"The best upgrade for speed is &lPercentage&r 3 and &lFixed&r 2, when you can get them "
 	]
-	quest.68C3DE9661155584.quest_desc: ["A much sturdier gear "]
+	quest.68C3DE9661155584.quest_desc: ["更坚固的齿轮"]
 	quest.68C3DE9661155584.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
 	quest.68CEB2B5EF97D879.quest_desc: ["Made inside the Freezer"]
 	quest.68D49AB076433B95.quest_desc: ["Made inside the &lFreezer&r"]
@@ -989,7 +989,7 @@
 	]
 	quest.6E250595483B4E28.quest_desc: ["A nice coil"]
 	quest.6E250595483B4E28.quest_subtitle: "&5&lFinal Technium Part&r&r"
-	quest.6E29A553CABFB925.quest_desc: ["A &lStrainer&r requires a &lSource Block&r of Fluid above it to work, a &lFlopper&r can place fluids in world"]
+	quest.6E29A553CABFB925.quest_desc: ["&l木制过滤器&r需要其上方有&l水源方块&r才能工作。你可以通过&l流体漏斗&r来向世界倒出流体。"]
 	quest.6E91D8C1186C1D45.quest_desc: ["To the stars!"]
 	quest.6EA588119C1C8F1D.quest_desc: ["As with most ores the &lCombiner&r can be used to make &lOres&r"]
 	quest.6EC7E04C3FFBE331.quest_desc: ["Bio Fuel can be used for more power"]
@@ -1076,7 +1076,7 @@
 	quest.792A8FFFD3B8E171.quest_desc: ["Allows you to extend machines! Place above the machine to enabled input and output into it from the &lMachine Extender&r"]
 	quest.795B98C57909A168.quest_desc: ["Smelted &lNetherite Dust&r"]
 	quest.79913BB2000EAA2B.quest_desc: ["通过&l树枝&r合成。"]
-	quest.79977AE15B5A119C.quest_desc: ["Used to store fluids, can also fill buckets"]
+	quest.79977AE15B5A119C.quest_desc: ["存储流体，装填空桶。"]
 	quest.79A4125E3F932A71.quest_desc: ["Allows the simulation of &lPygro&r"]
 	quest.79B74AC9E283EF20.quest_desc: ["Unlocks the recipe for the &lMiners Certificate&r"]
 	quest.79F5BA778F1C3B01.quest_desc: ["Can be used to add various modifiers to &lTools,&r and &lArmor&r"]
