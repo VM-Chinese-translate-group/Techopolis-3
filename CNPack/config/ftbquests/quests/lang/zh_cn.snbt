@@ -179,7 +179,7 @@
 	quest.0F4BDDB5BE283D54.quest_subtitle: "&6&oA Technium Part&r"
 	quest.0FAC56A475DB164F.quest_desc: ["Allows the crafting of &lAdvanced Miners.&r These make double the amount compared to &lBasic Miners&r"]
 	quest.0FDC4D0B19E113B8.quest_desc: ["Control rods go ontop of your fuel rods"]
-	quest.1022FBAF8115651D.quest_desc: ["Can be used to make more advanced options for your &lAE2 &rnetwork"]
+	quest.1022FBAF8115651D.quest_desc: ["Can be used to make more advanced options for your &lAE2 &rnetwork. Can also be used to create &lEmpowered Blocks&r"]
 	quest.1025BFD3B7686103.quest_desc: ["Seems pretty useless. &lDiamonds&r before gold feels strange "]
 	quest.106BD139F3CAB463.quest_desc: ["Can extract whatever &lDimensional Ore&r you place inside the structure. RF and time will vary. The &lDimensional Ore Extractor Placer&r will only place the frame, you must put your chosen dimensional ore inside"]
 	quest.1092DD1D298FA2C9.quest_desc: ["Unlocks a &lWireless Charger&r, which charges items in a players inventory up 128 blocks away! Works with &lCurios&r as well"]
@@ -238,7 +238,7 @@
 	quest.15F835CD334040B1.quest_desc: ["A nice block"]
 	quest.161B4D2963F205F1.quest_desc: ["Providing more of these in the range of the Eye Crafter will increase its speed"]
 	quest.161B4D2963F205F1.quest_subtitle: "eye crafter alternator"
-	quest.164B6FAB9100BA01.quest_desc: ["Comes in 2 and 3 varients"]
+	quest.164B6FAB9100BA01.quest_desc: ["Comes in 2 and 3 variants"]
 	quest.164B6FAB9100BA01.title: "Compacting"
 	quest.166A2386E894F6B2.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.169753582E9B8F26.quest_desc: ["The &lOuter End&r has large plants, breaking these will obtain &lChorus Fruit&r"]
@@ -262,7 +262,7 @@
 	]
 	quest.17BCE6CC64C79DFE.quest_desc: ["Power for the &lFluidizer&r"]
 	quest.17DE850E2399B19E.quest_desc: ["Using this unlocks &lFTB Ultimine&r"]
-	quest.17E12CCD15AABAF1.quest_desc: ["The &lAncient Quarry&r allows you to create &lAncient Debris&r, this can be mined into &lNetherite Scrap&r or silk touched to get &lAncient Debris&r"]
+	quest.17E12CCD15AABAF1.quest_desc: ["The &lAncient Infuser&r allows you to create &lAncient Debris&r, this can be mined into &lNetherite Scrap&r or silk touched to get &lAncient Debris&r"]
 	quest.17E750DF1D62C944.quest_desc: ["Most items in the world are made up of various differernt matters. This machine allows items to be converted into matter.  Connect to tanks to export from the machine"]
 	quest.1809F8F24B9F7655.quest_desc: ["Broken down &lTechnium Ingots&r and produce &lBasic Research&r"]
 	quest.180DCF87D8AF7931.quest_desc: ["通过挖掘&l高草丛&r和&l矮草丛&r获得。"]
@@ -468,7 +468,7 @@
 	quest.32EA60F0550234C1.title: "The Nether"
 	quest.32EE5B52B91F4BF8.quest_desc: ["The &lResearch Crafter&r can be used to craft new items using your &lBlueprints&r"]
 	quest.330F77414A45BCD3.quest_desc: ["Made inside the &lArc Furnace&r"]
-	quest.335484A17ED7350B.quest_desc: ["Requires a lot of power, lucky your making better power now!"]
+	quest.335484A17ED7350B.quest_desc: ["Requires a lot of power to produce &lUranium&r"]
 	quest.33C4C50E9F187BF6.quest_desc: ["The next tier of &lTechnium&r"]
 	quest.33C4C50E9F187BF6.quest_subtitle: "&e&oElite Technium Part&r&r"
 	quest.33E169632E2DC6FF.quest_desc: ["该上床睡觉了！"]
@@ -758,7 +758,7 @@
 		"&l其他世界类型&r"
 		"生成于&l草方块&r上方。"
 	]
-	quest.56BC0048FB332057.quest_desc: ["The &lRock Washer&r can be used to find &lCopper Ore Pieces&r inside of &lCobblestone&r. &lCopper Ores&r can also be turned into &lCopper Ore Pieces&r"]
+	quest.56BC0048FB332057.quest_desc: ["The &lRock Washer&r can be used to find &lCopper Ore Pieces&r inside of &lCobblestone&r"]
 	quest.56E3D5402F8C79BF.quest_desc: [
 		"简易存储"
 		""
@@ -1071,6 +1071,7 @@
 	quest.783FCE5894B5465D.quest_desc: ["25% less time to complete &lResearch Crafting&r"]
 	quest.787346C90ADE56AF.quest_desc: ["&lTechnium&r is very expensive automation is much needed! You should be able to automate this with everything in the quests up to this point "]
 	quest.787346C90ADE56AF.quest_subtitle: "&7&oAdvanced Technium Part&r&r"
+	quest.78CF9DB8D153131B.quest_desc: ["Place on a &lReplicator&r to make it a bit faster!"]
 	quest.78D84F25E62AE1CE.quest_desc: ["A nice rod"]
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
 	quest.792A8FFFD3B8E171.quest_desc: ["Allows you to extend machines! Place above the machine to enabled input and output into it from the &lMachine Extender&r"]
