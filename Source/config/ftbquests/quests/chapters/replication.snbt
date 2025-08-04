@@ -660,5 +660,16 @@
 			x: 1.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["48E5FBDCA6305B35"]
+			id: "78CF9DB8D153131B"
+			tasks: [{
+				id: "2D669B2E131232EE"
+				item: { count: 1, id: "replication:replicator_enclosure" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
 	]
 }
