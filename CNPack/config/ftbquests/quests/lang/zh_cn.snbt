@@ -132,7 +132,7 @@
 	quest.097D5C49B448F3B9.quest_desc: ["Reduces the total time to grow crops, up to 3 can be placed in the &lCloche&r"]
 	quest.09827A07A75DF349.quest_desc: ["A nice rod"]
 	quest.09827A07A75DF349.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
-	quest.09ABAFBB12D74469.quest_desc: ["Comes from the &lRock Washer&r"]
+	quest.09ABAFBB12D74469.quest_desc: ["通过&l岩石洗矿机&r获得。"]
 	quest.09D5E36EB0574F45.quest_desc: ["So Powerful"]
 	quest.09EF9B22F858DCE6.quest_desc: ["Allows the&l Rock Enricher&r to create &lDiorite&r"]
 	quest.0A0237AE923A1D54.quest_desc: ["Eye see you crafting over there"]
@@ -349,8 +349,8 @@
 	quest.21CBA4B0D9ADBA2D.quest_desc: ["Part of the &lJet Suit&r, protects from &lRadiation&r and provides Flight"]
 	quest.21F12D5AC49E209D.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.220755EE4A2E9143.quest_desc: ["Allows &lAnglesite&r to be directly obtained "]
-	quest.2209EB068AA919FE.quest_desc: ["The &lResearcher&r allows you to Research new Materials, Machines and Mods"]
-	quest.221592A59487802C.quest_desc: ["Allows the making of &lGears&r more efficiently"]
+	quest.2209EB068AA919FE.quest_desc: ["&l研究器&r用于解锁新材料、机器和模组。"]
+	quest.221592A59487802C.quest_desc: ["用于高效制作&l齿轮&r。"]
 	quest.225AD8B1A8CC13BF.quest_desc: ["A nice gear"]
 	quest.225AD8B1A8CC13BF.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
 	quest.23045166E983A861.quest_desc: ["Allows the simulation of &lStar Crawlers&r"]
@@ -380,7 +380,7 @@
 	quest.26BFA170207CD0A7.quest_desc: ["傻瓜式合成！智能工作台会检查物品栏并列出所有可以合成的物品！在其相邻位置放置切石机可以让其支持切石机配方。"]
 	quest.26C1D3374488F5FE.quest_desc: ["Turns RF into &lHeat&r"]
 	quest.26CD7918432D3393.quest_desc: ["Eggs Eggs Eggs"]
-	quest.26CFD5E497C882E3.quest_desc: ["27 blocks of &lCoke Bricks&r can be used to create the &lCoke Oven&r. Place in a 3x3x3 and use the &lHammer&r on a center block to create the multiblock"]
+	quest.26CFD5E497C882E3.quest_desc: ["搭建&l焦炉&r需要27个&l焦炉砖&r。将其搭建成3x3x3的结构并对中间方块使用&l工程师锤&r即可。"]
 	quest.274071D8FC23B3BD.quest_desc: ["Unlocks the recipe for the &lHunger Curio&r, never eat again!"]
 	quest.2796C64B863DA6EF.quest_desc: ["Made inside the &lFluid Injector&r"]
 	quest.27A997335DA96826.quest_desc: ["In &lSkygrid&r use the &lResource Curio&r on &lNether Quartz&r and &lNether Gold Ore&r for a chance to get the other ores"]
@@ -428,7 +428,7 @@
 	quest.2F3C0701CD490524.quest_desc: ["A simple coil"]
 	quest.2F8F2461BE4A9948.quest_desc: [
 		"A &lCloche&r creating wood by growing &lSaplings&r by default produces 2 logs every 1200"
-		"ticks. A &lCoke Oven &rsmelts a &lLog&r into a &lCharcoal&r every 200 ticks. "
+		"&l焦炉&r将&l原木&r烧成&l木炭&r需要200刻。"
 		""
 		"{ \"text\": \"Cloche Quest\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"689E8142E81D09C1\" } }"
 		""
@@ -447,7 +447,7 @@
 	quest.309E4B3C8068793A.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.30B2B2E28FF464FE.quest_desc: ["Allows the&l Rock Enricher&r to create &lAndesite&r"]
 	quest.30D6C98EAFB63C07.quest_desc: ["Made inside a &lCrusher&r"]
-	quest.30EA8D4EF514F5F4.quest_desc: ["Right Click on the front of a controller to place the strucutre (must have all the blocks)"]
+	quest.30EA8D4EF514F5F4.quest_desc: ["右击控制器正面以搭建结构（需要拥有所有的方块）。"]
 	quest.30FFEF26698DD916.quest_desc: ["The &lMoon Quarry&r allows the creation of &lMoon Stone Dust&r from &lMoon Cobblestone&r"]
 	quest.312152E380856FAE.quest_desc: ["Just like normal bricks"]
 	quest.312152E380856FAE.quest_subtitle: "&l&3Lunar Technium Part&r&r"
@@ -543,7 +543,7 @@
 	quest.3B4A980A5AECA6FF.quest_desc: ["通过&l树枝&r和&l木棍&r合成。"]
 	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.3B4A980A5AECA6FF.title: "橡树树苗"
-	quest.3B581375F1A72F7D.quest_desc: ["From a &lBlock of Coal&r"]
+	quest.3B581375F1A72F7D.quest_desc: ["通过煤炭块合成获得。"]
 	quest.3BB15BF24034EFD2.quest_desc: ["Time to get &lComputing&r"]
 	quest.3BC8A50893D13520.quest_desc: ["Used to create Elevators to instantly move up and down"]
 	quest.3BD7671C9A18D365.quest_desc: ["The next tier of &lTechnium&r"]
@@ -559,7 +559,7 @@
 	quest.3D1C21E317429A76.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
 	quest.3D35E01E8F0C8930.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.3D5D5435D526BF5A.quest_desc: ["为&l木制过滤器&r储存流体。"]
-	quest.3DAEB6C26422F3DA.quest_desc: ["Can be used to mold&l Molten Fluids&r into &lBlocks&r"]
+	quest.3DAEB6C26422F3DA.quest_desc: ["用于将&l熔融流体&r浇筑成块。"]
 	quest.3DD898130B4B07FD.quest_desc: ["通过&l木制过滤器&r获得。"]
 	quest.3E09C364727C763D.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.3E64E5C3BA109919.quest_desc: ["Unlocks &3&lManufactured &lOsmium&r&r which can be used in the &lInfuser&r to make dirty &3&lOsmium Dust&r&r"]
@@ -812,11 +812,11 @@
 	quest.5B91D71F57CA5ECD.quest_desc: ["Using the &lPiston&r and &lRedstone Engineering &rblock you can create a &lMetal Press&r. This allows you to create&l Plates, Wires, Gears&r and much more by just using ingots."]
 	quest.5B91D71F57CA5ECD.title: "Metal Press"
 	quest.5BA029384D9B608D.quest_desc: ["Allows the&l Rock Enricher&r to create &lGranite&r"]
-	quest.5BACBB4F61A69430.quest_desc: ["The &lItem Batcher&r moves all items in its filter at once.&l Blue&r is input and &lOrange&r is output. Useful for automating &lModular Machinery&r using a single &lItem Input!&r"]
+	quest.5BACBB4F61A69430.quest_desc: ["&l计量分配器&r可以一次送出其过滤器中的所有物品！&l蓝色&r为其输入面而&l橙色&r为其输出面。可用于自动化只有一个&l输入仓&r的&l模块化机械&r。"]
 	quest.5BD9A92ED3ED17A3.quest_desc: ["Makes the &lCloche&r produce more of its main output, up to 3. Growing &lSaplings Wood&r is its main output"]
 	quest.5BE16EC567FBE306.quest_desc: ["Double block of &lFlesh&r"]
 	quest.5BE16EC567FBE306.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
-	quest.5BEB919EC6CBA3A1.quest_desc: ["Allows you to connect blocks together with pipes quickly!"]
+	quest.5BEB919EC6CBA3A1.quest_desc: ["用于快速搭建管道！"]
 	quest.5BEBA3DCA958DF0F.quest_desc: [
 		"你可以通过物品栏左下方的&lDark Mode&r按钮来设置GUI的亮度等级。"
 		""
@@ -863,7 +863,7 @@
 	quest.619E903B2CA73254.quest_desc: ["Made with the &lBottler&r using &lCreosote Oil, HOP Grahite Dust&r and a &lRod Mold&r"]
 	quest.61BC9814DB13B72E.quest_desc: ["请仔细阅读本节的任务，其中有许多有用的信息。"]
 	quest.6219BBDF93F656BD.quest_desc: ["Whats inside?"]
-	quest.621CB46DAD84AE84.quest_desc: ["A mix of &lSand,&r &lGravel&r and &lClay&r"]
+	quest.621CB46DAD84AE84.quest_desc: ["&l沙子&r、&l沙砾&r和&l黏土&r的混合物。"]
 	quest.623E8B19B918318F.quest_desc: ["Used to Indentify items, these can be saved onto Memory Chips"]
 	quest.6246E91DC5BFEEC0.quest_desc: ["Better way to get fluids "]
 	quest.627070252CB1C1BA.quest_desc: ["Iron can be used to make &lModern Dynamic Item Pipes&r. This provides another way of transporting items, there is also &lFluid Pipes&r as well"]
@@ -962,7 +962,7 @@
 	quest.6C12BA6141A6A6C5.quest_desc: ["你的&l科技城3&r之旅从这里开始。"]
 	quest.6C12BA6141A6A6C5.title: "一切从这里开始"
 	quest.6C573A6A2E342AFF.quest_desc: ["Made inside the &lRock Washer&r"]
-	quest.6C702C6D1CD2475A.quest_desc: ["Allows the creation of &lImmersive Engineering&r multiblocks"]
+	quest.6C702C6D1CD2475A.quest_desc: ["用于搭建&l沉浸工程&r多方块结构。"]
 	quest.6C7DFD686E52E2BF.quest_desc: ["Spawns on the top of &lChuros Plants&r in the &lEnd&r"]
 	quest.6CB6F2EF8B370BCF.quest_desc: ["Allows for Molten Fluids to be moved, easy"]
 	quest.6D1B624991EC9362.quest_desc: ["These Trees can be found in The Nether, there wood is &lFire Resistant&r"]
@@ -975,7 +975,7 @@
 		"The &lRadaway Machine &rcan also be used to remove radiation from the world. Place a &lWaste Barrel&r inside the machine to clear the world "
 	]
 	quest.6D6092426604CEA3.quest_desc: ["A &lGlobe&r of a &lDifferent Planet&r"]
-	quest.6D65A162D3C5AF8A.quest_desc: ["A more advanced filter for pipes, allows for color coded filtering"]
+	quest.6D65A162D3C5AF8A.quest_desc: ["更高级的过滤器，可以通过颜色编码来进行物流。"]
 	quest.6D6B47ACEFFFA619.quest_desc: ["Allows the simulation of &lZombies&r"]
 	quest.6D7D9A9A3222C22C.quest_desc: ["Made inside the&l Mob Infuser&r used in the &lSimulation Chamber&r"]
 	quest.6D8834A1F7440FEA.quest_desc: ["Used dyes to create different dyes"]
@@ -1005,7 +1005,7 @@
 	quest.7072383284795B18.quest_desc: ["From the &lCrystal&r"]
 	quest.7081AF4D35D9981E.quest_desc: ["Its looking at me!"]
 	quest.7081AF4D35D9981E.quest_subtitle: "&e&lEnd Technium Part&r&r"
-	quest.709CBE9FCBEC9C10.quest_desc: ["Smelts a single item"]
+	quest.709CBE9FCBEC9C10.quest_desc: ["可以烧炼一个物品。"]
 	quest.709CBE9FCBEC9C10.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
 	quest.70B0845C005C086F.quest_desc: ["Found inside &lThe End&r, a &lDigital Miner&r can be used to collect this quicker"]
 	quest.70CD5F6D23D2F9FB.quest_desc: ["Made inside the &lCrude Blast Furnace&r from &lSalt&r "]
@@ -1029,7 +1029,7 @@
 	quest.737F13286F75F8B3.quest_desc: [
 		"Your going to need a lot of &lCoal&r and&l Black Bricks&r, Maybe a &lGrout Miner&r could be useful"
 		""
-		"See next page for example automation"
+		"下页有自动化示例。"
 		"{@pagebreak}"
 		"{image:techopolis:textures/quests/auto_coal.png width:210 height:127 align:center}"
 	]
@@ -1084,7 +1084,7 @@
 	quest.7A13BC63FA45322D.quest_desc: ["Processed Ore"]
 	quest.7A438F372F835579.quest_desc: ["Targets Ore inside Rocks"]
 	quest.7A49CB5EE131B7A1.quest_desc: ["&lEnriched Dirty Dust&r"]
-	quest.7A4D119ED01918E7.quest_desc: ["&lCreosote&r is a by product of the &lCoke Oven&r and can be used to create &lTreated Plank&rs"]
+	quest.7A4D119ED01918E7.quest_desc: ["&l杂酚油&r是&l焦炉&r的副产物，用于制作&l防腐木板&r。"]
 	quest.7A4D119ED01918E7.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
 	quest.7A873C3D4F693A8B.quest_desc: ["Made inside the &lPurification Chamber&r"]
 	quest.7A9B8E4BB8A9AE37.quest_desc: ["&lSalt &rcan be used the make the &lDust Mold&r. The Dust Mold when used inside the &lSolidifier&r will create &lDusts &r"]
@@ -1183,7 +1183,7 @@
 	task.3F6138F1A167493C.title: "Purifying Salt Mulch"
 	task.3F845F17BE2F8EA1.title: "Villagers"
 	task.3FF159357783E9B0.title: "Cloche"
-	task.4028D61CA6E2356D.title: "Molten Coal"
+	task.4028D61CA6E2356D.title: "熔融煤炭"
 	task.4088032BDE31FCF1.title: "Any #techopolis:ultimate_crafting_tables"
 	task.44F2B2EE5B14F05A.title: "Sky Grid Ores"
 	task.484708E0D9423A5E.title: "Miners"
