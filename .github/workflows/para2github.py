@@ -92,16 +92,16 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
 
                 key_pattern = re.escape(json.dumps(key, ensure_ascii=False))
                 value_pattern = re.escape(original_value_str)
-                
+
                 pattern = re.compile(f"({key_pattern}\\s*:\\s*){value_pattern}")
-                
+
                 # BUGFIX: 对替换字符串中的反斜杠进行转义。
                 # re.sub 会处理替换字符串中的反斜杠，因此我们需要将单个 '\' 变成 '\\'
                 # 以确保像 "\\n" 这样的字符串被当作字面量插入，而不是被解析成换行符。
                 safe_replacement_value = translated_value_str.replace('\\', '\\\\')
 
                 replacement = f"\\1{safe_replacement_value}"
-                
+
                 source_content, num_replacements = pattern.subn(replacement, source_content, count=1)
         
         with open(file_path, "w", encoding="UTF-8") as f:
@@ -149,6 +149,16 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
 
 
 def main() -> None:
+    try:
+        with open("modpack.json", "r", encoding="utf-8") as f:
+            config = json.load(f)
+        ftb_quests_config = config.get("ftbQuests")
+        if not ftb_quests_config or not ftb_quests_config.get("enabled", False):
+            ftb_quests_config = None
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        ftb_quests_config = None
+        print(f"警告：无法加载或解析 modpack.json ({e})，FTB Quests 合并功能将被禁用。")
+
     get_files()
     ftb_quests_lang_dir = None # 用于记录FTB Quests语言文件所在的目录
 
@@ -165,33 +175,35 @@ def main() -> None:
         log_path = re.sub('en_us', 'zh_cn', path_str)
         print(f"已从Paratranz下载到仓库：{log_path}")
 
-        # 检查是否为 FTB Quests 的语言文件，并记录其输出目录
-        if "kubejs/assets/quests/lang/" in path_str and os.path.exists("Source/config/ftbquests/quests/lang/en_us.snbt"):
-            ftb_quests_lang_dir = Path("CNPack") / path.parent
+        if ftb_quests_config:
+            normalized_path_str = path_str.replace("\\", "/")
+            normalized_json_dir = ftb_quests_config["jsonOutputDir"].replace("\\", "/")
+            source_snbt_path = os.path.join(config.get("sourceDir", "Source"), ftb_quests_config["langFile"])
+            if normalized_json_dir in normalized_path_str and os.path.exists(source_snbt_path):
+                ftb_quests_lang_dir = Path("CNPack") / path.parent
 
     # 在所有文件处理完毕后，如果检测到了 FTB Quests 文件，则执行合并
     if ftb_quests_lang_dir and ftb_quests_lang_dir.exists():
         print(f"\n检测到 FTB Quests 翻译文件，开始调用 LangSpliter 合并 SNBT 文件...")
 
-        # 定义输入和输出路径
-        json_dir = str(ftb_quests_lang_dir)
-        output_snbt_file = 'CNPack/config/ftbquests/quests/lang/zh_cn.snbt'
+        source_dir = config["sourceDir"]
+        json_dir_rel = ftb_quests_config["jsonOutputDir"]
+        lang_file_rel = ftb_quests_config["langFile"]
+        chapters_dir_rel = ftb_quests_config["chaptersDir"]
+        multiline_mode = ftb_quests_config.get("multilineMode", "numbered")
 
-        # 新增 chapters 目录的定义
-        source_chapters_dir = 'Source/config/ftbquests/quests/chapters'
-        output_chapters_dir = 'CNPack/config/ftbquests/quests/chapters'
-
+        json_dir = str(Path("CNPack") / json_dir_rel)
+        output_snbt_file = str(Path("CNPack") / lang_file_rel.replace("en_us", "zh_cn"))
+        source_chapters_dir = str(Path(source_dir) / chapters_dir_rel)
+        output_chapters_dir = str(Path("CNPack") / chapters_dir_rel)
         # 直接调用从 LangSpliter 导入的函数，并传入所有必需的参数
         if os.path.isdir(source_chapters_dir):
             print(f"检测到章节目录，将启用 custom_name/lore 更新功能...")
-            merge_all_to_snbt(json_dir, output_snbt_file, source_chapters_dir, output_chapters_dir)
+            merge_all_to_snbt(json_dir, output_snbt_file, source_chapters_dir, output_chapters_dir, multiline_mode)
         else:
             print(f"未检测到章节目录 {source_chapters_dir}，将禁用 custom_name/lore 更新功能...")
+            merge_all_to_snbt(json_dir, output_snbt_file, "", "", multiline_mode)
 
-            # 如果源目录不存在，传入空字符串或None来禁用功能
-            merge_all_to_snbt(json_dir, output_snbt_file, "", "")
-
-       # 合并完成后，清除已合并的临时JSON文件所在的父目录
         cleanup_dir = ftb_quests_lang_dir.parent
 
         if cleanup_dir.exists() and cleanup_dir.is_dir():

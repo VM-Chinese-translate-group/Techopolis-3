@@ -12,8 +12,8 @@ LangSpliter 命令行工具
      python LangSpliter.py split
    - 指定自定义路径:
      python LangSpliter.py split --source-lang "path/to/en_us.snbt" --output-dir "path/to/output"
-   - **(新功能)** 拆分时将单行列表展平 (不加数字后缀):
-     python LangSpliter.py split --flatten-single-lines
+   - **(新功能)** 选择不同的多行文本处理模式:
+     python LangSpliter.py split --multiline-mode=newline
 
 2. 合并 JSON 文件为 SNBT 文件:
    - 使用默认路径:
@@ -74,14 +74,16 @@ def escape_string_for_snbt(s: str) -> str:
     return s
 
 
-def split_and_process_all(source_lang_file, chapters_dir, chapter_groups_file, output_dir, flatten_single_lines: bool):
+def split_and_process_all(source_lang_file, chapters_dir, chapter_groups_file, output_dir, multiline_mode: str):
     """
     一个完整的处理流程，现在会将 chapter.* 条目分发到对应的章节文件中。
-    新增 flatten_single_lines 参数用于控制单行列表的处理方式。
+    新增 multiline_mode 参数用于控制多行文本的处理方式。
     """
     print(f"--- 1. 开始拆分和处理 {source_lang_file} ---")
-    if flatten_single_lines:
+    if multiline_mode == 'flatten_single':
         print("  -> 已启用【单行列表展平】模式。")
+    elif multiline_mode == 'newline':
+        print("  -> 已启用【换行符合并】模式。")
     os.makedirs(output_dir, exist_ok=True)
 
     # 1. 加载源语言文件
@@ -93,12 +95,15 @@ def split_and_process_all(source_lang_file, chapters_dir, chapter_groups_file, o
         for key, value in snbt_data.items():
             if isinstance(value, list):
                 # 根据命令行参数选择处理逻辑
-                if flatten_single_lines and len(value) == 1:
+                if multiline_mode == 'newline':
+                    lines = [unescape_string(str(line)) for line in value]
+                    lang_data[key] = "\n".join(lines)
+                elif multiline_mode == 'flatten_single' and len(value) == 1:
                     # 如果开启了展平功能，且列表只有一个元素，则不加数字后缀
                     processed_line = unescape_string(str(value[0]))
                     lang_data[key] = processed_line
                 else:
-                    # 默认行为：为所有行（或当展平功能关闭时）添加数字后缀
+                    # 默认行为('numbered')：为所有行添加数字后缀
                     for i, line in enumerate(value, 1):
                         new_key = f"{key}{i}"
                         processed_line = unescape_string(str(line))
@@ -618,11 +623,12 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
         print(f"警告：在任何章节文件中都找不到以下 {len(remaining_ids)} 个物品ID：{', '.join(remaining_ids)}")
 
 
-def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, output_chapters_dir: str):
+def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, output_chapters_dir: str, multiline_mode: str):
     """
     合并所有JSON文件为单个SNBT文件。
     如果提供了chapters_dir，则会将内嵌文本更新回原始章节文件，
     并从最终的语言文件中排除这些条目。
+    新增 multiline_mode 参数以支持不同的多行文本合并策略。
     """
     print(f"--- 2. 开始从 {json_dir} 合并所有 JSON 文件到 SNBT ---")
     if not os.path.isdir(json_dir):
@@ -649,6 +655,8 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     embedded_data = OrderedDict()
     standard_data = OrderedDict()
     # 这个正则表达式匹配所有需要被回填到章节文件而不是写入语言文件的键
+    # 注意：'newline' 模式与此处的数字后缀键（如 lore\d+）可能不完全兼容，
+    # 采用 'newline' 模式时，组件更新功能可能无法按预期工作。
     embedded_key_pattern = re.compile(
         r'^(tasks|rewards)\.[0-9A-F]+\.(custom_name|lore\d+)|'
         r'chapter\.[0-9A-F]+\.image\.\d+\.hover\d*|'
@@ -666,12 +674,23 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
 
     print("\n开始重构多行文本条目...")
 
+    # 在 'newline' 模式下，预处理标准数据，将含 '\n' 的字符串拆分为列表
+    if multiline_mode == 'newline':
+        for key, value in standard_data.items():
+            if isinstance(value, str) and '\n' in value:
+                standard_data[key] = value.split('\n')
+
     multi_line_pattern = re.compile(r'^(.*?)(\d+)$')
     temp_multiline = OrderedDict()
     reconstructed_data = OrderedDict()
 
     # 只处理标准数据
     for key, value in standard_data.items():
+        # 如果值已经是列表（来自 newline 模式的预处理），直接使用
+        if isinstance(value, list):
+            reconstructed_data[key] = value
+            continue
+
         match = multi_line_pattern.match(key)
         if match:
             base_key = match.group(1)
@@ -756,9 +775,10 @@ if __name__ == "__main__":
         parser_split.add_argument('--output-dir', default=DEFAULT_JSON_OUTPUT_DIR,
                                   help=f'指定输出 JSON 文件的目录。默认: {DEFAULT_JSON_OUTPUT_DIR}')
         parser_split.add_argument(
-            '--flatten-single-lines',
-            action='store_true',
-            help='当 SNBT 列表只有一个元素时，将其展平为不带数字后缀的键值对。'
+            '--multiline-mode',
+            default='numbered',
+            choices=['numbered', 'flatten_single', 'newline'],
+            help='控制多行文本的拆分方式: numbered (后缀+数字), flatten_single (单行展平), newline (使用 \\n 合并为单条目)。'
         )
 
         # --- 合并任务的参数 (标准逻辑) ---
@@ -771,6 +791,12 @@ if __name__ == "__main__":
                                   help=f'指定用于更新的输入章节 SNBT 目录。如果提供此项，将启用 component 更新功能。默认: {DEFAULT_CHAPTERS_DIR}')
         parser_merge.add_argument('--output-chapters-dir', default=DEFAULT_MODIFIED_CHAPTERS_DIR,
                                   help=f'指定更新后的章节 SNBT 文件的输出目录。默认: {DEFAULT_MODIFIED_CHAPTERS_DIR}')
+        parser_merge.add_argument(
+            '--multiline-mode',
+            default='numbered',
+            choices=['numbered', 'flatten_single', 'newline'],
+            help='指定合并时使用的多行文本格式，应与拆分时所用模式一致。'
+        )
 
         args = parser.parse_args()
 
@@ -781,14 +807,15 @@ if __name__ == "__main__":
                 chapters_dir=args.chapters_dir,
                 chapter_groups_file=args.chapter_groups,
                 output_dir=args.output_dir,
-                flatten_single_lines=args.flatten_single_lines
+                multiline_mode=args.multiline_mode
             )
         elif args.task == 'merge':
             merge_all_to_snbt(
                 json_dir=args.json_dir,
                 output_snbt_file=args.output_snbt,
                 chapters_dir=args.chapters_dir,
-                output_chapters_dir=args.output_chapters_dir
+                output_chapters_dir=args.output_chapters_dir,
+                multiline_mode=args.multiline_mode
             )
 
 

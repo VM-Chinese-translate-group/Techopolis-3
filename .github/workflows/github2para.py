@@ -49,12 +49,25 @@ def handle_ftb_quests_snbt():
     """
     检查是否存在 FTB Quests 的 en_us.snbt 文件。
     如果存在，则使用 LangSpliter 将其拆分为多个 JSON 文件，以便上传。
+    配置从 modpack.json 读取。
     """
-    snbt_file = "Source/config/ftbquests/quests/lang/en_us.snbt"
-    chapters_dir = "Source/config/ftbquests/quests/chapters"
-    chapter_groups_file = "Source/config/ftbquests/quests/chapter_groups.snbt"
-    # 定义拆分后的JSON文件输出目录，与para2github.py的逻辑保持一致
-    output_json_dir = "Source/kubejs/assets/quests/lang"
+    try:
+        with open("modpack.json", "r", encoding="utf-8") as f:
+            config = json.load(f)
+        ftb_quests_config = config.get("ftbQuests")
+        if not ftb_quests_config or not ftb_quests_config.get("enabled", False):
+            print("FTB Quests 处理在 modpack.json 中被禁用，跳过。")
+            return
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"警告：无法加载或解析 modpack.json ({e})，跳过 FTB Quests 处理。")
+        return
+
+    source_dir = config.get("sourceDir", "Source")
+    snbt_file = os.path.join(source_dir, ftb_quests_config["langFile"])
+    chapters_dir = os.path.join(source_dir, ftb_quests_config["chaptersDir"])
+    chapter_groups_file = os.path.join(source_dir, ftb_quests_config["chapterGroupsFile"])
+    output_json_dir = os.path.join(source_dir, ftb_quests_config["jsonOutputDir"])
+    multiline_mode = ftb_quests_config.get("multilineMode", "numbered")
 
     if os.path.exists(snbt_file):
         print(f"检测到 SNBT 文件: {snbt_file}，将进行自动拆分...")
@@ -63,17 +76,17 @@ def handle_ftb_quests_snbt():
         os.makedirs(output_json_dir, exist_ok=True)
 
         # 调用 LangSpliter 的拆分函数
-        # flatten_single_lines=False 是为了让多行文本在Paratranz中成为多个独立的词条，便于翻译
+        # multiline_mode='newline' 是为了将多行文本合并为单个条目，便于联系上下文进行翻译
         split_and_process_all(
             source_lang_file=snbt_file,
             chapters_dir=chapters_dir,
             chapter_groups_file=chapter_groups_file,
             output_dir=output_json_dir,
-            flatten_single_lines=False
+            multiline_mode=multiline_mode
         )
         print("SNBT 文件已成功拆分为 JSON，准备上传。")
     else:
-        print("未检测到 FTB Quests 的 en_us.snbt 文件，跳过拆分步骤。")
+        print(f"未在路径 {snbt_file} 检测到 FTB Quests 的 SNBT 文件，跳过拆分步骤。")
 
 
 async def main():
