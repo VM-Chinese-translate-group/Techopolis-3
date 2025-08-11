@@ -1,0 +1,17 @@
+{
+  "item.cloche.overworld_upgrade": "Overworld Upgrade",
+  "item.cloche.nether_upgrade": "Nether Upgrade",
+  "item.cloche.end_upgrade": "End Upgrade",
+  "item.cloche.no_seeds_upgrade": "No Seeds Upgrade",
+  "item.cloche.main_output_upgrade": "Main Output Upgrade",
+  "item.cloche.shears_upgrade": "Shears Upgrade",
+  "item.cloche.no_other_drops_upgrade": "No Other Drops Upgrade",
+  "item.cloche.fixed_speed_upgrade_1": "Fixed Speed Upgrade 1",
+  "item.cloche.fixed_speed_upgrade_2": "Fixed Speed Upgrade 2",
+  "item.cloche.fixed_speed_upgrade_3": "Fixed Speed Upgrade 3",
+  "item.cloche.percentage_speed_upgrade_1": "Percentage Speed Upgrade 1",
+  "item.cloche.percentage_speed_upgrade_2": "Percentage Speed Upgrade 2",
+  "item.cloche.percentage_speed_upgrade_3": "Percentage Speed Upgrade 3",
+  "item.cloche.twilight_forest_upgrade": "Twilight Forest Upgrade",
+  "block.cloche.cloche": "Cloche"
+}
