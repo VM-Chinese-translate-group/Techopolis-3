@@ -3,6 +3,14 @@
   "packName": "Techopolis 3",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
+  "ftbQuests": {
+    "enabled": true,
+    "multilineMode": "newline",
+    "langFile": "config/ftbquests/quests/lang/en_us.snbt",
+    "chaptersDir": "config/ftbquests/quests/chapters",
+    "chapterGroupsFile": "config/ftbquests/quests/chapter_groups.snbt",
+    "jsonOutputDir": "kubejs/assets/quests/lang"
+  },
   "attentionList": {
     "folders": [
       {
