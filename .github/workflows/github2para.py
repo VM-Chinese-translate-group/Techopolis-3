@@ -52,7 +52,7 @@ def handle_ftb_quests_snbt():
     配置从 modpack.json 读取。
     """
     try:
-        with open("modpack.json", "r", encoding="utf-8") as f:
+        with open(".github/configs/modpack.json", "r", encoding="utf-8") as f:
             config = json.load(f)
         ftb_quests_config = config.get("ftbQuests")
         if not ftb_quests_config or not ftb_quests_config.get("enabled", False):

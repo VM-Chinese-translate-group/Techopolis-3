@@ -150,7 +150,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
 
 def main() -> None:
     try:
-        with open("modpack.json", "r", encoding="utf-8") as f:
+        with open(".github/configs/modpack.json", "r", encoding="utf-8") as f:
             config = json.load(f)
         ftb_quests_config = config.get("ftbQuests")
         if not ftb_quests_config or not ftb_quests_config.get("enabled", False):
