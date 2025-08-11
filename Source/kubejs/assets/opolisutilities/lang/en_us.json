@@ -9,7 +9,7 @@
   "item.opolisutilities.jerky": "Jerky",
   "item.opolisutilities.bundled_flesh": "Bundled Flesh",
   "item.opolisutilities.ender_pearl_fragment": "Ender Pearl Fragment",
-  "item.opolisutilities.b_bucks": "B Bucks",
+  "item.opolisutilities.b_bucks": "Tech Bucks",
   "item.opolisutilities.leafy_string": "Leafy String",
   "item.opolisutilities.jei_null_item": "JEI Null Item",
   "item.opolisutilities.upgrade_base": "Upgrade Base",
@@ -52,7 +52,7 @@
   "block.gui.blacklist_slot": "Blacklist Slot",
   "block.gui.tool_slot": "Tool Slot",
 
-  "block.opolisutilities.resource_generator": "Resource Generator",
+  "block.opolisutilities.resource_generator": "Builders Generator",
 
   "block.gui.speed_upgrade": "Speed Cap Block",
   "block.gui.resource": "Resource to Generate",
