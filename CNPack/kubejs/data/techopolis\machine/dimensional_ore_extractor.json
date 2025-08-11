@@ -1,0 +1,86 @@
+{
+  "name": {
+    "text": "Dimensional Ore Extractor"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/dimensional_ore_extractor",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 2000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Dimensional Ore Extractor"
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 84,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 120,
+      "y": 49,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 117,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 156,
+      "y": 27
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "name": {
+    "text": "Technium Compressor"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/technium_compressor",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 6000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Technium Compressor"
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 66,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 146,
+      "y": 46,
+      "ghost": {
+        "items": {
+          "item": "bblcore:upgrade_base"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 143,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 174,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 97,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_3",
+      "x": 106,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_2",
+      "x": 116,
+      "y": 27
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": {
+    "text": "Bio Generator"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/bio_generator",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_item",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "config": {
+        "default": "output",
+        "output": true
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item",
+      "x": 67,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Bio Generator"
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 182,
+      "y": 25
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": {
+    "text": "Ambient Water Collector"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/ambient_water_collector",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "id": "output_fluid",
+      "capacity": 10000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/ambient_water_collector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Ambient Water Collector"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_fluid",
+      "x": 120,
+      "y": 25
+    }
+  ]
+}

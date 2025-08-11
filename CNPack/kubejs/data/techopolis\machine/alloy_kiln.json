@@ -1,0 +1,178 @@
+{
+  "name": {
+    "text": "Alloy Kiln"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/alloy_kiln",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_1",
+      "whitelist": [
+        "minecraft:copper_ingot", "minecraft:copper_block", "minecraft:netherrack", "mekanism:ingot_refined_obsidian", "techopolis:dimensional_dust"
+      ],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_2",
+      "whitelist": [
+        "#techopolis:blueprints", "#minecraft:coals", "modular_machinery_reborn:casing_plain"
+      ],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_3",
+      "whitelist": [
+        "alltheores:zinc_block","alltheores:zinc_ingot", "alltheores:tin_ingot", "alltheores:tin_block", "techopolis:obsidiglow_ingot", "minecraft:brick", "mekanism:ingot_refined_glowstone"
+      ],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 512000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_fluid",
+      "capacity": 16000,
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "unique": true,
+      "id": "input_fluid_1",
+      "capacity": 16000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "unique": true,
+      "id": "input_fluid_2",
+      "capacity": 16000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Alloy Kiln"
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 47,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid_2",
+      "x": 85,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 105,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_2",
+      "x": 115,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_3",
+
+      "x": 124,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid_1",
+      "x": 66,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_fluid",
+      "x": 195,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 175,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 147,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 150,
+      "y": 46,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
+    }
+  ]
+}

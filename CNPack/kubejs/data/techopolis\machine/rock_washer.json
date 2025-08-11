@@ -1,0 +1,92 @@
+{
+  "name": {
+    "text": "Rock Washer"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/rock_washer",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:keep_inventory": false,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_item",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_fluid",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "focus",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Rock Washer"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 59,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 132,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 178,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item",
+      "x": 87,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "focus",
+      "x": 107,
+      "y": 38
+    }
+  ]
+}

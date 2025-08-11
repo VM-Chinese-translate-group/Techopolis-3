@@ -1,0 +1,68 @@
+{
+  "name": {
+    "text": "Weather Machine"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/weather_machine",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_1",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Weather Machine"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 146,
+      "y": 42
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 121,
+      "y": 37,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 93,
+      "y": 29
+    }
+  ]
+}

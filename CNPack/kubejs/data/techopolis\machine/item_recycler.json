@@ -1,0 +1,162 @@
+{
+  "name": {
+    "text": "Item Recycler"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/item_recycler",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_9",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 178,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Item Recycler"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 178,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 60,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_4",
+      "x": 80,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_7",
+      "x": 100,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_2",
+      "x": 60,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_5",
+      "x": 80,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_3",
+      "x": 60,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_6",
+      "x": 80,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_9",
+      "x": 100,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_8",
+      "x": 100,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 137,
+      "y": 39
+    }
+  ]
+}

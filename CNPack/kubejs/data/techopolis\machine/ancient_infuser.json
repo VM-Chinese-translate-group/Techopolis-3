@@ -1,0 +1,103 @@
+{
+  "name": {
+    "text": "Ancient Infuser"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/ancient_infuser",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 20000000
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "input_chemical",
+      "capacity": 64000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "capacity": 64000,
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Ancient Infuser"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 66,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 93,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "input_chemical",
+      "x": 120,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 173,
+      "y": 42,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 148,
+      "y": 37,
+      "width": 16,
+      "height": 24
+    }
+  ]
+}

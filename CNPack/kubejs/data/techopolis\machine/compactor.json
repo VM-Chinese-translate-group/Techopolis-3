@@ -1,0 +1,72 @@
+{
+  "name": {
+    "text": "Compactor"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/compactor",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:keep_inventory": false,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_item",
+      "whitelist": [
+        "#techopolis:compactor_valid_items"
+      ],
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item",
+      "x": 67,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 174,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Compactor"
+      }
+    }
+  ]
+}

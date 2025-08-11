@@ -1,0 +1,220 @@
+{
+  "name": {
+    "text": "Ultimate Technium Machine"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/ultimate_technium_machine",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "alltheores:enderium_gear"
+      ],
+      "id": "input_item_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "bigreactors:fluidizercasing"
+      ],
+      "id": "input_item_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "alltheores:platinum_rod"
+      ],
+      "id": "input_item_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "bigreactors:inanite_ingot"
+      ],
+      "id": "input_item_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "techopolis:elite_technium_ingot"
+      ],
+      "id": "input_item_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "mekanism:pellet_antimatter"
+      ],
+      "id": "input_item_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "#c:storage_blocks/replica"
+      ],
+      "id": "input_item_7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "#c:plates/cyanite"
+      ],
+      "id": "input_item_8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "compressedblocks:double_crated_rotten_flesh"
+      ],
+      "id": "input_item_9",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_fluid",
+      "capacity": 32000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 2000000
+    },
+    {
+      "type": "custommachinery:chemical",
+      "mode": "input",
+      "id": "input_chemical",
+      "capacity": 16000,
+      "max_input": 16000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 49,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_2",
+      "x": 69,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_4",
+      "x": 49,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_5",
+      "x": 69,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_6",
+      "x": 89,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_7",
+      "x": 49,
+      "y": 58
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_8",
+      "x": 69,
+      "y": 58
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_9",
+      "x": 89,
+      "y": 58
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_3",
+      "x": 89,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 192,
+      "y": 45
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "BOTTOM",
+      "x": 192,
+      "y": 20,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 110,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 130,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "input_chemical",
+      "x": 150,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Ultimate Technium Machine"
+      }
+    }
+  ]
+}

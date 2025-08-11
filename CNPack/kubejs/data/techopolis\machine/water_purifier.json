@@ -1,0 +1,87 @@
+{
+  "name": {
+    "text": "Water Purifier"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/water_purifier",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "id": "fluid_output",
+      "capacity": 64000,
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_fluid",
+      "capacity": 64000,
+      "max_output": 0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "height": 9,
+      "text": {
+        "text": "Water Purifier"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 120,
+      "y": 37,
+      "ghost": {
+        "items": {
+          "item": "bblcore:upgrade_base"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 84,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output",
+      "x": 155,
+      "y": 25
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": {
+    "text": "Oil Pump"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/oil_pump",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 20000000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "id": "output_fluid",
+      "capacity": 64000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Oil Pump"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 118,
+      "y": 30,
+      "width": 24,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 122,
+      "y": 49,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 92,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_fluid",
+      "x": 149,
+      "y": 24
+    }
+  ]
+}

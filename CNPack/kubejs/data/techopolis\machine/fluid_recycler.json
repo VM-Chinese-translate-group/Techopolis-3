@@ -1,0 +1,70 @@
+{
+  "name": {
+    "text": "Fluid Recycler"
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/fluid_recycler",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:keep_inventory": false,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_fluid",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "techopolis:textures/gui/fluid_injector_background.png",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 178,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": "Fluid Recycler"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 57,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 115,
+      "y": 39
+    }
+  ]
+}
