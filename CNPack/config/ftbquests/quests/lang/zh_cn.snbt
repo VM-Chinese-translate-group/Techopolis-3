@@ -217,7 +217,7 @@
 	quest.13E5688859BE31A4.quest_desc: ["你听着，这&l龙&r我们都杀过几百万次了，所以你用这个&l屠龙者5000&r，右击一下直接把它秒了就得了。我们得继续推进，别在这浪费太多时间。"]
 	quest.13F549974E8EF66E.quest_desc: ["Made on the &lEmpowerer&r"]
 	quest.14149EA82A85D759.quest_desc: ["Made inside the &lCrusher&r"]
-	quest.14149EA82A85D759.quest_subtitle: "&7&oAdvanced Technium Part&r&r"
+	quest.14149EA82A85D759.quest_subtitle: "&7&o高级𬬸金部件&r&r"
 	quest.149BF1FC5BDBED7C.quest_desc: ["让你可以在&l固化机&r中直接制造&l煤炭&r。"]
 	quest.14A253EEAC066E54.quest_desc: ["Allows machine to work outside the limits of this dimension"]
 	quest.14ADD310DF8D01F7.quest_desc: ["简易物品传输"]
@@ -504,8 +504,9 @@
 	quest.374CCE49D19077E6.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.374DA6879146C1D1.quest_desc: ["Made inside the &lMob Fabricatior&r"]
 	quest.375B3C974E203D4B.quest_desc: [
-		"Produces &lMilk&r when supplied with energy and having a &lCow&r nearby. Cows can be summoned with the "
-		"{ \"text\": \"Summoning Block\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63718127F5015BBD\" } }"
+		"当提供能量且附近有&l牛&r时，将会产出&l牛奶&r。可以使用"
+		"{ \"text\": \"召唤方块\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63718127F5015BBD\" } }"
+		"召唤牛。"
 	]
 	quest.379DC4BB243A420A.quest_desc: ["通过&l木棍&r合成&l橡木木板&r。"]
 	quest.379DC4BB243A420A.title: "木板"
@@ -1073,7 +1074,7 @@
 	quest.787346C90ADE56AF.quest_subtitle: "&7&o高级𬬸金部件&r&r"
 	quest.78CF9DB8D153131B.quest_desc: ["Place on a &lReplicator&r to make it a bit faster!"]
 	quest.78D84F25E62AE1CE.quest_desc: ["A nice rod"]
-	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
+	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
 	quest.792A8FFFD3B8E171.quest_desc: ["允许您扩展机器！将其放置在机器上方，即可从&l机器延展器&r中向机器自动化输入和输出物品。"]
 	quest.795B98C57909A168.quest_desc: ["Smelted &lNetherite Dust&r"]
 	quest.79913BB2000EAA2B.quest_desc: ["通过&l树枝&r合成获得。"]
