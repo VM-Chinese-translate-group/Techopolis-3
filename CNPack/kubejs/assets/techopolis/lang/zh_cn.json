@@ -167,7 +167,7 @@
   "item.techopolis.pure_quantum_matter": "纯净量子物质",
   "item.techopolis.pure_living_matter": "纯净活跃物质",
   "item.techopolis.pure_earth_matter": "Pure Earth Matter",
-  "item.techopolis.pure_matter_mold": "Pure Matter Mold",
+  "item.techopolis.pure_matter_mold": "纯净物质模具",
   "item.techopolis.ender_portal": "末地传送门放置器",
   "item.techopolis.sand_miner": "沙子矿机放置器",
   "item.techopolis.gravel_miner": "沙砾矿机放置器",
@@ -203,7 +203,7 @@
   "item.techopolis.toms_core": "汤姆的核心",
   "item.techopolis.elevator_teleportation_core": "电梯传送核心",
   "item.techopolis.ender_teleportation_core": "末影传送核心",
-  "item.techopolis.dimensional_teleportation_core": "维度传送核心",
+  "item.techopolis.dimensional_teleportation_core": "超维传送核心",
   "item.techopolis.wither_skeleton_bone": "凋灵骷髅之骨",
   "item.techopolis.simulation_pearl": "模拟珍珠",
   "item.techopolis.blazing_sawdust": "烈焰锯末",
@@ -526,5 +526,5 @@
   "chemical.techopolis.spent_nether_waste": "用尽的下界废料",
   "chemical.techopolis.lunar_gas": "月球空气",
   "chemical.techopolis.dragon_breath": "龙息",
-  "chemical.techopolis.ultimate_gas": "Ultimate Gas"
+  "chemical.techopolis.ultimate_gas": "终极气体"
 }
