@@ -679,6 +679,11 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
         for key, value in standard_data.items():
             if isinstance(value, str) and '\n' in value:
                 standard_data[key] = value.split('\n')
+    
+    # 新增规则：强制将所有 .quest_desc 条目转换为列表格式，即使只有一行
+    for key, value in standard_data.items():
+        if key.endswith(".quest_desc") and isinstance(value, str):
+            standard_data[key] = [value]
 
     multi_line_pattern = re.compile(r'^(.*?)(\d+)$')
     temp_multiline = OrderedDict()
