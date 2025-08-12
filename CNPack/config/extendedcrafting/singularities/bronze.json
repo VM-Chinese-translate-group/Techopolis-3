@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.bronze",
+  "colors": [
+    "e1a920",
+    "a2780e"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Netherite",
+  "colors": [
+    "595659",
+    "111111"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

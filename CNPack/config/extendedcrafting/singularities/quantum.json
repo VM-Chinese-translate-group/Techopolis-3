@@ -1,0 +1,10 @@
+{
+  "name": "Quantum",
+  "colors": [
+    "a964c9",
+    "0b081f"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

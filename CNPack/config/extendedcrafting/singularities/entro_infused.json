@@ -1,0 +1,10 @@
+{
+  "name": "Entro Infused",
+  "colors": [
+    "b4f58b",
+    "035155"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

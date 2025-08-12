@@ -1,0 +1,10 @@
+{
+  "name": "Super Empowered Cystal",
+  "colors": [
+    "a34c90",
+    "69c02f"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

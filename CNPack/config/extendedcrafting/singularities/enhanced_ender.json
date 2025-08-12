@@ -1,0 +1,10 @@
+{
+  "name": "Enhanced Ender",
+  "colors": [
+    "117280",
+    "03272a"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

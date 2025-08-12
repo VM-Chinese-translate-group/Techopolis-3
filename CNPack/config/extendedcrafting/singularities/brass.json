@@ -1,0 +1,10 @@
+{
+  "name": "Brass",
+  "colors": [
+    "ecb63d",
+    "b38239"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

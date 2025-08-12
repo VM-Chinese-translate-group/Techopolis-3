@@ -1,0 +1,10 @@
+{
+  "name": "Electrum",
+  "colors": [
+    "f2ee7e",
+    "beae60"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

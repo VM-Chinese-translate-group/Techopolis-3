@@ -1,0 +1,10 @@
+{
+  "name": "Technium",
+  "colors": [
+    "703b17",
+    "e2e9ab"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

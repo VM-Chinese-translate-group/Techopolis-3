@@ -1,0 +1,10 @@
+{
+  "name": "Signalum",
+  "colors": [
+    "fca51a",
+    "661500"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

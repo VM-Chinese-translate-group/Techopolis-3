@@ -1,0 +1,10 @@
+{
+  "name": "Steel",
+  "colors": [
+    "898b8d",
+    "78797d"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

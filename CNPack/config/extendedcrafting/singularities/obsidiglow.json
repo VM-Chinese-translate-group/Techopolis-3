@@ -1,0 +1,10 @@
+{
+  "name": "Obsidiglow",
+  "colors": [
+    "463462",
+    "fcf1aa"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

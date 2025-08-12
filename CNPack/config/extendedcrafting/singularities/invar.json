@@ -1,0 +1,10 @@
+{
+  "name": "Invar",
+  "colors": [
+    "d6d8cf",
+    "828a7d"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

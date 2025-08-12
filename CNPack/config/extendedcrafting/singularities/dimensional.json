@@ -1,0 +1,10 @@
+{
+  "name": "Dimensional",
+  "colors": [
+    "fafbfa",
+    "389392"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}

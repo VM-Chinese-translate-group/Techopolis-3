@@ -1,0 +1,10 @@
+{
+  "name": "Lumium",
+  "colors": [
+    "fcfcd6",
+    "fc9732"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/bronze"
+  }
+}
