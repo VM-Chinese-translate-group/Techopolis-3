@@ -1,10 +1,10 @@
 ---
 navigation:
-    title: Gameplay
+    title: 游戏内容
     position: 20
 ---
 
-# Gameplay
+# 游戏内容
 
 <SubPages />
 
