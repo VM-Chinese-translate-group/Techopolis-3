@@ -1,20 +1,20 @@
 <div align="center"> 
-   <h1>某某项目简体中文翻译</h1>
+   <h1>科技城3简体中文翻译</h1>
 </div>
 
 CurseForge|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
-[链接](原链接)|模组加载器|mc版本 整合包版本|*翻译中*|
+[链接](https://www.curseforge.com/minecraft/modpacks/techopolis-3)|NeoForge|7.1|*翻译中*|
 
 ---
 
-汉化项目：[Paratranz](https://paratranz.cn/projects/项目)
+汉化项目：[Paratranz](https://paratranz.cn/projects/14287)
 
 汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/项目)
 
-项目主管 @[某某](https://github.com/某某)
+项目主管 @[maxinglo](https://github.com/maxinglo)
 
-译者：[查看贡献者排行榜](https://paratranz.cn/projects/项目/leaderboard)
+译者：[查看贡献者排行榜](https://paratranz.cn/projects/14287/leaderboard)
 
 
 ---
