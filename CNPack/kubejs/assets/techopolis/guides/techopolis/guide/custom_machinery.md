@@ -4,7 +4,7 @@ navigation:
     position: 10
 ---
 
-# 自定义机械多方块结构
+# 模块化机械
 
 <SubPages />
 
