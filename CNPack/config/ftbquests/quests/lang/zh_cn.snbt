@@ -56,7 +56,7 @@
 	quest.0166F6102DBEF6D6.quest_desc: ["生物掉落物可以在&l流化器&r中熔炼为&l生物源质&r。"]
 	quest.0166F6102DBEF6D6.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
 	quest.0166F6102DBEF6D6.title: "生物源质"
-	quest.01690697BC82295D.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
+	quest.01690697BC82295D.quest_desc: ["可以在&l战利品制造器&r中产出对应生物的掉落物。"]
 	quest.017C162A050D129F.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.0180950FFA87D3C7.quest_desc: ["一种不错的方块。"]
 	quest.0180950FFA87D3C7.quest_subtitle: "&l&0地狱𬬸金部件&r&r"
@@ -68,7 +68,7 @@
 	quest.01DF5373D68A8CAA.title: "挑战"
 	quest.0204CA6DDAEA7423.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
 	quest.025B25994A61A108.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
-	quest.0265FA8CABA2C511.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
+	quest.0265FA8CABA2C511.quest_desc: ["你需要一套&l航天服&r来遨游星辰，而这是其中的一件。"]
 	quest.026A04E8FB27154F.quest_desc: ["锇是一种非常有用的资源。"]
 	quest.02C09BA6478727D0.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
 	quest.02D52E30F9E2D82E.quest_desc: ["一种不错的板。"]
@@ -146,7 +146,7 @@
 	quest.0B1C5E41D5A8AE66.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.0B592478EB281CBC.quest_desc: ["在&l工业筛滤机&r中制成。"]
 	quest.0B68208E5E5CC71C.quest_desc: ["更多的&l圆石&r"]
-	quest.0B6CFA77F78F9359.quest_desc: ["运行&l模拟仓&r的副产品。之后可以用来制作&l熔融生物源质&r。"]
+	quest.0B6CFA77F78F9359.quest_desc: ["运行&l模拟室&r的副产物。之后可以用来制作&l熔融生物源质&r。"]
 	quest.0BC3D907EA723897.quest_desc: ["Saves learnt item"]
 	quest.0BE2D11B6AAFEC01.quest_desc: ["一种不错的齿轮。"]
 	quest.0BE2D11B6AAFEC01.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
@@ -216,13 +216,13 @@
 	quest.14149EA82A85D759.quest_desc: ["在&l粉碎机&r中制作。"]
 	quest.14149EA82A85D759.quest_subtitle: "&7&o高级𬬸金部件&r&r"
 	quest.149BF1FC5BDBED7C.quest_desc: ["让你可以在&l固化机&r中直接制造&l煤炭&r。"]
-	quest.14A253EEAC066E54.quest_desc: ["Allows machine to work outside the limits of this dimension"]
+	quest.14A253EEAC066E54.quest_desc: ["允许机器在超出该维度的范围时工作。"]
 	quest.14ADD310DF8D01F7.quest_desc: ["简易物品传输"]
 	quest.14AF71808F5F56FD.quest_desc: ["相比于使用&l月岩尘&r制取&l月球空气&r，它的效率更高。"]
 	quest.14B780516CB2F6C7.quest_desc: [
-		"用于制造&l末地𬬸金锭&r的巨大多方块结构。"
+		"A huge multiblock structure used to create &lEnd Technium Ingots&r."
 		""
-		"现在制造&l𬬸金锭&r时有最低海拔要求。 "
+		"Now requires a minimum height level in crafting &lTechnium&r"
 	]
 	quest.15162CAC2C5ED379.quest_desc: ["更坚固的外壳。这些方块可用扳手回收。"]
 	quest.1524E6C567EBC7F9.quest_desc: ["在&l星际灌注机&r中制作。"]
@@ -266,14 +266,14 @@
 	quest.18139E48823588C6.quest_desc: ["这个世界遍地都是&l下界岩&r。"]
 	quest.183C6F95344B0F96.quest_desc: ["龙向你吐龙息的时候才能收集到。比起这样，我更愿意用Boss数据模型来搞。"]
 	quest.186B144D8DBE5625.quest_desc: ["用于传输能量。"]
-	quest.18949AE304924FF4.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
+	quest.18949AE304924FF4.quest_desc: ["可以在&l战利品制造器&r中产出对应生物的掉落物。"]
 	quest.18B7ACB34D6A5BC1.quest_desc: ["谢了，我猜。"]
 	quest.18DECC6A5C3EFD94.quest_desc: ["利用高能激光将物品转化为其他物质。按下按钮发射。"]
 	quest.191474FDBC36946B.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.19191B5AD2D17B42.quest_desc: ["与动能发电机相连时可以产生RF。"]
 	quest.1929861EEF607D3C.quest_desc: ["在&l物质聚合器&r中制作。"]
 	quest.1929861EEF607D3C.quest_subtitle: "&l&e&o精英𬬸金部件&r&r&r"
-	quest.1977A3BD061C4176.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
+	quest.1977A3BD061C4176.quest_desc: ["你需要一套&l航天服&r来遨游星辰，而这是其中的一件。"]
 	quest.198A1BEAAD34949E.quest_desc: ["&l喷气服&r的一部分，用于抵御&l辐射&r。"]
 	quest.198A1BEAAD34949E.quest_subtitle: "Need to change this"
 	quest.19E16ABF1A0A8D3B.quest_desc: ["由可怕的&l外星僵尸&r掉落。"]
@@ -286,7 +286,7 @@
 	quest.1A00BCA369503368.quest_desc: ["&l烧炼&r或&l冶炼&r&4&l红石矿物碎块&r&r获得。"]
 	quest.1A00BCA369503368.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
 	quest.1A1B32B71B33B49B.quest_desc: ["解锁&l终极矿机&r的配方。与&l精英矿机&r相比，它的产量翻倍。"]
-	quest.1A2093BEC631C4C8.quest_desc: ["无限复制？"]
+	quest.1A2093BEC631C4C8.quest_desc: ["无限复制物质？"]
 	quest.1A27BF2E3F573C8C.quest_desc: [
 		"The &lBuilders Generator&r allows the creation of some &lDecorative Blocks&r."
 		""
@@ -360,14 +360,14 @@
 	]
 	quest.23420AE8F3F5942F.quest_desc: ["来自于&l超维复制物质矿石&r。"]
 	quest.2359C61CD8CE974E.quest_desc: ["&l由矿石碎片加工而来&r。"]
-	quest.23E7F88F7C88C7F8.quest_desc: ["粉碎&l模拟珍珠&r可得。"]
+	quest.23E7F88F7C88C7F8.quest_desc: ["粉碎&l模拟珍珠&r获得。"]
 	quest.2436734739033064.quest_desc: ["产于&l下界&r，使用&l数字采矿机&r可高效采集。"]
 	quest.2447F9EEBDB0455A.quest_desc: ["分解&l𬬸金锭&r获得。"]
 	quest.246E1D3E59885EA4.quest_desc: ["第三个&l热力蒸馏塔&r能够将&l液态锂&r转化为&l液态硫酸&r，而&l化学结晶器&r能够将&l硫酸&r转化为&l硫磺&r。"]
 	quest.24814E5E23240951.quest_desc: ["看着不错。"]
 	quest.2511C2023D150059.quest_desc: ["在浇筑模组的固化器中制成。"]
 	quest.253ADDF82ACF3827.quest_desc: ["在&l压印器&r中制作。"]
-	quest.25B104BF86722D76.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
+	quest.25B104BF86722D76.quest_desc: ["你需要一套&l航天服&r来遨游星辰，而这是其中的一件。"]
 	quest.25BEDD3E36706DCB.quest_desc: ["产于&l下界&r，使用&l数字采矿机&r可高效采集。"]
 	quest.25D117DF7A9ABBA9.quest_desc: ["更坚固的外壳，能产出多得多的能量。"]
 	quest.25F15D5AA001E6A6.quest_desc: ["暖暖的"]
@@ -527,7 +527,7 @@
 	quest.39F5BC13576E3BB5.quest_desc: ["简易&l烧炼&r设备"]
 	quest.3A0D69B21D5779B7.quest_desc: ["用于制作多种建筑方块。"]
 	quest.3A138558D1F52068.quest_desc: ["在&l融合器&r中与大多数的矿石融合即可生产各种出新的&l矿石&r。"]
-	quest.3A37CCD1861B2A9F.quest_desc: ["如果不想立刻挂掉的话，记得在月球上穿好一整套航天服。"]
+	quest.3A37CCD1861B2A9F.quest_desc: ["You must be wearing the Space Suit or you will instantly die on the moon"]
 	quest.3A37CCD1861B2A9F.title: "月球"
 	quest.3A4E5F33D36C1A1F.quest_desc: ["用于合成&l时间之瓶&r。你也可以在&l时间之瓶充能器&r中为你的&l时间之瓶&r充能。"]
 	quest.3A7A81CE95B5E41F.quest_desc: ["通过&l剪刀&r挖掘&l树叶&r获得。"]
@@ -547,14 +547,14 @@
 	quest.3BD7671C9A18D365.quest_desc: ["下一级𬬸金。"]
 	quest.3BD7671C9A18D365.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.3BDC8305E8BA948B.quest_desc: ["将物品富集为新的物品。"]
-	quest.3BF3BA1E7DE1B3E4.quest_desc: ["讲化学物质转化为&l晶体&r。"]
+	quest.3BF3BA1E7DE1B3E4.quest_desc: ["将化学品转化为&l晶体&r。"]
 	quest.3C595BA3D1D3CD74.quest_desc: ["自动合成……大概"]
 	quest.3C79CC58027100C7.quest_desc: ["用于向物品中注入化学品。"]
 	quest.3CB6472F13D36897.quest_desc: ["&l龙息&r可以转化为优质的气态龙息。"]
 	quest.3CC2216E4FE7DCF0.quest_desc: ["一个更好的&l机器框架&r，用于制造你的第一台&l矿机&r。"]
 	quest.3D0EBF4ADE123F4A.quest_desc: ["更复杂的蛋"]
 	quest.3D105267B40045B3.quest_desc: ["用于模拟&l烈焰人&r。"]
-	quest.3D1C21E317429A76.quest_desc: ["需要一套&l航天服&r可以让你遨游星辰，而这是其中的一件。"]
+	quest.3D1C21E317429A76.quest_desc: ["你需要一套&l航天服&r来遨游星辰，而这是其中的一件。"]
 	quest.3D35E01E8F0C8930.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.3D5D5435D526BF5A.quest_desc: ["为&l过滤器&r储存流体。"]
 	quest.3DAEB6C26422F3DA.quest_desc: ["用于将&l熔融流体&r浇筑成&l块&r。"]
@@ -648,7 +648,7 @@
 	quest.4A65DC3AC803BDB1.quest_desc: ["在&l再处理器&r中制成。可用于生产&l核废料&r。"]
 	quest.4AE160E560BAAADE.quest_desc: ["里面有什么？"]
 	quest.4AE327C67D18A195.quest_desc: ["包括&l热水&r在内的多种燃料都可以为&l浇筑控制器&r供能。"]
-	quest.4AF705F1406F5CB9.quest_desc: ["可以将数据模型放入&l模拟仓&r，以产出该生物的&l预测产物&r。"]
+	quest.4AF705F1406F5CB9.quest_desc: ["可以将数据模型放入&l模拟室&r，以产出该生物的&l预测产物&r。"]
 	quest.4B0A731AAFA96C2F.quest_desc: ["允许你的&lAE2网络&r可以查看你的整个&l复制网络&r，显示其所存储的物质。也可以从&l复制网络&r中自动合成至你的&lAE2网络&r"]
 	quest.4B22551F005560EB.quest_desc: ["一根优质的杆。"]
 	quest.4B22551F005560EB.quest_subtitle: "&l&e&o精英𬬸金部件&r&r&r"
@@ -797,7 +797,7 @@
 	quest.5A1BE3B89382E340.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.5A2E633AF5B2E16A.quest_desc: ["种植&l油菜种子&r获得。在之后会有用的。"]
 	quest.5A53BD4558AC1BD9.quest_desc: ["最好的合金"]
-	quest.5A56F3D4663098AB.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
+	quest.5A56F3D4663098AB.quest_desc: ["可以在&l战利品制造器&r中产出对应生物的掉落物。"]
 	quest.5A623F099ADBE313.quest_desc: ["&l喷气服&r的一部分，用于抵御&l辐射&r和提供飞行能力。"]
 	quest.5A623F099ADBE313.quest_subtitle: "需要改变它"
 	quest.5A71F3ACE4FE87E2.quest_desc: ["在&l充能台&r中制作。"]
@@ -891,7 +891,7 @@
 	quest.649B75C17504F3C5.quest_desc: ["将&l盐水&r泵入&l超维灌注机&r以生产&l氟石粉&r。"]
 	quest.64A466CE70C915F1.quest_desc: ["眼睛在看着你合成。"]
 	quest.64A466CE70C915F1.quest_subtitle: "淡蓝色"
-	quest.64EC869186D59EF8.quest_desc: ["一种&l末影灌注锭&r。在&l电弧炉&r中制作。"]
+	quest.64EC869186D59EF8.quest_desc: ["一种&l末影灌注锭&r，在&l电弧炉&r中制作。"]
 	quest.651AB1A32CC2F417.quest_desc: ["用于搭建某些多方块结构。"]
 	quest.653424A3D6AD3C3C.quest_desc: ["让你能在一个方块里熔炼更多物品！可以制作双倍和三倍的版本来提升处理数量。每升一级，速度提升25%！"]
 	quest.654C564E03AB150F.quest_desc: ["将物品提纯为新的物品。"]
@@ -928,7 +928,7 @@
 	quest.68D49AB076433B95.quest_desc: ["在&l冷冻机&r中制作。"]
 	quest.68F1D0EED1F4D9D6.quest_desc: ["更多的&l圆石&r"]
 	quest.69088E4CDACCC49B.quest_desc: ["最后一级&l𬬸金&r。"]
-	quest.6954AA71B77C3E07.quest_desc: ["在&l模拟仓&r中由&l末影人预测产物&r制成。"]
+	quest.6954AA71B77C3E07.quest_desc: ["在&l战利品制造器&r中由&l末影人预测产物&r制成。"]
 	quest.6954CDE27C3CD472.quest_desc: ["用于冷却机器。这些方块可用扳手回收。"]
 	quest.69AE4F5A8FF21D33.quest_desc: ["可以输入/输出&l热能&r和&l流体&r。"]
 	quest.69D18C63856B99DB.quest_desc: ["一簇&l矿物碎块&r，可以在&l浇筑控制器&r内熔化。这需要像&l熔岩&r或&l熔融煤炭&r这样更热的燃料"]
@@ -1010,7 +1010,7 @@
 	quest.70CE3624FE54C162.quest_desc: ["解锁&l召唤方块&r。这是一个强大的物品，可以用来生成大多数被动生物。"]
 	quest.70FED206562250EE.quest_desc: ["分解&l𬬸金锭&r获得，可用于开展&l高级研究&r。"]
 	quest.70FFEFD9FA7F8F79.quest_desc: ["一种非常耐用的板材，用于制造&l航天原件&r。"]
-	quest.71BC21748842E49D.quest_desc: ["可以合成&l敌对生物数据模型&r和&l敌对生物的掉落物&r。"]
+	quest.71BC21748842E49D.quest_desc: ["用于合成&l敌对生物的数据模型&r以及产出&l敌对生物的掉落物&r。"]
 	quest.71CE3D552A73D26D.quest_desc: ["多种升级，可以增加存储容量等等。"]
 	quest.71CE3D552A73D26D.title: "抽屉升级"
 	quest.71E0A475C0F3370A.quest_desc: ["解锁抽屉升级。"]
@@ -1021,7 +1021,7 @@
 	quest.72B3A37A09994640.quest_desc: ["简易挖掘工具"]
 	quest.72DA0F2FE18017B9.quest_desc: ["一种用于传输&l物质&r和&l能量&r的特殊电缆。"]
 	quest.73058C76507C88CC.quest_desc: ["大幅提升流体收集效率。"]
-	quest.7330EA4CC2EE4E5B.quest_desc: ["在&l聚合机&r中制作。"]
+	quest.7330EA4CC2EE4E5B.quest_desc: ["在&l融合机&r中制作。"]
 	quest.733B7101FEF02C8F.quest_desc: ["在&l充能台&r中制作。"]
 	quest.73524FA07A7BA2CD.quest_desc: ["在&l充能台&r中制作。"]
 	quest.737F13286F75F8B3.quest_desc: [
@@ -1048,10 +1048,10 @@
 	quest.755170EF56B5B021.quest_desc: ["可以直接获得&l紫金&r。用于制作&l星际灌注机&r。"]
 	quest.756AE382DEF9AE69.quest_desc: ["在&l研究工作台&r中制成。可将&l水&r转化为&l净化水&r。"]
 	quest.7570EB7980AF54A1.quest_desc: ["在&l战利品制造器&r中制作。"]
-	quest.7586F9DFA6DF4CC3.quest_desc: ["惊悚又骇人。"]
+	quest.7586F9DFA6DF4CC3.quest_desc: ["惊悚而恐怖"]
 	quest.75953BCED281F045.quest_desc: ["通过&l风&r和&l水&r来获得基础电力。"]
 	quest.759F4312497E6920.quest_desc: ["如此强大"]
-	quest.75F6D7D41E50498C.quest_desc: ["可以合成&l被动生物数据模型&r。"]
+	quest.75F6D7D41E50498C.quest_desc: ["用于合成&l被动生物的数据模型&r。"]
 	quest.76061960CB0D357C.quest_desc: ["&l无限元件提取器&r可以在不使用&lAE2&r网络的情况下从无限元件中产出资源。"]
 	quest.7620511248A6284F.quest_desc: ["眼睛在看着你合成。"]
 	quest.7620511248A6284F.quest_subtitle: "紫色"
@@ -1110,7 +1110,7 @@
 	quest.7CC9643D3ABBDBAA.quest_desc: ["在&l生物灌注机&r中制作。"]
 	quest.7CEFB82BBEE9616E.quest_desc: ["像本任务这样的六边形任务，会展示在特定世界类型下获取物品的方法。其标题将采用“**世界限定 - <世界类型>**”的格式，以指明该方法适用于何种世界类型。"]
 	quest.7CEFB82BBEE9616E.title: "世界类型限定"
-	quest.7D11D6E906DB67D7.quest_desc: ["将&l水&r电解为&l氧气&r和&l氢气&r。"]
+	quest.7D11D6E906DB67D7.quest_desc: ["将&l水&r电解为&l氧&r和&l氢&r。"]
 	quest.7D572741F38742C1.quest_desc: ["烧炼&l黏土球&r获得。"]
 	quest.7D59F7DEF39EC55B.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.7D7B0D3584B7BE0C.quest_desc: ["在&l位于下界的生物灌注机&r中制作。"]
