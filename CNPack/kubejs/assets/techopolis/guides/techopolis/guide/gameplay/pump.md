@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Fluid Collection
+    title: 流体收集
     icon: 'minecraft:water_bucket'
     parent: gameplay.md
 item_ids:
@@ -10,17 +10,17 @@ item_ids:
     - 'techopolis:ambient_water_collector'
 ---
 
-# Water Collector
+# 环境集水器
 
-A simple Water Collector creates 1mb of Water per tick
+环境集水器可以产出1mB/t的水。
 
 
 <Recipe id="techopolis:ambient_water_collector" />
 
 
-# Immersive Engineering Pump
+# 沉浸工程的流体泵
 
-The next tier of water generation is the Immersive Engineering Pump. This can be used to collect other fluids as well as water if theres a infinite source of water this will just keep pumping
+下一级的产水机器是沉浸工程的流体泵。除了水之外，流体泵还能泵取其他流体。如果泵取处是无限水的话，流体泵将会持续泵入。
 
 <Recipe id="immersiveengineering:crafting/fluid_pump" />
 
@@ -28,9 +28,9 @@ The next tier of water generation is the Immersive Engineering Pump. This can be
   <ImportStructure src="../assets/structures/scenes/pump.nbt" />
 </GameScene>
 
-# Mekanism Electric Pump
+# 通用机械的电动泵
 
-The next tier of water generation is the Mekanism Electric Pump. This can be used to collect other fluids as well as water if theres a infinite source of water this will just keep pumping. Can be improved with mekanism speed upgrades to produce a lot of water
+下一级的产水机器是通用机械的电动泵。除了水之外，电动泵还能泵取其他流体。如果泵取处是无限水的话，电动泵将会持续泵入。可通过通用机械的速度升级来大幅提高产水量。
 
 <Recipe id="mekanism:electric_pump" />
 
