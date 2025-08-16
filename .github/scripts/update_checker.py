@@ -7,6 +7,7 @@ import zipfile
 import shutil
 import filecmp
 import requests
+import re
 from pathlib import Path
 
 
@@ -39,6 +40,31 @@ def download_file(url, dest_path):
                     f.write(chunk)
     except requests.exceptions.RequestException as e:
         raise RuntimeError(f"Failed to download file: {e}")
+
+def extract_version_from_name(display_name, pattern):
+    """
+    Extracts a version string from a display name using a pattern with a {version} wildcard.
+    Example: "Techopolis 3-7.0" with pattern "Techopolis 3-{version}" -> "7.0"
+    If pattern is not provided, invalid, or doesn't match, returns the original name.
+    """
+    if not pattern or '{version}' not in pattern:
+        return display_name
+
+    # Escape the pattern parts to be regex-safe and create the final regex pattern
+    try:
+        prefix, suffix = pattern.split('{version}')
+        regex_pattern = f"^{re.escape(prefix)}(.*){re.escape(suffix)}$"
+        
+        match = re.match(regex_pattern, display_name)
+        if match:
+            return match.group(1).strip() # Return the captured group (the version)
+    except ValueError:
+        print(f"Warning: Invalid version pattern '{pattern}'. It must contain exactly one '{{version}}'.")
+        return display_name
+
+    # Fallback if the pattern doesn't match the name
+    print(f"Warning: Version pattern '{pattern}' did not match display name '{display_name}'. Using full name.")
+    return display_name
 
 
 # (The following helper functions are unchanged from your original script)
@@ -102,6 +128,7 @@ def main():
         config = json.load(f)
 
     pack_id, pack_name = config['packId'], config['packName']
+    version_pattern = config.get('versionPattern')
     info_file_path = repo_root / config['infoFilePath']
     source_dir = repo_root / config['sourceDir']
     attention_list = config.get('attentionList', {})
@@ -140,6 +167,8 @@ def main():
     latest_version_id = latest_file_info['id']
     latest_download_url = latest_file_info['downloadUrl']
 
+    clean_latest_version = extract_version_from_name(latest_version_name, version_pattern)
+
     if local_version_name == latest_version_name:
         print("Already up to date. Exiting.")
         return
@@ -148,7 +177,7 @@ def main():
     if not local_version_id:
         print(f"Warning: Could not find version ID for local version '{local_version_name}'. Diff report will not be generated.")
 
-    print(f"New version found: {latest_version_name} (ID: {latest_version_id})")
+    print(f"New version found: {clean_latest_version} (Full name: {latest_version_name}, ID: {latest_version_id})")
     print(f"Old version: {local_version_name} (ID: {local_version_id})")
 
     # --- Download and Extract New Version ---
@@ -225,14 +254,14 @@ def main():
         json.dump(data, f, indent=2, ensure_ascii=False);
         f.truncate()
 
-    pr_body = generate_pr_body(pack_name, latest_version_name, {f.relative_to(new_source_root) for f in updated_files},
+    pr_body = generate_pr_body(pack_name, clean_latest_version, {f.relative_to(new_source_root) for f in updated_files},
                                added_files, deleted_files, source_dir, new_source_root)
     (repo_root / "pr_body.md").write_text(pr_body, encoding='utf-8')
 
     # --- Set outputs for GitHub Actions ---
     set_github_output("changes_detected", "true")
     set_github_output("pack_name", pack_name)
-    set_github_output("new_version", latest_version_name)
+    set_github_output("new_version", clean_latest_version)
     set_github_output("local_version_id", local_version_id or "")
     set_github_output("new_version_id", latest_version_id or "")
     set_github_output("info_file_path", str(info_file_path.relative_to(repo_root)))
