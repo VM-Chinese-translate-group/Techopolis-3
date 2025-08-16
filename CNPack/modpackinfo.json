@@ -1,12 +1,12 @@
 {
   "modpack": {
     "name": "Techopolis 3",
-    "version": "Techopolis 3-7.0",
+    "version": "7.1",
     "translation": {
-      "url": "https://vmct-cn.top/modpacks/skies-2/",
+      "id": "techopolis3",
+      "url": "https://vmct-cn.top/modpacks/techopolis3/",
       "language": "zh_cn",
       "version": "1.0.0",
-      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/skies-2.txt",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }
