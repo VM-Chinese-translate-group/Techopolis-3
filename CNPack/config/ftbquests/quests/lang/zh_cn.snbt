@@ -129,7 +129,7 @@
 		""
 		"现在制造&l𬬸金&r时需要添加化学品。"
 	]
-	quest.097D5C49B448F3B9.quest_desc: ["缩短作物总生长周期，最多可在&l玻璃罩&r中放置3个。"]
+	quest.097D5C49B448F3B9.quest_desc: ["可以缩短作物生长周期，最多可在&l玻璃罩&r中放置3个。"]
 	quest.09827A07A75DF349.quest_desc: ["一种不错的棒。"]
 	quest.09827A07A75DF349.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
 	quest.09ABAFBB12D74469.quest_desc: ["通过&l岩石洗矿机&r获得。"]
@@ -173,7 +173,7 @@
 		""
 		"&l敌对&r生物在夜间不会生成。安心建设你的工厂吧！"
 	]
-	quest.0F0153682C016B95.quest_desc: ["&l铜&r制的齿轮，在&l固化机&r中制作"]
+	quest.0F0153682C016B95.quest_desc: ["&l铜&r制的齿轮，可在&l固化机&r中制作"]
 	quest.0F45C5B8AA2F3554.quest_desc: ["本整合包中，&l连锁破坏&r功能初始不可用。不过，&l锤&r可以一次性破坏3x3范围的石头类方块，&l开掘铲&r则对泥土类方块有同样效果。此外，用斧子可以一次性砍掉树上所有相连的&l原木&r。"]
 	quest.0F4BDDB5BE283D54.quest_desc: ["通过&l高炉&r冶炼沙子获得&l玻璃&r。"]
 	quest.0F4BDDB5BE283D54.quest_subtitle: "&6&o𬬸金部件&r"
@@ -261,11 +261,11 @@
 	quest.17DE850E2399B19E.quest_desc: ["使用此物品即可解锁&lFTB连锁破坏&r。"]
 	quest.17E12CCD15AABAF1.quest_desc: ["&l远古灌注机&r可以用来制作&l远古残骸&r。直接开采它会掉落&l下界合金碎片&r，而使用精准采集附魔的工具则能获得&l远古残骸&r方块本身。"]
 	quest.17E750DF1D62C944.quest_desc: ["游戏中大多数物品都由各种不同的物质构成。这台机器能够将物品转化为物质。将设备与储罐连接，以便从机器中取出物质。"]
-	quest.1809F8F24B9F7655.quest_desc: ["分解&l𬬸金锭&r获得，可用于开展&l基础研究&r。"]
+	quest.1809F8F24B9F7655.quest_desc: ["通过分解&l𬬸金锭&r获得，可用于开展&l基础研究&r。"]
 	quest.180DCF87D8AF7931.quest_desc: ["破坏&l高草丛&r和&l矮草丛&r获得。"]
 	quest.18139E48823588C6.quest_desc: ["这个世界遍地都是&l下界岩&r。"]
 	quest.183C6F95344B0F96.quest_desc: ["龙向你吐龙息的时候才能收集到。比起这样，我更愿意用Boss数据模型来搞。"]
-	quest.186B144D8DBE5625.quest_desc: ["用于传输能量。"]
+	quest.186B144D8DBE5625.quest_desc: ["一种传输电力的方式。"]
 	quest.18949AE304924FF4.quest_desc: ["可以在&l战利品制造器&r中产出对应生物的掉落物。"]
 	quest.18B7ACB34D6A5BC1.quest_desc: ["谢了，我猜。"]
 	quest.18DECC6A5C3EFD94.quest_desc: ["利用高能激光将物品转化为其他物质。按下按钮发射。"]
@@ -292,7 +292,7 @@
 		""
 		"Works for most &lColored Caveopolis Stone Type Blocks&r."
 	]
-	quest.1A68742A30D301C3.quest_desc: ["制作&l巧克力&r的第一步。可以在&l贸易目录&r中购买"]
+	quest.1A68742A30D301C3.quest_desc: ["制作&l巧克力&r的第一步。可以在&l贸易站&r中购买"]
 	quest.1ACB353EAB64C46D.quest_desc: ["压缩&l下界岩&r。"]
 	quest.1ACCFB94A4652035.quest_desc: ["通过&l提纯仓&r获得。"]
 	quest.1AD7FACB7A282A3A.quest_desc: ["用于&l买卖&r有用的&l物品&r。"]
@@ -395,7 +395,7 @@
 	quest.2976E4906A3656FF.quest_subtitle: "黄色"
 	quest.297F5435D1AA105D.quest_desc: ["用时更短，太好了。"]
 	quest.29CACB6338DE6A9C.quest_desc: ["一种不错的方块。"]
-	quest.2A7F946F0F65C27C.quest_desc: ["在&l搅拌机&r中用&l牛奶&r，&l糖&r和&l可可豆&r制成"]
+	quest.2A7F946F0F65C27C.quest_desc: ["在&l搅拌机&r中用&l奶&r，&l糖&r和&l可可豆&r制成"]
 	quest.2AAFC394BF52970E.quest_desc: ["&l汤姆的存储&r模组提供了许多实用工具来帮你整理基地。你可以用&l容器配置器&r设置优先级，用&l物品筛选器&r来筛选物品。"]
 	quest.2B162778A44AD978.quest_desc: ["Now you can create a lot of &lCyanite Ingots&r you can make a &lFluidizer&r"]
 	quest.2B162778A44AD978.quest_subtitle: "&a&o终极𬬸金部件&r&r"
@@ -412,13 +412,13 @@
 	quest.2D6FC72A00364E19.quest_desc: ["&l提纯物质球&r。"]
 	quest.2D7925B03EA3FACC.quest_desc: ["&l各种不同星球&r的&l星球仪&r。"]
 	quest.2DF79E982C0C7C09.quest_desc: ["无限的&l圆石&r"]
-	quest.2DF8506904960FFF.quest_desc: ["一块晶体块"]
+	quest.2DF8506904960FFF.quest_desc: ["一个晶体块"]
 	quest.2E205FFE0E8B00B7.quest_desc: ["这台机器能将&l圆石&r转化为&l熔岩&r。"]
 	quest.2E818BD882DB685D.quest_desc: ["延长化学品在&l通用机械&r模组机器中的使用时间。"]
 	quest.2E8F060A959C36BE.quest_desc: ["产于&l下界&r，使用&l数字采矿机&r可高效采集。"]
 	quest.2E8FEBF72A5FA226.quest_desc: ["可以合成&l外星生物数据模型&r。"]
 	quest.2E9774CC10710C35.quest_desc: ["将&l核废料&r转化为&l钋&r。此机器若因放射性物质损坏，将会对你的基地造成辐射影响。"]
-	quest.2EC38F8E06E8B490.quest_desc: ["青铜之块"]
+	quest.2EC38F8E06E8B490.quest_desc: ["一个青铜块"]
 	quest.2EC38F8E06E8B490.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
 	quest.2F00F841D9F462DC.quest_desc: ["可用于改进&lAE2&r网络。"]
 	quest.2F18FC1D1F5311E7.quest_desc: ["在&l岩石洗矿机&r中制作。"]
@@ -502,8 +502,7 @@
 	quest.374DA6879146C1D1.quest_desc: ["在&l战利品制造器&r中制作。"]
 	quest.375B3C974E203D4B.quest_desc: [
 		"当提供能量且附近有&l牛&r时，将会产出&l奶&r。可以使用"
-		"{ \"text\": \"召唤方块\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63718127F5015BBD\" } }"
-		"来召唤牛。"
+		"{ \"text\": \"召唤方块\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63718127F5015BBD\" } }来召唤牛。"
 	]
 	quest.379DC4BB243A420A.quest_desc: ["通过&l木棍&r合成&l橡木木板&r。"]
 	quest.379DC4BB243A420A.title: "木板"
@@ -515,7 +514,7 @@
 	quest.3856C92031398346.quest_desc: ["眼睛在看着你合成。"]
 	quest.3856C92031398346.quest_subtitle: "粉色"
 	quest.387D214713BD6BF2.quest_desc: ["解锁&l精英矿机&r的配方。与&l高级矿机&r相比，它的产量翻倍。"]
-	quest.38F64BE800C7A9B8.quest_desc: ["&l板材模具&r由&l黑色砖块&r和&l压力板&r制成。"]
+	quest.38F64BE800C7A9B8.quest_desc: ["&l板铸模&r由&l焦黑砖块&r和&l压力板&r制成。"]
 	quest.390809571E4C722A.quest_desc: ["运行&l模拟仓&r的副产品。之后可以用来制作&l熔融生物源质&r。"]
 	quest.3939AB38E2606E3B.quest_desc: ["通过&l粉碎机&r粉碎&l粗矿&r获得。"]
 	quest.395B58B75ECF34B2.quest_desc: ["简易的局部飞行能力"]
@@ -587,7 +586,7 @@
 	quest.41C0081B97930CDC.quest_desc: ["&l生物灌注机&r可以用来制造&l敌对生物的掉落物&r。"]
 	quest.41C24FEED4CAE49D.quest_desc: ["在默认世界类型中，&l矿石&r仍会自然生成，但它们基本没什么用处。"]
 	quest.41DD750F734DE819.quest_desc: ["将&l粗制高炉&r升级成&l改良高炉&r以解锁自动化。只需将&l高炉砖&r替换为&l强化高炉砖&r并在顶部加一个&l漏斗&r后，对其使用&l工程师锤&r即可成型。"]
-	quest.41DE4B7C762DBDDD.quest_desc: ["哇呼"]
+	quest.41DE4B7C762DBDDD.quest_desc: ["哇哦"]
 	quest.41DF22E33B6B46A0.quest_desc: ["&l熔融碳&r可以通过在控制器中熔化&l木炭&r、&l迷你木炭&r或&l木炭粉&r来获得。"]
 	quest.421CAB71DE919312.quest_desc: ["That like end game right!"]
 	quest.4262DC3C15273494.quest_desc: ["&l涡轮&r可用来从&l蒸汽&r中产出大量能量"]
@@ -599,7 +598,7 @@
 	quest.43AAFECB58D05B68.quest_desc: ["用&l再处理器&r加工&l青氰&r制成，是更好的&l反应堆&r燃料。"]
 	quest.43CB79B36E9A7D1D.quest_desc: ["被动产生1mB/t的&l水&r。"]
 	quest.43D6EA4605E23805.quest_desc: ["温度更高的&l熔炉&r，可以直接将&l圆石&r冶炼成&l平滑石头&r。"]
-	quest.441B845CE0BD714C.quest_desc: ["允许制造&l纯净物质&r。"]
+	quest.441B845CE0BD714C.quest_desc: ["解锁&l纯净物质&r的配方。"]
 	quest.44A82988C82DFF3D.quest_desc: ["用于搭建粉碎机。"]
 	quest.44B1393D77C479E5.quest_desc: ["&l主世界&r之外。"]
 	quest.44C3FB61DE144BCE.quest_desc: ["一块&l银&r板"]
@@ -628,9 +627,9 @@
 	quest.47968109FC945140.quest_desc: ["可以制作矿石……"]
 	quest.47B13719A0FD6E33.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
 	quest.47BE05134CACE259.quest_desc: [
-		"用于制造&l高级𬬸金锭&r的巨大多方块结构。"
+		"用于制造&l高级𬬸金锭&r的大型多方块结构。"
 		""
-		"现在制造&l𬬸金锭&r时需要添加液体。"
+		"现在制造&l𬬸金&r时需要添加液体。"
 	]
 	quest.4804DE10176710E3.quest_desc: ["精英矿机一次能产出4个物品！"]
 	quest.4842BBC3C9696806.quest_desc: ["这可真不少啊！"]
@@ -675,7 +674,7 @@
 	quest.4CDBBE817F980BA7.quest_desc: ["运行&l模拟仓&r的副产品。之后可以用来制作&l熔融生物源质&r。"]
 	quest.4D02AB51040FCAC4.quest_desc: ["&l奇点！&r"]
 	quest.4D099BCFEB914A2A.quest_desc: ["转为&l雷暴&r，维持一小段时间。"]
-	quest.4D67FB6027D1D8A1.quest_desc: ["通过&l工程师剪线钳&r和&l铜板&r合成获得。"]
+	quest.4D67FB6027D1D8A1.quest_desc: ["&lWire Cutters &rand a &lPlate&r"]
 	quest.4D738FB0A44A86F7.quest_desc: ["为更高级的方块和机器提供更优质的框架基础。"]
 	quest.4D7F29ED8722779E.quest_desc: ["&l焦黑石英&r可被&l富集&r为&l下界石英&r。"]
 	quest.4D943C7F57CBB291.quest_desc: ["9x9的巨型&l工作台&r，用于合成&l各种太空部件&r。"]
@@ -801,7 +800,7 @@
 	quest.5A623F099ADBE313.quest_desc: ["&l喷气服&r的一部分，用于抵御&l辐射&r和提供飞行能力。"]
 	quest.5A623F099ADBE313.quest_subtitle: "需要改变它"
 	quest.5A71F3ACE4FE87E2.quest_desc: ["在&l充能台&r中制作。"]
-	quest.5B18AC90F0647595.quest_desc: ["使用&l原子再构机&r来把&l煤炭&r转换为&l煤晶&r 。"]
+	quest.5B18AC90F0647595.quest_desc: ["使用&l原子再构机&r来把&l煤炭&r转换为&l煤晶&r。"]
 	quest.5B2681181BC3444A.quest_desc: ["与&l空白石头矿石&r类似，它也可以用来制作各种&l下界矿石&r。"]
 	quest.5B72B5E76B8EC0FB.quest_desc: ["可在&l下界要塞&r中找到！"]
 	quest.5B7F4891F5FC6208.quest_desc: ["在&l固化机&r中制成的固体&l煤炭&r块。"]
@@ -904,7 +903,7 @@
 	quest.6721CA63AFCAA96B.quest_desc: ["使用能量、流体和物品来进行再处理。"]
 	quest.675DC6355C5C14A4.quest_desc: ["粉碎的&l熔岩木板&r。"]
 	quest.67921496F57AAC5D.quest_desc: ["烧炼&l紫颂果&r获得。"]
-	quest.67B69CD9736AA493.quest_desc: ["最终的&l彩蛋&r，等等，这是用来做&l终末𬬸金&r的！"]
+	quest.67B69CD9736AA493.quest_desc: ["最终的&l彩蛋&r，等等，这是用来制作&l终末𬬸金&r的！"]
 	quest.67B69CD9736AA493.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.67BD2D1A04B70994.quest_desc: ["在&l战利品制造器&r中制作。"]
 	quest.67DB77596516FCB4.quest_desc: ["在饰品栏佩戴&l资源饰品&r时挖掘&l草方块&r将会掉落额外资源，包括&l骨粉&r、&l树枝&r和&l石子&r。"]
@@ -996,7 +995,7 @@
 	quest.6F69EB295CBF31E2.quest_desc: ["用于搭建&l矿机&r，这些方块可以用扳手回收。"]
 	quest.6F99F03829A647AB.quest_desc: ["一种不错的齿轮。"]
 	quest.6F99F03829A647AB.quest_subtitle: "&l&3月球𬬸金部件&r&r"
-	quest.6F9F4C26A700CED7.quest_desc: ["一座用于制造&l基础𬬸金锭&r的大型多方块结构。合成配方需要九种不同的物品，为方便自动化，每个输入槽都已绑定对应的物品。"]
+	quest.6F9F4C26A700CED7.quest_desc: ["用于制造&l基础𬬸金锭&r的大型多方块结构。合成配方需要九种不同的物品，为方便自动化，每个输入槽都已绑定对应的物品。"]
 	quest.6FD585D0DB077A75.quest_desc: ["烧炼&l黏土球&r获得。"]
 	quest.6FD5BDEB4A1C538D.quest_desc: ["闪闪发光。"]
 	quest.700C1F12B1018882.quest_desc: ["无限能量。"]
@@ -1008,7 +1007,7 @@
 	quest.70B0845C005C086F.quest_desc: ["产于&l末地&r，使用&l数字采矿机&r可高效采集。"]
 	quest.70CD5F6D23D2F9FB.quest_desc: ["通过&l粗制高炉&r冶炼&l盐&r获得。"]
 	quest.70CE3624FE54C162.quest_desc: ["解锁&l召唤方块&r。这是一个强大的物品，可以用来生成大多数被动生物。"]
-	quest.70FED206562250EE.quest_desc: ["分解&l𬬸金锭&r获得，可用于开展&l高级研究&r。"]
+	quest.70FED206562250EE.quest_desc: ["通过分解&l𬬸金锭&r获得，可用于开展&l高级研究&r。"]
 	quest.70FFEFD9FA7F8F79.quest_desc: ["一种非常耐用的板材，用于制造&l航天原件&r。"]
 	quest.71BC21748842E49D.quest_desc: ["用于合成&l敌对生物的数据模型&r以及产出&l敌对生物的掉落物&r。"]
 	quest.71CE3D552A73D26D.quest_desc: ["多种升级，可以增加存储容量等等。"]
@@ -1025,7 +1024,7 @@
 	quest.733B7101FEF02C8F.quest_desc: ["在&l充能台&r中制作。"]
 	quest.73524FA07A7BA2CD.quest_desc: ["在&l充能台&r中制作。"]
 	quest.737F13286F75F8B3.quest_desc: [
-		"你将需要大量的&l煤炭&r和&l黑色砖块&r，也许一台&l砖泥矿机&r会很有用。"
+		"你将需要大量的&l煤炭&r和&l焦黑砖块&r，也许一台&l砖泥矿机&r会很有用。"
 		""
 		"下一页有自动化示例。"
 		"{@pagebreak}"
@@ -1085,7 +1084,7 @@
 	quest.7A4D119ED01918E7.quest_desc: ["&l杂酚油&r是&l焦炉&r的副产品，可用于制作&l防腐木板&r。"]
 	quest.7A4D119ED01918E7.quest_subtitle: "&l&6&o基础𬬸金部件&r&r"
 	quest.7A873C3D4F693A8B.quest_desc: ["通过&l提纯仓&r获得。"]
-	quest.7A9B8E4BB8A9AE37.quest_desc: ["&l盐&r可用于制作&l粉末模具&r。把粉末模具放入&l固化器&r内使用时，可以生产&l粉末&r"]
+	quest.7A9B8E4BB8A9AE37.quest_desc: ["&l盐&r可用于制作&l粉铸模&r。将粉铸模放入&l固化器&r内使用时，可以生产&l粉末&r"]
 	quest.7A9C15D139B50B42.quest_desc: ["用于模拟&l末影螨&r。"]
 	quest.7B04CB225182C5EA.quest_desc: ["这可真不少啊！"]
 	quest.7B3ACB1B0EA43E3B.quest_desc: ["一种不错的板。"]
