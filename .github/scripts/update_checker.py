@@ -41,33 +41,33 @@ def download_file(url, dest_path):
     except requests.exceptions.RequestException as e:
         raise RuntimeError(f"Failed to download file: {e}")
 
-def extract_version_from_name(display_name, pattern):
+def extract_clean_version(full_name, pattern):
     """
-    Extracts a version string from a display name using a pattern with a {version} wildcard.
+    Extracts a clean version string from a full name using a pattern.
     Example: "Techopolis 3-7.0" with pattern "Techopolis 3-{version}" -> "7.0"
-    If pattern is not provided, invalid, or doesn't match, returns the original name.
     """
     if not pattern or '{version}' not in pattern:
-        return display_name
-
-    # Escape the pattern parts to be regex-safe and create the final regex pattern
+        return full_name
     try:
         prefix, suffix = pattern.split('{version}')
         regex_pattern = f"^{re.escape(prefix)}(.*){re.escape(suffix)}$"
-        
-        match = re.match(regex_pattern, display_name)
+        match = re.match(regex_pattern, full_name)
         if match:
-            return match.group(1).strip() # Return the captured group (the version)
+            return match.group(1).strip()
     except ValueError:
-        print(f"Warning: Invalid version pattern '{pattern}'. It must contain exactly one '{{version}}'.")
-        return display_name
+        print(f"Warning: Invalid version pattern '{pattern}'.")
+    return full_name
 
-    # Fallback if the pattern doesn't match the name
-    print(f"Warning: Version pattern '{pattern}' did not match display name '{display_name}'. Using full name.")
-    return display_name
+def reconstruct_full_name(clean_version, pattern):
+    """
+    Reconstructs the full display name from a clean version and a pattern.
+    Example: "7.0" with pattern "Techopolis 3-{version}" -> "Techopolis 3-7.0"
+    """
+    if not pattern or '{version}' not in pattern:
+        return clean_version
+    return pattern.replace('{version}', clean_version)
 
 
-# (The following helper functions are unchanged from your original script)
 def compare_folders(dcmp, added_files, deleted_files, changed_files):
     for name in dcmp.right_only: added_files.add(Path(dcmp.right) / name)
     for name in dcmp.left_only: deleted_files.add(Path(dcmp.left) / name)
@@ -114,7 +114,6 @@ def apply_exclusion_rules(file_set, exclusion_patterns, root_path):
     return kept_files
 
 
-# --- Main Logic (Modified) ---
 
 def main():
     # --- Configuration and Setup ---
@@ -135,13 +134,12 @@ def main():
     exclusion_patterns = config.get('exclusionPatterns', [])
 
     with open(info_file_path, 'r', encoding='utf-8') as f:
-        local_version_name = json.load(f)['modpack']['version']
+        local_clean_version = json.load(f)['modpack']['version']
 
-    print(f"Checking updates for: {pack_name} (ID: {pack_id})\nLocal version: {local_version_name}")
+    print(f"Checking updates for: {pack_name} (ID: {pack_id})\nLocal version: {local_clean_version}")
 
     # --- API Call to get version info ---
     headers = {'x-api-key': api_key}
-    # Fetch a reasonable number of recent files to find the local version
     api_url = f'https://api.curseforge.com/v1/mods/{pack_id}/files?pageSize=50' 
     try:
         response = requests.get(api_url, headers=headers)
@@ -154,34 +152,35 @@ def main():
 
     if not files_data:
         sys.exit("Error: API returned no files for this modpack.")
-
-    # --- Process API data and compare versions ---
-    versions_map = {
-        # Clean up displayName, e.g., "Techopolis 3-5.2.zip" -> "Techopolis 3-5.2"
-        f['displayName'].removesuffix('.zip'): f['id']
-        for f in files_data
-    }
     
-    latest_file_info = files_data[0] # API sorts by latest first
-    latest_version_name = latest_file_info['displayName'].removesuffix('.zip')
+    # --- Process API data and compare versions ---
+    # Reconstruct the full name of the local version to match API data
+    local_full_name = reconstruct_full_name(local_clean_version, version_pattern)
+
+    latest_file_info = files_data[0]
+    latest_full_name = latest_file_info['displayName'].removesuffix('.zip')
     latest_version_id = latest_file_info['id']
     latest_download_url = latest_file_info['downloadUrl']
 
-    clean_latest_version = extract_version_from_name(latest_version_name, version_pattern)
-
-    if local_version_name == latest_version_name:
+    if local_full_name == latest_full_name:
         print("Already up to date. Exiting.")
         return
 
-    local_version_id = versions_map.get(local_version_name)
-    if not local_version_id:
-        print(f"Warning: Could not find version ID for local version '{local_version_name}'. Diff report will not be generated.")
+    # Create a map of full_name -> id for finding the local version's ID
+    versions_map = { f['displayName'].removesuffix('.zip'): f['id'] for f in files_data }
+    local_version_id = versions_map.get(local_full_name)
 
-    print(f"New version found: {clean_latest_version} (Full name: {latest_version_name}, ID: {latest_version_id})")
-    print(f"Old version: {local_version_name} (ID: {local_version_id})")
+    if not local_version_id:
+        print(f"Warning: Could not find version ID for local version '{local_full_name}'. Diff report will not be generated.")
+    
+    # Extract the clean version from the new version for display and storage
+    latest_clean_version = extract_clean_version(latest_full_name, version_pattern)
+
+    print(f"New version found: {latest_clean_version} (Full name: {latest_full_name}, ID: {latest_version_id})")
+    print(f"Old version: {local_clean_version} (Full name: {local_full_name}, ID: {local_version_id})")
 
     # --- Download and Extract New Version ---
-    print(f"Downloading LATEST version ({latest_version_name})...")
+    print(f"Downloading LATEST version ({latest_full_name})...")
     temp_root = repo_root / 'temp_update'
     shutil.rmtree(temp_root, ignore_errors=True)
     extract_dir = temp_root / 'extracted'
@@ -196,7 +195,7 @@ def main():
     if not new_source_root.exists():
         sys.exit("Error: 'overrides' directory not found in the downloaded archive.")
 
-    # --- Compare files and detect changes (This part is unchanged) ---
+    # --- Compare files and detect changes---
     updated_files, added_files, deleted_files = set(), set(), set()
     for item in attention_list.get('filePatterns', []):
         pattern = item['pattern'];
@@ -235,7 +234,7 @@ def main():
         print("Version updated, but no effective changes detected after applying rules. Exiting.")
         return
 
-    # --- Apply changes to the repository (This part is unchanged) ---
+    # --- Apply changes to the repository ---
     for item in sorted(list(deleted_files), key=lambda p: len(p.parts), reverse=True): shutil.rmtree(
         item) if item.is_dir() else item.unlink()
     all_to_copy = sorted(list(updated_files.union(added_files)))
@@ -249,19 +248,19 @@ def main():
 
     with open(info_file_path, "r+", encoding="utf-8") as f:
         data = json.load(f)
-        data['modpack']['version'] = latest_version_name
+        data['modpack']['version'] = latest_clean_version
         f.seek(0);
         json.dump(data, f, indent=2, ensure_ascii=False);
         f.truncate()
 
-    pr_body = generate_pr_body(pack_name, clean_latest_version, {f.relative_to(new_source_root) for f in updated_files},
+    pr_body = generate_pr_body(pack_name, latest_clean_version, {f.relative_to(new_source_root) for f in updated_files},
                                added_files, deleted_files, source_dir, new_source_root)
     (repo_root / "pr_body.md").write_text(pr_body, encoding='utf-8')
 
     # --- Set outputs for GitHub Actions ---
     set_github_output("changes_detected", "true")
     set_github_output("pack_name", pack_name)
-    set_github_output("new_version", clean_latest_version)
+    set_github_output("new_version", latest_clean_version)
     set_github_output("local_version_id", local_version_id or "")
     set_github_output("new_version_id", latest_version_id or "")
     set_github_output("info_file_path", str(info_file_path.relative_to(repo_root)))
