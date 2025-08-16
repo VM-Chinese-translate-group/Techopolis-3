@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Water Purifier
+    title: 净水器
     icon: 'techopolis:water_purifier'
     parent: gameplay.md
 item_ids:
@@ -8,21 +8,21 @@ item_ids:
 
 ---
 
-# Water Purifier
+# 净水器
 
-A Simple machine that turns Water into Purifying Water. Uses 2mb of Water to create 1mb of Purifying Water per tick
+将水转化为纯化水的简单机器，消耗2mB/t的水产出1mB/t的纯化水。
 <Row>
   <Recipe id="techopolis:water_purifier" />
 </Row>
 
-# Upgrades
+# 升级
 
-- Simple Machine Frame => 4/2
-- Sturdy Machine Frame => 6/3
-- Basic Technium Machine Frame => 8/4
-- Advanced Technium Machine Frame => 10/5
-- Dimensional Machine Frame => 12/6
-- Elite Technium Machine Frame => 14/7
-- Ultimate Technium Machine Frame => 16/8
-- Hellish Technium Machine Frame => 18/9
-- Lunar Technium Machine Frame => 20/10
+- 简易机器框架 => 4/2
+- 坚固机器框架 => 6/3
+- 基础𬬸金机器框架 => 8/4
+- 高级𬬸金机器框架 => 10/5
+- 超维机器框架 => 12/6
+- 精英𬬸金机器框架 => 14/7
+- 终极𬬸金机器框架 => 16/8
+- 地狱𬬸金机器框架 => 18/9
+- 月球𬬸金机器框架 => 20/10

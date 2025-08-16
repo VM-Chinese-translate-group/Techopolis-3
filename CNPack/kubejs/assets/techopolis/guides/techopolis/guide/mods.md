@@ -1,10 +1,10 @@
 ---
 navigation:
-    title: Mods
+    title: 模组
     position: 30
 ---
 
-# Gameplay
+# 游戏内容
 
 <SubPages />
 

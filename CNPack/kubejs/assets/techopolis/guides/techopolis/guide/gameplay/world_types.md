@@ -1,30 +1,30 @@
 ---
 navigation:
-    title: World Types
+    title: 世界类型
     icon: 'minecraft:grass_block'
     parent: gameplay.md
 ---
 
-# World Types
+# 世界类型
 
-Techopolis 3 can be played in a few different world types, some of these world types will contain additional recipes. Don't worry all these recipes are enabled/ disabled depending on the selected world type
+科技城3可在多种世界类型下游玩。在部分世界类型下会包含额外的配方。不用担心，这些配方会根据世界类型自动启用或禁用。
 
-# Normal
-Default - Vanilla-ish generation, some structures are removed and loot chest nerfed. Ores are useless
+# 默认
+原版的世界生成。部分结构被移除，战利品箱子被削弱，矿石无法产出矿物。
 
-# Hex Lands
-A world created with Hexes
+# 六边形大陆
+一个六边形结构的世界。
 
-This has 2 different options. Hexlands Overworld enables hexland generation in the Overworld and Hexlands which does this generation for The Nether as well
+六边形大陆有两个不同的版本：六边形大陆（主世界）只会在主世界启用六边形生成，而六边形大陆还会再下界启用六边形生成。
 
-# Super Flat
-A Vanilla-ish Super Flat world, the default super flat has had its amount of dirt increased by 60 blocks. Easy to build in. Contains a few extra recipes and mechanics
+# 超平坦
+原版超平坦世界。经典平坦的泥土层数被增加到了60格。最适合建造的世界类型。包含额外的配方和机制。
 
-# Skyblock
-The island and you, no other structures spawn in this world type. Lots of space. Contains a few extra recipes and mechanics 
+# 空岛
+只有你和空岛，不会生成其他任何结构。无穷无尽的空间。包含额外的配方和机制。
 
-# Resource Curio
+# 资源饰品
 <ItemImage id="techopolis:resource_curio" />
 
-In Skyblock and Super Flat a resource curio when equiped will allow you to obtain additional item from Dirt and Grass blocks respectively
+在空岛和超平坦世界类型中，佩戴资源饰品后可分别从泥土和草方块中获取额外物品。
 

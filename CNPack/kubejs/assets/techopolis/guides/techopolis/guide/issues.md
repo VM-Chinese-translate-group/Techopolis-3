@@ -1,10 +1,10 @@
 ---
 navigation:
-    title: Issues
+    title: 问题反馈
     position: 40
 ---
 
-# Issues
+# 问题反馈
 
 <SubPages />
 
