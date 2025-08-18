@@ -295,7 +295,7 @@
 	quest.1A68742A30D301C3.quest_desc: ["制作&l巧克力&r的第一步。可以在&l贸易站&r中购买"]
 	quest.1ACB353EAB64C46D.quest_desc: ["压缩&l下界岩&r。"]
 	quest.1ACCFB94A4652035.quest_desc: ["通过&l提纯仓&r获得。"]
-	quest.1AD7FACB7A282A3A.quest_desc: ["用于&l买卖&r有用的&l物品&r。"]
+	quest.1AD7FACB7A282A3A.quest_desc: ["Can be used to &lBuy&r and &lSell&r useful &lItems&r"]
 	quest.1ADBF5520E2DD240.quest_desc: ["击杀&l末影龙&r后会在&l传送门地基&r处生成。"]
 	quest.1AE38351CBD01CFE.quest_desc: ["在&l战利品制造器&r中制作。"]
 	quest.1B3B893B6EBE9E8B.quest_desc: ["制作那些抽屉"]
@@ -314,7 +314,7 @@
 	quest.1D5701EA3D0D3097.quest_desc: ["永不损坏"]
 	quest.1D5A0F86F791D59A.quest_desc: ["可用于收集&l紫颂花&r。"]
 	quest.1DD38714228384B1.quest_desc: ["一种更优质的&l生物燃料&r，发电量更高，持续时间更长。"]
-	quest.1DFE26F8448F9F1C.quest_desc: ["用&l开掘铲&r右击&l泥土&r方块，会一次性掉落佩戴&l资源饰品&r挖掘泥土时可能产生的所有战利品。"]
+	quest.1DFE26F8448F9F1C.quest_desc: ["用&l开掘铲&r右击&l泥土&r，会一次性掉落佩戴&l资源饰品&r挖掘泥土时可能产生的所有战利品。"]
 	quest.1DFE26F8448F9F1C.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
 	quest.1DFE26F8448F9F1C.title: "快速获取资源"
 	quest.1E0DBF1D7D633823.quest_desc: ["冶金灌注机可将某些材料灌注到其他材料中。"]
@@ -431,7 +431,7 @@
 		""
 		"&l3个玻璃罩才能匹配一个焦炉的消耗速度。&r"
 	]
-	quest.2FD8E7C4F97E6C86.quest_desc: ["在饰品栏佩戴&l资源饰品&r时挖掘&l泥土和草方块&r将会掉落额外资源，包括&l骨粉&r、&l树枝&r和&l石子&r。"]
+	quest.2FD8E7C4F97E6C86.quest_desc: ["在饰品栏佩戴&l资源饰品&r时，挖掘&l泥土和草方块&r将会掉落额外资源，包括&l骨粉&r、&l树枝&r和&l石子&r。"]
 	quest.2FD8E7C4F97E6C86.quest_subtitle: "&l&o世界类型限定——SkyGrid&r&r"
 	quest.2FD8E7C4F97E6C86.title: "额外掉落物"
 	quest.2FEC0AD0A1D02C85.quest_desc: ["一种极其坚固的合金"]
