@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Research
+    title: 研究
     icon: 'techopolis:basic_research'
     parent: gameplay.md
 item_ids:
@@ -16,21 +16,21 @@ item_ids:
 
 ---
 
-# Research
+# 研究
 
-After getting basic technium you can create Basic Research. Inside the Quest Book you can see the Tech Tree Questline which shows you Research that you can unlock
+在获得基础𬬸金后，你可以开始进行基础研究了。在任务书的科技树章节中，你可以查看当前可进行的研究。
 
 <ItemImage id="techopolis:basic_research" />
 
-# Researcher
+# 研究器
 
-The Research can be used to create various types of research Basic, Advanced and more. These Researches can then be used to create Blueprints
+研究器可以产出基础研究、高级研究等研究，这些研究可以用来制作蓝图。
 
 <ItemImage id="techopolis:researcher" />
 
-# Research Crafter
+# 研究工作台
 
-The Research Crafter uses Blueprints to create useful items! Some recipes may require Energy and Fluids as well!
+研究工作台通过蓝图来制作有用的物品！一些配方可能需要消耗能量和流体！
 
 <ItemImage id="techopolis:research_crafter" />
 

@@ -1,10 +1,10 @@
 ---
 navigation:
-    title: Changelogs
+    title: 更新日志
     position: 60
 ---
 
-# Changelogs
+# 更新日志
 
 <SubPages />
 
