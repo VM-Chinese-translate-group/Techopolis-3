@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Miners
+    title: 矿机
     parent: custom_machinery.md
     icon: 'techopolis:basic_miner'
     position: 49
@@ -11,20 +11,20 @@ item_ids:
   - 'techopolis:ultimate_miner'
 ---
 
-# Miners
+# 矿机
 
-Miners are basic structures that allow for mining of specific resources. Miners come in different tiers, each tier increases the output of the miners
+矿机可用于开采特定的资源。矿机分为不同的等级，每级都会提高矿机的产出量。
 
-# Tiers
-- Basic = 1*
-- Advanced = 2*
-- Elite = 4*
-- Ultimate = 8*
+# 等级
+- 基础 = x1
+- 高级 = x2
+- 精英 = x4
+- 终极 = x8
 
-*Cobblestone is the exception to this producing 2, 4, 8, 16 per tier
+*开采圆石时会在每一级的倍率上额外翻倍。
 
-# Types
-Miners can produce 
+# 种类
+矿机可生产以下资源：
 <Row>
   <BlockImage id="minecraft:cobblestone"  scale="1.3" />
   <BlockImage id="minecraft:stone"  scale="1.3" />
@@ -34,22 +34,22 @@ Miners can produce
   <BlockImage id="techopolis:grout"  scale="1.3" />
 </Row>
 
-# Structure
+# 结构
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/modular_machinery/miner.nbt" />
 </GameScene>
 
-# Upgrades
+# 升级
 
-This machine can be made faster using machine frames in the upgrade slot
+在升级插槽中安装机器框架，可以加快这台机器的运行速度。
 
-- Simple Machine Frame (90%) of default time
-- Sturdy Machine Frame (80%) of default time
-- Basic Technium Machine Frame (70%) of default time
-- Advanced Technium Machine Frame (60%) of default time
-- Dimensional Machine Frame (50%) of default time 
-- Elite Technium Machine Frame (40%) of default time
-- Ultimate Technium Machine Frame (30%) of default time
-- Hellish Technium Machine Frame (20%) of default time 
-- Lunar Technium Machine Frame (10%) of default time
+- 简易机器框架（默认时间的90%）
+- 坚固机器框架 （默认时间的80%）
+- 基础𬬸金机器框架 （默认时间的70%）
+- 高级𬬸金机器框架 （默认时间的60%）
+- 超维机器框架 （默认时间的50%）
+- 精英𬬸金机器框架 （默认时间的40%）
+- 终极𬬸金机器框架 （默认时间的30%）
+- 地狱𬬸金机器框架 （默认时间的20%）
+- 月球𬬸金机器框架 （默认时间的10%）
