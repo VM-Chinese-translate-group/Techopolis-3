@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Cobblestone Melter"
+    "text": "圆石熔炼机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/cobblestone_melter",

@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Reprocessor"
+    "text": "再处理器"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/reprocessor",

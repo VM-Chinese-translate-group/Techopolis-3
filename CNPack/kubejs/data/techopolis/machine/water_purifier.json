@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Water Purifier"
+    "text": "净水器"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/water_purifier",

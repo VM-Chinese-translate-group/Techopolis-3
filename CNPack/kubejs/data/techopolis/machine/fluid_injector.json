@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Fluid Injector"
+    "text": "流体注入机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/fluid_injector",

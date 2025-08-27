@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Dimensional Ore Extractor"
+    "text": "超维矿石提取机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/dimensional_ore_extractor",

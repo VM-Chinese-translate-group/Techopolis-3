@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Ambient Water Collector"
+    "text": "环境集水器"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/ambient_water_collector",
