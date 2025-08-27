@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Extreme Reactors
+    title: 极限反应堆
     icon: 'bigreactors:basic_reactorcontroller'
     parent: mods.md
     position: 50
@@ -22,13 +22,17 @@ item_ids:
 
 ---
 
-# Extreme Reactors
+# 极限反应堆
 
-Extreme Reactors is a mod that allows you to create large energy producing reactors and well as other multiblocks
+极限反应堆是一个允许你建造大型能量生产反应堆以及其他多方块结构的模组。
 
-# Basic Reactor
+# 基础反应堆
 
-The Basic Reactor can only be a max size of 3x3x3. Can use Uranium or Blutonium to produce power. Can be cooled with blocks in the air gaps in the structure to make it more effiecent. Require a Reactor Controller (Basic), Reactor Solid Acsess Port (Basic) and a Reactor Active Forge Energy Power Tap (Basic). These can be placed in place of glass in the structure below
+基础反应堆的最大尺寸是3x3x3*。它可以使用铀或蓝钚来产生能量。结构内的空隙也可以放置额外的方块来冷却反应堆并提高反应堆效率**。搭建基础反应堆需要一个反应堆控制器（基础）、一个反应堆固体访问端口（基础）和一个反应堆主动FE能量端口（基础）。这些方块也可以用来替换下方结构图中的玻璃。
+
+*译注：实测最小尺寸为3x3x3（多方块结构的棱、顶角由反应堆外壳搭建，结构其余外表面由反应堆外壳或反应堆玻璃或功能方块搭建）。
+
+**译注：内部空隙只可放置上下贯通的反应堆燃料棒（最底层替换为反应堆外壳，最顶层替换为反应堆控制棒）来增加反应物容量和反应速率，而非冷却反应堆提高效率。
 
 <Row>
   <Recipe id="bigreactors:reactor/basic/casing" />
@@ -43,13 +47,13 @@ The Basic Reactor can only be a max size of 3x3x3. Can use Uranium or Blutonium 
   <ImportStructure src="../assets/structures/scenes/basic_reactor.nbt" />
 </GameScene>
 
-# Waste
+# 废料
 
-Running a reactor with Uranium will produce Cyanite as a waste product and Blutonium will produce Magentite
+使用铀运行反应堆会产生青氰废料，而使用蓝钚则会产生玫磁废料。
 
-# Fluidizer
+# 流化器
 
-Turns items into fluids. Require power and items to create fluids
+消耗能量来将物品转化为流体。
 
 <Row>
   <Recipe id="bigreactors:fluidizer/casing" />
@@ -64,13 +68,13 @@ Turns items into fluids. Require power and items to create fluids
   <ImportStructure src="../assets/structures/scenes/fluidizer.nbt" />
 </GameScene>
 
-# Reinforced Reactors
+# 强化反应堆
 
-These are much bigger in size and can be used to produce a lot of power. These reactors are locked behind Bigger Reactors Research
+这种反应堆的尺寸要大得多，可以用来产生巨量能量。这类反应堆需要通过大型反应堆研究来解锁。
 
-# Turbine
+# 涡轮机
 
-These produce a lot of power using steam and Technium Coils. Steam can be created in a reactor by adding Reactor Active Forge Fluid Ports and providing the reactor with water
+涡轮机利用蒸汽和线圈来产生大量能量。在反应堆上安装反应堆主动流体端口并为其注水，就可以在反应堆中制造蒸汽。
 
 <GameScene zoom="2" interactive={true}>
   <ImportStructure src="../assets/structures/scenes/turbine.nbt" />
