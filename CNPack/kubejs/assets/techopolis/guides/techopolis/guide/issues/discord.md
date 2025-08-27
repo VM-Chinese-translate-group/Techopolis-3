@@ -6,7 +6,7 @@ navigation:
 
 # Discord
 
-Join the Discord use /discord in game to get the link
-In the discord you can report bugs, issues and any suggestions you have for the modpack
+在游戏中输入/discord即可获取Discord链接。
+在Discord中，您可以报告错误、提出问题进和对整合包的建议。
 
 

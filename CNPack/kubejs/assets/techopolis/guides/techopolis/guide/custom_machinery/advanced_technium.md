@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Advanced Technium
+    title: 高级𬬸金
     parent: custom_machinery.md
     icon: 'techopolis:advanced_technium_ingot'
     position: 20
@@ -9,18 +9,17 @@ item_ids:
     - 'techopolis:advanced_technium_machine'
 ---
 
-# Advanced Technium
+# 高级𬬸金
 
-Each tier of Technium Requires a different multiblock
+不同级别的𬬸金需要不同的多方块结构。
 
 <ItemImage id="techopolis:advanced_technium_ingot" />
 
-# Advanced Technium Machine
+# 高级𬬸金制备机
 
 <Recipe id="techopolis:advanced_technium_machine_cm" />
 
-
-# Structure
+# 结构
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/custom_machinery/advanced_technium_machine.nbt" />

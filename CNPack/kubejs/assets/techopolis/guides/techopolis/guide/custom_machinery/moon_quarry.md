@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Moon Quarry
+    title: 月球采石机
     parent: custom_machinery.md
     icon: 'techopolis:moon_quarry'
     position: 200
@@ -8,28 +8,28 @@ item_ids:
     - 'techopolis:moon_quarry'
 ---
 
-# Moon Quarry
+# 月球采石机
 
-Obtains Moon Stone Dust from The Moon. This is used in a lot of recipes
+用于从月球岩石中获取月岩尘。月岩尘可用于多种配方。
 
 <Recipe id="techopolis:moon_quarry" />
 
-# Structure
+# 结构
 
 <GameScene zoom="2" interactive={true}>
   <ImportStructure src="../assets/structures/custom_machinery/moon_quarry.nbt" />
 </GameScene>
 
-# Upgrades
+# 升级
 
-This machine can be made faster using machine frames in the upgrade slot
+在升级插槽中安装机器框架，可以加快这台机器的运行速度。
 
-- Simple Machine Frame (90%) of default time
-- Sturdy Machine Frame (80%) of default time
-- Basic Technium Machine Frame (70%) of default time
-- Advanced Technium Machine Frame (60%) of default time
-- Dimensional Machine Frame (50%) of default time 
-- Elite Technium Machine Frame (40%) of default time
-- Ultimate Technium Machine Frame (30%) of default time
-- Hellish Technium Machine Frame (20%) of default time 
-- Lunar Technium Machine Frame (10%) of default time
+- 简易机器框架（默认时间的90%）
+- 坚固机器框架 （默认时间的80%）
+- 基础𬬸金机器框架 （默认时间的70%）
+- 高级𬬸金机器框架 （默认时间的60%）
+- 超维机器框架 （默认时间的50%）
+- 精英𬬸金机器框架 （默认时间的40%）
+- 终极𬬸金机器框架 （默认时间的30%）
+- 地狱𬬸金机器框架 （默认时间的20%）
+- 月球𬬸金机器框架 （默认时间的10%）

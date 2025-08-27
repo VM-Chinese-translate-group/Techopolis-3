@@ -1,10 +1,10 @@
 ---
 navigation:
-    title: Custom Machinery Mutliblocks
+    title: 模块化机械
     position: 10
 ---
 
-# Modular Machinery
+# 模块化机械
 
 <SubPages />
 

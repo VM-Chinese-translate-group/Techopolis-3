@@ -11,11 +11,11 @@ item_ids:
 
 # Casting
 
-Casting is a mod that allows you to melt down items into there molten varients!
+模组Casting可用于将物品熔化成熔融态！
 
-# Getting Started
+# 入门指南
 
-First you need Black Brick and Black Bricks
+首先，你需要焦黑砖和焦黑砖块。
 
 <Row>
   <Recipe id="techopolis:redstone_from_ore_piece_smelting" />
@@ -23,10 +23,9 @@ First you need Black Brick and Black Bricks
   <Recipe id="casting:black_bricks" />
 </Row>
 
-# Melting
+# 熔化
 
-The Controller in the heart of Casting. This is where the melting of resources happens. The Controller requires a Fuel Tank adjacent to it to melt items. The Controller can store up to 4 different unique fluids inside.
-
+控制器是Casting的核心，物品将在控制器内被熔化。你需要在控制器相邻格子放置一个储罐来存放燃料。控制器内部可存放最多4种流体产物。
 <Row>
   <Recipe id="casting:controller" />
   <Recipe id="casting:tank" />
@@ -34,26 +33,26 @@ The Controller in the heart of Casting. This is where the melting of resources h
   <BlockImage id="casting:tank"  scale="3" />
 </Row>
 
-# Solidifer
+# 固化
 
-The Solidifier allows molten fluids to me molded into whatever items you need. The Solidifiers speed can be increased by placing a Fuel Tank with cooler fluids inside it, Water works very well.
+固化器用于将熔融的液体塑造成您所需的形状。要提高固化器的运作速度，可以在其相邻格子放置一个装有冷却液的储罐，水的冷却效果非常好。
 
 <Row>
   <Recipe id="casting:solidifier" />
   <BlockImage id="casting:solidifier"  scale="3" />
 </Row>
 
-# Fluid Mover
+# 搬运流体
 
-The fluid mover allows you to move fluids around from inside a machines GUI. The Fluid Mover cannot place fluids into the output of a GUI. It can also be used in world on Fuel Tanks to extract and insert fluids
+流体搬运器能用于在机器的GUI内对流体进行移动操作，但无法将流体注入到GUI的输出端。此外，它还可以用于向世界中的燃料罐抽取和注入流体。
 
 <Row>
   <Recipe id="casting:fluid_mover" />
 </Row>
 
-# Molds
+# 模具
 
-Molds are used in the Solidifier to create various different resources including; gems, nugget, ingots, dust and more!
+模具可用于在固化器中制造各种不同的资源，例如宝石、矿石粒、铸锭、粉末等等！
 
 <Row>
   <ItemImage id="casting:ball_mold"  scale="3" />
@@ -67,10 +66,10 @@ Molds are used in the Solidifier to create various different resources including
   <ItemImage id="casting:dust_mold"  scale="3" />
 </Row>
 
-# Automation
+# 自动化
 
-The Controller will automatically eject its fluids to adjacent Solidifers and Mixers.
-The Mixers will automatically eject its fluids into the Solidifer
+控制器会自动将液体排放至相邻的固化器和混合器中。
+混合器会自动将液体排放至固化器中。
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/scenes/casting.nbt" />

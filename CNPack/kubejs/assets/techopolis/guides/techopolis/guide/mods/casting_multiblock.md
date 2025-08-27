@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Casting Multiblock Controller
+    title: Casting多方块结构控制器
     icon: 'casting:multiblock_controller'
     parent: mods.md
     position: 11
@@ -16,29 +16,29 @@ item_ids:
 
 ---
 
-# Casting Multiblock Controller
+# Casting多方块结构控制器
 
-Casting now has mutliblocks. Can be used to create a custom sized multiblock structure for all your automation needs
+模组Casting现在拥有了多方块结构。你可以用它来搭建自定义尺寸的多方块结构，以满足你所有的自动化需求。
 
-# Getting Started
+# 入门指南
 
-To get into creating the mutliblock you must have a Simple Casting setup to create the mutliblocks you need
+要开始搭建多方块结构，你必须先拥有一套简易铸造设备，用以制造多方块结构所需的方块。
 
-# Multiblock Controller
+# 多方块结构控制器
 
-The Multiblock Controller in the heart of Casting. This is where the melting of resources happens. The Multiblock Controller requires a Multiblock Fuel Tank inside the walls of the structure. The Controller uses a shared tank system meaning there is no limit to the types of fluid you can melt and store. The item and fluid capacity of the controller increases depending on the size of the Multiblock, up to 60 items and 1 million mb of fluid. The controller can also be filtered to only allow certain items into its slots
+多方块结构控制器是Casting的核心，物品将在控制器内被熔化。要正常使用多方块结构控制器，你需要在结构的墙壁上放置以个多方块结构燃料储罐。控制器将共享储罐系统，这意味着你可以熔化和储存的流体种类没有限制。控制器的物品和流体容量会根据多方块结构的尺寸增加，最多可达60个物品槽和1,000,000mb的流体容量。控制器也可以设置过滤器，以只允许特定物品进入其槽位。
 
-# Simple Multiblock Controller
+# 简易的多方块结构控制器
 
-Example of a small multiblock providing a single item slot and 1000mb fluid storage
+一个小型多方块结构的示例，提供一个物品槽和1000mb的流体存储空间。
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/casting/simple_multiblock_controller.nbt" />
 </GameScene>
 
-# Multiblock Controller Examples
+# 多方块结构控制器示例
 
-This can be expanded to pretty much any size you want below is a couple of examples 
+你可以将它扩展到几乎任何你想要的尺寸，以下是几个示例。
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/casting/advanced_multiblock_controller.nbt" />
@@ -48,26 +48,26 @@ This can be expanded to pretty much any size you want below is a couple of examp
   <ImportStructure src="../assets/structures/casting/complex_multiblock_controller.nbt" />
 </GameScene>
 
-# Multiblock Fuel Tanks
+# 多方块结构燃料储罐
 
-These power the multiblock and allow you to melt items in the controller
+它们为多方块结构提供燃料，并允许你在控制器中熔化物品。
 
-# Multiblock Solidifier
+# 多方块结构固化器
 
-Same as the Simple Solidifier, provides fluid filtering to only process a certain fluid or un filtered to process anything it can
+与简易固化器功能相同，可以设置流体过滤器以只处理特定流体，或者不设置过滤器以处理任何它能处理的流体。
 
-# Multiblock Coolant Tanks
+# 多方块结构冷却液储罐
 
-Multiblock Coolant Tanks provide cooling for the Multiblock Solidifiers, these speed up Solidifiers
+多方块结构冷却液储罐为多方块固化器提供冷却，从而加速固化器的运作。
 
-# Multiblock Valve
+# 多方块结构阀
 
-The Multiblock Valve is an input and output for fluids. Can be filtered to only allow certain fluids to be inserted and extracted from it. The Multiblock Valve can also be used to fill the controller with items. 
+多方块结构阀是流体的输入和输出接口。可以设置过滤器，以只允许特定的流体从其输入或输出。多方块结构阀也可以用来向控制器中输入物品。
 
-# Multiblock Mixer
+# 多方块结构混合器
 
-Controlled alloying of fluids! The Multiblock Mixer can detect which alloys it can create from the stored fluids inside the Multiblock Controller. When a fluid is selected it will create as much of the alloy as it can!
+实现可控的流体合金操作！多方块结构混合器可以检测多方块结构控制器内储存的流体，并判断可以制造出哪些合金。当选择一种合金后，它会尽其所能地制造该合金！
 
-# Multiblock Regulator
+# 多方块结构调节器
 
-Adding these into the multiblock walls will allows the tank to be regulated. EG placing 3 Regulators in the walls will reserve tank space for the 3 fluids evenly. Having no regulators will retain normal behaviour
+将这些方块放置在多方块结构的墙壁上，可以对储罐进行调控。例如，在墙壁中放置3个调节器，会为3种不同的流体平均地预留储罐空间。不放置调节器则会保持默认行为。

@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: Nuclear Reactor
+    title: 核反应堆
     parent: custom_machinery.md
     icon: 'techopolis:nuclear_reactor'
     position: 110
@@ -8,28 +8,28 @@ item_ids:
     - 'techopolis:nuclear_reactor'
 ---
 
-# Nuclear Reactor
+# 核反应堆
 
-Produces Power and Nuclear Waste. Huge mulitblock. Various different fuel ingots made in the Reprocessor can be used to create more Nuclear Waste. This can also create Antimatter
+这个巨大的多方块结构可用于产生能量和核废料。而再处理器可用于生产反物质和更多种类的反应堆燃料锭，不同种类的燃料锭将会生成不同数量的核废料。
 
 <Recipe id="techopolis:nuclear_reactor" />
 
-# Structure
+# 结构
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/custom_machinery/nuclear_reactor.nbt" />
 </GameScene>
 
-# Upgrades
+# 升级
 
-This machine can be made faster using machine frames in the upgrade slot
+在升级插槽中安装机器框架，可以加快这台机器的运行速度。
 
-- Simple Machine Frame (90%) of default time
-- Sturdy Machine Frame (80%) of default time
-- Basic Technium Machine Frame (70%) of default time
-- Advanced Technium Machine Frame (60%) of default time
-- Dimensional Machine Frame (50%) of default time 
-- Elite Technium Machine Frame (40%) of default time
-- Ultimate Technium Machine Frame (30%) of default time
-- Hellish Technium Machine Frame (20%) of default time 
-- Lunar Technium Machine Frame (10%) of default time
+- 简易机器框架（默认时间的90%）
+- 坚固机器框架 （默认时间的80%）
+- 基础𬬸金机器框架 （默认时间的70%）
+- 高级𬬸金机器框架 （默认时间的60%）
+- 超维机器框架 （默认时间的50%）
+- 精英𬬸金机器框架 （默认时间的40%）
+- 终极𬬸金机器框架 （默认时间的30%）
+- 地狱𬬸金机器框架 （默认时间的20%）
+- 月球𬬸金机器框架 （默认时间的10%）
