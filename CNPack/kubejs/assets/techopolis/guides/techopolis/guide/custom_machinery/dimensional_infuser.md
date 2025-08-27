@@ -10,7 +10,7 @@ item_ids:
 
 # 超维灌注机
 
-为物品注入另一个维度的能量。可用于生成维度矿石和其他有用的资源。
+为物品注入另一个维度的能量。可用于生成超维矿石和其他有用的资源。
 
 <Recipe id="techopolis:dimensional_infuser" />
 

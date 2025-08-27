@@ -12,7 +12,7 @@ item_ids:
 
 # 环境集水器
 
-环境集水器可以产出1mB/t的水。
+环境集水器每刻可以产出1mB的水。
 
 
 <Recipe id="techopolis:ambient_water_collector" />
