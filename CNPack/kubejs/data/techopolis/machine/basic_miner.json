@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Basic Miner"
+    "text": "基础矿机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/basic_miner",

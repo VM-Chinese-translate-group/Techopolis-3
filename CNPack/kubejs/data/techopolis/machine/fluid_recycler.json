@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Fluid Recycler"
+    "text": "流体回收机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/fluid_recycler",

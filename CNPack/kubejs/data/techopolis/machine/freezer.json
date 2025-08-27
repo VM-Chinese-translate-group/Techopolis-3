@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Freezer"
+    "text": "冷冻机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/freezer",

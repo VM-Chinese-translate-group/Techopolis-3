@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Nuclear Reactor"
+    "text": "核反应堆"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/nuclear_reactor",

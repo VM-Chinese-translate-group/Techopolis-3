@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Gas Injector"
+    "text": "气体注入机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/gas_injector",

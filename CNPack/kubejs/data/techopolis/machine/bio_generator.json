@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Bio Generator"
+    "text": "生物质发电机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/bio_generator",

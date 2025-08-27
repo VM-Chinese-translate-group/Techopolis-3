@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Mob Infuser"
+    "text": "生物灌注机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/mob_infuser",

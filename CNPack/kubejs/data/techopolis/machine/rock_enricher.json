@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Rock Enricher"
+    "text": "岩石富集器"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/rock_enricher",

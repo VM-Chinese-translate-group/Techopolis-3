@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Weather Machine"
+    "text": "天气操控机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/weather_machine",

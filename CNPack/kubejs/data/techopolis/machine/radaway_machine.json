@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Radaway Machine"
+    "text": "辐射消除机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/radaway_machine",

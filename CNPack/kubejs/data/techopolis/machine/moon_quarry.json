@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Moon Quarry"
+    "text": "月球采石机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/moon_quarry",

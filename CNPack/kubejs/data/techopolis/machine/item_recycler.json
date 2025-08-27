@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Item Recycler"
+    "text": "物品回收机"
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/item_recycler",
