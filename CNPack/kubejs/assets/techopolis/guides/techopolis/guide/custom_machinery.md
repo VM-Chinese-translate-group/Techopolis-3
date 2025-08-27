@@ -1,6 +1,6 @@
 ---
 navigation:
-    title: 自定义机械多方块结构
+    title: 模块化机械
     position: 10
 ---
 
