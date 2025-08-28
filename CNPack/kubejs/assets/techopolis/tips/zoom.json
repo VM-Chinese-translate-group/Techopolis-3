@@ -1,5 +1,6 @@
 {
   "type":"tipsmod:simple",
-  "text": "Press Z to zoom in!",
+  "text": "按Z键进行缩放！",
+
   "color": "white"
 }
