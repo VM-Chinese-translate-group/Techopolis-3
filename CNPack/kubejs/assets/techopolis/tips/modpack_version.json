@@ -1,5 +1,5 @@
 {
   "type":"tipsmod:simple",
-  "text": "Find the modpack version! Use /modpack_version in game",
+  "text": "在游戏内使用/modpack_version来确认整合包版本。",
   "color": "white"
 }
