@@ -1,5 +1,6 @@
 {
   "type":"tipsmod:simple",
-  "text": "按Z键来放大视角！",
+  "text": "按Z键进行缩放！",
+
   "color": "white"
 }
