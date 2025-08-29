@@ -88,7 +88,7 @@
 	quest.03C87072DE7CF74D.quest_desc: ["在&l岩石洗矿机&r中制作。"]
 	quest.03CB98BB60DD3FC4.quest_desc: ["并非远古残骸。"]
 	quest.03D9221617907FC8.quest_desc: ["感谢游玩&l《科技城3》&r。我们希望您喜欢这个包，如果您有任何反馈或建议，请在Discord上留言。"]
-	quest.03E6D3A4D7F8CE8F.quest_desc: ["可以用&l数字采矿机&r来寻找矿石。要开采&l下界合金矿&r，你必须使用 `&ltechopolis:netherite_ore&r` 这个矿物辞典标签。"]
+	quest.03E6D3A4D7F8CE8F.quest_desc: ["可以用&l数字采矿机&r来寻找矿石。要开采&l远古残骸&r，你必须使用 `&ltechopolis:netherite_ore&r` 这个矿物辞典标签。"]
 	quest.0400F719BCB991C1.quest_desc: ["这可真不少啊！"]
 	quest.04B9780F7FDEA78C.quest_desc: ["一种不错的方块。"]
 	quest.04B9780F7FDEA78C.quest_subtitle: "&5&l终末𬬸金部件&r&r"
@@ -158,7 +158,7 @@
 	quest.0CF51FE938E3830E.quest_desc: ["一块不错的板。"]
 	quest.0CF51FE938E3830E.quest_subtitle: "&l&e&o精英𬬸金部件&r&r&r"
 	quest.0CFF664526B7426C.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
-	quest.0D5BD7BAE0512507.quest_desc: ["An 2x2x2 of &lKiln Blocks&r can be transformed into the &lAlloy Kiln&r"]
+	quest.0D5BD7BAE0512507.quest_desc: ["&l合金窑&r由一个2x2x2的&l窑砖&r结构转化而成。"]
 	quest.0D8A03FDDAC4C99B.quest_desc: ["利用现成材料来制作物品。"]
 	quest.0DBF58F1F7A297AF.quest_desc: ["一个有用的小技巧：在合成界面中与任意方块合成，即可用于伪装管道。"]
 	quest.0DE9B2C6FE0A05CF.quest_desc: ["通过&l木板&r合成&l工作台&r。"]
@@ -234,7 +234,7 @@
 	quest.15E6A11E3325137D.quest_desc: ["Converts &lNuclear Waste&r into &lPlotonium&r. This machine will radiate your base if broken with radioactive materials inside"]
 	quest.15F835CD334040B1.quest_desc: ["一种不错的方块。"]
 	quest.161B4D2963F205F1.quest_desc: ["在眼睛合成器的范围内放置更多发电机，可以提高合成速度。"]
-	quest.161B4D2963F205F1.quest_subtitle: "眼睛合成所需的发电机"
+	quest.161B4D2963F205F1.quest_subtitle: "合成眼睛所需的发电机"
 	quest.164B6FAB9100BA01.quest_desc: ["压缩抽屉有2级和3级两种版本。"]
 	quest.164B6FAB9100BA01.title: "压缩"
 	quest.166A2386E894F6B2.quest_desc: ["在&l压印器&r中制作。"]
@@ -326,7 +326,7 @@
 	quest.1EF69C835377BC34.quest_desc: ["用于模拟&l凋灵骷髅&r。"]
 	quest.1F1EEA9920E12A0D.quest_desc: ["可以用来压缩物品和方块，效果不是很好但目前够用了。"]
 	quest.1F353CFB1B7B7D8D.quest_desc: ["能量存储"]
-	quest.1FD1F68CC0DBB2A0.quest_desc: ["&lCopper&r and &lTin&r inside the Alloy Kiln will create &lBronze&r"]
+	quest.1FD1F68CC0DBB2A0.quest_desc: ["通过合金窑将&l铜&r和&l锡&r合金化制成&l青铜&r。"]
 	quest.1FEF2C4ED174C01C.quest_desc: ["在&l充能台&r中制作。"]
 	quest.203E2671B160424E.quest_desc: ["展示物品，可用于充能台。"]
 	quest.207BCFEA8B24CCCD.quest_desc: ["高效的垂直交通方式"]
@@ -600,7 +600,7 @@
 	quest.43D6EA4605E23805.quest_desc: ["温度更高的&l熔炉&r，可以直接将&l圆石&r冶炼成&l平滑石头&r。"]
 	quest.441B845CE0BD714C.quest_desc: ["解锁&l纯净物质&r的配方。"]
 	quest.44A82988C82DFF3D.quest_desc: ["用于搭建粉碎机。"]
-	quest.44B1393D77C479E5.quest_desc: ["&l主世界&r之外。"]
+	quest.44B1393D77C479E5.quest_desc: ["不属于&l主世界&r。"]
 	quest.44C3FB61DE144BCE.quest_desc: ["一块&l银&r板"]
 	quest.44C3FB61DE144BCE.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
 	quest.44CA9505CF5AC5C0.quest_desc: ["与动能发电机相连时可以产生RF。"]
@@ -613,7 +613,7 @@
 	quest.462C80341227BDB0.quest_desc: ["可以砍倒整棵&l树&r的简易工具。按住&lSHIFT&r将只会挖掘一个方块。"]
 	quest.462C80341227BDB0.title: "斧"
 	quest.46822F1CB547D11E.quest_desc: ["&l眼睛合成器&r使用能源和物品来合成各种各样的眼睛。"]
-	quest.46822F1CB547D11E.quest_subtitle: "name eye crafter"
+	quest.46822F1CB547D11E.quest_subtitle: " "
 	quest.46822F1CB547D11E.title: "眼睛合成器"
 	quest.46B8DBEE30CEA5CD.quest_desc: ["一种不错的方块。"]
 	quest.46B8DBEE30CEA5CD.quest_subtitle: "&l&3月球𬬸金部件&r&r"
@@ -828,7 +828,7 @@
 	quest.5C67983942444908.quest_subtitle: "&l&3月球𬬸金部件&r&r"
 	quest.5C6C15E3938EF0A6.quest_desc: ["它用于&l工业筛滤机&r，可以用扳手将其拆卸下来。"]
 	quest.5C85F2581BC19785.quest_desc: ["解锁&l精英速度饰品&r的配方。"]
-	quest.5CE99434CDBB30E3.quest_desc: ["A 3x3x3 of &lBlast Bricks&r can be transformed into the &lBlast Furnace&r. This can be used to make &lSteel&r "]
+	quest.5CE99434CDBB30E3.quest_desc: ["&l高炉&r由一个3x3x3的&l高炉砖&r结构转化而成，其可以用来冶炼&l钢&r。"]
 	quest.5CF0ADF2E23B6D54.quest_desc: ["&l融合机&r制造&l矿石&r的原料之一。"]
 	quest.5D2A32049BAC6C50.quest_desc: ["一种不错的方块。"]
 	quest.5D2A32049BAC6C50.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
@@ -863,7 +863,7 @@
 	quest.621CB46DAD84AE84.quest_desc: ["&l沙子&r、&l沙砾&r和&l黏土&r的混合物。"]
 	quest.623E8B19B918318F.quest_desc: ["用于鉴定物品，并保存到存储芯片中。"]
 	quest.6246E91DC5BFEEC0.quest_desc: ["更高效的液体获取方式。"]
-	quest.627070252CB1C1BA.quest_desc: ["Iron can be used to make &lModern Dynamic Item Pipes&r. This provides another way of transporting items, there is also &lFluid Pipes&r as well"]
+	quest.627070252CB1C1BA.quest_desc: ["铁可以用来合成&l现代动力学物品管道&r——提供了一种新的物品传输方法。此外，本模组也有&l流体管道&r。"]
 	quest.627070252CB1C1BA.title: "现代动力学"
 	quest.62915A582CCFF6AD.quest_desc: ["缩短作物总生长周期，最多可在&l玻璃罩&r中放置3个。"]
 	quest.62AD904AF9F057C7.quest_desc: ["&l高级矿机&r一次能产出两个物品！"]
