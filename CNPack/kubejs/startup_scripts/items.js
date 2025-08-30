@@ -386,7 +386,7 @@ StartupEvents.registry("item", (event) => {
     event.create('techopolis:ender_storage_blueprint').texture('techopolis:item/elite_blueprint_ender').tooltip('可以用于制造末影箱子和末影蓄水槽').tag('techopolis:blueprints')
     event.create('techopolis:elevator_blueprint').texture('techopolis:item/elite_blueprint_e').tooltip('可以用于制造电梯').tag('techopolis:blueprints')
     event.create('techopolis:unstable_matter_blueprint').texture('techopolis:item/elite_blueprint_a').tooltip('可以用于制造包含不稳定物质的物质蓝图，进而在复制器中制造不稳定物质').tag('techopolis:blueprints')
-    event.create('techopolis:ultimine_blueprint').texture('techopolis:item/elite_blueprint_u').tooltip('可以用于制造Miners Certificate').tag('techopolis:blueprints')
+    event.create('techopolis:ultimine_blueprint').texture('techopolis:item/elite_blueprint_u').tooltip('可以用于制造矿工证书').tag('techopolis:blueprints')
     event.create('techopolis:unbreakable_electrodes_blueprint').texture('techopolis:item/elite_blueprint_l').tooltip('可以用于制造无法破坏的石墨电极').tag('techopolis:blueprints')
     event.create('techopolis:speed_2_curio_blueprint').texture('techopolis:item/elite_blueprint_s2').tooltip('可以用于制造第二级的速度饰品').tag('techopolis:blueprints')
     event.create('techopolis:waystones_blueprint').texture('techopolis:item/elite_blueprint_w').tooltip('可以用于制造传送石').tag('techopolis:blueprints')
