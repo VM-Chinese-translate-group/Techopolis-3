@@ -42,6 +42,27 @@ jobs:
       - name: Sync translations from Paratranz
         run: python .github/workflows/para2github.py
 
+      # ====================================================================
+      # ======================= 新增的重定向步骤 开始 ========================
+      # ====================================================================
+      - name: Redirect opolisutilities language file
+        run: |
+          SOURCE_FILE="CNPack/kubejs/assets/opolisutilities"
+          DEST_DIR="CNPack/resourcepacks/VM Language Override/assets/opolisutilities"
+          # 确保目标目录存在
+          mkdir -p "$DEST_DIR"
+          # 检查源文件是否存在，然后移动它
+          if [ -f "$SOURCE_FILE" ]; then
+            echo "Redirecting $SOURCE_FILE to $DEST_DIR/"
+            mv "$SOURCE_FILE" "$DEST_DIR/"
+            echo "File moved successfully."
+          else
+            echo "Source file $SOURCE_FILE not found, skipping redirection."
+          fi
+      # ====================================================================
+      # ======================== 新增的重定向步骤 结束 =======================
+      # ====================================================================
+
       - name: Run FTB Color Checker Script
         run: python .github/workflows/check_ftb_colors.py ./CNPack
         continue-on-error: true
