@@ -315,7 +315,7 @@
 	quest.1D5A0F86F791D59A.quest_desc: ["可用于收集&l紫颂花&r。"]
 	quest.1DD38714228384B1.quest_desc: ["一种更优质的&l生物燃料&r，发电量更高，持续时间更长。"]
 	quest.1DFE26F8448F9F1C.quest_desc: ["用&l开掘铲&r右击&l泥土&r，会一次性掉落佩戴&l资源饰品&r挖掘泥土时可能产生的所有战利品。"]
-	quest.1DFE26F8448F9F1C.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
+	quest.1DFE26F8448F9F1C.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.1DFE26F8448F9F1C.title: "快速获取资源"
 	quest.1E0DBF1D7D633823.quest_desc: ["冶金灌注机可将某些材料灌注到其他材料中。"]
 	quest.1E16A3E140FE4129.quest_desc: ["这个蓝图内包含了制造不稳定物质所需数据。右击内部带有&l存储芯片&r的&l芯片存储器&r，即可了解如何制作。"]
@@ -432,7 +432,7 @@
 		"&l3个玻璃罩才能匹配一个焦炉的消耗速度。&r"
 	]
 	quest.2FD8E7C4F97E6C86.quest_desc: ["在饰品栏佩戴&l资源饰品&r时，挖掘&l泥土和草方块&r将会掉落额外资源，包括&l骨粉&r、&l树枝&r和&l石子&r。"]
-	quest.2FD8E7C4F97E6C86.quest_subtitle: "&l&o世界类型限定——SkyGrid&r&r"
+	quest.2FD8E7C4F97E6C86.quest_subtitle: "&l&o世界类型限定——空岛网格&r&r"
 	quest.2FD8E7C4F97E6C86.title: "额外掉落物"
 	quest.2FEC0AD0A1D02C85.quest_desc: ["一种极其坚固的合金"]
 	quest.2FEC625A6725CD89.quest_desc: ["可在&l超维灌注机&r中制作。"]
@@ -538,7 +538,7 @@
 	quest.3AF4B40E1A1225E3.quest_desc: ["游戏中的各种物品都具有&l物质值&r。这些物品可以转化为&l物质&r，进而重新制造某些物品。"]
 	quest.3AFED249E73796AA.quest_desc: ["解锁&l汤姆的简易存储&r，此模组可以读取所有已连接的容器物品栏中的物品供你查看和合成。"]
 	quest.3B4A980A5AECA6FF.quest_desc: ["通过&l树枝&r和&l木棍&r合成获得。"]
-	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
+	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.3B4A980A5AECA6FF.title: "橡树树苗"
 	quest.3B581375F1A72F7D.quest_desc: ["通过&l煤炭块&r合成获得。"]
 	quest.3BB15BF24034EFD2.quest_desc: ["是时候进入&l信息时代&r了。"]
@@ -667,7 +667,7 @@
 	quest.4BF582AFE6081D78.quest_desc: ["在&l冶金灌注机&r中制作。"]
 	quest.4C02E93F68D03609.quest_desc: ["由&l粗高定向热解石墨粉&r在&l工业挤压机&r内制成。"]
 	quest.4C4A3389ED1CABCF.quest_desc: ["用&l锤&r右击&l圆石&r获得&l沙砾&r。"]
-	quest.4C4A3389ED1CABCF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
+	quest.4C4A3389ED1CABCF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.4C59A97F6EF31BFF.quest_desc: ["识别岩石中的矿石。"]
 	quest.4C5D016B83FAF41D.quest_desc: ["在&l加压反应室&r中由对应的矿石变种制成，&l下界&r和&l超维&r变种均可。"]
 	quest.4C72044332318428.quest_desc: ["在&l岩石洗矿机&r中制作。"]
@@ -741,7 +741,7 @@
 	quest.54D31FFC18ADD45D.quest_desc: ["在这里输入物品。"]
 	quest.5505966C314B5680.quest_desc: ["可以直接获得&l铱矿&r。"]
 	quest.5561367DE4D71434.quest_desc: ["用&l锤&r右击&l沙砾&r获得&l沙子&r。"]
-	quest.5561367DE4D71434.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
+	quest.5561367DE4D71434.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.55867E1213B101AA.quest_desc: ["用于模拟&l火星迅猛龙&r。"]
 	quest.55C35B7494E0C0EC.quest_desc: ["无限流体。"]
 	quest.569AA7A2E4BB962E.quest_desc: ["好吃"]
@@ -774,7 +774,7 @@
 	quest.58DD0629D81E76DA.quest_desc: ["用于合成&l过滤器&r。"]
 	quest.58F943B2FDEBC490.quest_desc: ["一块&l镍&r板"]
 	quest.591CE056198CE119.quest_desc: ["&l资源饰品&r能让一些方块掉落额外的物品。"]
-	quest.591CE056198CE119.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
+	quest.591CE056198CE119.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.5943723564691E7A.quest_desc: ["&l化学压射室&r可以将&l沙子&r转化为&l硅&r。"]
 	quest.595DDC56B4A8EA48.quest_desc: ["用于制作&l彩蛋壳&r"]
 	quest.5964977D62377196.quest_desc: ["坚固的外壳。"]
@@ -822,7 +822,7 @@
 	quest.5BEBA3DCA958DF0F.title: "实用技巧"
 	quest.5C082BD2A222FAAB.quest_desc: ["无用之桶"]
 	quest.5C1EE19AC946C250.quest_desc: ["&l树苗催熟器&r可以使&l树苗&r瞬间生长。"]
-	quest.5C1EE19AC946C250.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、SkyGrid&r&r"
+	quest.5C1EE19AC946C250.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.5C64F60D7D9DBD30.quest_desc: ["向&l星际灌注机&r输入&l镎粉&r可获得。它是放射性物质，所以必须穿上&l喷气服&r以确保安全。"]
 	quest.5C67983942444908.quest_desc: ["一种不错的棒。"]
 	quest.5C67983942444908.quest_subtitle: "&l&3月球𬬸金部件&r&r"
