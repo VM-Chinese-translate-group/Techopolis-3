@@ -16,7 +16,7 @@
 	chapter.2E00C08CEA228C7A.title: "末地𬬸金"
 	chapter.2F964226768854CD.title: "深板岩"
 	chapter.32CCCAE6DDC44589.title: "高级𬬸金"
-	chapter.352D842B47601587.title: "Dirt"
+	chapter.352D842B47601587.title: "泥土"
 	chapter.3A4A8A7628BC6589.title: "更多石头"
 	chapter.3BD8BE176F1CE05E.title: "精英"
 	chapter.3C7DDDF726455D1A.title: "新世界"
@@ -163,7 +163,7 @@
 	quest.0DBF58F1F7A297AF.quest_desc: ["一个有用的小技巧：在合成界面中与任意方块合成，即可用于伪装管道。"]
 	quest.0DE9B2C6FE0A05CF.quest_desc: ["通过&l木板&r合成&l工作台&r。"]
 	quest.0DE9B2C6FE0A05CF.title: "工作台"
-	quest.0E2AE31FA80CF621.quest_desc: ["Made inside the &lMob Fabricatior&r"]
+	quest.0E2AE31FA80CF621.quest_desc: ["在&l战利品制造器&r中制作。"]
 	quest.0E2AE31FA80CF621.quest_subtitle: "&l&0地狱𬬸金部件&r&r"
 	quest.0E9C01587AF28CF7.quest_desc: ["更高级的机器。这些方块可用扳手回收。"]
 	quest.0EBD79868F379238.quest_desc: ["真正能用的桶，但高温流体会使其碎裂！"]
@@ -231,7 +231,7 @@
 	quest.15499AC0CD9B7843.quest_desc: ["用于制作&l凋灵&r、&l末影龙&r等Boss生物的&l数据模型&r。"]
 	quest.156D74B785F34B66.quest_desc: ["简易的流体运输方式。"]
 	quest.15829566832C5AB7.quest_desc: ["烧炼&l黏土球&r获得。"]
-	quest.15E6A11E3325137D.quest_desc: ["Converts &lNuclear Waste&r into &lPlotonium&r. This machine will radiate your base if broken with radioactive materials inside"]
+	quest.15E6A11E3325137D.quest_desc: ["将&l核废料&r转化为&l钚&r。此机器若因放射性物质损坏，将会对你的基地造成辐射影响。"]
 	quest.15F835CD334040B1.quest_desc: ["一种不错的方块。"]
 	quest.161B4D2963F205F1.quest_desc: ["在眼睛合成器的范围内放置更多发电机，可以提高合成速度。"]
 	quest.161B4D2963F205F1.quest_subtitle: "合成眼睛所需的发电机"
@@ -244,18 +244,18 @@
 	quest.16DB448912997A88.quest_desc: ["将红石灌注到铜中，制成灌注合金。"]
 	quest.16F70B092D615AC1.quest_desc: ["在&l位于下界的生物灌注机&r中制作。需要大量能量！"]
 	quest.16F70B092D615AC1.quest_subtitle: "&l&0地狱𬬸金部件&r&r"
-	quest.1705CFCE2C0CA200.quest_desc: ["Uses &lAlternators&r to craft"]
+	quest.1705CFCE2C0CA200.quest_desc: ["使用&l发电机&r才能开始制作。"]
 	quest.1705CFCE2C0CA200.title: "末影工作台"
-	quest.170D6090A1967B58.quest_desc: ["Most items in the world are made up of various differernt matters. These tanks allow you to store these"]
+	quest.170D6090A1967B58.quest_desc: ["游戏中大多数物品都由各种不同的物质构成。这些储罐可以让你储存这些物质。"]
 	quest.1736CCBC0F8B3CB8.quest_desc: ["一种不错的棒。"]
 	quest.1736CCBC0F8B3CB8.quest_subtitle: "&e&l末地𬬸金部件&r&r"
 	quest.1743EA1ABE7F6661.quest_desc: ["简易剪刀"]
 	quest.17455D6476E03296.quest_desc: ["可以分类流体，具体用法请参阅指南书。"]
 	quest.1757F2A54B7E06B9.quest_desc: ["产于&l下界&r，使用&l数字采矿机&r可高效采集。"]
 	quest.178E2312A0BFE050.quest_desc: [
-		"A huge multiblock structure used to create &lEnd Technium Ingots&r."
+		"用于制造&l末地𬬸金锭&r的巨大多方块结构。"
 		""
-		"Now requires thunder weather"
+		"现在要求雷暴天气。"
 	]
 	quest.17BCE6CC64C79DFE.quest_desc: ["为&l流化器&r提供能源。"]
 	quest.17DE850E2399B19E.quest_desc: ["使用此物品即可解锁&lFTB连锁破坏&r。"]
@@ -396,8 +396,8 @@
 	quest.297F5435D1AA105D.quest_desc: ["用时更短，太好了。"]
 	quest.29CACB6338DE6A9C.quest_desc: ["一种不错的方块。"]
 	quest.2A7F946F0F65C27C.quest_desc: ["在&l搅拌机&r中用&l奶&r，&l糖&r和&l可可豆&r制成"]
-	quest.2AAFC394BF52970E.quest_desc: ["&l汤姆的存储&r模组提供了许多实用工具来帮你整理基地。你可以用&l容器配置器&r设置优先级，用&l物品筛选器&r来筛选物品。"]
-	quest.2B162778A44AD978.quest_desc: ["Now you can create a lot of &lCyanite Ingots&r you can make a &lFluidizer&r"]
+	quest.2AAFC394BF52970E.quest_desc: ["&l汤姆的简易存储&r模组提供了许多实用工具来帮你整理基地。你可以用&l容器配置器&r设置优先级，用&l物品筛选器&r来筛选物品。"]
+	quest.2B162778A44AD978.quest_desc: ["你现在可以制作一个&l流化器&r来批量生产&l青氰锭&r。"]
 	quest.2B162778A44AD978.quest_subtitle: "&a&o终极𬬸金部件&r&r"
 	quest.2C718D186D749D2C.quest_desc: ["一种不错的板。"]
 	quest.2C718D186D749D2C.quest_subtitle: "&e&l末地𬬸金部件&r&r"
@@ -406,7 +406,7 @@
 	quest.2C9C5CAA8F3E90DF.quest_desc: ["可以在&l固化机&r中制作。"]
 	quest.2C9C5CAA8F3E90DF.quest_subtitle: "&l&6&o基础𬬸金部件&r&r"
 	quest.2CFE90E35E66724F.quest_desc: ["一个大型的多块结构，用于在&l下界&r获取&l石油&r。"]
-	quest.2D197D7521FF6C10.quest_desc: ["If your replication machines are all connected you can access all the information from inside the &lTermial&r. Also allows you to craft items from inside"]
+	quest.2D197D7521FF6C10.quest_desc: ["在所有复制设备均连接后，可以在&l复制终端&r上访问信息。也可以在该界面内制作物品。"]
 	quest.2D59DBA6CEDA9211.quest_desc: ["为更高级的方块和机器提供更优质的框架基础。"]
 	quest.2D5B54661E6C6B91.quest_desc: ["将&l油菜籽&r压榨成&l油&r。"]
 	quest.2D6FC72A00364E19.quest_desc: ["&l提纯物质球&r。"]
@@ -526,7 +526,7 @@
 	quest.39F5BC13576E3BB5.quest_desc: ["简易&l烧炼&r设备"]
 	quest.3A0D69B21D5779B7.quest_desc: ["用于制作多种建筑方块。"]
 	quest.3A138558D1F52068.quest_desc: ["在&l融合器&r中与大多数的矿石融合即可生产各种出新的&l矿石&r。"]
-	quest.3A37CCD1861B2A9F.quest_desc: ["You must be wearing the Space Suit or you will instantly die on the moon"]
+	quest.3A37CCD1861B2A9F.quest_desc: ["如果不想快速死亡的话，记得在月球上穿好整套航天服。"]
 	quest.3A37CCD1861B2A9F.title: "月球"
 	quest.3A4E5F33D36C1A1F.quest_desc: ["用于合成&l时间之瓶&r。你也可以在&l时间之瓶充能器&r中为你的&l时间之瓶&r充能。"]
 	quest.3A7A81CE95B5E41F.quest_desc: ["通过&l剪刀&r挖掘&l树叶&r获得。"]
@@ -588,10 +588,10 @@
 	quest.41DD750F734DE819.quest_desc: ["将&l粗制高炉&r升级成&l改良高炉&r以解锁自动化。只需将&l高炉砖&r替换为&l强化高炉砖&r并在顶部加一个&l漏斗&r后，对其使用&l工程师锤&r即可成型。"]
 	quest.41DE4B7C762DBDDD.quest_desc: ["哇哦"]
 	quest.41DF22E33B6B46A0.quest_desc: ["&l熔融碳&r可以通过在控制器中熔化&l木炭&r、&l迷你木炭&r或&l木炭粉&r来获得。"]
-	quest.421CAB71DE919312.quest_desc: ["That like end game right!"]
+	quest.421CAB71DE919312.quest_desc: ["看起来进入末期阶段了！"]
 	quest.4262DC3C15273494.quest_desc: ["&l涡轮&r可用来从&l蒸汽&r中产出大量能量"]
 	quest.428D51D0B5DF5295.quest_desc: ["通过&l熔炉烧炼圆石&r获得。"]
-	quest.4296168019E02456.quest_desc: ["Used for some pretty advanced AE&l2&r "]
+	quest.4296168019E02456.quest_desc: ["用于制作一些&lAE2&r中的高级物品。"]
 	quest.42AEF379BA248070.quest_desc: ["提高&l通用机械&r机器的运行速度，但会消耗更多能量！"]
 	quest.431FFFFC2D686F6F.quest_desc: ["这可真不少啊！"]
 	quest.4330A91B07B29A42.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
@@ -1181,7 +1181,7 @@
 	task.4F76C8BD7612A936.title: "Super Flat Recipes"
 	task.4FFAE2AF2484C2A4.title: "光影"
 	task.5183E31E6E34E45C.title: "任意#techopolis:pure_matter"
-	task.53098F41A5A9FA30.title: "Mod Essence"
+	task.53098F41A5A9FA30.title: "生物源质"
 	task.53423114EFEDF0F2.title: "世界类型"
 	task.5365F7A4D471BA62.title: "十重压缩"
 	task.552527158455F867.title: "任意#techopolis:nether_planks"
