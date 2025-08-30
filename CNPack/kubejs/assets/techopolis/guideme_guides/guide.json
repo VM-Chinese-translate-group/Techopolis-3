@@ -2,11 +2,11 @@
     "item_settings": {
       "display_name": {
         "type": "translatable",
-        "translate": "Techopolis 3 Guide Book"
+        "translate": "科技城3指南"
       },
       "tooltip_lines": [
         {
-          "text": "The Ultimate Techopolis 3 Guide Book",
+          "text": "科技城3指南最终版",
           "color": "dark_gray"
         }
       ],
