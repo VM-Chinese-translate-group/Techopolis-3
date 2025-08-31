@@ -47,23 +47,24 @@ jobs:
       # ====================================================================
       - name: Redirect opolisutilities assets directory
         run: |
-          SOURCE_DIR="CNPack/kubejs/assets/opolisutilities"
-          DEST_PARENT_DIR="CNPack/resourcepacks/VM Language Override/assets"
+          # 定义源和目标目录
+          # 注意源目录末尾的斜杠 / ，这至关重要
+          SOURCE_DIR="CNPack/kubejs/assets/opolisutilities/"
+          DEST_DIR="CNPack/resourcepacks/VM Language Override/assets/opolisutilities"
 
-          # 检查源目录是否存在
-          if [ -d "$SOURCE_DIR" ]; then
-            echo "源目录 '$SOURCE_DIR' 存在，开始重定向..."
+          # 确保源和目标目录都存在
+          if [ -d "$SOURCE_DIR" ] && [ -d "$DEST_DIR" ]; then
+            echo "正在使用 rsync 移动 '$SOURCE_DIR' 的内容到 '$DEST_DIR'..."
 
-            # 确保目标上级目录存在
-            mkdir -p "$DEST_PARENT_DIR"
+            # -a: 归档模式，保留文件属性
+            # -v: 显示详细过程
+            # --remove-source-files: 移动文件（在成功传输后删除源文件，这会一并删除源目录本身）
+            # 源目录末尾的斜杠告诉 rsync 同步目录的内容，而不是目录本身
+            rsync -av --remove-source-files "$SOURCE_DIR" "$DEST_DIR"
 
-            # 使用 mv 命令将整个源目录移动到目标上级目录中
-            # mv 命令会自动处理源目录的删除
-            mv "$SOURCE_DIR" "$DEST_PARENT_DIR/"
-
-            echo "目录成功移动至 '$DEST_PARENT_DIR/'."
+            echo "操作完成。"
           else
-            echo "源目录 '$SOURCE_DIR' 未找到，跳过重定向。"
+            echo "错误：源目录或目标目录不存在。"
           fi
       # ====================================================================
       # ======================== 修正后的重定向步骤 结束 =======================
