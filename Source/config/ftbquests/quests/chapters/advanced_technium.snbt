@@ -78,7 +78,7 @@
 				item: { count: 1, id: "techopolis:advanced_technium_nugget" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -97,7 +97,7 @@
 				item: { count: 1, id: "techopolis:advanced_technium_machine_frame" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -352,7 +352,68 @@
 				item: { count: 1, id: "techopolis:milker" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70FED206562250EE"]
+			id: "562F6AA46E60A340"
+			rewards: [{
+				id: "2B33C8ED7A72B36D"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01222FB3BECFA582"
+				item: { count: 1, id: "routers:importer_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70FED206562250EE"]
+			id: "3508602627DFB450"
+			rewards: [{
+				id: "5DEAA58E575AE260"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46097C0DFCDDE8C6"
+				item: { count: 1, id: "routers:exporter_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3508602627DFB450"
+				"562F6AA46E60A340"
+			]
+			id: "7989398728B3D7C4"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5730D72A7F3E0629"
+				item: {
+					count: 1
+					id: "opolisutilities:b_bucks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71064695F8A4C62D"
+				item: { count: 1, id: "routers:router_connector" }
+				type: "item"
+			}]
+			x: -1.0d
 			y: 3.0d
 		}
 	]
