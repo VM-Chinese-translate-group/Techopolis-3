@@ -111,7 +111,7 @@
 	quest.072452455ED47638.quest_desc: ["&l由矿石碎片加工而来&r。"]
 	quest.072ADEFA1BEA2599.quest_desc: ["一种简易的&l背包&r。后期可使用&l通用机械的私人桶&r来获得更大的空间！"]
 	quest.0745AB834C47356A.quest_desc: ["在&l压印器&r中制作。"]
-	quest.074C320C2BAFEAAA.quest_desc: ["Inside the &lDimensional Infuser&r, &lLunar Gas&r and &lMoon Stone&r can be turned in &lBlank Moon Ore&r"]
+	quest.074C320C2BAFEAAA.quest_desc: ["在&l超维灌注机&r中向&l月岩&r注入&l月球空气&r，即可合成&l空白月球矿石&r。"]
 	quest.07ACC46AA884FC37.quest_desc: ["可以直接获得&l锌&r。仅在&l下界&r中生效。"]
 	quest.07C8351E6DCE3CBB.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.07E6B3BA5FC9E1D4.quest_desc: ["通过&l树叶&r合成获得。"]
@@ -147,7 +147,7 @@
 	quest.0B592478EB281CBC.quest_desc: ["在&l工业筛滤机&r中制成。"]
 	quest.0B68208E5E5CC71C.quest_desc: ["更多的&l圆石&r"]
 	quest.0B6CFA77F78F9359.quest_desc: ["运行&l模拟室&r的副产物。之后可以用来制作&l熔融生物源质&r。"]
-	quest.0BC3D907EA723897.quest_desc: ["Saves learnt item"]
+	quest.0BC3D907EA723897.quest_desc: ["保存已鉴定的物品。"]
 	quest.0BE2D11B6AAFEC01.quest_desc: ["一种不错的齿轮。"]
 	quest.0BE2D11B6AAFEC01.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
 	quest.0BF0151D63C255BC.quest_desc: ["富集的&l氟石粉&r。"]
@@ -220,9 +220,9 @@
 	quest.14ADD310DF8D01F7.quest_desc: ["简易物品传输"]
 	quest.14AF71808F5F56FD.quest_desc: ["相比于使用&l月岩尘&r制取&l月球空气&r，它的效率更高。"]
 	quest.14B780516CB2F6C7.quest_desc: [
-		"A huge multiblock structure used to create &lEnd Technium Ingots&r."
+		"用于制造&l末地𬬸金锭&r的巨大多方块结构。"
 		""
-		"Now requires a minimum height level in crafting &lTechnium&r"
+		"现在制造&l𬬸金锭&r时有最低高度要求。 "
 	]
 	quest.15162CAC2C5ED379.quest_desc: ["更坚固的外壳。这些方块可用扳手回收。"]
 	quest.1524E6C567EBC7F9.quest_desc: ["在&l星际灌注机&r中制作。"]
@@ -275,7 +275,7 @@
 	quest.1929861EEF607D3C.quest_subtitle: "&l&e&o精英𬬸金部件&r&r&r"
 	quest.1977A3BD061C4176.quest_desc: ["你需要一套&l航天服&r来遨游星辰，而这是其中的一件。"]
 	quest.198A1BEAAD34949E.quest_desc: ["&l喷气服&r的一部分，用于抵御&l辐射&r。"]
-	quest.198A1BEAAD34949E.quest_subtitle: "Need to change this"
+	quest.198A1BEAAD34949E.quest_subtitle: "翻天覆地"
 	quest.19E16ABF1A0A8D3B.quest_desc: ["由可怕的&l外星僵尸&r掉落。"]
 	quest.19E16ABF1A0A8D3B.quest_subtitle: "&l&3月球𬬸金部件&r&r"
 	quest.19EC5DB0E55B994B.quest_desc: [
@@ -288,14 +288,14 @@
 	quest.1A1B32B71B33B49B.quest_desc: ["解锁&l终极矿机&r的配方。与&l精英矿机&r相比，它的产量翻倍。"]
 	quest.1A2093BEC631C4C8.quest_desc: ["无限复制物质？"]
 	quest.1A27BF2E3F573C8C.quest_desc: [
-		"The &lBuilders Generator&r allows the creation of some &lDecorative Blocks&r."
+		"&l资源生成器&r可以生成一些&l装饰性方块&r。"
 		""
-		"Works for most &lColored Caveopolis Stone Type Blocks&r."
+		"对大多数&l科技城彩色石头类方块&r都有效。"
 	]
 	quest.1A68742A30D301C3.quest_desc: ["制作&l巧克力&r的第一步。可以在&l贸易站&r中购买"]
 	quest.1ACB353EAB64C46D.quest_desc: ["压缩&l下界岩&r。"]
 	quest.1ACCFB94A4652035.quest_desc: ["通过&l提纯仓&r获得。"]
-	quest.1AD7FACB7A282A3A.quest_desc: ["Can be used to &lBuy&r and &lSell&r useful &lItems&r"]
+	quest.1AD7FACB7A282A3A.quest_desc: ["用于&l交易&r各种有用的&l物品&r。"]
 	quest.1ADBF5520E2DD240.quest_desc: ["击杀&l末影龙&r后会在&l传送门地基&r处生成。"]
 	quest.1AE38351CBD01CFE.quest_desc: ["在&l战利品制造器&r中制作。"]
 	quest.1B3B893B6EBE9E8B.quest_desc: ["制作那些抽屉"]
@@ -463,7 +463,7 @@
 		"如果你的下界维度是虚空，请加入我们的Discord频道，我们会尝试帮你修复。在B5.0及更高版本创建的世界应该没有这个问题。"
 	]
 	quest.32EA60F0550234C1.title: "下界"
-	quest.32EE5B52B91F4BF8.quest_desc: ["The &lResearch Crafter&r can be used to craft new items using your &lBlueprints&r"]
+	quest.32EE5B52B91F4BF8.quest_desc: ["你可以在&l研究工作台&r中用&l蓝图&r合成新的东西。"]
 	quest.330F77414A45BCD3.quest_desc: ["在&l电弧炉&r中制作。"]
 	quest.335484A17ED7350B.quest_desc: ["制造&l铀&r需要大量能量。"]
 	quest.33C4C50E9F187BF6.quest_desc: ["下一级𬬸金。"]
@@ -648,7 +648,7 @@
 	quest.4AE160E560BAAADE.quest_desc: ["里面有什么？"]
 	quest.4AE327C67D18A195.quest_desc: ["包括&l热水&r在内的多种燃料都可以为&lCasting的控制器&r供能。"]
 	quest.4AF705F1406F5CB9.quest_desc: ["可以将数据模型放入&l模拟室&r，以产出该生物的&l预测产物&r。"]
-	quest.4B0A731AAFA96C2F.quest_desc: ["允许你的&lAE2网络&r可以查看你的整个&l复制网络&r，显示其所存储的物质。也可以从&l复制网络&r中自动合成至你的&lAE2网络&r"]
+	quest.4B0A731AAFA96C2F.quest_desc: ["允许你通过&lAE2网络&r查看整个&l复制网络&r，并显示其所存储的物质。也可以从&l复制网络&r中自动合成物品至你的&lAE2网络&r。"]
 	quest.4B22551F005560EB.quest_desc: ["一根优质的杆。"]
 	quest.4B22551F005560EB.quest_subtitle: "&l&e&o精英𬬸金部件&r&r&r"
 	quest.4B23385C139B24C4.quest_desc: ["转为&l晴天&r，维持一小段时间。"]
@@ -674,7 +674,7 @@
 	quest.4CDBBE817F980BA7.quest_desc: ["运行&l模拟仓&r的副产品。之后可以用来制作&l熔融生物源质&r。"]
 	quest.4D02AB51040FCAC4.quest_desc: ["&l奇点！&r"]
 	quest.4D099BCFEB914A2A.quest_desc: ["转为&l雷暴&r，维持一小段时间。"]
-	quest.4D67FB6027D1D8A1.quest_desc: ["&lWire Cutters &rand a &lPlate&r"]
+	quest.4D67FB6027D1D8A1.quest_desc: ["通过&l工程师剪线钳&r和&l铜板&r合成获得。"]
 	quest.4D738FB0A44A86F7.quest_desc: ["为更高级的方块和机器提供更优质的框架基础。"]
 	quest.4D7F29ED8722779E.quest_desc: ["&l焦黑石英&r可被&l富集&r为&l下界石英&r。"]
 	quest.4D943C7F57CBB291.quest_desc: ["9x9的巨型&l工作台&r，用于合成&l各种太空部件&r。"]
@@ -779,7 +779,7 @@
 	quest.595DDC56B4A8EA48.quest_desc: ["用于制作&l彩蛋壳&r"]
 	quest.5964977D62377196.quest_desc: ["坚固的外壳。"]
 	quest.59744642E6E70669.quest_desc: ["&l喷气服&r的一部分，用于抵御&l辐射&r和提供飞行能力。"]
-	quest.59744642E6E70669.quest_subtitle: "需要改变它"
+	quest.59744642E6E70669.quest_subtitle: "翻天覆地"
 	quest.597A882AC8940AF3.quest_desc: [
 		"将控制器悬空放置在离地一格的开阔地上，才能正确搭建该结构。"
 		""
@@ -798,7 +798,7 @@
 	quest.5A53BD4558AC1BD9.quest_desc: ["最好的合金"]
 	quest.5A56F3D4663098AB.quest_desc: ["可以在&l战利品制造器&r中产出对应生物的掉落物。"]
 	quest.5A623F099ADBE313.quest_desc: ["&l喷气服&r的一部分，用于抵御&l辐射&r和提供飞行能力。"]
-	quest.5A623F099ADBE313.quest_subtitle: "需要改变它"
+	quest.5A623F099ADBE313.quest_subtitle: "翻天覆地"
 	quest.5A71F3ACE4FE87E2.quest_desc: ["在&l充能台&r中制作。"]
 	quest.5B18AC90F0647595.quest_desc: ["使用&l原子再构机&r来把&l煤炭&r转换为&l煤晶&r。"]
 	quest.5B2681181BC3444A.quest_desc: ["与&l空白石头矿石&r类似，它也可以用来制作各种&l下界矿石&r。"]
@@ -977,7 +977,7 @@
 	quest.6D7D9A9A3222C22C.quest_desc: ["在&l生物灌注机&r中制作，用于&l模拟仓&r。"]
 	quest.6D8834A1F7440FEA.quest_desc: ["用一种染料来制作另一种染料。"]
 	quest.6DE61F27C06D7624.quest_desc: ["输出能量。"]
-	quest.6E098B627CC384F6.quest_desc: ["Both of these machines produce &lSpent Nuclear Waste&r, some would say its not very useful"]
+	quest.6E098B627CC384F6.quest_desc: ["生产钋球和钚球时，机器会产生&l用尽的核废料&r，可能有人会说这种资源不是很有用。"]
 	quest.6E098B627CC384F6.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
 	quest.6E20392DADF9AE6D.quest_desc: [
 		"将该部件放置于&l涡轮机&r内部时，能够产生RF能量。更多详情请参阅&l科技城指南&r。"
@@ -1035,7 +1035,7 @@
 	quest.73B1C328C3075F14.quest_desc: ["由&l叶制线&r制成。"]
 	quest.73C264670B494FAC.quest_desc: ["我知道&l热水&r当燃料很逊，但现在只能这样了。在默认世界类型里可以找到像熔岩这样的其他燃料。"]
 	quest.73E53E51D7957AF6.quest_desc: ["处理过的&l超维奶酪矿石&r。"]
-	quest.73EEE2A6A65B7F30.quest_desc: ["Stores chips, allows you to obtain these items"]
+	quest.73EEE2A6A65B7F30.quest_desc: ["用于存放存储芯片，以便在日后获取其中的物品。"]
 	quest.741016E4936B361A.quest_desc: ["一种不错的气体。"]
 	quest.741016E4936B361A.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.7459085012C3D370.quest_desc: ["在&l𬬸金压缩机&r中制作。"]

@@ -507,6 +507,11 @@
 	quest.3491F0FBE638D596.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.34ACA6A6E5AA1790.quest_desc: ["Your first machine, Holding SHIFT will show you the blocks needed for the structure. When you have all the blocks place the Sawmill down and press the structure button in the GUI to place the blocks"]
 	quest.34FD3253812C2865.quest_desc: ["Used to create Waystones"]
+	quest.3508602627DFB450.quest_desc: [
+		"&lRouters&r in a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. The &lExporter&r connects to a block you want to take stuff from. "
+		""
+		"The &lExporter&r must have upgrades installed for it to do anything"
+	]
 	quest.35115D2ED3BBD85C.quest_desc: ["Allows &lDesh&r to be directly obtained. Used to create &lThe Interdimensional Infuser&r"]
 	quest.3546DF9F8CB8B856.quest_desc: ["Targets Ore inside Rocks"]
 	quest.356054777EAE6B7C.quest_desc: [
@@ -790,6 +795,7 @@
 	quest.55867E1213B101AA.quest_desc: ["Allows the simulation of &lMartian Raptors&r"]
 	quest.55C35B7494E0C0EC.quest_desc: ["All the fluids"]
 	quest.560A61D6A7632C63.quest_desc: ["Simple Item Transport"]
+	quest.562F6AA46E60A340.quest_desc: ["&lRouters&r in a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. The &lImporter&r connects to a block you want to receive stuff. "]
 	quest.569AA7A2E4BB962E.quest_desc: ["Yummy"]
 	quest.569DF6E327BFA131.quest_desc: ["Useful"]
 	quest.56AF5073083161FF.quest_desc: ["Crushed up &lTeleportation Cores&r"]
@@ -1138,6 +1144,7 @@
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
 	quest.792A8FFFD3B8E171.quest_desc: ["Allows you to extend machines! Place above the machine to enabled input and output into it from the &lMachine Extender&r"]
 	quest.795B98C57909A168.quest_desc: ["Smelted &lNetherite Dust&r"]
+	quest.7989398728B3D7C4.quest_desc: ["Clicking on an &lImporter&r than onto an &lExporter&r will connect them together. &lExporters&r can send to multiple &lImporters.&r"]
 	quest.798D68F189D87870.quest_desc: ["Crafted a &lTwig&r makes a &lStick&r"]
 	quest.79913BB2000EAA2B.quest_desc: ["Crafted from &lTwigs&r"]
 	quest.79977AE15B5A119C.quest_desc: ["Used to store fluids, can also fill buckets"]
