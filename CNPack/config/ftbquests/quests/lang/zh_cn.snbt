@@ -288,7 +288,7 @@
 	quest.1A1B32B71B33B49B.quest_desc: ["解锁&l终极矿机&r的配方。与&l精英矿机&r相比，它的产量翻倍。"]
 	quest.1A2093BEC631C4C8.quest_desc: ["无限复制物质？"]
 	quest.1A27BF2E3F573C8C.quest_desc: [
-		"&l资源生成器&r可以生成一些&l装饰性方块&r。"
+		"&l建筑师造石机&r可以生成一些&l装饰性方块&r。"
 		""
 		"对大多数&l科技城彩色石头类方块&r都有效。"
 	]
@@ -475,6 +475,11 @@
 	quest.34444DB41F4FE551.quest_subtitle: "青色"
 	quest.3491F0FBE638D596.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
 	quest.34FD3253812C2865.quest_desc: ["用于制作&l传送石碑&r。"]
+	quest.3508602627DFB450.quest_desc: [
+		"&lRouters&r in a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. The &lExporter&r connects to a block you want to take stuff from. "
+		""
+		"The &lExporter&r must have upgrades installed for it to do anything"
+	]
 	quest.35115D2ED3BBD85C.quest_desc: ["可以直接获得&l戴斯物质&r。用于制作&l星际灌注机&r。"]
 	quest.3546DF9F8CB8B856.quest_desc: ["识别岩石中的矿石。"]
 	quest.356054777EAE6B7C.quest_desc: [
@@ -744,6 +749,7 @@
 	quest.5561367DE4D71434.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.55867E1213B101AA.quest_desc: ["用于模拟&l火星迅猛龙&r。"]
 	quest.55C35B7494E0C0EC.quest_desc: ["无限流体。"]
+	quest.562F6AA46E60A340.quest_desc: ["&lRouters&r in a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. The &lImporter&r connects to a block you want to receive stuff. "]
 	quest.569AA7A2E4BB962E.quest_desc: ["好吃"]
 	quest.569DF6E327BFA131.quest_desc: ["有用的"]
 	quest.56AF5073083161FF.quest_desc: ["粉碎的&l传送核心&r。"]
@@ -815,9 +821,11 @@
 	quest.5BE16EC567FBE306.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
 	quest.5BEB919EC6CBA3A1.quest_desc: ["用于快速搭建管道！"]
 	quest.5BEBA3DCA958DF0F.quest_desc: [
-		"你可以点击物品栏左下角的&l深色模式&r按钮，来启用不同程度的&l深色模式&r。"
+		"You can use the &lDark Mode&r button at the bottom left of your inventory to enable various levels of &lDark Mode&r"
 		""
-		"默认情况下，按&lZ&r键可以放大视角。"
+		"By default, you can press the &lZ&r key to zoom in."
+		""
+		"Using &lCTRL + F&r in the quest book will allow you to search through the quests!"
 	]
 	quest.5BEBA3DCA958DF0F.title: "实用技巧"
 	quest.5C082BD2A222FAAB.quest_desc: ["无用之桶"]
@@ -1073,6 +1081,7 @@
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
 	quest.792A8FFFD3B8E171.quest_desc: ["用于扩展机器！将其放置在机器上方，即可通过&l机器延展器&r向机器自动化输入和输出物品。"]
 	quest.795B98C57909A168.quest_desc: ["烧炼&l下界合金粉&r获得。"]
+	quest.7989398728B3D7C4.quest_desc: ["Clicking on an &lImporter&r than onto an &lExporter&r will connect them together. &lExporters&r can send to multiple &lImporters.&r"]
 	quest.79913BB2000EAA2B.quest_desc: ["通过&l树枝&r合成获得。"]
 	quest.79977AE15B5A119C.quest_desc: ["用于储存流体，还能将其装桶。"]
 	quest.79A4125E3F932A71.quest_desc: ["用于模拟&l外星猪灵&r。"]
@@ -1132,9 +1141,9 @@
 	quest.7E93D28AC288DC0B.quest_desc: ["&l提纯仓&r可以更高效地制取&l纯化盐覆盖物&r。"]
 	quest.7ED9959F38B73908.quest_desc: ["提供最好的保护，永不损耗。"]
 	quest.7F81760FA260294B.quest_desc: [
-		"自定义机械是科技城3的核心模组，它添加了许多大型多方块机器和一些简易的单方块机器。"
+		"Custom Machinery is the heart of Techopolis 3. Includes a lot of multiblock machines as well a simple machines."
 		""
-		"需要搭建多方块结构的机器，会在&lJEI&r中显示一个预览图标，点击即可在游戏中查看其结构。多数多方块结构可以共用机器框架。"
+		"Machines that require a multiblock will show an icon in &lJEI&r to view the structure in world. Most structures can share frames"
 	]
 	quest.7F81760FA260294B.title: "自定义机械"
 	quest.7FD959BD6D5C635F.quest_desc: ["眼睛在看着你合成。"]
