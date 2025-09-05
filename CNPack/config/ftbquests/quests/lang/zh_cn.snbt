@@ -108,7 +108,7 @@
 	quest.065B9B9AF769DB4B.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
 	quest.06C5F60B8492E319.quest_desc: ["用于模拟&l外星疣猪兽&r。"]
 	quest.06F34439F284357B.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
-	quest.072452455ED47638.quest_desc: ["&l由矿石碎片加工而来&r。"]
+	quest.072452455ED47638.quest_desc: ["&l由矿物碎块加工而来&r。"]
 	quest.072ADEFA1BEA2599.quest_desc: ["一种简易的&l背包&r。后期可使用&l通用机械的私人桶&r来获得更大的空间！"]
 	quest.0745AB834C47356A.quest_desc: ["在&l压印器&r中制作。"]
 	quest.074C320C2BAFEAAA.quest_desc: ["在&l超维灌注机&r中向&l月岩&r注入&l月球空气&r，即可合成&l空白月球矿石&r。"]
@@ -181,7 +181,7 @@
 	quest.0FDC4D0B19E113B8.quest_desc: ["控制棒在燃料棒上面。"]
 	quest.1022FBAF8115651D.quest_desc: ["可用于为您的&lAE2&r网络提供更多高级选项。还可用于制造&l充能方块&r。"]
 	quest.1025BFD3B7686103.quest_desc: ["好像没什么用。真的有人连&l钻石&r都有了，还没有金子吗。"]
-	quest.106BD139F3CAB463.quest_desc: ["可以提取放置在结构内的任何&l超维矿石&r。所需的能量和时间会有所不同。&l超维矿石提取机放置器&r只会放置框架，您必须将所选的超维矿石放入其中。"]
+	quest.106BD139F3CAB463.quest_desc: ["可以提取放置在结构内的任何&l超维矿石&r。所需的能量和时间会有所不同。&l超维矿石提取机放置器&r只会放置框架，您必须手动放置所需的超维矿石。"]
 	quest.1092DD1D298FA2C9.quest_desc: ["解锁&l无线充能台&r，它可以为128格内玩家物品栏中的物品充电！对&l饰品&r同样有效。"]
 	quest.10A61FF7B8C47750.quest_desc: ["谢了，我猜。"]
 	quest.10AFC37627A5BDD7.quest_desc: ["这是流体的输出口。"]
@@ -194,6 +194,8 @@
 	quest.12CE1079D15E7F5D.quest_subtitle: "&e&l末地𬬸金部件&r&r"
 	quest.12DC6EA07981504F.quest_desc: [
 		"&l科技城3&r还内置了一些可选的&l资源包&r，你可以在&l游戏菜单&r -> 选项 -> &l资源包&r中启用它们。"
+		""
+		"&lVM Language Override&r：为避免整合包魔改名称被自动汉化模组的资源包覆盖而制作的，&l&b请务必启用并置于最高优先级&r&r。"
 		""
 		"&lBBL Colors Connected Textures&r：为彩色方块提供连接纹理。"
 		""
@@ -359,7 +361,7 @@
 		"在搭建完结构后，你可以挖掘控制器以再次使用！"
 	]
 	quest.23420AE8F3F5942F.quest_desc: ["来自于&l超维复制物质矿石&r。"]
-	quest.2359C61CD8CE974E.quest_desc: ["&l由矿石碎片加工而来&r。"]
+	quest.2359C61CD8CE974E.quest_desc: ["&l由矿物碎块加工而来&r。"]
 	quest.23E7F88F7C88C7F8.quest_desc: ["粉碎&l模拟珍珠&r获得。"]
 	quest.2436734739033064.quest_desc: ["产于&l下界&r，使用&l数字采矿机&r可高效采集。"]
 	quest.2447F9EEBDB0455A.quest_desc: ["分解&l𬬸金锭&r获得。"]
@@ -373,7 +375,7 @@
 	quest.25F15D5AA001E6A6.quest_desc: ["暖暖的"]
 	quest.25F7845D0087505C.quest_desc: ["通过&l粗制高炉&r冶炼&l铁&r获得。"]
 	quest.260080A59C77FD1D.quest_desc: ["使&l玻璃罩&r在种植&l树苗&r时产出&l树叶&r，并且玻璃罩也可以种植&l树叶&r。"]
-	quest.267236F51DE8B842.quest_desc: ["可通过&l高炉&r冶炼&l石头&r获得，也可在&l主&r世界中找到。"]
+	quest.267236F51DE8B842.quest_desc: ["Can be made from &lStone&r inside the &lBlast Furnace&r and found in &lNormal&r world types"]
 	quest.26BFA170207CD0A7.quest_desc: ["更简单的合成方式！其会检测你的物品栏并显示所有可以合成的物品。在旁边放置&l切石机&r可以解锁切石机配方。"]
 	quest.26C1D3374488F5FE.quest_desc: ["将RF转化为&l热能&r。"]
 	quest.26CD7918432D3393.quest_desc: ["好多彩蛋"]
@@ -383,7 +385,7 @@
 	quest.27A997335DA96826.quest_desc: ["在&l空岛网格&r世界中，对&l下界石英矿&r和&l下界金矿石&r使用&l资源饰品&r，即有机会获得其他种类的矿石。"]
 	quest.27A997335DA96826.title: "空岛网格矿石"
 	quest.27F176A1447B88BD.quest_desc: ["&l锌&r与&l铜&r的合金。"]
-	quest.287F3EA107089860.quest_desc: ["&l由矿石碎片加工而来&r。"]
+	quest.287F3EA107089860.quest_desc: ["&l由矿物碎块加工而来&r。"]
 	quest.2897996747BAA771.quest_desc: ["你的第一个齿轮，之后会用到的。"]
 	quest.28B2BD513757B1CB.quest_desc: ["在&l战利品制造器&r中制作。"]
 	quest.28B2BD513757B1CB.quest_subtitle: "&e&l末地𬬸金部件&r&r"
@@ -864,12 +866,16 @@
 	quest.60B9BB29ECBF2C64.quest_desc: ["一个能够储存&l核废料&r的桶。其内的物质会逐渐衰变。"]
 	quest.60BE0700CA919BF6.quest_desc: ["可以挖掘3x3范围的&l泥土&r类方块。"]
 	quest.60F506FC563D110C.quest_desc: ["科技城3支持六边形大陆、默认、超平坦、空岛和空岛网格等多种世界类型。部分世界类型会提供额外的配方与功能来帮助你推进游戏。"]
-	quest.61341E3493ED49A4.quest_desc: ["为&l末影工作台&r充能。放置越多合成速度越快、"]
+	quest.61341E3493ED49A4.quest_desc: ["为&l末影工作台&r充能。放置越多合成速度越快。"]
 	quest.619E903B2CA73254.quest_desc: ["在&l灌装机&r中使用&l杂酚油，高定向热解石墨粉&r和&l杆铸模&r制成。"]
-	quest.61BC9814DB13B72E.quest_desc: ["请仔细阅读本章节的任务，其中包含了大量有用信息。"]
+	quest.61BC9814DB13B72E.quest_desc: [
+		"请仔细阅读本章节的任务，其中包含了大量有用信息。"
+		""
+		"译注：本整合包常用字𬬸（shù）可使用Windows自带的微软拼音输入法打出，默认是“shu”最后一页最后一个备选项。"
+	]
 	quest.6219BBDF93F656BD.quest_desc: ["里面有什么？"]
 	quest.621CB46DAD84AE84.quest_desc: ["&l沙子&r、&l沙砾&r和&l黏土&r的混合物。"]
-	quest.623E8B19B918318F.quest_desc: ["用于鉴定物品，并保存到存储芯片中。"]
+	quest.623E8B19B918318F.quest_desc: ["用于鉴定物品，并将结果保存到存储芯片中。"]
 	quest.6246E91DC5BFEEC0.quest_desc: ["更高效的液体获取方式。"]
 	quest.627070252CB1C1BA.quest_desc: ["铁可以用来合成&l现代动力学物品管道&r——提供了一种新的物品传输方法。此外，本模组也有&l流体管道&r。"]
 	quest.627070252CB1C1BA.title: "现代动力学"
