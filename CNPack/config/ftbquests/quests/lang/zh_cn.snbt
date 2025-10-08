@@ -1021,7 +1021,7 @@
 	quest.70CD5F6D23D2F9FB.quest_desc: ["通过&l粗制高炉&r冶炼&l盐&r获得。"]
 	quest.70CE3624FE54C162.quest_desc: ["解锁&l召唤方块&r的配方。这是一个强大的物品，可以用来生成大多数被动生物。"]
 	quest.70FED206562250EE.quest_desc: ["通过分解&l𬬸金锭&r获得，可用于开展&l高级研究&r。"]
-	quest.70FFEFD9FA7F8F79.quest_desc: ["一种非常耐用的板材，用于制造&l航天原件&r。"]
+	quest.70FFEFD9FA7F8F79.quest_desc: ["一种非常耐用的板材，用于制造&l太空部件&r。"]
 	quest.71BC21748842E49D.quest_desc: ["用于合成&l敌对生物的数据模型&r并产出&l敌对生物的掉落物&r。"]
 	quest.71CE3D552A73D26D.quest_desc: ["多种升级，可以增加存储容量等等。"]
 	quest.71CE3D552A73D26D.title: "抽屉升级"
