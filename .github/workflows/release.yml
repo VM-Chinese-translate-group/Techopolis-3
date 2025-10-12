@@ -1,0 +1,71 @@
+name: 发布正式版 (Create Release)
+
+on:
+  workflow_dispatch:
+    inputs:
+      patch_version:
+        description: '➡️ 汉化补丁自身的版本号 (例如: 1.2.0)'
+        required: true
+        type: string
+      game_version:
+        description: '➡️ 汉化补丁对应的游戏版本 (例如: 1.20.1)'
+        required: true
+        type: string
+      release_notes:
+        description: '✍️ [可选] 输入本次发布的更新日志 (支持 Markdown)'
+        required: false
+        type: string
+        default: '无'
+
+jobs:
+  create-release:
+    name: 创建并发布正式版
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Redirect opolisutilities assets directory
+        run: |
+          SOURCE_DIR="CNPack/kubejs/assets/opolisutilities/"
+          DEST_DIR="CNPack/resourcepacks/VM Language Override/assets/opolisutilities"
+          if [ -d "$SOURCE_DIR" ]; then
+            echo "正在准备打包：移动 '$SOURCE_DIR' 的内容到 '$DEST_DIR'..."
+            # 使用 rsync 移动文件，--remove-source-files 会在成功后删除源文件和目录
+            rsync -av --remove-source-files "$SOURCE_DIR" "$DEST_DIR"
+            echo "目录重定向完成。"
+          else
+            echo "警告：源目录 '$SOURCE_DIR' 不存在，跳过重定向步骤。"
+          fi
+
+      - name: Zip CNPack folder
+        run: zip -r "VM-CNPack-v${{ github.event.inputs.patch_version }}.zip" ./CNPack
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: "v${{ github.event.inputs.patch_version }}"
+          name: "正式版 v${{ github.event.inputs.patch_version }}"
+          body: |
+            ## ✨ 发布详情
+
+            - **汉化补丁版本**: `v${{ github.event.inputs.patch_version }}`
+            - **对应游戏版本**: `${{ github.event.inputs.game_version }}`
+
+            ---
+
+            ## 📝 更新日志
+
+            ${{ github.event.inputs.release_notes }}
+
+            ---
+
+            这是一个自动构建的正式版汉化补丁。
+            此版本基于 `main` 分支的最新代码生成。
+
+          artifacts: "VM-CNPack-v${{ github.event.inputs.patch_version }}.zip"
+          
+          prerelease: false
