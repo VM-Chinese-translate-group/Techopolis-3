@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","mod_resources","file/VM Language Override"]
+resourcePacks:["vanilla","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/VM Language Override"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
