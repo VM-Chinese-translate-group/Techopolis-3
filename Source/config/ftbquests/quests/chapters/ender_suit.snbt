@@ -22,6 +22,14 @@
 		{
 			dependencies: ["13E5688859BE31A4"]
 			id: "607A238EB94A9119"
+			rewards: [{
+				id: "595804F367E1E72D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "03CEFCDA0F2D9D86"
@@ -51,6 +59,14 @@
 			]
 			hide_dependency_lines: true
 			id: "13E5688859BE31A4"
+			rewards: [{
+				id: "475CEA18333ECB17"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BF9DF1BD61E10D8"
 				item: { count: 1, id: "techopolis:dragon_slayer_5000" }
@@ -63,6 +79,14 @@
 			dependencies: ["46822F1CB547D11E"]
 			hide_dependent_lines: true
 			id: "7B782BF5264D4318"
+			rewards: [{
+				id: "2478FB8A376BAE7B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B338FA6CE4E4D45"
 				item: { count: 1, id: "techopolis:ender_portal" }
@@ -74,6 +98,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "34398ADAFC89B40F"
+			rewards: [{
+				id: "2023DED54AA612EB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "297D8FB750556076"
 				item: { count: 1, id: "endrem:black_eye" }
@@ -85,6 +117,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "64A466CE70C915F1"
+			rewards: [{
+				id: "60248DAE90988B0C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D498A49407E4497"
 				item: { count: 1, id: "endrem:cold_eye" }
@@ -96,6 +136,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "48D01691EE23BE9B"
+			rewards: [{
+				id: "4E6C6E18478ADFEF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "152D9BDF906B79EC"
 				item: { count: 1, id: "endrem:corrupted_eye" }
@@ -107,6 +155,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "20B0985068138C43"
+			rewards: [{
+				id: "576068D12DE66128"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2782BF12DFB2D472"
 				item: { count: 1, id: "endrem:cryptic_eye" }
@@ -118,6 +174,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "7620511248A6284F"
+			rewards: [{
+				id: "5E7E4D94AF6B9E40"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "61C0FB748B8F27DD"
 				item: { count: 1, id: "endrem:cursed_eye" }
@@ -129,6 +193,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "2976E4906A3656FF"
+			rewards: [{
+				id: "5A07892595D053F1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "395E6034A48DDE79"
 				item: { count: 1, id: "endrem:evil_eye" }
@@ -140,6 +212,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "0A0237AE923A1D54"
+			rewards: [{
+				id: "30B5FBDAEF6AF4DB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21DCBC66AC418869"
 				item: { count: 1, id: "endrem:exotic_eye" }
@@ -151,6 +231,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "3856C92031398346"
+			rewards: [{
+				id: "5669650C67D9E643"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F7901FA9D29323A"
 				item: { count: 1, id: "endrem:guardian_eye" }
@@ -162,6 +250,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "6D222C9ACCFD90B1"
+			rewards: [{
+				id: "6C2D0313FC7BA28F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "378D25CD52D689A2"
 				item: { count: 1, id: "endrem:lost_eye" }
@@ -173,6 +269,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "34444DB41F4FE551"
+			rewards: [{
+				id: "3186C2997561C8B6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4934424D0FF5DEAF"
 				item: { count: 1, id: "endrem:magical_eye" }
@@ -184,6 +288,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "4EF5AEA4CD59CE30"
+			rewards: [{
+				id: "71DFE278DB6A52B5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "293CD0E0386B3CB6"
 				item: { count: 1, id: "endrem:nether_eye" }
@@ -195,6 +307,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "7FD959BD6D5C635F"
+			rewards: [{
+				id: "3D019F9E40CF8EB3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36241FD20A5BCC40"
 				item: { count: 1, id: "endrem:old_eye" }
@@ -206,6 +326,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "35F3CDC8442E6068"
+			rewards: [{
+				id: "3F0B2F620A4E03ED"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0635C700D918168D"
 				item: { count: 1, id: "endrem:rogue_eye" }
@@ -217,6 +345,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "5032F157A62CBD0B"
+			rewards: [{
+				id: "232AC9CFEB6793FC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5279BCC07F858C42"
 				item: { count: 1, id: "endrem:undead_eye" }
@@ -228,6 +364,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "1CCD49565947B2E2"
+			rewards: [{
+				id: "008CAE73812D5FF5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DE97252C93F7CFB"
 				item: { count: 1, id: "endrem:wither_eye" }
@@ -239,6 +383,14 @@
 		{
 			dependencies: ["7B782BF5264D4318"]
 			id: "7E1C91427D27398E"
+			rewards: [{
+				id: "41EF1A27DEA893AA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C518CC471BFCB19"
 				item: { count: 1, id: "endrem:witch_eye" }
@@ -249,6 +401,14 @@
 		}
 		{
 			id: "46822F1CB547D11E"
+			rewards: [{
+				id: "0A71BFE95647A4AB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C60AAE147AA946E"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:flux_crafters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -260,6 +420,14 @@
 		{
 			dependencies: ["46822F1CB547D11E"]
 			id: "161B4D2963F205F1"
+			rewards: [{
+				id: "6CF60B5C9E0E34CE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "11A9ACF0331DFE95"
 				item: { count: 1, id: "extendedcrafting:flux_alternator" }
@@ -271,6 +439,14 @@
 		{
 			dependencies: ["607A238EB94A9119"]
 			id: "183C6F95344B0F96"
+			rewards: [{
+				id: "425C3D6D110DB2BE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "065BD74BA0487122"
 				item: { count: 1, id: "minecraft:dragon_breath" }
@@ -293,6 +469,14 @@
 				id: "mekanism:creative_chemical_tank"
 			}
 			id: "3CB6472F13D36897"
+			rewards: [{
+				id: "421AEC34F8E9B7E0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A8D9E7716C12EBE"
 				type: "checkmark"
@@ -321,6 +505,14 @@
 			]
 			hide_dependency_lines: true
 			id: "7081AF4D35D9981E"
+			rewards: [{
+				id: "24D42D847E2C0E2C"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AF93F245E732BBD"
 				item: { count: 1, id: "techopolis:eye_block" }
@@ -332,6 +524,14 @@
 		{
 			dependencies: ["183C6F95344B0F96"]
 			id: "45688A4BFF742BC7"
+			rewards: [{
+				id: "1B9EB445E3ACCAE9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CCBF927194A625E"
 				item: { count: 1, id: "rftoolsbase:dimensionalshard" }

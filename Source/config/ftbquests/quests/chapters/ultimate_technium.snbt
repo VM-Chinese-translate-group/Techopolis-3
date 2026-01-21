@@ -29,7 +29,7 @@
 				id: "166B7F93962B9D38"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -48,7 +48,7 @@
 				id: "0E200D05C21385C1"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -67,7 +67,7 @@
 				id: "0B692E8BEDFB1CD8"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -86,7 +86,7 @@
 				id: "1C270818E16EACA4"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -108,7 +108,7 @@
 				id: "144D8A91B6260B94"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -130,7 +130,7 @@
 				id: "5A7CD6F7BE804E53"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -151,7 +151,7 @@
 				id: "0AA66C38C8DC52D0"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -170,7 +170,7 @@
 				id: "697C2D7D949EA227"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -189,7 +189,7 @@
 				id: "1BBD6226A15C5744"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -208,7 +208,7 @@
 				id: "77804A643F21495B"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -219,6 +219,25 @@
 			}]
 			x: -2.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["0561C57B9F1E095C"]
+			id: "46B1A6A644FB964A"
+			rewards: [{
+				id: "4EE15A59CE876CA4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC706A0F7C8AEDD"
+				item: { count: 1, id: "techopolis:dimensional_ore_extractor_mk2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 }
