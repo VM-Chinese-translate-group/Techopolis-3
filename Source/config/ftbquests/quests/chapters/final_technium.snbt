@@ -22,6 +22,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "7459085012C3D370"
+			rewards: [{
+				id: "6E087D4532F33D04"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A9F7E5733E5D7C9"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:bronze" }, count: 1, id: "extendedcrafting:singularity" }
@@ -34,6 +42,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "5A1BE3B89382E340"
+			rewards: [{
+				id: "4E95EBD7BD610E9A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "71C9927EBE4D0359"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:electrum" }, count: 1, id: "extendedcrafting:singularity" }
@@ -46,6 +62,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "41BC01D0D4047EC7"
+			rewards: [{
+				id: "552EC272189A7CEE"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "71454F876BE470E6"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:invar" }, count: 1, id: "extendedcrafting:singularity" }
@@ -58,6 +82,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "07C8351E6DCE3CBB"
+			rewards: [{
+				id: "27B8834DDA204F55"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F95ABFD7F668B08"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:steel" }, count: 1, id: "extendedcrafting:singularity" }
@@ -70,6 +102,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "21F12D5AC49E209D"
+			rewards: [{
+				id: "186BEAE86CBCBF13"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "12BAA78FE13DAD94"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:obsidiglow" }, count: 1, id: "extendedcrafting:singularity" }
@@ -82,6 +122,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "3E09C364727C763D"
+			rewards: [{
+				id: "2851D623D3E789CF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39B7F803CA056554"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:technium" }, count: 1, id: "extendedcrafting:singularity" }
@@ -94,6 +142,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "7BEE2BACAA3C2DAC"
+			rewards: [{
+				id: "005F1418B056F75F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "00EBA87A3B297D52"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:constantan" }, count: 1, id: "extendedcrafting:singularity" }
@@ -106,6 +162,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "681171B2BB52DAEB"
+			rewards: [{
+				id: "06C4ED8C7DF2331D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "69B73348BABB34D4"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:netherite" }, count: 1, id: "extendedcrafting:singularity" }
@@ -118,6 +182,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "025B25994A61A108"
+			rewards: [{
+				id: "63FB052FBDFECDB9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C0586E870F3F25C"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:entro_infused" }, count: 1, id: "extendedcrafting:singularity" }
@@ -130,6 +202,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "191474FDBC36946B"
+			rewards: [{
+				id: "154546C10E11AE21"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C65F49AB1579E42"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:brass" }, count: 1, id: "extendedcrafting:singularity" }
@@ -142,6 +222,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "4330A91B07B29A42"
+			rewards: [{
+				id: "64E336DC006DE150"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CDA70D305CBEBC5"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:enhanced_ender" }, count: 1, id: "extendedcrafting:singularity" }
@@ -154,6 +242,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "0CFF664526B7426C"
+			rewards: [{
+				id: "6A819A9C44FBA390"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "055B8FD29A1F33E0"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:signalum" }, count: 1, id: "extendedcrafting:singularity" }
@@ -166,6 +262,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "4014CC9C73229689"
+			rewards: [{
+				id: "270445EF33D9E562"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70F978D0F7B6366A"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:lumium" }, count: 1, id: "extendedcrafting:singularity" }
@@ -178,6 +282,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "017C162A050D129F"
+			rewards: [{
+				id: "21079504EAE86C61"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65311AC445129425"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:quantum" }, count: 1, id: "extendedcrafting:singularity" }
@@ -190,6 +302,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "3D35E01E8F0C8930"
+			rewards: [{
+				id: "01305C4C5F199E79"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "37FCCCBADC009AC2"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:super_empowered_crystal" }, count: 1, id: "extendedcrafting:singularity" }
@@ -220,6 +340,14 @@
 			]
 			hide_dependency_lines: true
 			id: "1D0CFC5EBD2BF4E9"
+			rewards: [{
+				id: "798D2AA118C4E191"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60139B6619F77897"
 				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
@@ -231,6 +359,14 @@
 		{
 			dependencies: ["4BBFF3B96CED4FAC"]
 			id: "7D59F7DEF39EC55B"
+			rewards: [{
+				id: "14367C247E18CA78"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "198ECFEA2812C34D"
 				item: { components: { "extendedcrafting:singularity_id": "extendedcrafting:dimensional" }, count: 1, id: "extendedcrafting:singularity" }
@@ -251,6 +387,14 @@
 				"741016E4936B361A"
 			]
 			id: "69088E4CDACCC49B"
+			rewards: [{
+				id: "320C24AB33A8CF9F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B3E1667CBCD6E22"
 				item: { count: 1, id: "techopolis:final_technium_ingot" }
@@ -262,6 +406,14 @@
 		{
 			dependencies: ["69088E4CDACCC49B"]
 			id: "1ECDFB706B7424A5"
+			rewards: [{
+				id: "31BAE90FEF4DA27B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DC84411C896ED31"
 				item: { count: 1, id: "techopolis:final_technium_nugget" }
@@ -273,6 +425,14 @@
 		{
 			dependencies: ["1ECDFB706B7424A5"]
 			id: "4D738FB0A44A86F7"
+			rewards: [{
+				id: "251C318FA155B896"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BD037C2D0D072C6"
 				item: { count: 1, id: "techopolis:final_technium_machine_frame" }
@@ -284,6 +444,14 @@
 		{
 			dependencies: ["4D738FB0A44A86F7"]
 			id: "700C1F12B1018882"
+			rewards: [{
+				id: "1907806FE1FC40AD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "186CFF5BEE80C5EA"
 				item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
@@ -295,6 +463,14 @@
 		{
 			dependencies: ["4D738FB0A44A86F7"]
 			id: "55C35B7494E0C0EC"
+			rewards: [{
+				id: "63BD448691F30113"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E5B00C82639016C"
 				item: { count: 1, id: "mekanism:creative_fluid_tank" }
@@ -306,6 +482,14 @@
 		{
 			dependencies: ["4D738FB0A44A86F7"]
 			id: "496B96CFD950DA4A"
+			rewards: [{
+				id: "3B8ED11B3784D268"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CD69F564ED2D9EC"
 				item: { count: 1, id: "storagedrawers:creative_vending_upgrade" }
@@ -317,6 +501,14 @@
 		{
 			dependencies: ["4D738FB0A44A86F7"]
 			id: "3022037088021866"
+			rewards: [{
+				id: "32A08F7FCCA03DC8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6ADB7FB89A545BE5"
 				item: { count: 1, id: "mekanism:creative_chemical_tank" }
@@ -333,6 +525,14 @@
 				"496B96CFD950DA4A"
 			]
 			id: "66B53A2009510723"
+			rewards: [{
+				id: "4663D6CEE3671404"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "38A3105758925E54"
 				type: "checkmark"
@@ -342,6 +542,14 @@
 		}
 		{
 			id: "178E2312A0BFE050"
+			rewards: [{
+				id: "3F7D038BA1CC88B3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "20CF382D360CC29B"
 				item: { count: 1, id: "techopolis:final_technium_machine" }
@@ -353,6 +561,14 @@
 		{
 			dependencies: ["1D0CFC5EBD2BF4E9"]
 			id: "135FE971C49B4AA1"
+			rewards: [{
+				id: "4809E84D509963D7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B516CB4F8876F6C"
 				item: { count: 1, id: "extendedcrafting:the_ultimate_ingot" }
@@ -364,6 +580,14 @@
 		{
 			dependencies: ["135FE971C49B4AA1"]
 			id: "7B3ACB1B0EA43E3B"
+			rewards: [{
+				id: "0CE73AED7878C478"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DB4CA546BF231DB"
 				item: { count: 1, id: "techopolis:the_ultimate_plate" }
@@ -375,6 +599,14 @@
 		{
 			dependencies: ["135FE971C49B4AA1"]
 			id: "7E2903D0ACE81BDF"
+			rewards: [{
+				id: "2311673E76E6111D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E483BE2F2D7E6CE"
 				item: { count: 1, id: "techopolis:the_ultimate_gear" }
@@ -386,6 +618,14 @@
 		{
 			dependencies: ["135FE971C49B4AA1"]
 			id: "0B1C5E41D5A8AE66"
+			rewards: [{
+				id: "1168CB8FC72F9DA4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E0D4AE2E02383E7"
 				item: { count: 1, id: "techopolis:the_ultimate_rod" }
@@ -398,6 +638,14 @@
 			dependencies: ["66B53A2009510723"]
 			hide_until_deps_complete: true
 			id: "3251170D0EA0F531"
+			rewards: [{
+				id: "53D9AFB4275A6C75"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 64L
 				id: "22BC80841281E59D"
@@ -410,6 +658,14 @@
 		{
 			dependencies: ["3251170D0EA0F531"]
 			id: "03D9221617907FC8"
+			rewards: [{
+				id: "6561B124FFF22AE3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70810293312B19FA"
 				type: "checkmark"
@@ -424,6 +680,14 @@
 				id: "techopolis:liquid_matter_bucket"
 			}
 			id: "410B77115744B1E1"
+			rewards: [{
+				id: "7985D5A75C05F9B5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "19738CEF25EFDE55"
 				type: "checkmark"
@@ -434,6 +698,14 @@
 		{
 			dependencies: ["135FE971C49B4AA1"]
 			id: "5F4133015199DF51"
+			rewards: [{
+				id: "50FE42CA00F76B3D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60A8299518C36945"
 				item: { count: 1, id: "extendedcrafting:the_ultimate_nugget" }
@@ -446,6 +718,14 @@
 			dependencies: ["178E2312A0BFE050"]
 			hide_dependency_lines: true
 			id: "04B9780F7FDEA78C"
+			rewards: [{
+				id: "04A2DEE8287B64AD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E9F02F9E393BC6E"
 				item: { count: 1, id: "compressedblocks:double_crated_nether_star" }
@@ -456,6 +736,14 @@
 		}
 		{
 			id: "741016E4936B361A"
+			rewards: [{
+				id: "6B22CA55B0C89ED1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10484E9FFB511C7C"
 				type: "checkmark"

@@ -21,6 +21,14 @@
 	quests: [
 		{
 			id: "031A62A092B5CD45"
+			rewards: [{
+				id: "741F2FB42B60C77D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "111D51A1CE1FA04B"
 				item: { count: 1, id: "techopolis:lunar_technium_machine" }
@@ -32,6 +40,14 @@
 		{
 			dependencies: ["031A62A092B5CD45"]
 			id: "66B6D2242D0D62C5"
+			rewards: [{
+				id: "503AE868D3209BAB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "754213275D5DA14A"
 				item: { count: 1, id: "techopolis:lunar_technium_ingot" }
@@ -43,6 +59,14 @@
 		{
 			dependencies: ["66B6D2242D0D62C5"]
 			id: "74F7D0DA3F413175"
+			rewards: [{
+				id: "6C542CE5C56957BD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F1468870166E071"
 				item: { count: 1, id: "techopolis:lunar_technium_nugget" }
@@ -54,6 +78,14 @@
 		{
 			dependencies: ["74F7D0DA3F413175"]
 			id: "4ED154EAD6586FF0"
+			rewards: [{
+				id: "424FDA41214CC840"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D2904E17D7AEDFA"
 				item: { count: 1, id: "techopolis:lunar_technium_machine_frame" }
@@ -65,6 +97,14 @@
 		{
 			dependencies: ["4ED154EAD6586FF0"]
 			id: "4262DC3C15273494"
+			rewards: [{
+				id: "1E51FFCDB133EE3E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62B5430073ED9C23"
 				item: { count: 1, id: "bigreactors:reinforced_turbinecontroller" }
@@ -76,6 +116,14 @@
 		{
 			dependencies: ["74F7D0DA3F413175"]
 			id: "4B55624A4C762E7D"
+			rewards: [{
+				id: "0DC534EA984F3938"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "474154D1BC6378DB"
 				item: { count: 1, id: "techopolis:turbine_coil_wire" }
@@ -87,6 +135,14 @@
 		{
 			dependencies: ["4B55624A4C762E7D"]
 			id: "6E20392DADF9AE6D"
+			rewards: [{
+				id: "37FA39B301F3B7A9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6508A54A7854CB76"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:all_coils)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

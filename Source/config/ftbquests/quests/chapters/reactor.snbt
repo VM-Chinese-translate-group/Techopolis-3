@@ -26,7 +26,7 @@
 				id: "11B59696DEC9FE63"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -60,7 +60,7 @@
 					id: "677EB7BE050A58E2"
 					item: {
 						count: 1
-						id: "opolisutilities:b_bucks"
+						id: "shops:copper_coin"
 					}
 					type: "item"
 				}
@@ -83,7 +83,7 @@
 				id: "37C2AC34A18D0C01"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -102,7 +102,7 @@
 				id: "68777430544A6617"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -121,7 +121,7 @@
 				id: "1DFA5EAA5A169B18"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -143,7 +143,7 @@
 				id: "58E70BB0C12FCD4F"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -162,7 +162,7 @@
 				id: "1DF8E42CE167C5E7"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -181,7 +181,7 @@
 				id: "78083AF976EF7132"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -200,7 +200,7 @@
 				id: "238BBC3AA7E8945B"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -219,7 +219,7 @@
 				id: "01FAA77807BDD746"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -238,7 +238,7 @@
 				id: "386D255D0B7DD900"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -257,7 +257,7 @@
 				id: "2837E23E8FC54BD8"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -276,7 +276,7 @@
 				id: "4B19801FA966BE67"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -295,7 +295,7 @@
 				id: "4F0B6652F4E49A7F"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -314,7 +314,7 @@
 				id: "04CA058C58B66087"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -333,7 +333,7 @@
 				id: "41A856FDEB372F3C"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -352,7 +352,7 @@
 				id: "360C97D3B8F6DB3B"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -371,7 +371,7 @@
 				id: "52C9E758BCF0817D"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -390,7 +390,7 @@
 				id: "29CBD5172EAE1AE5"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -409,7 +409,7 @@
 				id: "63CFC2D41137B4B7"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -428,7 +428,7 @@
 				id: "503EB99B98BB8649"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]
@@ -447,7 +447,7 @@
 				id: "5540D919B030A155"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]

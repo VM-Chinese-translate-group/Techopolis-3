@@ -27,6 +27,14 @@
 			]
 			id: "14B780516CB2F6C7"
 			min_required_dependencies: 2
+			rewards: [{
+				id: "7FEA9D982A4FAEA8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "67112C11793E5538"
 				item: { count: 1, id: "techopolis:end_technium_machine" }
@@ -38,6 +46,14 @@
 		{
 			dependencies: ["14B780516CB2F6C7"]
 			id: "3BD7671C9A18D365"
+			rewards: [{
+				id: "304B49C52AF1CA91"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "25EDC0D673A699EE"
 				item: { count: 1, id: "techopolis:end_technium_ingot" }
@@ -49,6 +65,14 @@
 		{
 			dependencies: ["3BD7671C9A18D365"]
 			id: "2447F9EEBDB0455A"
+			rewards: [{
+				id: "38C3930C1F4E3C20"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F8DF8358945C4F3"
 				item: { count: 1, id: "techopolis:end_technium_nugget" }
@@ -60,6 +84,14 @@
 		{
 			dependencies: ["2447F9EEBDB0455A"]
 			id: "4985A9A2BD437665"
+			rewards: [{
+				id: "5A9394945C11B00D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "04128F07D62A11CC"
 				item: { count: 1, id: "techopolis:end_technium_machine_frame" }
@@ -74,6 +106,14 @@
 				id: "techopolis:molten_ender_fuel_bucket"
 			}
 			id: "37BC662493F856C4"
+			rewards: [{
+				id: "7BAE6F86BAD06ADF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AB30C491C1CDE4C"
 				type: "checkmark"
@@ -86,6 +126,14 @@
 				id: "techopolis:ender_ethanol_bucket"
 			}
 			id: "13B67788D1340EA7"
+			rewards: [{
+				id: "77199893ABAD0307"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "67CA130DCAB6E5CE"
 				type: "checkmark"
@@ -96,6 +144,14 @@
 		{
 			dependencies: ["4985A9A2BD437665"]
 			id: "66662070856AC6E2"
+			rewards: [{
+				id: "20E41541D9E9D481"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "55FB90FFF3C0C9F2"
 				item: { count: 1, id: "techopolis:technium_compressor" }
@@ -108,6 +164,14 @@
 			dependencies: ["66662070856AC6E2"]
 			hide_dependent_lines: true
 			id: "4BBFF3B96CED4FAC"
+			rewards: [{
+				id: "78605748BD59B516"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36AA936776BB5F63"
 				item: { count: 1, id: "techopolis:undefined_singularity" }
@@ -119,6 +183,14 @@
 		{
 			dependencies: ["4985A9A2BD437665"]
 			id: "5991B544B9729143"
+			rewards: [{
+				id: "230D065F31199F29"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BE6DE0E921AE265"
 				item: { count: 1, id: "techopolis:weather_machine" }
@@ -130,6 +202,14 @@
 		{
 			dependencies: ["4985A9A2BD437665"]
 			id: "6E250595483B4E28"
+			rewards: [{
+				id: "5DDCEAEF20835A02"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B90A43C6917DBDB"
 				item: { count: 1, id: "techopolis:end_technium_turbine_coil" }
@@ -141,6 +221,14 @@
 		{
 			dependencies: ["5991B544B9729143"]
 			id: "4D099BCFEB914A2A"
+			rewards: [{
+				id: "055846850CCC67A3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BCEB09B0227897C"
 				item: { count: 1, id: "techopolis:weather_module_thunder" }
@@ -152,6 +240,14 @@
 		{
 			dependencies: ["5991B544B9729143"]
 			id: "4B23385C139B24C4"
+			rewards: [{
+				id: "4A23258F591A77A5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "16AE4AFD855059EC"
 				item: { count: 1, id: "techopolis:weather_module_clear" }
@@ -163,6 +259,14 @@
 		{
 			dependencies: ["5991B544B9729143"]
 			id: "2C86585189F3CE78"
+			rewards: [{
+				id: "5F0182C96EA3C3B4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B2156C7991C1D46"
 				item: { count: 1, id: "techopolis:weather_module_rain" }
@@ -179,10 +283,10 @@
 			id: "5D2E1701D70DB09C"
 			optional: true
 			rewards: [{
-				id: "02FE6C442EB3698A"
+				id: "43EFA9488E031950"
 				item: {
 					count: 1
-					id: "opolisutilities:b_bucks"
+					id: "shops:copper_coin"
 				}
 				type: "item"
 			}]

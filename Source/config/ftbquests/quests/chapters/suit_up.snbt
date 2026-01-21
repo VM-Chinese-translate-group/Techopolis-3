@@ -22,6 +22,14 @@
 		{
 			dependencies: ["4D943C7F57CBB291"]
 			id: "1977A3BD061C4176"
+			rewards: [{
+				id: "5B8D86B35553EF48"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17CA0D84A9DD9B54"
 				item: { count: 1, id: "stellaris:space_suit_helmet" }
@@ -36,17 +44,33 @@
 				"0265FA8CABA2C511"
 			]
 			id: "1BE5521FEFB43D09"
+			rewards: [{
+				id: "038B6316D8361948"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "76C75CEE31996BEA"
-				item: { count: 1, id: "techopolis:gas_injector" }
+				id: "6DE6F02CE1E4C44C"
+				item: { count: 1, id: "stellaris:water_separator" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4E2F5B340EA252C3"]
 			id: "4D943C7F57CBB291"
+			rewards: [{
+				id: "5800FDDF3818D8B9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4088032BDE31FCF1"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techopolis:ultimate_crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -58,6 +82,14 @@
 		{
 			dependencies: ["4D943C7F57CBB291"]
 			id: "0265FA8CABA2C511"
+			rewards: [{
+				id: "10F307EE077DDBD0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43694F4316206D12"
 				item: { count: 1, id: "stellaris:space_suit_chestplate" }
@@ -69,6 +101,14 @@
 		{
 			dependencies: ["4D943C7F57CBB291"]
 			id: "25B104BF86722D76"
+			rewards: [{
+				id: "400B9B69B3CF87DC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "13715CCD8F47026D"
 				item: { count: 1, id: "stellaris:space_suit_leggings" }
@@ -80,6 +120,14 @@
 		{
 			dependencies: ["4D943C7F57CBB291"]
 			id: "3D1C21E317429A76"
+			rewards: [{
+				id: "4442CD36DF64A2B8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AA405EB8A46DBDE"
 				item: { count: 1, id: "stellaris:space_suit_boots" }
@@ -91,6 +139,14 @@
 		{
 			dependencies: ["4D943C7F57CBB291"]
 			id: "70FFEFD9FA7F8F79"
+			rewards: [{
+				id: "13B20F20A58DA2F0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3ACB988330CC6DA5"
 				item: { count: 1, id: "techopolis:heavy_duty_plating" }
@@ -102,6 +158,14 @@
 		{
 			dependencies: ["6E91D8C1186C1D45"]
 			id: "216DC8C847BC0701"
+			rewards: [{
+				id: "2650349232D7786D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EFA5697EC5A3988"
 				item: { count: 1, id: "stellaris:rocket_launch_pad" }
@@ -118,10 +182,12 @@
 			]
 			id: "6E91D8C1186C1D45"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "01370555683C85C9"
-				table_id: 1555873368870774438L
-				type: "choice"
+				id: "096AE1268A4CA939"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "4605CB6301DD2DDE"
@@ -134,6 +200,14 @@
 		{
 			dependencies: ["70FFEFD9FA7F8F79"]
 			id: "00EF32F20DE35A98"
+			rewards: [{
+				id: "48C46D89B10B9B41"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AC86A6A4612A18A"
 				item: { count: 1, id: "stellaris:rocket_engine" }
@@ -145,6 +219,14 @@
 		{
 			dependencies: ["70FFEFD9FA7F8F79"]
 			id: "4EE780299B5ED480"
+			rewards: [{
+				id: "224E50753BCF6175"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "37596EB52AA3BCEF"
 				item: { count: 1, id: "stellaris:rocket_fin" }
@@ -156,6 +238,14 @@
 		{
 			dependencies: ["70FFEFD9FA7F8F79"]
 			id: "50AF2C988B2EE05D"
+			rewards: [{
+				id: "000B4FCFC0E05391"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AF7AE745CC0AEE2"
 				item: { count: 1, id: "stellaris:rocket_nose_cone" }
@@ -167,6 +257,14 @@
 		{
 			dependencies: ["6E91D8C1186C1D45"]
 			id: "3A819A471C879295"
+			rewards: [{
+				id: "7128EFBF94D61224"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1102BA626C257FE9"
 				item: { count: 1, id: "stellaris:fuel_bucket" }
@@ -178,6 +276,14 @@
 		{
 			dependencies: ["3A819A471C879295"]
 			id: "3A37CCD1861B2A9F"
+			rewards: [{
+				id: "0FB10C5D1BC48B4B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "stellaris:moon"
 				id: "69058C429E46A1A3"
@@ -189,6 +295,14 @@
 		{
 			dependencies: ["4D943C7F57CBB291"]
 			id: "36F67240DEEF3BA1"
+			rewards: [{
+				id: "7F1E1C8FD783C134"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77D1364A3164DCA7"
 				item: { count: 1, id: "techopolis:canned_food" }
@@ -200,6 +314,14 @@
 		{
 			dependencies: ["3A37CCD1861B2A9F"]
 			id: "501A04A1F1A2CD5B"
+			rewards: [{
+				id: "07055C11D0622AAC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D3E6BCE0BF28861"
 				item: { count: 1, id: "stellaris:moon_sand" }
@@ -211,6 +333,14 @@
 		{
 			dependencies: ["3A37CCD1861B2A9F"]
 			id: "3F0402923FABBCED"
+			rewards: [{
+				id: "3B149A9C1799AEF9"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "48E93BF34F8DAFD1"
 				item: { count: 1, id: "stellaris:moon_stone" }
@@ -222,6 +352,14 @@
 		{
 			dependencies: ["3A37CCD1861B2A9F"]
 			id: "19E16ABF1A0A8D3B"
+			rewards: [{
+				id: "0669C6F4B97BC4BB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DC0F0B0380DB0B9"
 				item: { count: 1, id: "stellaris:moon_fruit" }
@@ -233,6 +371,14 @@
 		{
 			dependencies: ["3F0402923FABBCED"]
 			id: "312152E380856FAE"
+			rewards: [{
+				id: "372D99AEA271B66F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "50E36531F56EF775"
 				item: { count: 1, id: "stellaris:moon_stone_bricks" }
@@ -244,6 +390,14 @@
 		{
 			dependencies: ["312152E380856FAE"]
 			id: "30FFEF26698DD916"
+			rewards: [{
+				id: "534D50089FDED58E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "69904C501DD7A76B"
 				item: { count: 1, id: "techopolis:moon_quarry" }
@@ -255,6 +409,14 @@
 		{
 			dependencies: ["312152E380856FAE"]
 			id: "30D6C98EAFB63C07"
+			rewards: [{
+				id: "14747B698B4AC647"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BC9C7AB174E2866"
 				item: { count: 1, id: "stellaris:moon_cobblestone" }
@@ -266,6 +428,14 @@
 		{
 			dependencies: ["30FFEF26698DD916"]
 			id: "76F86D3F4FE7B518"
+			rewards: [{
+				id: "4524A9DAC3637462"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F0601D08E57CEF1"
 				item: { count: 1, id: "stellaris:moon_stone_dust" }
@@ -280,6 +450,14 @@
 				"5C6C15E3938EF0A6"
 			]
 			id: "7BD76766F64D6765"
+			rewards: [{
+				id: "11A59AFEAD3C698F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "431E36F5078A97D1"
 				item: { count: 1, id: "techopolis:industrial_strainer" }
@@ -291,6 +469,14 @@
 		{
 			dependencies: ["7BD76766F64D6765"]
 			id: "12ACFAA26C54EC3C"
+			rewards: [{
+				id: "6DB808E6C0077CF2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D9C48D89849B8D0"
 				item: { count: 1, id: "techopolis:dirty_desh_dust" }
@@ -302,6 +488,14 @@
 		{
 			dependencies: ["7BD76766F64D6765"]
 			id: "51F6C44EE630F91C"
+			rewards: [{
+				id: "29B894A3C1C1C33F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39843777F8D96A9C"
 				item: { count: 1, id: "techopolis:dirty_neptunium_dust" }
@@ -313,6 +507,14 @@
 		{
 			dependencies: ["7BD76766F64D6765"]
 			id: "0B592478EB281CBC"
+			rewards: [{
+				id: "6B0B6B2D2EB2DC71"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A546AB24771AF04"
 				item: { count: 1, id: "techopolis:dirty_ostrum_dust" }
@@ -324,6 +526,14 @@
 		{
 			dependencies: ["51F6C44EE630F91C"]
 			id: "2C866E5624EFF5EC"
+			rewards: [{
+				id: "78080C21DE9B7D6A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C49C47A876EB789"
 				item: { count: 1, id: "techopolis:neptunium_dust" }
@@ -335,6 +545,14 @@
 		{
 			dependencies: ["12ACFAA26C54EC3C"]
 			id: "773F6EC876C0C621"
+			rewards: [{
+				id: "1A0D79EF7DF7B242"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1258C5C4990C84CE"
 				item: { count: 1, id: "techopolis:desh_dust" }
@@ -346,6 +564,14 @@
 		{
 			dependencies: ["0B592478EB281CBC"]
 			id: "7A49CB5EE131B7A1"
+			rewards: [{
+				id: "69967B4D0FE6E26A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FA7991DD88273C0"
 				item: { count: 1, id: "techopolis:ostrum_dust" }
@@ -358,9 +584,17 @@
 			dependencies: ["4D943C7F57CBB291"]
 			hide_dependency_lines: true
 			id: "5C6C15E3938EF0A6"
+			rewards: [{
+				id: "62E8F881F4944845"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "2594A2932A67E117"
-				item: { count: 1, id: "modular_machinery_reborn:casing_gearbox" }
+				id: "72D1E1EB51479827"
+				item: { count: 1, id: "techopolis:multiblock_gearbox" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -380,6 +614,14 @@
 				id: "mekanism:creative_chemical_tank"
 			}
 			id: "032C6576D6D8F727"
+			rewards: [{
+				id: "0CCF0A4571767FF1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "733419063A3048CA"
 				type: "checkmark"
@@ -390,6 +632,14 @@
 		{
 			dependencies: ["76F86D3F4FE7B518"]
 			id: "14AF71808F5F56FD"
+			rewards: [{
+				id: "1DFCE823481210D0"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "76778D90FCD92B67"
 				item: { count: 1, id: "techopolis:enriched_moon_dust" }

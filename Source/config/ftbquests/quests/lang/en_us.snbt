@@ -97,7 +97,7 @@
 	quest.04B9780F7FDEA78C.quest_subtitle: "&5&lFinal Technium Part&r&r"
 	quest.054406E766E69913.quest_desc: ["Allows the coloring of blocks in world as well as inside the crafting table"]
 	quest.054406E766E69913.title: "Spray Cans"
-	quest.0561C57B9F1E095C.quest_desc: ["The next tier of &lTechnium&r"]
+	quest.0561C57B9F1E095C.quest_desc: ["The next tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
 	quest.0561C57B9F1E095C.quest_subtitle: "&l&0Hellish Technium Part&r&r"
 	quest.059999914CE99711.quest_desc: ["Unlocks &lCompacting Drawers&r"]
 	quest.05C21693A27255DC.quest_desc: ["Injects items with fluids"]
@@ -311,7 +311,7 @@
 	quest.1A68742A30D301C3.quest_desc: ["The first step in making &lChocolate&r. Can be purchased in the &lCatalogue&r"]
 	quest.1ACB353EAB64C46D.quest_desc: ["Compressed &lNetherrack&r"]
 	quest.1ACCFB94A4652035.quest_desc: ["Made inside the &lPurification Chamber&r"]
-	quest.1AD7FACB7A282A3A.quest_desc: ["Can be used to &lBuy&r and &lSell&r useful &lItems&r"]
+	quest.1AD7FACB7A282A3A.quest_desc: ["Can be used to &lBuy&r useful &lItems&r. Place the &lCatalog&r in the bottom left slot to view items to buy"]
 	quest.1ADBF5520E2DD240.quest_desc: ["Spawns on the &lBedrock&r when killing the &lDragon&r"]
 	quest.1AE38351CBD01CFE.quest_desc: ["Made inside the &lLoot Fabricatior&r"]
 	quest.1B27C96FB7E0ED15.quest_desc: ["Obtained through the &lCoal Miner&r"]
@@ -319,7 +319,7 @@
 	quest.1B51A32EC808AAFC.quest_desc: ["Bulk storage solutions"]
 	quest.1B9EBD3D77CA1692.quest_desc: ["The next tier of &lTechnium&r"]
 	quest.1B9EBD3D77CA1692.quest_subtitle: "&a&oUltimate Technium Part&r&r"
-	quest.1BE5521FEFB43D09.quest_desc: ["Allows the injection of &lLiquid Oxygen&r. This will adjust the Oxygen and Power requirement depending on the amount of &lOxygen&r needed to fill the &lSpace Suit&r"]
+	quest.1BE5521FEFB43D09.quest_desc: ["&lOxygen&r is not the &lSAME.&r A &lWater Seperator&r can be used to make &lHydrogen&r and &lOxygen.&r Placing a &lSpace Suit&r inside the right most slot will fill with &lOxygen&r allowing you to breath in space"]
 	quest.1C3A6DEE82F81476.quest_desc: ["The base of all Ultimate Research"]
 	quest.1C6401AE16E8CECF.quest_desc: ["Using the &lAtomic Reconstructor&r, &lLead&r can be converted to &lLapis&r"]
 	quest.1C641A9DD2EA2A14.quest_desc: ["Large amount of &lCobblestone&r"]
@@ -556,6 +556,7 @@
 	quest.390809571E4C722A.quest_desc: ["A byproduct of running the &lSimulation Chamber&r. Can be used to make &lMolten Mob Essence&r later"]
 	quest.3939AB38E2606E3B.quest_desc: ["Made from &lRaw Material&r in a &lCrusher&r"]
 	quest.395B58B75ECF34B2.quest_desc: ["Simple local flight"]
+	quest.396506AC5DA6615B.quest_desc: ["&lSmart Crafting&r on the go "]
 	quest.39B27FAC187F5E0C.quest_desc: ["A better Kiln"]
 	quest.39BC8E83729DD648.quest_desc: ["Made when processing &lRuby, Sapphire&r and &lPeridot&r"]
 	quest.39BC8E83729DD648.quest_subtitle: "&l&0Hellish Technium Part&r&r"
@@ -581,9 +582,10 @@
 	quest.3B4A980A5AECA6FF.title: "Oak Sapling"
 	quest.3B581375F1A72F7D.quest_desc: ["From a &lBlock of Coal&r"]
 	quest.3B7070B30C679C77.quest_desc: ["Place on a pipe connected to your extraction"]
+	quest.3BA4E53BEDEC59FF.quest_desc: ["&lDiesel&r can be used to fuel the &lJet Suit&r allowing simple &lFlight&r in Space. &lDiesel&r can be added to a &lJet Suit Chestplate&r using the &lFluid Tank &r"]
 	quest.3BB15BF24034EFD2.quest_desc: ["Time to get &lComputing&r"]
 	quest.3BC8A50893D13520.quest_desc: ["Used to create Elevators to instantly move up and down"]
-	quest.3BD7671C9A18D365.quest_desc: ["The next tier of &lTechnium&r"]
+	quest.3BD7671C9A18D365.quest_desc: ["The next tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
 	quest.3BD7671C9A18D365.quest_subtitle: "&5&lFinal Technium Part&r&r"
 	quest.3BDC8305E8BA948B.quest_desc: ["Enriches items into new ones"]
 	quest.3BF3BA1E7DE1B3E4.quest_desc: ["Turns Chemicals into &lCrystals&r"]
@@ -656,6 +658,7 @@
 	quest.46822F1CB547D11E.quest_desc: ["The &lEye Crafter&r uses energy and items to create various different eyes"]
 	quest.46822F1CB547D11E.quest_subtitle: "name eye crafter"
 	quest.46822F1CB547D11E.title: "Eye Crafter"
+	quest.46B1A6A644FB964A.quest_desc: ["Allows up to 3 different &lDimensional Ores&r to be produced"]
 	quest.46B8DBEE30CEA5CD.quest_desc: ["A nice block"]
 	quest.46B8DBEE30CEA5CD.quest_subtitle: "&l&3Lunar Technium Part&r&r"
 	quest.470CAA8FE5F0E5C0.quest_desc: ["Unlocks &lInfinity Cells&r, which store an endless supply of some &lItems&r and &lFluids&r"]
@@ -921,8 +924,6 @@
 	quest.621F656A6E3506AD.quest_desc: ["Using logs and an axe you can make a crafting table"]
 	quest.623E8B19B918318F.quest_desc: ["Used to Indentify items, these can be saved onto Memory Chips"]
 	quest.6246E91DC5BFEEC0.quest_desc: ["Better way to get fluids "]
-	quest.627070252CB1C1BA.quest_desc: ["Iron can be used to make &lModern Dynamic Item Pipes&r. This provides another way of transporting items, there is also &lFluid Pipes&r as well"]
-	quest.627070252CB1C1BA.title: "Modern Dynamics"
 	quest.62915A582CCFF6AD.quest_desc: ["Reduces the total time to grow crops, up to 3 can be placed in the &lCloche&r"]
 	quest.62AD904AF9F057C7.quest_desc: ["Advanced Miners produce 2 items at a time!"]
 	quest.62BF4D616D05BB42.quest_desc: ["Used to extract loot from predictions"]
@@ -959,7 +960,7 @@
 	quest.66662070856AC6E2.quest_desc: ["&lCompresses&r items"]
 	quest.66873778F27A9365.quest_desc: ["A Specialist ore that can be used in making the Coal Miner "]
 	quest.66B53A2009510723.quest_desc: ["Thanks for playing &lTechopolis 3&r. I hope you enjoyed the pack please leave any feedback and suggestions in the discord"]
-	quest.66B6D2242D0D62C5.quest_desc: ["The next tier of &lTechnium&r"]
+	quest.66B6D2242D0D62C5.quest_desc: ["The next tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
 	quest.66B6D2242D0D62C5.quest_subtitle: "&e&lEnd Technium Part&r&r"
 	quest.6721CA63AFCAA96B.quest_desc: ["Uses energy, fluids and an item to reprocess into something new"]
 	quest.675DC6355C5C14A4.quest_desc: ["Crushed up &lLava Planks&r"]
@@ -988,7 +989,7 @@
 	quest.68CEB2B5EF97D879.quest_desc: ["Made inside the Freezer"]
 	quest.68D49AB076433B95.quest_desc: ["Made inside the &lFreezer&r"]
 	quest.68F1D0EED1F4D9D6.quest_desc: ["More &lCobblestone&r"]
-	quest.69088E4CDACCC49B.quest_desc: ["The final tier of &lTechnium&r"]
+	quest.69088E4CDACCC49B.quest_desc: ["The final tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
 	quest.6954AA71B77C3E07.quest_desc: ["Made in the&l Simulation Chamber&r from&l Enderman Predictions&r"]
 	quest.6954CDE27C3CD472.quest_desc: ["Cooling the machine, these blocks can be collected with a wrench"]
 	quest.69AE4F5A8FF21D33.quest_desc: ["Allows for the input and output of &lHeat&r and &lFluids&r"]
@@ -1134,7 +1135,7 @@
 	quest.77E2D0A20E5B3A22.quest_desc: ["Unlocks the recipe for the &lSpeed Curio 3"]
 	quest.781EDB2D998E8C0A.quest_desc: ["A second &lThermal Evaporation Plant&r can be used to transform &lBrine&r into &lLithium,&r inside the &lCrystalizer&r this can turn &lLithium&r into &lLithium Dust&r"]
 	quest.781EDB2D998E8C0A.quest_subtitle: "&l&e&oElite Technium Part&r&r&r"
-	quest.78321DD6F1C4E464.quest_desc: ["The next tier of &lTechnium&r"]
+	quest.78321DD6F1C4E464.quest_desc: ["The next tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
 	quest.78321DD6F1C4E464.quest_subtitle: "&l&3Lunar Technium Part&r&r"
 	quest.783FCE5894B5465D.quest_desc: ["25% less time to complete &lResearch Crafting&r"]
 	quest.787346C90ADE56AF.quest_desc: ["&lTechnium&r is very expensive automation is much needed! You should be able to automate this with everything in the quests up to this point "]
@@ -1142,7 +1143,6 @@
 	quest.78CF9DB8D153131B.quest_desc: ["Place on a &lReplicator&r to make it a bit faster!"]
 	quest.78D84F25E62AE1CE.quest_desc: ["A nice rod"]
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
-	quest.792A8FFFD3B8E171.quest_desc: ["Allows you to extend machines! Place above the machine to enabled input and output into it from the &lMachine Extender&r"]
 	quest.795B98C57909A168.quest_desc: ["Smelted &lNetherite Dust&r"]
 	quest.7989398728B3D7C4.quest_desc: ["Clicking on an &lImporter&r than onto an &lExporter&r will connect them together. &lExporters&r can send to multiple &lImporters.&r"]
 	quest.798D68F189D87870.quest_desc: ["Crafted a &lTwig&r makes a &lStick&r"]

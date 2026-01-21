@@ -27,6 +27,14 @@
 				"569AA7A2E4BB962E"
 			]
 			id: "4771672C9FF86969"
+			rewards: [{
+				id: "7378B8C61FD3CF29"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BDA0FF2B382A155"
 				item: { count: 1, id: "stellaris:cheese" }
@@ -38,6 +46,14 @@
 		{
 			dependencies: ["59A5EE87B8C4C9DE"]
 			id: "4135800CF2737549"
+			rewards: [{
+				id: "2D35A8197A498C4D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C49F14918643FDB"
 				item: { count: 1, id: "stellaris:mercury_stone" }
@@ -49,6 +65,14 @@
 		{
 			dependencies: ["2D7925B03EA3FACC"]
 			id: "1524E6C567EBC7F9"
+			rewards: [{
+				id: "4835EF5A31C3289A"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F592EC395F897D1"
 				item: { count: 1, id: "stellaris:venus_stone" }
@@ -60,6 +84,14 @@
 		{
 			dependencies: ["6D6092426604CEA3"]
 			id: "36F24F35772E0A45"
+			rewards: [{
+				id: "1F7CBD78B77DB042"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0264D96394FB77D3"
 				item: { count: 1, id: "stellaris:mars_stone" }
@@ -71,6 +103,14 @@
 		{
 			dependencies: ["7DC7CAA739252E51"]
 			id: "579D78AF34073D1D"
+			rewards: [{
+				id: "55031C18DD3D7B97"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "64B101753BE8C8FB"
 				item: { count: 1, id: "techopolis:dimensional_cheesium_ore" }
@@ -82,6 +122,14 @@
 		{
 			dependencies: ["579D78AF34073D1D"]
 			id: "73E53E51D7957AF6"
+			rewards: [{
+				id: "2CDCB5B58DCB9AB2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C10CB5ACDC09269"
 				item: { count: 1, id: "techopolis:cheesium_ingot" }
@@ -93,6 +141,14 @@
 		{
 			dependencies: ["73E53E51D7957AF6"]
 			id: "2E8FEBF72A5FA226"
+			rewards: [{
+				id: "7C29908211D14F65"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1399FD1483BC4EB0"
 				item: { count: 1, id: "techopolis:alien_data_model" }
@@ -104,6 +160,14 @@
 		{
 			dependencies: ["2E8FEBF72A5FA226"]
 			id: "06C5F60B8492E319"
+			rewards: [{
+				id: "04EAF91B58A000C3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B9E93EE63E6241E"
 				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:mogler" }, count: 1, id: "hostilenetworks:data_model" }
@@ -116,6 +180,14 @@
 		{
 			dependencies: ["2E8FEBF72A5FA226"]
 			id: "55867E1213B101AA"
+			rewards: [{
+				id: "13432D63EB91F93B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0123959E4B5F3F0F"
 				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:martian_raptor" }, count: 1, id: "hostilenetworks:data_model" }
@@ -129,6 +201,14 @@
 			dependencies: ["2E8FEBF72A5FA226"]
 			id: "79A4125E3F932A71"
 			optional: true
+			rewards: [{
+				id: "4FB7B8ACE98AC5EA"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "280E47347D8A1593"
@@ -151,6 +231,14 @@
 		{
 			dependencies: ["2E8FEBF72A5FA226"]
 			id: "23045166E983A861"
+			rewards: [{
+				id: "1177F1592BB6777B"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C014098887DFDC0"
 				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:star_crawler" }, count: 1, id: "hostilenetworks:data_model" }
@@ -163,6 +251,14 @@
 		{
 			dependencies: ["06C5F60B8492E319"]
 			id: "309E4B3C8068793A"
+			rewards: [{
+				id: "66BEC05012E18346"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5841215ACFFD5B2B"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:mogler" }, count: 1, id: "hostilenetworks:prediction" }
@@ -175,6 +271,14 @@
 		{
 			dependencies: ["55867E1213B101AA"]
 			id: "212E0419EE0D22D2"
+			rewards: [{
+				id: "1600F90B8D040B20"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "15A3FFAD580268F6"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:martian_raptor" }, count: 1, id: "hostilenetworks:prediction" }
@@ -188,6 +292,14 @@
 			dependencies: ["79A4125E3F932A71"]
 			dependency_requirement: "one_completed"
 			id: "516C6DC67A804087"
+			rewards: [{
+				id: "5B6C6ECEFCF6FF0F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3674265C6D014501"
@@ -210,6 +322,14 @@
 		{
 			dependencies: ["23045166E983A861"]
 			id: "02C09BA6478727D0"
+			rewards: [{
+				id: "307F22BAFF36476E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2991F268EE7892CB"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:star_crawler" }, count: 1, id: "hostilenetworks:prediction" }
@@ -222,6 +342,14 @@
 		{
 			dependencies: ["309E4B3C8068793A"]
 			id: "7570EB7980AF54A1"
+			rewards: [{
+				id: "0E6537F53BEFB68E"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54581E1213E98AA2"
 				item: { count: 1, id: "techopolis:mogler_hide" }
@@ -233,6 +361,14 @@
 		{
 			dependencies: ["212E0419EE0D22D2"]
 			id: "1AE38351CBD01CFE"
+			rewards: [{
+				id: "67F9CEC5C7815C81"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C36DE5086CE3EB0"
 				item: { count: 1, id: "techopolis:martian_claw" }
@@ -244,6 +380,14 @@
 		{
 			dependencies: ["516C6DC67A804087"]
 			id: "37E5515086CCD4C0"
+			rewards: [{
+				id: "26722E0F4FA8CE90"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39A4AF65CC8C92D1"
 				item: { count: 1, id: "techopolis:pygro_nugget" }
@@ -255,6 +399,14 @@
 		{
 			dependencies: ["02C09BA6478727D0"]
 			id: "50DC675796E9EF77"
+			rewards: [{
+				id: "185313EBA4E213A6"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EBD94257D0641C1"
 				item: { count: 1, id: "techopolis:shooting_star_piece" }
@@ -266,6 +418,14 @@
 		{
 			dependencies: ["2E8FEBF72A5FA226"]
 			id: "4CDBBE817F980BA7"
+			rewards: [{
+				id: "3C8A8BCB3F7C2054"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0187649BC23BC777"
 				item: { count: 1, id: "techopolis:alien_prediction" }
@@ -282,6 +442,14 @@
 				"1AE38351CBD01CFE"
 			]
 			id: "44B1393D77C479E5"
+			rewards: [{
+				id: "5C5FF64F5265305D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C96350FD0DF1B48"
 				item: { count: 1, id: "techopolis:alien_ingot" }
@@ -293,6 +461,14 @@
 		{
 			dependencies: ["19E16ABF1A0A8D3B"]
 			id: "569AA7A2E4BB962E"
+			rewards: [{
+				id: "614761AFA6D38E78"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EBA94A6E0533E15"
 				item: { count: 1, id: "techopolis:moon_curd" }
@@ -304,6 +480,14 @@
 		{
 			dependencies: ["73E53E51D7957AF6"]
 			id: "46B8DBEE30CEA5CD"
+			rewards: [{
+				id: "4295CDF4263BC98F"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CA86CDBCDBFB094"
 				item: { count: 1, id: "stellaris:cheese_block" }
@@ -318,6 +502,14 @@
 				id: "techopolis:molten_cheese_bucket"
 			}
 			id: "7DC7CAA739252E51"
+			rewards: [{
+				id: "1145BF6F172D12D1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "19455DEF7D2AB6CE"
 				type: "checkmark"
