@@ -1,0 +1,185 @@
+{
+  "name": {
+    "text": {
+      "translate": "超维矿石提取机Mk2"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techopolis:machine/dimensional_ore_extractor",
+    "custommachinery:hardness": 1.5,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:resistance": 6.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 10000000
+    },
+    {
+      "type": "custommachinery:item",
+      "max_output": 0,
+      "id": "ore_1",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "max_output": 0,
+      "id": "ore_2",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "max_output": 0,
+      "id": "ore_3",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_1",
+      "mode": "output",
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_2",
+      "mode": "output",
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_3",
+      "mode": "output",
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 57,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "core": 3,
+      "x": 135,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:progress",
+      "core": 2,
+      "x": 135,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 135,
+      "y": 15
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "ore_1",
+      "x": 111,
+      "y": 14
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "ore_2",
+      "x": 111,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "ore_3",
+      "x": 111,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_1",
+      "x": 165,
+      "y": 14
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_2",
+      "x": 165,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_3",
+      "x": 165,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 84,
+      "y": 37,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
+    },
+    {
+      "type": "custommachinery:status",
+      "core": 1,
+      "x": 184,
+      "y": 15
+    },
+    {
+      "type": "custommachinery:status",
+      "core": 2,
+      "x": 184,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:status",
+      "core": 3,
+      "x": 184,
+      "y": 53,
+      "width": 16
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "超维矿石提取机Mk2"
+        }
+      }
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 3
+  }
+}

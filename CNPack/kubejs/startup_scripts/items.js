@@ -60,6 +60,7 @@ StartupEvents.registry("item", (event) => {
     event.create('techopolis:pure_earth_matter').tag('techopolis:pure_matter').tag('techopolis:earth').texture('techopolis:item/earth')
     
     event.create('techopolis:pure_matter_mold').tag('casting:molds')
+    event.create('techopolis:catalog').tag('shops:catalogs').maxStackSize(1).glow(true)
 
 
     //Mod Mastery Books

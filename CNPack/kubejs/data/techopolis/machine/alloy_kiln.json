@@ -30,7 +30,7 @@
       "type": "custommachinery:item",
       "id": "input_item_2",
       "whitelist": [
-        "#techopolis:blueprints", "#minecraft:coals", "modular_machinery_reborn:casing_plain"
+        "#techopolis:blueprints", "#minecraft:coals", "techopolis:wooden_scaffolding"
       ],
       "mode": "input"
     },

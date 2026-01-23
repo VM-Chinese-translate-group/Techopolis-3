@@ -21,6 +21,12 @@
       "max_input": 0
     },
     {
+      "type": "custommachinery:item",
+      "id": "ore",
+      "mode": "input",
+      "max_input": 0
+    },
+    {
       "type": "custommachinery:item_upgrade",
       "id": "upgrade",
       "mode": "input",
@@ -54,7 +60,7 @@
     },
     {
       "type": "custommachinery:energy",
-      "x": 84,
+      "x": 66,
       "y": 23
     },
     {
@@ -80,6 +86,12 @@
       "type": "custommachinery:slot",
       "id": "output_item",
       "x": 156,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "ore",
+      "x": 94,
       "y": 27
     }
   ]
