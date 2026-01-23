@@ -30,6 +30,7 @@
     "**/lang/*.*",
     "!**/lang/en_us.*",
     "kubejs/assets/modular_machinery_reborn/lang/en_us.json",
-    "kubejs/assets/modular_machinery_reborn_mekanism/lang/en_us.json"
+    "kubejs/assets/modular_machinery_reborn_mekanism/lang/en_us.json",
+    "kubejs/assets/stellaris/lang/en_us.json"
   ]
 }
