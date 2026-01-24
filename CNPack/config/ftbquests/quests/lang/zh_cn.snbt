@@ -94,7 +94,7 @@
 	quest.04B9780F7FDEA78C.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.054406E766E69913.quest_desc: ["可以直接在世界中或在工作台里为方块上色。"]
 	quest.054406E766E69913.title: "喷漆罐"
-	quest.0561C57B9F1E095C.quest_desc: ["下一级𬬸金。"]
+	quest.0561C57B9F1E095C.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
 	quest.0561C57B9F1E095C.quest_subtitle: "&l&0地狱𬬸金部件&r&r"
 	quest.059999914CE99711.quest_desc: ["解锁&l压缩抽屉&r的配方。"]
 	quest.05C21693A27255DC.quest_desc: ["用于向物品中注入流体。"]
@@ -297,14 +297,14 @@
 	quest.1A68742A30D301C3.quest_desc: ["制作&l巧克力&r的第一步。可以在&l贸易站&r中购买"]
 	quest.1ACB353EAB64C46D.quest_desc: ["压缩&l下界岩&r。"]
 	quest.1ACCFB94A4652035.quest_desc: ["通过&l提纯仓&r获得。"]
-	quest.1AD7FACB7A282A3A.quest_desc: ["用于&l交易&r各种有用的&l物品&r。"]
+	quest.1AD7FACB7A282A3A.quest_desc: ["用于&l购买&r实用&l物品&r。将&l目录&r放入左下角槽位即可浏览商品。"]
 	quest.1ADBF5520E2DD240.quest_desc: ["击杀&l末影龙&r后会在&l传送门地基&r处生成。"]
 	quest.1AE38351CBD01CFE.quest_desc: ["在&l战利品制造器&r中制作。"]
 	quest.1B3B893B6EBE9E8B.quest_desc: ["制作那些抽屉"]
 	quest.1B51A32EC808AAFC.quest_desc: ["大容量存储方案"]
 	quest.1B9EBD3D77CA1692.quest_desc: ["下一级𬬸金。"]
 	quest.1B9EBD3D77CA1692.quest_subtitle: "&a&o终极𬬸金部件&r&r"
-	quest.1BE5521FEFB43D09.quest_desc: ["允许注入液态&l氧&r。设备所需的氧和电力量取决于&l太空服&r所需的&l氧气&r量。"]
+	quest.1BE5521FEFB43D09.quest_desc: ["此&l氧气&r并不&l相同&r。&l水电解分离器&r可用于制取&l氢气&r与&l氧气&r。将&l航天服&r放入最右侧槽位充入&l氧气&r，即可在太空呼吸。"]
 	quest.1C3A6DEE82F81476.quest_desc: ["所有终极研究的基石"]
 	quest.1C6401AE16E8CECF.quest_desc: ["使用&l原子再构机&r来把&l铅锭&r转换为&l青金石&r。"]
 	quest.1C76F7A850CCE209.quest_desc: ["产于&l下界&r，使用&l数字型采矿机&r可高效采集。"]
@@ -524,6 +524,7 @@
 	quest.390809571E4C722A.quest_desc: ["运行&l模拟室&r的副产品。之后可以用来制作&l熔融生物源质&r。"]
 	quest.3939AB38E2606E3B.quest_desc: ["通过&l粉碎机&r粉碎&l粗矿&r获得。"]
 	quest.395B58B75ECF34B2.quest_desc: ["简易的局部飞行能力"]
+	quest.396506AC5DA6615B.quest_desc: ["随时随地&l智能合成&r"]
 	quest.39B27FAC187F5E0C.quest_desc: ["更好的窑"]
 	quest.39BC8E83729DD648.quest_desc: ["处理&l红宝石、蓝宝石&r和&l橄榄石&r时的产物。"]
 	quest.39BC8E83729DD648.quest_subtitle: "&l&0地狱𬬸金部件&r&r"
@@ -547,9 +548,10 @@
 	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.3B4A980A5AECA6FF.title: "橡树树苗"
 	quest.3B581375F1A72F7D.quest_desc: ["通过&l煤炭块&r合成获得。"]
+	quest.3BA4E53BEDEC59FF.quest_desc: ["&l柴油&r可用作&l喷气式航天服&r的燃料，助你在太空进行&l飞行&r。可通过&l流体储罐&r将&l柴油&r注入&l喷气式航天服胸甲&r。"]
 	quest.3BB15BF24034EFD2.quest_desc: ["是时候进入&l信息时代&r了。"]
 	quest.3BC8A50893D13520.quest_desc: ["用于制作电梯，实现瞬间的上下移动。"]
-	quest.3BD7671C9A18D365.quest_desc: ["下一级𬬸金。"]
+	quest.3BD7671C9A18D365.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
 	quest.3BD7671C9A18D365.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.3BDC8305E8BA948B.quest_desc: ["将物品富集为新的物品。"]
 	quest.3BF3BA1E7DE1B3E4.quest_desc: ["将化学品转化为&l晶体&r。"]
@@ -621,6 +623,7 @@
 	quest.46822F1CB547D11E.quest_desc: ["&l眼睛合成器&r使用能源和物品来合成各种各样的眼睛。"]
 	quest.46822F1CB547D11E.quest_subtitle: " "
 	quest.46822F1CB547D11E.title: "眼睛合成器"
+	quest.46B1A6A644FB964A.quest_desc: ["至多能产出三种不同的&l超维矿石&r"]
 	quest.46B8DBEE30CEA5CD.quest_desc: ["一种不错的方块。"]
 	quest.46B8DBEE30CEA5CD.quest_subtitle: "&l&3月球𬬸金部件&r&r"
 	quest.470CAA8FE5F0E5C0.quest_desc: ["解锁&l无限元件&r的配方，它可以无限提供特定的&l物品&r和&l流体&r。"]
@@ -876,8 +879,6 @@
 	quest.621CB46DAD84AE84.quest_desc: ["&l沙子&r、&l沙砾&r和&l黏土&r的混合物。"]
 	quest.623E8B19B918318F.quest_desc: ["用于鉴定物品，并将结果保存到存储芯片中。"]
 	quest.6246E91DC5BFEEC0.quest_desc: ["更高效的液体获取方式。"]
-	quest.627070252CB1C1BA.quest_desc: ["铁可以用来合成&l现代动力学物品管道&r——提供了一种新的物品传输方法。此外，本模组也有&l流体管道&r。"]
-	quest.627070252CB1C1BA.title: "现代动力学"
 	quest.62915A582CCFF6AD.quest_desc: ["缩短作物总生长周期，最多可在&l玻璃罩&r中放置3个。"]
 	quest.62AD904AF9F057C7.quest_desc: ["&l高级矿机&r一次能产出两个物品！"]
 	quest.62BF4D616D05BB42.quest_desc: ["用于从预测产物中提取战利品。"]
@@ -911,7 +912,7 @@
 	quest.65B5A6E53B347435.quest_desc: ["在&l星际灌注机&r中制作。"]
 	quest.66662070856AC6E2.quest_desc: ["&l压缩&r物质。"]
 	quest.66B53A2009510723.quest_desc: ["感谢游玩&l《科技城3》&r。我们希望您喜欢这个包，如果您有任何反馈或建议，请在Discord上留言。"]
-	quest.66B6D2242D0D62C5.quest_desc: ["下一级𬬸金。"]
+	quest.66B6D2242D0D62C5.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
 	quest.66B6D2242D0D62C5.quest_subtitle: "&e&l末地𬬸金部件&r&r"
 	quest.6721CA63AFCAA96B.quest_desc: ["使用能量、流体和物品来进行再处理。"]
 	quest.675DC6355C5C14A4.quest_desc: ["粉碎的&l熔岩木板&r。"]
@@ -939,7 +940,7 @@
 	quest.68CEB2B5EF97D879.quest_desc: ["在冷冻机中制作。"]
 	quest.68D49AB076433B95.quest_desc: ["在&l冷冻机&r中制作。"]
 	quest.68F1D0EED1F4D9D6.quest_desc: ["更多的&l圆石&r"]
-	quest.69088E4CDACCC49B.quest_desc: ["最后一级&l𬬸金&r。"]
+	quest.69088E4CDACCC49B.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
 	quest.6954AA71B77C3E07.quest_desc: ["在&l战利品制造器&r中由&l末影人预测产物&r制成。"]
 	quest.6954CDE27C3CD472.quest_desc: ["用于冷却机器。这些方块可用扳手回收。"]
 	quest.69AE4F5A8FF21D33.quest_desc: ["可以输入/输出&l热能&r和&l流体&r。"]
@@ -1076,7 +1077,7 @@
 	quest.77E2D0A20E5B3A22.quest_desc: ["解锁&l终极速度饰品&r的配方。"]
 	quest.781EDB2D998E8C0A.quest_desc: ["第二个&l热力蒸馏塔&r能够将&l盐水&r转化为&l液态锂&r，而&l化学结晶器&r能够将&l锂&r转化为&l锂粉&r。"]
 	quest.781EDB2D998E8C0A.quest_subtitle: "&l&e&o精英𬬸金部件&r&r&r"
-	quest.78321DD6F1C4E464.quest_desc: ["下一级𬬸金。"]
+	quest.78321DD6F1C4E464.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
 	quest.78321DD6F1C4E464.quest_subtitle: "&l&3月球𬬸金部件&r&r"
 	quest.783FCE5894B5465D.quest_desc: ["&l研究合成&r的时间减少25%。"]
 	quest.787346C90ADE56AF.quest_desc: ["制作&l𬬸金&r的成本非常高昂，迫切需要一套自动化流程！任务进行到这一步，你已经掌握了搭建完整生产线所需的全部技术。"]
@@ -1084,7 +1085,6 @@
 	quest.78CF9DB8D153131B.quest_desc: ["将它放置在&l复制器&r上，可以使复制器运行地更快一点。"]
 	quest.78D84F25E62AE1CE.quest_desc: ["一根优质的杆。"]
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
-	quest.792A8FFFD3B8E171.quest_desc: ["用于扩展机器！将其放置在机器上方，即可通过&l机器延展器&r向机器自动化输入和输出物品。"]
 	quest.795B98C57909A168.quest_desc: ["烧炼&l下界合金粉&r获得。"]
 	quest.7989398728B3D7C4.quest_desc: ["右击&l输入口&r，然后右击&l输出口&r，就可以将它们连接起来、一个&l输出口&r可以向多个&l输入口&r传输内容物。"]
 	quest.79913BB2000EAA2B.quest_desc: ["通过&l树枝&r合成获得。"]
@@ -1208,7 +1208,6 @@
 	task.705629513C523A84.title: "任意#minecraft:planks"
 	task.70810293312B19FA.title: "GG 2"
 	task.7217A5F246679AE3.title: "复活节"
-	task.729DF4471563CA70.title: "现代动力学"
 	task.72B0375C3C9B5799.title: "树枝"
 	task.733419063A3048CA.title: "月球空气"
 	task.7490EAE141240ADC.title: "科技城3"
