@@ -338,5 +338,24 @@
 			x: -1.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["1B9EBD3D77CA1692"]
+			id: "46B1A6A644FB964A"
+			rewards: [{
+				id: "4EE15A59CE876CA4"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC706A0F7C8AEDD"
+				item: { count: 1, id: "techopolis:dimensional_ore_extractor_mk2" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
 	]
 }

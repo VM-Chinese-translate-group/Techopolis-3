@@ -58,7 +58,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4E2F5B340EA252C3"]
@@ -274,7 +274,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["3A819A471C879295"]
+			dependencies: [
+				"3A819A471C879295"
+				"169DB21BB2060530"
+			]
 			id: "3A37CCD1861B2A9F"
 			rewards: [{
 				id: "0FB10C5D1BC48B4B"
@@ -647,6 +650,29 @@
 			}]
 			x: 1.0d
 			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6E91D8C1186C1D45"
+				"325A807061175161"
+			]
+			hide_dependency_lines: true
+			id: "169DB21BB2060530"
+			optional: true
+			tasks: [
+				{
+					id: "39B2F417A7EB55EA"
+					item: { count: 1, id: "minecraft:netherite_block" }
+					type: "item"
+				}
+				{
+					id: "2FDE56646B21ED57"
+					item: { count: 1, id: "stellaris:rocket" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.5d
 		}
 	]
 }

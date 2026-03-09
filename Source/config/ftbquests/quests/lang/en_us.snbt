@@ -253,6 +253,12 @@
 	quest.164B6FAB9100BA01.title: "Compacting"
 	quest.166A2386E894F6B2.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.169753582E9B8F26.quest_desc: ["The &lOuter End&r has large plants, breaking these will obtain &lChorus Fruit&r"]
+	quest.169DB21BB2060530.quest_desc: [
+		"Stellaris Planet Chooser can be buggy, that's why you could make a Portal to the Moon too with a &l&#555555Block of Netherite&r and light it up with the &l&9Rocket&r"
+		""
+		"The Portal built in the &lOverworld&r and it looks like a regular Nether Portal just made out from &l&#555555Block of Netherite&r "
+	]
+	quest.169DB21BB2060530.title: "Moon Portal"
 	quest.16BC5C3507E58E72.quest_desc: ["A better alloy"]
 	quest.16D36D610F7D7A61.quest_desc: ["High end resource"]
 	quest.16DB448912997A88.quest_desc: ["Redstone and Copper makes Infused Alloy"]
@@ -488,11 +494,7 @@
 	quest.325A807061175161.quest_subtitle: "&l&0Hellish Technium Part&r&r"
 	quest.32A4DF2E64E475A0.quest_desc: ["Obtained in from the &lSeparator&r. Can be used in place of Charcoal in most recipes up to this point"]
 	quest.32E491D15303E893.quest_desc: ["Unlocks a Simple Auto Crafting Table"]
-	quest.32EA60F0550234C1.quest_desc: [
-		"Enter &lThe Nether&r. If you are not wearing a &lHeat Protection Curio&r you will burn in here!"
-		""
-		"If your Nether Dimension is a void dimension please join the discord and we will try to fix for you, world created in B5.0 and above should be fine"
-	]
+	quest.32EA60F0550234C1.quest_desc: ["Enter &lThe Nether&r. If you are not wearing a &lHeat Protection Curio&r you will burn in here!"]
 	quest.32EA60F0550234C1.title: "The Nether"
 	quest.32EE5B52B91F4BF8.quest_desc: ["The &lResearch Crafter&r can be used to craft new items using your &lBlueprints&r"]
 	quest.330F77414A45BCD3.quest_desc: ["Made inside the &lArc Furnace&r"]
@@ -508,9 +510,9 @@
 	quest.34ACA6A6E5AA1790.quest_desc: ["Your first machine, Holding SHIFT will show you the blocks needed for the structure. When you have all the blocks place the Sawmill down and press the structure button in the GUI to place the blocks"]
 	quest.34FD3253812C2865.quest_desc: ["Used to create Waystones"]
 	quest.3508602627DFB450.quest_desc: [
-		"&lRouters&r in a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. The &lExporter&r connects to a block you want to take stuff from. "
+		"&lRouters&r is a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. "
 		""
-		"The &lExporter&r must have upgrades installed for it to do anything"
+		"The &lExporter&r requires upgrades to operate use @&lRouters&r in &lJEI&r to view all options"
 	]
 	quest.35115D2ED3BBD85C.quest_desc: ["Allows &lDesh&r to be directly obtained. Used to create &lThe Interdimensional Infuser&r"]
 	quest.3546DF9F8CB8B856.quest_desc: ["Targets Ore inside Rocks"]
@@ -635,6 +637,7 @@
 	quest.428D51D0B5DF5295.quest_desc: ["Obtained in the &lFurnace&r by &lSmelting Cobblestone&r"]
 	quest.4296168019E02456.quest_desc: ["Used for some pretty advanced AE&l2&r "]
 	quest.42AEF379BA248070.quest_desc: ["Makes your &lMechanism&r machines faster but use more power!"]
+	quest.42DB2A01FF6A3716.quest_desc: ["Typeless drives"]
 	quest.431FFFFC2D686F6F.quest_desc: ["Thats a lot!"]
 	quest.4330A91B07B29A42.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.43AAFECB58D05B68.quest_desc: ["Made from &lCyanite&r in a &lReprocessor&r. A better fuel in a &lReactor&r"]
@@ -798,7 +801,11 @@
 	quest.55867E1213B101AA.quest_desc: ["Allows the simulation of &lMartian Raptors&r"]
 	quest.55C35B7494E0C0EC.quest_desc: ["All the fluids"]
 	quest.560A61D6A7632C63.quest_desc: ["Simple Item Transport"]
-	quest.562F6AA46E60A340.quest_desc: ["&lRouters&r in a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. The &lImporter&r connects to a block you want to receive stuff. "]
+	quest.562F6AA46E60A340.quest_desc: [
+		"&lRouters&r is a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. "
+		""
+		"The &lImporter&r connects to a block you want to receive stuff. "
+	]
 	quest.569AA7A2E4BB962E.quest_desc: ["Yummy"]
 	quest.569DF6E327BFA131.quest_desc: ["Useful"]
 	quest.56AF5073083161FF.quest_desc: ["Crushed up &lTeleportation Cores&r"]
@@ -957,6 +964,7 @@
 	quest.6590A626E6C79549.quest_desc: ["Allows the simulation of &lMagma Cubes&r"]
 	quest.65B410C1FB5DCBA9.quest_desc: ["Planks can be made in a &lStarter Sawmill&r"]
 	quest.65B5A6E53B347435.quest_desc: ["Made inside the&l Interdimensional Infuser&r"]
+	quest.65BA2A6A35C05B9D.quest_desc: ["Combination of &l&#8B4513Ancient Debris&r and &l&eGold&r"]
 	quest.66662070856AC6E2.quest_desc: ["&lCompresses&r items"]
 	quest.66873778F27A9365.quest_desc: ["A Specialist ore that can be used in making the Coal Miner "]
 	quest.66B53A2009510723.quest_desc: ["Thanks for playing &lTechopolis 3&r. I hope you enjoyed the pack please leave any feedback and suggestions in the discord"]
@@ -978,7 +986,11 @@
 	quest.6856E575370FEEEE.quest_desc: ["Infuses items with &lOsmium&r"]
 	quest.685C6599B8B6178A.quest_desc: ["Very Tough, made from &lHemp Fiber&r"]
 	quest.686545FF4779D60F.quest_desc: ["How does this work!"]
-	quest.686A25FBD8BEFCDE.quest_desc: ["The &lAncient Infuser&r is a huge Multiblock Structure which uses power, chemicals and fluids create &lAncient Debris&r. Debris must be placed on the &lBeacon&r blocks to be converted"]
+	quest.686A25FBD8BEFCDE.quest_desc: [
+		"The &lAncient Infuser&r is a huge Multiblock Structure which uses power, chemicals and fluids create &lAncient Debris&r. "
+		""
+		"&lDebris&r must be placed on the &lBeacon&r blocks to be converted"
+	]
 	quest.689E8142E81D09C1.quest_desc: [
 		"Can be used to grow &lSaplings&r and &lCrops&r for you"
 		""
@@ -994,7 +1006,12 @@
 	quest.6954CDE27C3CD472.quest_desc: ["Cooling the machine, these blocks can be collected with a wrench"]
 	quest.69AE4F5A8FF21D33.quest_desc: ["Allows for the input and output of &lHeat&r and &lFluids&r"]
 	quest.69C8195631537271.quest_desc: ["&lTwigs&r can be found on the ground in the world"]
-	quest.69D18C63856B99DB.quest_desc: ["A bunch of &lOre Pieces&r, can be melted in the &lCasting Controller&r. Requires a hotter fluid such as &lLava&r or &lMolten Coal&r"]
+	quest.69D18C63856B99DB.quest_desc: [
+		"Can be melted in the &lCasting Controller&r. "
+		""
+		"Requires a hotter fluid such as &lLava&r or &lMolten Coal&r"
+	]
+	quest.69D18C63856B99DB.quest_subtitle: "A bunch of &lOre Pieces&r "
 	quest.6A416C09357B8FC7.quest_desc: ["The &lSilicon Press&r can be used &lPrinted Silicon&r"]
 	quest.6A71517E081698C8.quest_desc: ["These &lPlanks&r don't burn"]
 	quest.6A71517E081698C8.title: "Nether Planks"
@@ -1042,8 +1059,9 @@
 	quest.6D7D9A9A3222C22C.quest_desc: ["Made inside the&l Mob Infuser&r used in the &lSimulation Chamber&r"]
 	quest.6D8834A1F7440FEA.quest_desc: ["Used dyes to create different dyes"]
 	quest.6DE61F27C06D7624.quest_desc: ["Removing the power"]
-	quest.6E098B627CC384F6.quest_desc: ["Both of these machines produce &lSpent Nuclear Waste&r, some would say its not very useful"]
+	quest.6E098B627CC384F6.quest_desc: ["Both of these machines produce &lSpent Nuclear Waste&r, some would say its not very useful before converting it to &lSafe Spent Nuclear Waste&r"]
 	quest.6E098B627CC384F6.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
+	quest.6E098B627CC384F6.title: "Safe Spent Nuclear Waste"
 	quest.6E20392DADF9AE6D.quest_desc: [
 		"Allows the &lTurbine&r to produce RF when placed inside. More information can be found in the &lTechopolis Guide Book&r"
 		""
@@ -1320,6 +1338,7 @@
 	task.6362C271D27511E5.title: "Energy Pipes?"
 	task.638046BDEF6F10FA.title: "skulker"
 	task.63E6A8122E66206A.title: "parralle"
+	task.64547E943E87A7EB.title: "DISK Drives"
 	task.6508A54A7854CB76.title: "Any #techopolis:all_coils"
 	task.66D8DFAC62DF7B48.title: "tech part"
 	task.67CA130DCAB6E5CE.title: "Ender Ethanol"
