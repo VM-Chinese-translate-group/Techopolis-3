@@ -445,7 +445,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["01BFDC0B1C4A894B"]
+			dependencies: [
+				"01BFDC0B1C4A894B"
+				"3939AB38E2606E3B"
+			]
+			dependency_requirement: "one_completed"
 			id: "78D84F25E62AE1CE"
 			rewards: [{
 				id: "26F2B05F619D5B85"

@@ -158,7 +158,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["17E12CCD15AABAF1"]
+			dependencies: ["65BA2A6A35C05B9D"]
 			id: "325A807061175161"
 			rewards: [{
 				id: "24CCBA28A86EA0F5"
@@ -174,7 +174,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -352,6 +352,44 @@
 			}]
 			x: 0.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["17E12CCD15AABAF1"]
+			id: "65BA2A6A35C05B9D"
+			rewards: [{
+				id: "32D4E2EC576B50A1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "379C3490EC74171F"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65BA2A6A35C05B9D"]
+			id: "42DB2A01FF6A3716"
+			rewards: [{
+				id: "0A886605A311F4F2"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64547E943E87A7EB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2things:disk_drive_1k)item(ae2things:disk_drive_4k)item(ae2things:disk_drive_16k)item(ae2things:disk_drive_64k)item(ae2things:disk_drive_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
 		}
 	]
 }
