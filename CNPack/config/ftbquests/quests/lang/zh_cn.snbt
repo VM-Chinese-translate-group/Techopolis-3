@@ -241,6 +241,12 @@
 	quest.164B6FAB9100BA01.title: "压缩"
 	quest.166A2386E894F6B2.quest_desc: ["在&l压印器&r中制作。"]
 	quest.169753582E9B8F26.quest_desc: ["破坏&l末地外岛&r的大型植物可以获得&l紫颂果&r。"]
+	quest.169DB21BB2060530.quest_desc: [
+		"Stellaris Planet Chooser can be buggy, that's why you could make a Portal to the Moon too with a &l&#555555Block of Netherite&r and light it up with the &l&9Rocket&r"
+		""
+		"The Portal built in the &lOverworld&r and it looks like a regular Nether Portal just made out from &l&#555555Block of Netherite&r "
+	]
+	quest.169DB21BB2060530.title: "Moon Portal"
 	quest.16BC5C3507E58E72.quest_desc: ["更好的合金"]
 	quest.16D36D610F7D7A61.quest_desc: ["高级资源"]
 	quest.16DB448912997A88.quest_desc: ["将红石灌注到铜中，制成灌注合金。"]
@@ -459,11 +465,7 @@
 	quest.325A807061175161.quest_desc: ["一种不错的方块。"]
 	quest.325A807061175161.quest_subtitle: "&l&0地狱𬬸金部件&r&r"
 	quest.32E491D15303E893.quest_desc: ["解锁一个简易的自动合成台。"]
-	quest.32EA60F0550234C1.quest_desc: [
-		"进入&l下界&r。如果你没有佩戴&l抗热饰品&r，你会被灼伤！"
-		""
-		"如果你的下界维度是虚空，请加入我们的Discord频道，我们会尝试帮你修复。在B5.0及更高版本创建的世界应该没有这个问题。"
-	]
+	quest.32EA60F0550234C1.quest_desc: ["Enter &lThe Nether&r. If you are not wearing a &lHeat Protection Curio&r you will burn in here!"]
 	quest.32EA60F0550234C1.title: "下界"
 	quest.32EE5B52B91F4BF8.quest_desc: ["你可以在&l研究工作台&r中用&l蓝图&r合成新的东西。"]
 	quest.330F77414A45BCD3.quest_desc: ["在&l电弧炉&r中制作。"]
@@ -478,8 +480,9 @@
 	quest.3491F0FBE638D596.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
 	quest.34FD3253812C2865.quest_desc: ["用于制作&l传送石碑&r。"]
 	quest.3508602627DFB450.quest_desc: [
-		"&l路由器&r这款模组能够无线传输&l物品、流体、能量和化学品&r。将&l输出口&r连接在容器上，以便从其中取出内容物。"
-		"&l输出口&r需要安装升级才能进行对应的工作。"
+		"&lRouters&r is a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. "
+		""
+		"The &lExporter&r requires upgrades to operate use @&lRouters&r in &lJEI&r to view all options"
 	]
 	quest.35115D2ED3BBD85C.quest_desc: ["可以直接获得&l戴斯物质&r。用于制作&l星际灌注机&r。"]
 	quest.3546DF9F8CB8B856.quest_desc: ["识别岩石中的矿石。"]
@@ -601,6 +604,7 @@
 	quest.428D51D0B5DF5295.quest_desc: ["通过&l熔炉烧炼圆石&r获得。"]
 	quest.4296168019E02456.quest_desc: ["用于制作一些AE&l2&r中的高级物品。"]
 	quest.42AEF379BA248070.quest_desc: ["提高&l通用机械&r机器的运行速度，但会消耗更多能量！"]
+	quest.42DB2A01FF6A3716.quest_desc: ["Typeless drives"]
 	quest.431FFFFC2D686F6F.quest_desc: ["这可真不少啊！"]
 	quest.4330A91B07B29A42.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.43AAFECB58D05B68.quest_desc: ["用&l再处理器&r加工&l青氰锭&r制成，是更好的&l反应堆&r燃料。"]
@@ -623,7 +627,7 @@
 	quest.46822F1CB547D11E.quest_desc: ["&l眼睛合成器&r使用能源和物品来合成各种各样的眼睛。"]
 	quest.46822F1CB547D11E.quest_subtitle: " "
 	quest.46822F1CB547D11E.title: "眼睛合成器"
-	quest.46B1A6A644FB964A.quest_desc: ["至多能产出三种不同的&l超维矿石&r"]
+	quest.46B1A6A644FB964A.quest_desc: ["Allows up to 3 different &lDimensional Ores&r to be produced"]
 	quest.46B8DBEE30CEA5CD.quest_desc: ["一种不错的方块。"]
 	quest.46B8DBEE30CEA5CD.quest_subtitle: "&l&3月球𬬸金部件&r&r"
 	quest.470CAA8FE5F0E5C0.quest_desc: ["解锁&l无限元件&r的配方，它可以无限提供特定的&l物品&r和&l流体&r。"]
@@ -753,7 +757,11 @@
 	quest.5561367DE4D71434.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.55867E1213B101AA.quest_desc: ["用于模拟&l火星迅猛龙&r。"]
 	quest.55C35B7494E0C0EC.quest_desc: ["无限流体。"]
-	quest.562F6AA46E60A340.quest_desc: ["&l路由器&r这款模组能够无线传输&l物品、流体、能量和化学品&r。将&l输入口&r连接在容器上，以便向其中输入内容物。"]
+	quest.562F6AA46E60A340.quest_desc: [
+		"&lRouters&r is a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. "
+		""
+		"The &lImporter&r connects to a block you want to receive stuff. "
+	]
 	quest.569AA7A2E4BB962E.quest_desc: ["好吃"]
 	quest.569DF6E327BFA131.quest_desc: ["有用的"]
 	quest.56AF5073083161FF.quest_desc: ["粉碎的&l传送核心&r。"]
@@ -910,6 +918,7 @@
 	quest.654C564E03AB150F.quest_desc: ["将物品提纯为新的物品。"]
 	quest.6590A626E6C79549.quest_desc: ["用于模拟&l岩浆怪&r。"]
 	quest.65B5A6E53B347435.quest_desc: ["在&l星际灌注机&r中制作。"]
+	quest.65BA2A6A35C05B9D.quest_desc: ["Combination of &l&#8B4513Ancient Debris&r and &l&eGold&r"]
 	quest.66662070856AC6E2.quest_desc: ["&l压缩&r物质。"]
 	quest.66B53A2009510723.quest_desc: ["感谢游玩&l《科技城3》&r。我们希望您喜欢这个包，如果您有任何反馈或建议，请在Discord上留言。"]
 	quest.66B6D2242D0D62C5.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
@@ -929,7 +938,11 @@
 	quest.6856E575370FEEEE.quest_desc: ["用&l锇&r灌注物品。"]
 	quest.685C6599B8B6178A.quest_desc: ["由&l大麻纤维&r制成，非常坚韧。"]
 	quest.686545FF4779D60F.quest_desc: ["这玩意儿到底是怎么工作的！"]
-	quest.686A25FBD8BEFCDE.quest_desc: ["&l远古灌注机&r是一个大型多方块结构，它使用能量、化学品和流体来制造&l远古残骸&r。残骸必须放置在&l信标&r方块上才能进行转化。"]
+	quest.686A25FBD8BEFCDE.quest_desc: [
+		"The &lAncient Infuser&r is a huge Multiblock Structure which uses power, chemicals and fluids create &lAncient Debris&r. "
+		""
+		"&lDebris&r must be placed on the &lBeacon&r blocks to be converted"
+	]
 	quest.689E8142E81D09C1.quest_desc: [
 		"可以为你自动种植&l树苗&r和&l作物&r。"
 		""
@@ -944,7 +957,12 @@
 	quest.6954AA71B77C3E07.quest_desc: ["在&l战利品制造器&r中由&l末影人预测产物&r制成。"]
 	quest.6954CDE27C3CD472.quest_desc: ["用于冷却机器。这些方块可用扳手回收。"]
 	quest.69AE4F5A8FF21D33.quest_desc: ["可以输入/输出&l热能&r和&l流体&r。"]
-	quest.69D18C63856B99DB.quest_desc: ["一簇&l矿物碎块&r，可以在&lCasting的控制器&r内熔化。这需要&l熔岩&r、&l熔融碳&r等温度更高的燃料。"]
+	quest.69D18C63856B99DB.quest_desc: [
+		"Can be melted in the &lCasting Controller&r. "
+		""
+		"Requires a hotter fluid such as &lLava&r or &lMolten Coal&r"
+	]
+	quest.69D18C63856B99DB.quest_subtitle: "A bunch of &lOre Pieces&r "
 	quest.6A416C09357B8FC7.quest_desc: ["&l硅压印模板&r可用于制作&l硅板&r。"]
 	quest.6A71517E081698C8.quest_desc: ["这个木板不会被烧毁。"]
 	quest.6A71517E081698C8.title: "下界木板"
@@ -991,8 +1009,9 @@
 	quest.6D7D9A9A3222C22C.quest_desc: ["在&l生物灌注机&r中制作，用于&l模拟仓&r。"]
 	quest.6D8834A1F7440FEA.quest_desc: ["用一种染料来制作另一种染料。"]
 	quest.6DE61F27C06D7624.quest_desc: ["输出能量。"]
-	quest.6E098B627CC384F6.quest_desc: ["生产钋球和钚球时，机器会产生&l用尽的核废料&r，可能有人会说这种资源不是很有用。"]
+	quest.6E098B627CC384F6.quest_desc: ["Both of these machines produce &lSpent Nuclear Waste&r, some would say its not very useful before converting it to &lSafe Spent Nuclear Waste&r"]
 	quest.6E098B627CC384F6.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
+	quest.6E098B627CC384F6.title: "Safe Spent Nuclear Waste"
 	quest.6E20392DADF9AE6D.quest_desc: [
 		"将该部件放置于&l涡轮机&r内部时，能够产生RF能量。更多详情请参阅&l科技城指南&r。"
 		""
@@ -1202,6 +1221,7 @@
 	task.5835C0B24EB29833.title: "巧克力"
 	task.5AB30C491C1CDE4C.title: "熔融末影燃料"
 	task.5C60AAE147AA946E.title: "任意#techopolis:flux_crafters"
+	task.64547E943E87A7EB.title: "DISK Drives"
 	task.6508A54A7854CB76.title: "任意#techopolis:all_coils"
 	task.67CA130DCAB6E5CE.title: "末影乙醇"
 	task.6DEA709A5682253E.title: "黑曜石"
