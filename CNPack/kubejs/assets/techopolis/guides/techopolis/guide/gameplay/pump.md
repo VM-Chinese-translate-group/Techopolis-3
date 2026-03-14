@@ -5,7 +5,6 @@ navigation:
     parent: gameplay.md
 item_ids:
     - 'immersiveengineering:fluid_pump'
-    - 'immersiveengineering:fluid_pump'
     - 'mekanism:electric_pump'
     - 'techopolis:ambient_water_collector'
 ---

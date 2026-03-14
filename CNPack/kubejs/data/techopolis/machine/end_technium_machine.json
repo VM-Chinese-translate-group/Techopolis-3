@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "末地𬬸金制备机"
+    "text": {
+      "translate": "末地𬬸金制备机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/end_technium_machine",
@@ -11,76 +13,14 @@
   },
   "components": [
     {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "alltheores:iridium_gear"
-      ],
-      "id": "input_item_1",
-      "mode": "input"
+      "type": "custommachinery:chemical",
+      "mode": "input",
+      "id": "input_chemical",
+      "capacity": 64000
     },
     {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "minecraft:end_stone"
-      ],
-      "id": "input_item_2",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "minecraft:end_rod"
-      ],
-      "id": "input_item_3",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "minecraft:phantom_membrane"
-      ],
-      "id": "input_item_4",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "techopolis:lunar_technium_ingot"
-      ],
-      "id": "input_item_5",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "bigreactors:anglesite_crystal"
-      ],
-      "id": "input_item_6",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "extendedcrafting:ender_star_block"
-      ],
-      "id": "input_item_7",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "techopolis:shulker_plate"
-      ],
-      "id": "input_item_8",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "techopolis:eye_block"
-      ],
-      "id": "input_item_9",
-      "mode": "input"
+      "type": "custommachinery:energy",
+      "capacity": 6000000
     },
     {
       "type": "custommachinery:fluid",
@@ -89,33 +29,99 @@
       "capacity": 128000
     },
     {
+      "type": "custommachinery:heat",
+      "capacity": 1200.0
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "alltheores:iridium_gear",
+      "id": "input_item_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "minecraft:end_stone",
+      "id": "input_item_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "minecraft:end_rod",
+      "id": "input_item_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "minecraft:phantom_membrane",
+      "id": "input_item_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "techopolis:lunar_technium_ingot",
+      "id": "input_item_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "bigreactors:anglesite_crystal",
+      "id": "input_item_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "extendedcrafting:ender_star_block",
+      "id": "input_item_7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "techopolis:shulker_plate",
+      "id": "input_item_8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "techopolis:eye_block",
+      "id": "input_item_9",
+      "mode": "input"
+    },
+    {
       "type": "custommachinery:item",
       "id": "output_item",
       "mode": "output",
       "max_input": 0
-    },
-    {
-      "type": "custommachinery:energy",
-      "capacity": 6000000
-    },
-    {
-      "type": "custommachinery:chemical",
-      "mode": "input",
-      "id": "input_chemical",
-      "capacity": 64000,
-      "max_input": 64000
-    },
-    {
-      "type": "custommachinery:heat",
-      "capacity": 1200 
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:chemical",
+      "id": "input_chemical",
+      "x": 150,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 183,
+      "y": 4,
+      "width": 13,
+      "height": 13
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 130,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 110,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 170,
+      "y": 31
     },
     {
       "type": "custommachinery:player_inventory",
@@ -123,9 +129,12 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
+      "type": "custommachinery:progress",
+      "orientation": "BOTTOM",
+      "x": 192,
+      "y": 31,
+      "width": 16,
+      "height": 24
     },
     {
       "type": "custommachinery:slot",
@@ -137,6 +146,12 @@
       "type": "custommachinery:slot",
       "id": "input_item_2",
       "x": 69,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_3",
+      "x": 89,
       "y": 18
     },
     {
@@ -177,53 +192,33 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item_3",
-      "x": 89,
-      "y": 18
-    },
-    {
-      "type": "custommachinery:slot",
       "id": "output_item",
       "x": 192,
-      "y": 45
+      "y": 56
     },
     {
-      "type": "custommachinery:progress",
-      "orientation": "BOTTOM",
-      "x": 192,
-      "y": 20,
-      "width": 16,
-      "height": 24
-    },
-    {
-      "type": "custommachinery:fluid",
-      "id": "input_fluid",
-      "x": 110,
-      "y": 31
-    },
-    {
-      "type": "custommachinery:energy",
-      "x": 130,
-      "y": 31
-    },
-    {
-      "type": "custommachinery:chemical",
-      "id": "input_chemical",
-      "x": 150,
-      "y": 31
-    },
-    {
-      "type": "custommachinery:heat",
-      "x": 170,
-      "y": 31
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
     },
     {
       "type": "custommachinery:text",
       "x": 47,
       "y": 5,
       "text": {
-        "text": "末地𬬸金制备机"
+        "text": {
+          "translate": "末地𬬸金制备机"
+        }
       }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

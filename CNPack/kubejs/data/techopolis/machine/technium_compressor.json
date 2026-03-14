@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "𬬸金压缩机"
+    "text": {
+      "translate": "𬬸金压缩机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/technium_compressor",
@@ -11,12 +13,8 @@
   },
   "components": [
     {
-      "type": "custommachinery:item_upgrade",
-      "max_output": 64,
-      "id": "upgrade",
-      "mode": "input",
-      "capacity": 1,
-      "max_input": 64
+      "type": "custommachinery:energy",
+      "capacity": 6000000
     },
     {
       "type": "custommachinery:item",
@@ -34,27 +32,80 @@
       "mode": "input"
     },
     {
-      "type": "custommachinery:energy",
-      "capacity": 6000000
-    },
-    {
       "type": "custommachinery:item",
       "id": "output_item",
       "mode": "output",
       "max_input": 0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 66,
+      "y": 23
     },
     {
       "type": "custommachinery:player_inventory",
       "x": 48,
       "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 143,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 97,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_2",
+      "x": 116,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_3",
+      "x": 106,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 174,
+      "y": 27
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 146,
+      "y": 46,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
     },
     {
       "type": "custommachinery:status",
@@ -66,56 +117,19 @@
       "x": 47,
       "y": 5,
       "text": {
-        "text": "𬬸金压缩机"
-      }
-    },
-    {
-      "type": "custommachinery:energy",
-      "x": 66,
-      "y": 23
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "upgrade",
-      "x": 146,
-      "y": 46,
-      "ghost": {
-        "items": {
-          "item": "bblcore:upgrade_base"
-        },
-        "color": {
-          "alpha": 0.29803923
+        "text": {
+          "translate": "𬬸金压缩机"
         }
       }
     },
     {
-      "type": "custommachinery:progress",
-      "x": 143,
-      "y": 28
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 174,
-      "y": 27
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item_1",
-      "x": 97,
-      "y": 27
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item_3",
-      "x": 106,
-      "y": 46
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item_2",
-      "x": 116,
-      "y": 27
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

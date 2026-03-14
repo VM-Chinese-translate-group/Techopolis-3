@@ -1,11 +1,12 @@
 {
   "name": {
-    "text": "无限元件提取器"
+    "text": {
+      "translate": "无限元件提取器"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/infinity_cell_extractor",
     "custommachinery:hardness": 1.5,
-    "custommachinery:keep_inventory": false,
     "custommachinery:mining_level": "minecraft:needs_stone_tool",
     "custommachinery:requires_tool": false,
     "custommachinery:resistance": 6.0
@@ -30,10 +31,11 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
     },
     {
       "type": "custommachinery:player_inventory",
@@ -41,9 +43,9 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 39
     },
     {
       "type": "custommachinery:slot",
@@ -58,23 +60,34 @@
       "y": 38
     },
     {
-      "type": "custommachinery:progress",
-      "x": 120,
-      "y": 39
-    },
-    {
       "type": "custommachinery:slot",
       "id": "output_item",
       "x": 174,
       "y": 38
     },
     {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
       "type": "custommachinery:text",
       "x": 47,
       "y": 5,
       "text": {
-        "text": "无限元件提取器"
+        "text": {
+          "translate": "无限元件提取器"
+        }
       }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

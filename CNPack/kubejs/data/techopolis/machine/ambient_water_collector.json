@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "环境集水器"
+    "text": {
+      "translate": "环境集水器"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/ambient_water_collector",
@@ -9,25 +11,38 @@
     "custommachinery:requires_tool": false,
     "custommachinery:resistance": 6.0
   },
-  "components": [
-    {
-      "type": "custommachinery:fluid",
-      "mode": "output",
-      "id": "output_fluid",
-      "capacity": 10000
-    }
-  ],
+  "components": {
+    "type": "custommachinery:fluid",
+    "mode": "output",
+    "id": "output_fluid",
+    "capacity": 10000
+  },
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/ambient_water_collector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_fluid",
+      "x": 120,
+      "y": 25
     },
     {
       "type": "custommachinery:player_inventory",
       "x": 48,
       "y": 82
+    },
+    {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 171,
+      "y": 5,
+      "width": 25,
+      "height": 13
     },
     {
       "type": "custommachinery:status",
@@ -39,14 +54,19 @@
       "x": 47,
       "y": 5,
       "text": {
-        "text": "环境集水器"
+        "text": {
+          "translate": "环境集水器"
+        }
       }
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "output_fluid",
-      "x": 120,
-      "y": 25
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/ambient_water_collector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

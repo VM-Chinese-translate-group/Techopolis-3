@@ -1,11 +1,12 @@
 {
   "name": {
-    "text": "岩石富集器"
+    "text": {
+      "translate": "岩石富集器"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/rock_enricher",
     "custommachinery:hardness": 1.5,
-    "custommachinery:keep_inventory": false,
     "custommachinery:mining_level": "minecraft:needs_stone_tool",
     "custommachinery:requires_tool": false,
     "custommachinery:resistance": 6.0
@@ -36,19 +37,17 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:text",
-      "priority": 1,
-      "x": 48,
-      "y": 6,
-      "text": {
-        "text": "岩石富集器"
-      }
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
     },
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 51,
+      "y": 25
     },
     {
       "type": "custommachinery:player_inventory",
@@ -56,46 +55,62 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:fluid",
-      "id": "input_fluid",
-      "x": 48,
-      "y": 25
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 178,
-      "y": 38
+      "type": "custommachinery:progress",
+      "x": 136,
+      "y": 40
     },
     {
       "type": "custommachinery:slot",
       "id": "input_item_1",
-      "x": 78,
+      "x": 84,
       "y": 38
     },
     {
       "type": "custommachinery:slot",
       "id": "input_item_2",
-      "x": 101,
+      "x": 107,
       "y": 38
     },
     {
-      "type": "custommachinery:progress",
-      "x": 135,
-      "y": 39
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 168,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "priority": 1,
+      "x": 48,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "岩石富集器"
+        }
+      }
     },
     {
       "type": "custommachinery:text",
       "x": 47,
       "y": 5,
       "text": {
-        "text": "岩石富集器"
+        "text": {
+          "translate": "Rock Enricher"
+        }
       }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

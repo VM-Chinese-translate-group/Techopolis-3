@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "合金窑"
+    "text": {
+      "translate": "合金窑"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/alloy_kiln",
@@ -11,61 +13,8 @@
   },
   "components": [
     {
-      "type": "custommachinery:item_upgrade",
-      "max_output": 64,
-      "id": "upgrade",
-      "mode": "input",
-      "capacity": 1,
-      "max_input": 64
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_item_1",
-      "whitelist": [
-        "minecraft:copper_ingot", "minecraft:copper_block", "minecraft:netherrack", "mekanism:ingot_refined_obsidian", "techopolis:dimensional_dust"
-      ],
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_item_2",
-      "whitelist": [
-        "#techopolis:blueprints", "#minecraft:coals", "techopolis:wooden_scaffolding"
-      ],
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_item_3",
-      "whitelist": [
-        "alltheores:zinc_block","alltheores:zinc_ingot", "alltheores:tin_ingot", "alltheores:tin_block", "techopolis:obsidiglow_ingot", "minecraft:brick", "mekanism:ingot_refined_glowstone"
-      ],
-      "mode": "input"
-    },
-    {
       "type": "custommachinery:energy",
       "capacity": 512000
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "output_item",
-      "mode": "output",
-      "max_input": 0
-    },
-    {
-      "type": "custommachinery:fluid",
-      "mode": "output",
-      "config": {
-        "TOP": "OUTPUT",
-        "BOTTOM": "OUTPUT",
-        "FRONT": "OUTPUT",
-        "RIGHT": "OUTPUT",
-        "BACK": "OUTPUT",
-        "LEFT": "OUTPUT"
-      },
-      "id": "output_fluid",
-      "capacity": 16000,
-      "max_input": 0
     },
     {
       "type": "custommachinery:fluid",
@@ -80,32 +29,80 @@
       "unique": true,
       "id": "input_fluid_2",
       "capacity": 16000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "max_input": 0,
+      "id": "output_fluid",
+      "capacity": 16000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "minecraft:copper_ingot",
+        "minecraft:copper_block",
+        "minecraft:netherrack",
+        "mekanism:ingot_refined_obsidian",
+        "techopolis:dimensional_dust"
+      ],
+      "id": "input_item_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "#techopolis:blueprints",
+        "#minecraft:coals",
+        "techopolis:wooden_scaffolding"
+      ],
+      "id": "input_item_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "alltheores:zinc_block",
+        "alltheores:zinc_ingot",
+        "alltheores:tin_ingot",
+        "alltheores:tin_block",
+        "techopolis:obsidiglow_ingot",
+        "minecraft:brick",
+        "mekanism:ingot_refined_glowstone"
+      ],
+      "id": "input_item_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
-    },
-    {
-      "type": "custommachinery:player_inventory",
-      "x": 48,
-      "y": 82
-    },
-    {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "合金窑"
-      }
+      "type": "custommachinery:config",
+      "x": 181,
+      "y": 4,
+      "width": 14,
+      "height": 14
     },
     {
       "type": "custommachinery:energy",
@@ -114,9 +111,31 @@
     },
     {
       "type": "custommachinery:fluid",
+      "id": "input_fluid_1",
+      "x": 66,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:fluid",
       "id": "input_fluid_2",
       "x": 85,
       "y": 23
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_fluid",
+      "x": 195,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 147,
+      "y": 28
     },
     {
       "type": "custommachinery:slot",
@@ -133,32 +152,14 @@
     {
       "type": "custommachinery:slot",
       "id": "input_item_3",
-
       "x": 124,
       "y": 27
-    },
-    {
-      "type": "custommachinery:fluid",
-      "id": "input_fluid_1",
-      "x": 66,
-      "y": 23
-    },
-    {
-      "type": "custommachinery:fluid",
-      "id": "output_fluid",
-      "x": 195,
-      "y": 23
     },
     {
       "type": "custommachinery:slot",
       "id": "output_item",
       "x": 175,
       "y": 27
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 147,
-      "y": 28
     },
     {
       "type": "custommachinery:slot",
@@ -173,6 +174,30 @@
           "alpha": 0.29803923
         }
       }
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "合金窑"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

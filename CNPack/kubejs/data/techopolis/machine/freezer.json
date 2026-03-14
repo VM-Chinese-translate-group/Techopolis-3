@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "冷冻机"
+    "text": {
+      "translate": "冷冻机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/freezer",
@@ -10,11 +12,6 @@
     "custommachinery:resistance": 6.0
   },
   "components": [
-    {
-      "type": "custommachinery:item",
-      "id": "input_item_1",
-      "mode": "input"
-    },
     {
       "type": "custommachinery:energy",
       "capacity": 10000
@@ -26,49 +23,30 @@
       "capacity": 10000
     },
     {
-      "type": "custommachinery:item",
-      "id": "output_item",
-      "mode": "output",
-      "max_input": 0
-    },
-    {
       "type": "custommachinery:fluid",
       "mode": "output",
       "id": "output_fluid",
       "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_item_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item",
+      "mode": "output",
+      "max_input": 0
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
-    },
-    {
-      "type": "custommachinery:player_inventory",
-      "x": 48,
-      "y": 82
-    },
-    {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item",
-      "x": 85,
-      "y": 38,
-      "width": 0
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "冷冻机"
-      }
+      "type": "custommachinery:config",
+      "x": 184,
+      "y": 4,
+      "width": 13,
+      "height": 13
     },
     {
       "type": "custommachinery:energy",
@@ -80,6 +58,29 @@
       "id": "input_fluid",
       "x": 75,
       "y": 25
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_fluid",
+      "x": 182,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 124,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item",
+      "x": 85,
+      "y": 38,
+      "width": 0
     },
     {
       "type": "custommachinery:slot",
@@ -96,21 +97,34 @@
       }
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "output_fluid",
-      "x": 182,
-      "y": 25
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 124,
-      "y": 37
-    },
-    {
       "type": "custommachinery:slot",
       "id": "output_item",
       "x": 155,
       "y": 37
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "冷冻机"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 navigation:
     title: 再处理器
-    parent: modular_machinery.md
+    parent: custom_machinery.md
     icon: 'techopolis:reprocessor'
     position: 100
 item_ids:

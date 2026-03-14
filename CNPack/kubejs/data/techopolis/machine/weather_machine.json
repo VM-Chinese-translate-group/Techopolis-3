@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "天气操控机"
+    "text": {
+      "translate": "天气操控机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/weather_machine",
@@ -22,15 +24,35 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 93,
+      "y": 29
     },
     {
       "type": "custommachinery:player_inventory",
       "x": 48,
       "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 121,
+      "y": 37,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 146,
+      "y": 42
     },
     {
       "type": "custommachinery:status",
@@ -42,27 +64,19 @@
       "x": 47,
       "y": 5,
       "text": {
-        "text": "天气操控机"
+        "text": {
+          "translate": "天气操控机"
+        }
       }
     },
     {
-      "type": "custommachinery:slot",
-      "id": "input_item_1",
-      "x": 146,
-      "y": 42
-    },
-    {
-      "type": "custommachinery:progress",
-      "orientation": "TOP",
-      "x": 121,
-      "y": 37,
-      "width": 16,
-      "height": 24
-    },
-    {
-      "type": "custommachinery:energy",
-      "x": 93,
-      "y": 29
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

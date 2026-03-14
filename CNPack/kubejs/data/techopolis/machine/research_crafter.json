@@ -1,24 +1,17 @@
 {
   "name": {
-    "text": "基础研究工作台"
+    "text": {
+      "translate": "基础研究工作台"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/research_crafter",
     "custommachinery:hardness": 1.5,
-    "custommachinery:keep_inventory": false,
     "custommachinery:mining_level": "minecraft:needs_stone_tool",
     "custommachinery:requires_tool": false,
     "custommachinery:resistance": 6.0
   },
   "components": [
-    {
-      "type": "custommachinery:item",
-      "id": "input_item",
-      "blacklist": [
-        "#techopolis:blueprints"
-      ],
-      "mode": "input"
-    },
     {
       "type": "custommachinery:fluid",
       "mode": "input",
@@ -27,10 +20,14 @@
     },
     {
       "type": "custommachinery:item",
-      "whitelist": [
-        "#techopolis:blueprints"
-      ],
+      "whitelist": "#techopolis:blueprints",
       "id": "blueprint",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "blacklist": "#techopolis:blueprints",
+      "id": "input_item",
       "mode": "input"
     },
     {
@@ -42,19 +39,17 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:text",
-      "priority": 1,
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "研究工作台"
-      }
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
     },
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 48,
+      "y": 24
     },
     {
       "type": "custommachinery:player_inventory",
@@ -62,29 +57,9 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 190,
-      "y": 35
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item",
-      "x": 126,
+      "type": "custommachinery:progress",
+      "x": 154,
       "y": 36
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "基础研究工作台"
-      }
     },
     {
       "type": "custommachinery:slot",
@@ -98,15 +73,51 @@
       }
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "input_fluid",
-      "x": 48,
-      "y": 24
+      "type": "custommachinery:slot",
+      "id": "input_item",
+      "x": 126,
+      "y": 36
     },
     {
-      "type": "custommachinery:progress",
-      "x": 154,
-      "y": 36
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 190,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "priority": 1,
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "Research Crafter"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "基础研究工作台"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

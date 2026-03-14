@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "远古灌注机"
+    "text": {
+      "translate": "远古灌注机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/ancient_infuser",
@@ -11,54 +13,43 @@
   },
   "components": [
     {
-      "type": "custommachinery:item_upgrade",
-      "max_output": 64,
-      "id": "upgrade",
+      "type": "custommachinery:chemical",
       "mode": "input",
-      "capacity": 1,
-      "max_input": 64
+      "id": "input_chemical",
+      "capacity": 64000
     },
     {
       "type": "custommachinery:energy",
       "capacity": 20000000
     },
     {
-      "type": "custommachinery:chemical",
-      "id": "input_chemical",
-      "capacity": 64000,
-      "mode": "input"
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "input_fluid",
+      "capacity": 320000
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "input_fluid",
-      "capacity": 64000,
-      "mode": "input"
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:chemical",
+      "id": "input_chemical",
+      "x": 120,
+      "y": 24
     },
     {
-      "type": "custommachinery:status",
+      "type": "custommachinery:config",
       "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "远古灌注机"
-      }
-    },
-    {
-      "type": "custommachinery:player_inventory",
-      "x": 48,
-      "y": 82
+      "y": 63,
+      "width": 16,
+      "height": 16
     },
     {
       "type": "custommachinery:energy",
@@ -72,10 +63,15 @@
       "y": 24
     },
     {
-      "type": "custommachinery:chemical",
-      "id": "input_chemical",
-      "x": 120,
-      "y": 24
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 179,
+      "y": 4
     },
     {
       "type": "custommachinery:slot",
@@ -92,12 +88,37 @@
       }
     },
     {
-      "type": "custommachinery:progress",
-      "orientation": "TOP",
-      "x": 148,
-      "y": 37,
-      "width": 16,
-      "height": 24
+      "type": "custommachinery:status",
+      "x": 149,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "远古灌注机"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
-  ]
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 9
+  },
+  "tooltips": {
+    "text": {
+      "translate": "Transform Debris to Ancient Debris"
+    }
+  }
 }

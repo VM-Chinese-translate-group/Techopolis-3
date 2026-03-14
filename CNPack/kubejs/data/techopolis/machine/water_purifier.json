@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "净水器"
+    "text": {
+      "translate": "净水器"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/water_purifier",
@@ -13,16 +15,16 @@
     {
       "type": "custommachinery:fluid",
       "mode": "output",
+      "max_input": 0,
       "id": "fluid_output",
-      "capacity": 64000,
-      "max_input": 0
+      "capacity": 64000
     },
     {
       "type": "custommachinery:fluid",
       "mode": "input",
+      "max_output": 0,
       "id": "input_fluid",
-      "capacity": 64000,
-      "max_output": 0
+      "capacity": 64000
     },
     {
       "type": "custommachinery:item_upgrade",
@@ -33,15 +35,42 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 193,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output",
+      "x": 155,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 84,
+      "y": 25
     },
     {
       "type": "custommachinery:player_inventory",
       "x": 48,
       "y": 82
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 120,
+      "y": 37,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
     },
     {
       "type": "custommachinery:status",
@@ -54,34 +83,19 @@
       "y": 5,
       "height": 9,
       "text": {
-        "text": "净水器"
-      }
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "upgrade",
-      "x": 120,
-      "y": 37,
-      "ghost": {
-        "items": {
-          "item": "bblcore:upgrade_base"
-        },
-        "color": {
-          "alpha": 0.29803923
+        "text": {
+          "translate": "净水器"
         }
       }
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "input_fluid",
-      "x": 84,
-      "y": 25
-    },
-    {
-      "type": "custommachinery:fluid",
-      "id": "fluid_output",
-      "x": 155,
-      "y": 25
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

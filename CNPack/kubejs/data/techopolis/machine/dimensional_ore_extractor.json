@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "超维矿石提取机"
+    "text": {
+      "translate": "超维矿石提取机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/dimensional_ore_extractor",
@@ -16,14 +18,14 @@
     },
     {
       "type": "custommachinery:item",
-      "id": "output_item",
-      "mode": "output",
+      "id": "ore",
+      "mode": "input",
       "max_input": 0
     },
     {
       "type": "custommachinery:item",
-      "id": "ore",
-      "mode": "input",
+      "id": "output_item",
+      "mode": "output",
       "max_input": 0
     },
     {
@@ -35,10 +37,16 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 66,
+      "y": 23
     },
     {
       "type": "custommachinery:player_inventory",
@@ -46,22 +54,21 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
+      "type": "custommachinery:progress",
+      "x": 117,
+      "y": 28
     },
     {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "超维矿石提取机"
-      }
+      "type": "custommachinery:slot",
+      "id": "ore",
+      "x": 94,
+      "y": 27
     },
     {
-      "type": "custommachinery:energy",
-      "x": 66,
-      "y": 23
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 156,
+      "y": 27
     },
     {
       "type": "custommachinery:slot",
@@ -78,21 +85,28 @@
       }
     },
     {
-      "type": "custommachinery:progress",
-      "x": 117,
-      "y": 28
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
     },
     {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 156,
-      "y": 27
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "超维矿石提取机"
+        }
+      }
     },
     {
-      "type": "custommachinery:slot",
-      "id": "ore",
-      "x": 94,
-      "y": 27
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

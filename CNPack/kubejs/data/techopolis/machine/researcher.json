@@ -1,30 +1,17 @@
 {
   "name": {
-    "text": "研究器"
+    "text": {
+      "translate": "研究器"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/researcher",
     "custommachinery:hardness": 1.5,
-    "custommachinery:keep_inventory": false,
     "custommachinery:mining_level": "minecraft:needs_stone_tool",
     "custommachinery:requires_tool": false,
     "custommachinery:resistance": 6.0
   },
   "components": [
-    {
-      "type": "custommachinery:item",
-      "id": "input_item_1",
-      "mode": "input",
-      "whitelist": ["#techopolis:research"]
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_item_2",
-      "blacklist": [
-        "#techopolis:research"
-      ],
-      "mode": "input"
-    },
     {
       "type": "custommachinery:energy",
       "capacity": 100000
@@ -37,54 +24,30 @@
     },
     {
       "type": "custommachinery:item",
+      "whitelist": "#techopolis:research",
+      "id": "input_item_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "blacklist": "#techopolis:research",
+      "id": "input_item_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
       "id": "output_item",
       "mode": "output",
       "max_input": 0
     }
-
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
-    },
-    {
-      "type": "custommachinery:player_inventory",
-      "x": 48,
-      "y": 82
-    },
-    {
-      "type": "custommachinery:status",
+      "type": "custommachinery:config",
       "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item",
-      "x": 85,
-      "y": 38,
-      "width": 0
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 152,
-      "y": 37
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "研究器"
-      }
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 182,
-      "y": 36
+      "y": 63,
+      "width": 16,
+      "height": 16
     },
     {
       "type": "custommachinery:energy",
@@ -92,17 +55,27 @@
       "y": 25
     },
     {
-      "type": "custommachinery:slot",
-      "id": "input_item_2",
-      "x": 120,
-      "y": 37,
-      "width": 18
-    },
-    {
       "type": "custommachinery:fluid",
       "id": "input_fluid",
       "x": 75,
       "y": 25
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 48,
+      "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 146,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item",
+      "x": 85,
+      "y": 38,
+      "width": 0
     },
     {
       "type": "custommachinery:slot",
@@ -119,6 +92,43 @@
           "green": 0.33333334
         }
       }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_2",
+      "x": 120,
+      "y": 37,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 178,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "研究器"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

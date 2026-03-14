@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "物品回收机"
+    "text": {
+      "translate": "物品回收机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/item_recycler",
@@ -64,10 +66,11 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
     },
     {
       "type": "custommachinery:player_inventory",
@@ -75,29 +78,9 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 178,
-      "y": 38
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "物品回收机"
-      }
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 178,
-      "y": 38
+      "type": "custommachinery:progress",
+      "x": 137,
+      "y": 39
     },
     {
       "type": "custommachinery:slot",
@@ -107,19 +90,19 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item_4",
+      "id": "input_item_2",
       "x": 80,
       "y": 18
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item_7",
+      "id": "input_item_3",
       "x": 100,
       "y": 18
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item_2",
+      "id": "input_item_4",
       "x": 60,
       "y": 37
     },
@@ -131,13 +114,19 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item_3",
+      "id": "input_item_6",
+      "x": 100,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_7",
       "x": 60,
       "y": 56
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item_6",
+      "id": "input_item_8",
       "x": 80,
       "y": 56
     },
@@ -149,14 +138,37 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item_8",
-      "x": 100,
-      "y": 37
+      "id": "output_item",
+      "x": 175,
+      "y": 38
     },
     {
-      "type": "custommachinery:progress",
-      "x": 137,
-      "y": 39
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "物品回收机"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
-  ]
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 9
+  }
 }

@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "星际灌注机"
+    "text": {
+      "translate": "星际灌注机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/interdimensional_infuser",
@@ -11,6 +13,10 @@
   },
   "components": [
     {
+      "type": "custommachinery:energy",
+      "capacity": 2000000
+    },
+    {
       "type": "custommachinery:item",
       "id": "input_item_1",
       "mode": "input"
@@ -19,10 +25,6 @@
       "type": "custommachinery:item",
       "id": "input_item_2",
       "mode": "input"
-    },
-    {
-      "type": "custommachinery:energy",
-      "capacity": 2000000
     },
     {
       "type": "custommachinery:item",
@@ -39,10 +41,16 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 75,
+      "y": 26
     },
     {
       "type": "custommachinery:player_inventory",
@@ -50,17 +58,9 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "星际灌注机"
-      }
+      "type": "custommachinery:progress",
+      "x": 131,
+      "y": 29
     },
     {
       "type": "custommachinery:slot",
@@ -74,17 +74,6 @@
       "x": 103,
       "y": 48
     },
-    {
-      "type": "custommachinery:energy",
-      "x": 75,
-      "y": 26
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 131,
-      "y": 29
-    },
-
     {
       "type": "custommachinery:slot",
       "id": "output_item",
@@ -104,6 +93,30 @@
           "alpha": 0.29803923
         }
       }
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "星际灌注机"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

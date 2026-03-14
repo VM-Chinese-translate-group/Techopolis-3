@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "月球采石机"
+    "text": {
+      "translate": "月球采石机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/moon_quarry",
@@ -11,12 +13,8 @@
   },
   "components": [
     {
-      "type": "custommachinery:item_upgrade",
-      "max_output": 64,
-      "id": "upgrade",
-      "mode": "input",
-      "capacity": 1,
-      "max_input": 64
+      "type": "custommachinery:energy",
+      "capacity": 10000000
     },
     {
       "type": "custommachinery:item",
@@ -24,22 +22,32 @@
       "mode": "input"
     },
     {
-      "type": "custommachinery:energy",
-      "capacity": 10000000
-    },
-    {
       "type": "custommachinery:item",
       "id": "output_item",
       "mode": "output",
       "max_input": 0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 84,
+      "y": 25
     },
     {
       "type": "custommachinery:player_inventory",
@@ -47,22 +55,21 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
+      "type": "custommachinery:progress",
+      "x": 127,
+      "y": 30
     },
     {
-      "type": "custommachinery:text",
-      "x": 47,
-      "y": 5,
-      "text": {
-        "text": "月球采石机"
-      }
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 106,
+      "y": 29
     },
     {
-      "type": "custommachinery:energy",
-      "x": 84,
-      "y": 25
+      "type": "custommachinery:slot",
+      "id": "output_item",
+      "x": 155,
+      "y": 29
     },
     {
       "type": "custommachinery:slot",
@@ -79,21 +86,28 @@
       }
     },
     {
-      "type": "custommachinery:slot",
-      "id": "output_item",
-      "x": 155,
-      "y": 29
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
     },
     {
-      "type": "custommachinery:slot",
-      "id": "input_item_1",
-      "x": 106,
-      "y": 29
+      "type": "custommachinery:text",
+      "x": 47,
+      "y": 5,
+      "text": {
+        "text": {
+          "translate": "月球采石机"
+        }
+      }
     },
     {
-      "type": "custommachinery:progress",
-      "x": 127,
-      "y": 30
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

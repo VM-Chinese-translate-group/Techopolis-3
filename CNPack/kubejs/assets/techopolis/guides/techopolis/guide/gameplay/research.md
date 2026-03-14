@@ -9,9 +9,9 @@ item_ids:
     - 'techopolis:elite_research'
     - 'techopolis:ultimate_research'
     - 'techopolis:researcher'
-    - 'techopolis:research_craftier'
-    - 'techopolis:advanced_research_craftier'
-    - 'techopolis:elite_research_craftier'
+    - 'techopolis:research_crafter'
+    - 'techopolis:advanced_research_crafter'
+    - 'techopolis:elite_research_crafter'
 
 
 ---

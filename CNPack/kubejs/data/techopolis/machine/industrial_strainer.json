@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "工业筛滤机"
+    "text": {
+      "translate": "工业筛滤机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/industrial_strainer",
@@ -11,12 +13,8 @@
   },
   "components": [
     {
-      "type": "custommachinery:item_upgrade",
-      "max_output": 64,
-      "id": "upgrade",
-      "mode": "input",
-      "capacity": 1,
-      "max_input": 64
+      "type": "custommachinery:energy",
+      "capacity": 1000000
     },
     {
       "type": "custommachinery:item",
@@ -27,10 +25,6 @@
       "type": "custommachinery:item",
       "id": "input_item_2",
       "mode": "input"
-    },
-    {
-      "type": "custommachinery:energy",
-      "capacity": 1000000
     },
     {
       "type": "custommachinery:item",
@@ -49,19 +43,82 @@
       "id": "output_item_3",
       "mode": "output",
       "max_input": 0
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "upgrade",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 75,
+      "y": 25
     },
     {
       "type": "custommachinery:player_inventory",
       "x": 48,
       "y": 82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 118,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_1",
+      "x": 96,
+      "y": 29
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_item_2",
+      "x": 96,
+      "y": 48
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_1",
+      "x": 145,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_2",
+      "x": 154,
+      "y": 48
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_3",
+      "x": 164,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 120,
+      "y": 48,
+      "ghost": {
+        "items": {
+          "item": "techopolis:basic_technium_machine_frame"
+        },
+        "color": {
+          "alpha": 0.29803923
+        }
+      }
     },
     {
       "type": "custommachinery:status",
@@ -73,62 +130,19 @@
       "x": 47,
       "y": 5,
       "text": {
-        "text": "工业筛滤机"
-      }
-    },
-    {
-      "type": "custommachinery:energy",
-      "x": 75,
-      "y": 25
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item_2",
-      "x": 96,
-      "y": 45
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_item_1",
-      "x": 96,
-      "y": 26
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 117,
-      "y": 27
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "upgrade",
-      "x": 120,
-      "y": 45,
-      "ghost": {
-        "items": {
-          "item": "techopolis:basic_technium_machine_frame"
-        },
-        "color": {
-          "alpha": 0.29803923
+        "text": {
+          "translate": "工业筛滤机"
         }
       }
     },
     {
-      "type": "custommachinery:slot",
-      "id": "output_item_1",
-      "x": 145,
-      "y": 26
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item_3",
-      "x": 164,
-      "y": 26
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_item_2",
-      "x": 154,
-      "y": 45
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "生物质发电机"
+    "text": {
+      "translate": "生物质发电机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/bio_generator",
@@ -11,25 +13,36 @@
   },
   "components": [
     {
+      "type": "custommachinery:energy",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "capacity": 100000
+    },
+    {
       "type": "custommachinery:item",
       "id": "input_item",
       "mode": "input"
-    },
-    {
-      "type": "custommachinery:energy",
-      "capacity": 100000,
-      "config": {
-        "default": "output",
-        "output": true
-      }
     }
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 166,
+      "y": 25
     },
     {
       "type": "custommachinery:player_inventory",
@@ -37,33 +50,39 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 39
     },
     {
       "type": "custommachinery:slot",
       "id": "input_item",
-      "x": 67,
+      "x": 77,
       "y": 38
     },
     {
-      "type": "custommachinery:progress",
-      "x": 120,
-      "y": 39
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
     },
     {
       "type": "custommachinery:text",
       "x": 47,
       "y": 5,
       "text": {
-        "text": "生物质发电机"
+        "text": {
+          "translate": "生物质发电机"
+        }
       }
     },
     {
-      "type": "custommachinery:energy",
-      "x": 182,
-      "y": 25
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

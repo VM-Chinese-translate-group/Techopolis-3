@@ -1,11 +1,12 @@
 {
   "name": {
-    "text": "流体回收机"
+    "text": {
+      "translate": "流体回收机"
+    }
   },
   "appearance": {
     "custommachinery:block": "techopolis:machine/fluid_recycler",
     "custommachinery:hardness": 1.5,
-    "custommachinery:keep_inventory": false,
     "custommachinery:mining_level": "minecraft:needs_stone_tool",
     "custommachinery:requires_tool": false,
     "custommachinery:resistance": 6.0
@@ -26,10 +27,17 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": "techopolis:textures/gui/fluid_injector_background.png",
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 196,
+      "y": 63,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_fluid",
+      "x": 72,
+      "y": 25
     },
     {
       "type": "custommachinery:player_inventory",
@@ -37,34 +45,39 @@
       "y": 82
     },
     {
-      "type": "custommachinery:status",
-      "x": 196,
-      "y": 3
+      "type": "custommachinery:progress",
+      "x": 121,
+      "y": 38
     },
     {
       "type": "custommachinery:slot",
       "id": "output_item",
-      "x": 178,
+      "x": 163,
       "y": 38
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 3
     },
     {
       "type": "custommachinery:text",
       "x": 47,
       "y": 5,
       "text": {
-        "text": "流体回收机"
+        "text": {
+          "translate": "流体回收机"
+        }
       }
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "input_fluid",
-      "x": 57,
-      "y": 25
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 115,
-      "y": 39
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ]
 }

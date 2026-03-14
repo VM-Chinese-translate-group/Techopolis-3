@@ -14,7 +14,7 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "capacity": 10000000
+      "capacity": 100000000
     },
     {
       "type": "custommachinery:item",
@@ -64,12 +64,11 @@
   ],
   "gui": [
     {
-      "type": "custommachinery:texture",
-      "texture": {
-        "texture": "techopolis:textures/gui/fluid_injector_background.png"
-      },
-      "x": 41,
-      "y": 0
+      "type": "custommachinery:config",
+      "x": 199,
+      "y": 5,
+      "width": 13,
+      "height": 13
     },
     {
       "type": "custommachinery:energy",
@@ -176,6 +175,15 @@
           "translate": "超维矿石提取机Mk2"
         }
       }
+    },
+    {
+      "type": "custommachinery:texture",
+      "priority": 1,
+      "texture": {
+        "texture": "techopolis:textures/gui/fluid_injector_background.png"
+      },
+      "x": 41,
+      "y": 0
     }
   ],
   "processor": {
