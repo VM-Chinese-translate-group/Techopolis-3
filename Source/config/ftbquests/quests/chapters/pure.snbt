@@ -351,7 +351,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["6EC7E04C3FFBE331"]
+			dependencies: [
+				"6EC7E04C3FFBE331"
+				"1DD38714228384B1"
+			]
+			dependency_requirement: "one_completed"
 			id: "3F5CAA269FB50482"
 			rewards: [{
 				id: "0971A41087FF05FB"
@@ -367,7 +371,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["16DB448912997A88"]
@@ -549,6 +553,14 @@
 				"6EC7E04C3FFBE331"
 			]
 			id: "1DD38714228384B1"
+			rewards: [{
+				id: "756D2D1CD930CA15"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B541DCE0499CE98"
 				item: { count: 1, id: "techopolis:purified_bio_fuel" }

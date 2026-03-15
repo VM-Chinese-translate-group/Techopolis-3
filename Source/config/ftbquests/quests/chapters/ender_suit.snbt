@@ -400,6 +400,11 @@
 			y: 3.5d
 		}
 		{
+			dependencies: [
+				"66B6D2242D0D62C5"
+				"1B9EBD3D77CA1692"
+				"32E491D15303E893"
+			]
 			id: "46822F1CB547D11E"
 			rewards: [{
 				id: "0A71BFE95647A4AB"
