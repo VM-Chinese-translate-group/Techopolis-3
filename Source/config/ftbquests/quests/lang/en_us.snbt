@@ -120,7 +120,7 @@
 	quest.07E6B3BA5FC9E1D4.quest_desc: ["Made with &lLeaves&r"]
 	quest.07FE6823ADD7A387.quest_desc: ["Simple Fluid Transport"]
 	quest.0823F549D6991801.quest_desc: ["A block of &lBricks&r"]
-	quest.0823F549D6991801.quest_subtitle: "&6&oA Technium Part&r"
+	quest.0823F549D6991801.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
 	quest.083CAE2D8111C611.quest_desc: ["Burning &lLogs&r produces &lCharcoal&r"]
 	quest.08405BECD7E39C63.quest_desc: ["These connect to power receiving or power giving blocks "]
 	quest.08693FE4B1E232EA.quest_desc: ["Allows single item input"]
@@ -152,7 +152,6 @@
 	quest.0B1C5E41D5A8AE66.quest_subtitle: "&5&lFinal Technium Part&r&r"
 	quest.0B35DE200673A337.quest_desc: ["A primitive tool used chop down trees "]
 	quest.0B592478EB281CBC.quest_desc: ["Made inside the &lIndustrial Strainer&r"]
-	quest.0B68208E5E5CC71C.quest_desc: ["More &lCobblestone&r"]
 	quest.0B6CFA77F78F9359.quest_desc: ["A byproduct of running the &lSimulation Chamber&r. Can be used to make &lMolten Mob Essence&r later"]
 	quest.0BC3D907EA723897.quest_desc: ["Saves learnt item"]
 	quest.0BE2D11B6AAFEC01.quest_desc: ["A nice gear"]
@@ -183,7 +182,7 @@
 	quest.0F0153682C016B95.quest_desc: ["A gear from &lCopper&r made inside the &lSolidifier&r"]
 	quest.0F45C5B8AA2F3554.quest_desc: ["&lUltimine&r is not available straight away in this modpack. However, &lHammers&r break a 3x3 area of stone-like blocks and &lExcavators&r do the same with dirt-like blocks. Additionally, axes will break all connected &lLogs&r on a tree."]
 	quest.0F4BDDB5BE283D54.quest_desc: ["&lGlass&r can be made inside a &lBlast Furnace&r"]
-	quest.0F4BDDB5BE283D54.quest_subtitle: "&6&oA Technium Part&r"
+	quest.0F4BDDB5BE283D54.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
 	quest.0FAC56A475DB164F.quest_desc: ["Allows the crafting of &lAdvanced Miners.&r These make double the amount compared to &lBasic Miners&r"]
 	quest.0FDC4D0B19E113B8.quest_desc: ["Control rods go ontop of your fuel rods"]
 	quest.1022FBAF8115651D.quest_desc: ["Can be used to make more advanced options for your &lAE2 &rnetwork. Can also be used to create &lEmpowered Blocks&r"]
@@ -248,7 +247,6 @@
 	quest.15E6A11E3325137D.quest_desc: ["Converts &lNuclear Waste&r into &lPlotonium&r. This machine will radiate your base if broken with radioactive materials inside"]
 	quest.15F835CD334040B1.quest_desc: ["A nice block"]
 	quest.161B4D2963F205F1.quest_desc: ["Providing more of these in the range of the Eye Crafter will increase its speed"]
-	quest.161B4D2963F205F1.quest_subtitle: "eye crafter alternator"
 	quest.164B6FAB9100BA01.quest_desc: ["Comes in 2 and 3 variants"]
 	quest.164B6FAB9100BA01.title: "Compacting"
 	quest.166A2386E894F6B2.quest_desc: ["Made inside the &lInscriber&r"]
@@ -278,7 +276,7 @@
 		"Now requires thunder weather"
 	]
 	quest.17BCE6CC64C79DFE.quest_desc: ["Power for the &lFluidizer&r"]
-	quest.17DE850E2399B19E.quest_desc: ["Using this unlocks &lFTB Ultimine&r"]
+	quest.17DE850E2399B19E.quest_desc: ["Using this unlocks &lFTB Ultimine&r, allowing you to mine up to 64 blocks at once"]
 	quest.17E12CCD15AABAF1.quest_desc: ["The &lAncient Infuser&r allows you to create &lAncient Debris&r, this can be mined into &lNetherite Scrap&r or silk touched to get &lAncient Debris&r"]
 	quest.17E750DF1D62C944.quest_desc: ["Most items in the world are made up of various differernt matters. This machine allows items to be converted into matter.  Connect to tanks to export from the machine"]
 	quest.1809F8F24B9F7655.quest_desc: ["Broken down &lTechnium Ingots&r and produce &lBasic Research&r"]
@@ -296,7 +294,6 @@
 	quest.1929861EEF607D3C.quest_subtitle: "&l&e&oElite Technium Part&r&r&r"
 	quest.1977A3BD061C4176.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
 	quest.198A1BEAAD34949E.quest_desc: ["Part of the &lJet Suit&r, protects from &lRadiation&r"]
-	quest.198A1BEAAD34949E.quest_subtitle: "Need to change this"
 	quest.19E16ABF1A0A8D3B.quest_desc: ["Drops from &lAlien Zombies&r, scary"]
 	quest.19E16ABF1A0A8D3B.quest_subtitle: "&l&3Lunar Technium Part&r&r"
 	quest.19EC5DB0E55B994B.quest_desc: [
@@ -369,7 +366,6 @@
 	quest.212E0419EE0D22D2.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.2168DA83073B6E6F.quest_desc: ["Less time, yes please"]
 	quest.216DC8C847BC0701.quest_desc: ["A 3x3 of these will create the Rocket Launch Pad used to place and launch rockets from"]
-	quest.217AEAA34BA73F71.quest_desc: ["More &lCobblestone&r"]
 	quest.21C88A0C46E4AE0C.quest_desc: ["Can be made in the &lDimensional Infuser&r"]
 	quest.21C88A0C46E4AE0C.quest_subtitle: "&e&oElite Technium Part&r&r"
 	quest.21CBA4B0D9ADBA2D.quest_desc: ["Part of the &lJet Suit&r, protects from &lRadiation&r and provides Flight"]
@@ -444,7 +440,6 @@
 	quest.2D5B54661E6C6B91.quest_desc: ["Squeezes the &lOil&r out of &lCanola&r"]
 	quest.2D6FC72A00364E19.quest_desc: ["&lPurified Matter Balls&r"]
 	quest.2D7925B03EA3FACC.quest_desc: ["A &lGlobe&r of a &lDifferent Planet&r"]
-	quest.2DF79E982C0C7C09.quest_desc: ["Unlimited &lCobblestone&r"]
 	quest.2DF8506904960FFF.quest_desc: ["A block of crystals"]
 	quest.2E205FFE0E8B00B7.quest_desc: ["This machine will turn &lCobblestone&r into &lLava&r"]
 	quest.2E818BD882DB685D.quest_desc: ["Makes your chemicals last longer in &lMechanism&r machines"]
@@ -659,7 +654,6 @@
 	quest.462C80341227BDB0.quest_desc: ["A simple tool used to chop down &lTrees&r. Holding &lSHIFT&r will prevent the whole tree being cut down"]
 	quest.462C80341227BDB0.title: "Axe"
 	quest.46822F1CB547D11E.quest_desc: ["The &lEye Crafter&r uses energy and items to create various different eyes"]
-	quest.46822F1CB547D11E.quest_subtitle: "name eye crafter"
 	quest.46822F1CB547D11E.title: "Eye Crafter"
 	quest.46B1A6A644FB964A.quest_desc: ["Allows up to 3 different &lDimensional Ores&r to be produced"]
 	quest.46B8DBEE30CEA5CD.quest_desc: ["A nice block"]
@@ -841,7 +835,6 @@
 	quest.595DDC56B4A8EA48.quest_desc: ["Used to make &lEaster Egg Shells&r"]
 	quest.5964977D62377196.quest_desc: ["A sturdy casing"]
 	quest.59744642E6E70669.quest_desc: ["Part of the &lJet Suit&r, protects from &lRadiation&r and provides Flight"]
-	quest.59744642E6E70669.quest_subtitle: "Need to change this"
 	quest.597A882AC8940AF3.quest_desc: [
 		"Place the controller floating a block in the air above the ground to place the structure correctly."
 		""
@@ -861,7 +854,6 @@
 	quest.5A53BD4558AC1BD9.quest_desc: ["The best Alloy"]
 	quest.5A56F3D4663098AB.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.5A623F099ADBE313.quest_desc: ["Part of the &lJet Suit&r, protects from &lRadiation&r and provides Flight"]
-	quest.5A623F099ADBE313.quest_subtitle: "Need to change this"
 	quest.5A71F3ACE4FE87E2.quest_desc: ["Made on the &lEmpowerer&r"]
 	quest.5B18AC90F0647595.quest_desc: ["Using the &lAtomic Reconstructor&r, &lCoal&r can be converted to &lVoid Crystals&r"]
 	quest.5B2681181BC3444A.quest_desc: ["Like the &lBlank Stone Ore&r this can be used to create &lNether Ores&r"]
@@ -1000,8 +992,11 @@
 	quest.68C3DE9661155584.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
 	quest.68CEB2B5EF97D879.quest_desc: ["Made inside the Freezer"]
 	quest.68D49AB076433B95.quest_desc: ["Made inside the &lFreezer&r"]
-	quest.68F1D0EED1F4D9D6.quest_desc: ["More &lCobblestone&r"]
-	quest.69088E4CDACCC49B.quest_desc: ["The final tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
+	quest.69088E4CDACCC49B.quest_desc: [
+		"The final tier of &lTechnium&r"
+		""
+		"You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."
+	]
 	quest.6954AA71B77C3E07.quest_desc: ["Made in the&l Simulation Chamber&r from&l Enderman Predictions&r"]
 	quest.6954CDE27C3CD472.quest_desc: ["Cooling the machine, these blocks can be collected with a wrench"]
 	quest.69AE4F5A8FF21D33.quest_desc: ["Allows for the input and output of &lHeat&r and &lFluids&r"]
@@ -1099,7 +1094,6 @@
 	quest.71CE3D552A73D26D.quest_desc: ["Various upgrades to increase storage amounts and more"]
 	quest.71CE3D552A73D26D.title: "Drawer Upgrades"
 	quest.71E0A475C0F3370A.quest_desc: ["Unlocks upgrades for your drawers"]
-	quest.71E7AEB6A988FC74.quest_desc: ["More &lCobblestone&r"]
 	quest.721F05A90997BD3F.quest_desc: ["Provide the Basic Technium Machine will all the resources it needs to get your first technium ingot"]
 	quest.7274579A211437D9.quest_desc: ["This can be added to a &lController Multiblock&r to allow your &lController&r to make &lAlloys&r "]
 	quest.727F2BFFFD189288.quest_desc: ["A &lCopper Focus&r can be used to get more&l Copper Ore Pieces &rfrom your &lStone&r"]
@@ -1127,7 +1121,6 @@
 	quest.741016E4936B361A.quest_desc: ["A nice gas"]
 	quest.741016E4936B361A.quest_subtitle: "&5&lFinal Technium Part&r&r"
 	quest.7459085012C3D370.quest_desc: ["Made inside the &lTechnium Compressor&r"]
-	quest.74771D298012AE01.quest_desc: ["More &lCobblestone&r"]
 	quest.749D8FCAC12D8A59.quest_desc: ["Turns molten fluids into items"]
 	quest.74F7D0DA3F413175.quest_desc: ["Broken down &lTechnium Ingots&r"]
 	quest.7530327449DD1791.quest_desc: ["Whats inside?"]

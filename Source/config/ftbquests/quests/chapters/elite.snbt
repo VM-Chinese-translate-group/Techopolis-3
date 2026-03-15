@@ -111,7 +111,7 @@
 			id: "17DE850E2399B19E"
 			tasks: [{
 				id: "3B9557134F3C8FAE"
-				item: { count: 1, id: "ultimine_addition:miner_certificate" }
+				item: { count: 1, id: "techopolis:ultimine_scroll" }
 				type: "item"
 			}]
 			x: 2.5d

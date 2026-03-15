@@ -20,7 +20,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5150AEB0840FE0EE"]
+			dependencies: [
+				"5150AEB0840FE0EE"
+				"2FEC0AD0A1D02C85"
+				"56AF5073083161FF"
+			]
 			id: "6806FD653554696B"
 			rewards: [{
 				id: "44224C1CA03E7380"
@@ -36,7 +40,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -95,8 +99,8 @@
 				item: { count: 1, id: "techopolis:fluid_injector" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["32EA60F0550234C1"]

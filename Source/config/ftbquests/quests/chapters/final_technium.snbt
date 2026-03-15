@@ -385,6 +385,7 @@
 				"410B77115744B1E1"
 				"04B9780F7FDEA78C"
 				"741016E4936B361A"
+				"7E37BAB9BBB7B6C4"
 			]
 			id: "69088E4CDACCC49B"
 			rewards: [{
@@ -740,6 +741,10 @@
 			y: 7.0d
 		}
 		{
+			dependencies: [
+				"183C6F95344B0F96"
+				"52FD22EBDAAE572B"
+			]
 			id: "741016E4936B361A"
 			rewards: [{
 				id: "6B22CA55B0C89ED1"

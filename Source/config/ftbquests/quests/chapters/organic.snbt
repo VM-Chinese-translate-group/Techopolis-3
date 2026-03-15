@@ -398,6 +398,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["41C0081B97930CDC"]
 			id: "7D7B0D3584B7BE0C"
 			rewards: [{
 				id: "5364255F80417C68"

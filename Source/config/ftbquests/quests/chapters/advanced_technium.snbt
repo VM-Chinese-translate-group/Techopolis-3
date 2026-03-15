@@ -97,8 +97,8 @@
 				item: { count: 1, id: "techopolis:advanced_technium_machine_frame" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -352,7 +352,7 @@
 				item: { count: 1, id: "techopolis:milker" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -371,7 +371,7 @@
 				item: { count: 1, id: "routers:importer_block" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -390,7 +390,7 @@
 				item: { count: 1, id: "routers:exporter_block" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -413,8 +413,8 @@
 				item: { count: 1, id: "routers:router_connector" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.0d
+			y: 3.5d
 		}
 	]
 }
