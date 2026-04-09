@@ -461,5 +461,16 @@
 			x: 4.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["503BC43B0FA47F12"]
+			id: "42FC776341163E83"
+			tasks: [{
+				id: "38A559718F80BCD6"
+				item: { count: 1, id: "enderrf:ender_battery" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
 	]
 }
