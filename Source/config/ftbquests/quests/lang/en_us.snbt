@@ -252,9 +252,9 @@
 	quest.166A2386E894F6B2.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.169753582E9B8F26.quest_desc: ["The &lOuter End&r has large plants, breaking these will obtain &lChorus Fruit&r"]
 	quest.169DB21BB2060530.quest_desc: [
-		"Stellaris Planet Chooser can be buggy, that's why you could make a Portal to the Moon too with a &l&#555555Block of Netherite&r and light it up with the &l&9Rocket&r"
+		"The Stellaris Planet Selector is broken, so you have to make a Portal to the Moon from &l&#555555Block of Netherite&r and light it with the &l&9Rocket&r"
 		""
-		"The Portal built in the &lOverworld&r and it looks like a regular Nether Portal just made out from &l&#555555Block of Netherite&r "
+		"The Portal is built in the &l&bOverworld&r, and it just looks like a regular &l&4Nether Portal&r"
 	]
 	quest.169DB21BB2060530.title: "Moon Portal"
 	quest.16BC5C3507E58E72.quest_desc: ["A better alloy"]
@@ -365,7 +365,6 @@
 	quest.211A18355B35EEDD.quest_desc: ["Burning logs in a furnace will create &0&lCharcoal&r&r"]
 	quest.212E0419EE0D22D2.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.2168DA83073B6E6F.quest_desc: ["Less time, yes please"]
-	quest.216DC8C847BC0701.quest_desc: ["A 3x3 of these will create the Rocket Launch Pad used to place and launch rockets from"]
 	quest.21C88A0C46E4AE0C.quest_desc: ["Can be made in the &lDimensional Infuser&r"]
 	quest.21C88A0C46E4AE0C.quest_subtitle: "&e&oElite Technium Part&r&r"
 	quest.21CBA4B0D9ADBA2D.quest_desc: ["Part of the &lJet Suit&r, protects from &lRadiation&r and provides Flight"]
@@ -562,12 +561,12 @@
 	quest.39F5BC13576E3BB5.quest_desc: ["A simple &lSmelting&r device"]
 	quest.3A0D69B21D5779B7.quest_desc: ["Allows creation of various different building blocks "]
 	quest.3A138558D1F52068.quest_desc: ["As with most ores the &lCombiner&r can be used to make &lOres&r"]
-	quest.3A37CCD1861B2A9F.quest_desc: ["You must be wearing the Space Suit or you will instantly die on the moon"]
+	quest.3A37CCD1861B2A9F.quest_desc: ["You must be wearing the Space Suit or you will &ldie&r on the moon"]
 	quest.3A37CCD1861B2A9F.title: "The Moon"
 	quest.3A4E5F33D36C1A1F.quest_desc: ["Used to craft the &lTime in a Bottle&r, You can also charge your &lTime in a Bottle&r in a &lTIAB Charger&r"]
 	quest.3A7A81CE95B5E41F.quest_desc: ["Obtained from &lLeaves&r when breaking them with &lShears&r"]
 	quest.3A7A81CE95B5E41F.title: "Leaves"
-	quest.3A819A471C879295.quest_desc: ["&lRocket Fuel&r can be made in the &lRefinery&r with &lEmpowered Canola Oil&r and &lOil&r. Shift right click on a placed rocket to fill with fuel"]
+	quest.3A819A471C879295.quest_desc: ["&lRocket Fuel&r can be made in the &lRefinery&r with &lEmpowered Canola Oil&r and &lOil&r."]
 	quest.3A819A471C879295.quest_subtitle: "&l&3Lunar Technium Part&r&r"
 	quest.3AA6769C77675887.quest_desc: ["Made inside the&l Mob Infuser&r"]
 	quest.3AECEAE143DF01E3.quest_desc: ["An even more complex egg"]
