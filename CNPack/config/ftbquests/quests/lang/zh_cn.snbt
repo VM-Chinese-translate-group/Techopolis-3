@@ -240,9 +240,9 @@
 	quest.166A2386E894F6B2.quest_desc: ["在&l压印器&r中制作。"]
 	quest.169753582E9B8F26.quest_desc: ["破坏&l末地外岛&r的大型植物可以获得&l紫颂果&r。"]
 	quest.169DB21BB2060530.quest_desc: [
-		"Stellaris星球选择器有时不稳定，因此你也可以用&l&#555555下界合金块&r搭建通往月球的传送门，并用&l&9火箭&r将其点燃。"
+		"The Stellaris Planet Selector is broken, so you have to make a Portal to the Moon from &l&#555555Block of Netherite&r and light it with the &l&9Rocket&r"
 		""
-		"该传送门需在&l主世界&r建造，外观与普通的下界传送门类似，只是材质换成了&l&#555555下界合金块&r。"
+		"The Portal is built in the &l&bOverworld&r, and it just looks like a regular &l&4Nether Portal&r"
 	]
 	quest.169DB21BB2060530.title: "月球传送门"
 	quest.16BC5C3507E58E72.quest_desc: ["更好的合金"]
@@ -344,7 +344,6 @@
 	quest.21135B950EB08935.quest_desc: ["用于配置管道的连接以及输入与抽出。"]
 	quest.212E0419EE0D22D2.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
 	quest.2168DA83073B6E6F.quest_desc: ["用时更短，太好了。"]
-	quest.216DC8C847BC0701.quest_desc: ["按照3x3的方式摆放可创建火箭发射平台，随后可用于放置和发射火箭。"]
 	quest.21C88A0C46E4AE0C.quest_desc: ["可在&l超维灌注机&r中制作。"]
 	quest.21C88A0C46E4AE0C.quest_subtitle: "&e&o精英𬬸金部件&r&r"
 	quest.21CBA4B0D9ADBA2D.quest_desc: ["&l喷气服&r的一部分，用于抵御&l辐射&r和提供飞行能力。"]
@@ -531,12 +530,12 @@
 	quest.39F5BC13576E3BB5.quest_desc: ["简易&l烧炼&r设备"]
 	quest.3A0D69B21D5779B7.quest_desc: ["用于制作多种建筑方块。"]
 	quest.3A138558D1F52068.quest_desc: ["在&l融合器&r中与大多数的矿石融合即可生产各种出新的&l矿石&r。"]
-	quest.3A37CCD1861B2A9F.quest_desc: ["如果不想快速死亡的话，记得在月球上穿好整套航天服。"]
+	quest.3A37CCD1861B2A9F.quest_desc: ["You must be wearing the Space Suit or you will &ldie&r on the moon"]
 	quest.3A37CCD1861B2A9F.title: "月球"
 	quest.3A4E5F33D36C1A1F.quest_desc: ["用于合成&l时间之瓶&r。你也可以在&l时间之瓶充能器&r中为你的&l时间之瓶&r充能。"]
 	quest.3A7A81CE95B5E41F.quest_desc: ["通过&l剪刀&r挖掘&l树叶&r获得。"]
 	quest.3A7A81CE95B5E41F.title: "树叶"
-	quest.3A819A471C879295.quest_desc: ["可以在&l精炼厂&r中用&l充能油&r和&石油&r制作&l燃油&r。Shift右击已放置的火箭，即可为其添加燃料。"]
+	quest.3A819A471C879295.quest_desc: ["&lRocket Fuel&r can be made in the &lRefinery&r with &lEmpowered Canola Oil&r and &lOil&r."]
 	quest.3A819A471C879295.quest_subtitle: "&l&3月球𬬸金部件&r&r"
 	quest.3AA6769C77675887.quest_desc: ["在&l生物灌注机&r中制作。"]
 	quest.3AECEAE143DF01E3.quest_desc: ["更更复杂的蛋"]
@@ -600,6 +599,7 @@
 	quest.4296168019E02456.quest_desc: ["用于制作一些AE&l2&r中的高级物品。"]
 	quest.42AEF379BA248070.quest_desc: ["提高&l通用机械&r机器的运行速度，但会消耗更多能量！"]
 	quest.42DB2A01FF6A3716.quest_desc: ["无类型驱动器"]
+	quest.42FC776341163E83.quest_desc: ["Can be used to transfer power wirelessly"]
 	quest.431FFFFC2D686F6F.quest_desc: ["这可真不少啊！"]
 	quest.4330A91B07B29A42.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.43AAFECB58D05B68.quest_desc: ["用&l再处理器&r加工&l青氰锭&r制成，是更好的&l反应堆&r燃料。"]
