@@ -1,7 +1,7 @@
 {
   "packId": 1193409,
   "packName": "Techopolis 3",
-  "versionPattern": "Techopolis 3-{version}",
+  "versionPattern": "Techopolis_3_{version}",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
   "ftbQuests": {
