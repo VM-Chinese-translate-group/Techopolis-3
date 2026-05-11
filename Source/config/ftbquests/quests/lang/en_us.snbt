@@ -173,7 +173,13 @@
 	quest.0E2AE31FA80CF621.quest_subtitle: "&l&0Hellish Technium Part&r&r"
 	quest.0E9C01587AF28CF7.quest_desc: ["Advanced machines, these blocks can be collected with a wrench"]
 	quest.0EBD79868F379238.quest_desc: ["A more useful bucket, Hot fluids will break this!"]
-	quest.0ED198E1D3F5C6AB.quest_desc: ["The brains of the &lThermal Evaporation Plant&r. When provided with Water and Heat will produce &lBrine&r"]
+	quest.0ED198E1D3F5C6AB.quest_desc: [
+		"The brains of the &lThermal Evaporation Plant&r. "
+		""
+		"When provided with Water and Heat will produce &lBrine&r"
+		""
+		"An &l&5Ultimate Thermal Evaporation Plant&r max production is &l19080 mb/t&r at 18 block height which would require using at least &l5.3 kFE&r in a &lResistive Heater&r "
+	]
 	quest.0EFE2EA2AEE1E8FB.quest_desc: [
 		"&lVillager Trades&r are disabled and &lWandering Traders&r do not spawn!"
 		""
@@ -392,6 +398,12 @@
 	quest.24814E5E23240951.quest_desc: [" Seems fine"]
 	quest.2511C2023D150059.quest_desc: ["Made inside the Casting Solidifier"]
 	quest.253ADDF82ACF3827.quest_desc: ["Made inside the &lInscriber&r"]
+	quest.258C3ABFBB52E45E.quest_desc: [
+		"Useful to transfer things wirelessly"
+		""
+		"An &l&eElite Technium Nugget&r can be used to make them private"
+	]
+	quest.258C3ABFBB52E45E.title: "Ender Storage"
 	quest.25B104BF86722D76.quest_desc: ["Part of the &lSpace Suit&r needed if you dream for the stars"]
 	quest.25BEDD3E36706DCB.quest_desc: ["Found inside &lThe Nether&r, a &lDigital Miner&r can be used to collect this quicker"]
 	quest.25D117DF7A9ABBA9.quest_desc: ["Much stronger casing to produce a lot more power"]
@@ -632,7 +644,6 @@
 	quest.4296168019E02456.quest_desc: ["Used for some pretty advanced AE&l2&r "]
 	quest.42AEF379BA248070.quest_desc: ["Makes your &lMechanism&r machines faster but use more power!"]
 	quest.42DB2A01FF6A3716.quest_desc: ["Typeless drives"]
-	quest.42FC776341163E83.quest_desc: ["Can be used to transfer power wirelessly"]
 	quest.431FFFFC2D686F6F.quest_desc: ["Thats a lot!"]
 	quest.4330A91B07B29A42.quest_desc: ["Made inside the &lTechnium Compressor&r"]
 	quest.43AAFECB58D05B68.quest_desc: ["Made from &lCyanite&r in a &lReprocessor&r. A better fuel in a &lReactor&r"]
@@ -1028,7 +1039,8 @@
 	quest.6B656CAFA613B835.quest_subtitle: "&l&oWorld Specific - Sky&r&r"
 	quest.6B656CAFA613B835.title: "More Drops"
 	quest.6B6EEF27517D11D4.quest_desc: ["Made inside the &lInscriber&r"]
-	quest.6B94EDB5F4C3C12D.quest_desc: ["A nice block, Radioactive"]
+	quest.6B94EDB5F4C3C12D.quest_desc: ["A nice block, &lRadioactive&r"]
+	quest.6B94EDB5F4C3C12D.quest_subtitle: "&lRadioactive&r"
 	quest.6B9A3F48C51E3A56.quest_desc: ["&lEnriched Matter Balls&r"]
 	quest.6BAC208511DD1765.quest_desc: ["As with most ores the &lCombiner&r can be used to make &lOres&r"]
 	quest.6BACC14E3F05254E.quest_desc: ["The base of Advanced Research"]
@@ -1187,7 +1199,8 @@
 	quest.7BD76766F64D6765.quest_desc: ["The &lIndustrial Strainer&r can be used to find useful materials from some &lDusts&r"]
 	quest.7BE181E727195DFF.quest_desc: ["&lCrafted Ore Pieces&r"]
 	quest.7BEE2BACAA3C2DAC.quest_desc: ["Made inside the &lTechnium Compressor&r"]
-	quest.7C56CD67F68BBC10.quest_desc: ["Can be used to place the Interdimensional Infuser, the inside will need at least 24 dimensional ores inside from this chapter to work!"]
+	quest.7C56CD67F68BBC10.quest_desc: ["Can be used to place the Interdimensional Infuser, the inside will need at least &l24 Dimensional Ores&r inside from this chapter to work!"]
+	quest.7C56CD67F68BBC10.quest_subtitle: "Important read this"
 	quest.7C71965881E41F72.quest_desc: ["This can go through the normal &lDimensional Ore Processing&r to obtain &lQuartz.&r However it can also be used to obtain the gems from &lNether Ruby, Sapphire&r and&l Peridot Ore&r"]
 	quest.7C9D956A4FA66C01.quest_desc: ["Allows you to use &lNetherite&r to upgrade tools and armor"]
 	quest.7CC9643D3ABBDBAA.quest_desc: ["Made inside the &lMob Infuser&r"]
@@ -1263,6 +1276,7 @@
 	task.13A7578A22112DC0.title: "GG"
 	task.13C9BD64ADE1B367.title: "canola"
 	task.13CEAB9829DFFE2D.title: "Any #techopolis:infinity_cells"
+	task.1403D5F77E5F8914.title: "Thermal Evaporation Block"
 	task.15851B90297A3343.title: "giant multiblock to create sing"
 	task.1692D62576286663.title: "Something?"
 	task.175D4A937380C8B1.title: "Any #minecraft:wart_blocks"
@@ -1272,6 +1286,7 @@
 	task.1A8D9E7716C12EBE.title: "Dragon Breath"
 	task.1C51863E1A236AAA.title: "Ultimine"
 	task.1D64E0B82814E393.title: "More Debris"
+	task.201F234B2506F932.title: "Thermal Evaporation Controller"
 	task.210D9D0A1458DACC.title: "Copper "
 	task.2224198B265FD610.title: "Clean Quartz Slurry"
 	task.238CAB096F6FD8E1.title: "Dragon Slayer 5000"
@@ -1296,6 +1311,7 @@
 	task.3C69D01E4D7A4DA3.title: "uranium"
 	task.3EE8B17228529C19.title: "Floating Block"
 	task.3F6138F1A167493C.title: "Purifying Salt Mulch"
+	task.3F7D0507C002D907.title: "Thermal Evaporation Valve"
 	task.3F845F17BE2F8EA1.title: "Villagers"
 	task.3FF159357783E9B0.title: "Cloche"
 	task.4028D61CA6E2356D.title: "Molten Coal"
@@ -1328,6 +1344,7 @@
 	task.609CD7A3457D5C2B.title: "advanced technium"
 	task.623A795E0CFDF26F.title: "final tech"
 	task.6295C53B04A9FA45.title: "lunarium"
+	task.62C86944B1FBDD7E.title: "Ender Storage"
 	task.6362C271D27511E5.title: "Energy Pipes?"
 	task.638046BDEF6F10FA.title: "skulker"
 	task.63E6A8122E66206A.title: "parralle"
