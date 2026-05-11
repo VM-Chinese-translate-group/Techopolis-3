@@ -227,5 +227,16 @@
 			x: 1.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["4FF792FEB07EA0C4"]
+			id: "258C3ABFBB52E45E"
+			tasks: [{
+				id: "62C86944B1FBDD7E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(enderrf:ender_battery)item(enderstorage:ender_chest)item(enderstorage:ender_tank)item(enderstorage:ender_pouch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 }

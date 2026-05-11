@@ -299,6 +299,9 @@
 				"6B1EBB558E0E41B3"
 				"3E674458485820CC"
 			]
+			icon: {
+				id: "mekanism:thermal_evaporation_controller"
+			}
 			id: "0ED198E1D3F5C6AB"
 			rewards: [{
 				id: "07618C8758201858"
@@ -309,8 +312,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "184B789F039655FA"
-				item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+				id: "201F234B2506F932"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:thermal_evaporation_controller)item(morethermalevaporation:basic_thermal_evaporation_controller)item(morethermalevaporation:advanced_thermal_evaporation_controller)item(morethermalevaporation:elite_thermal_evaporation_controller)item(morethermalevaporation:ultimate_thermal_evaporation_controller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -318,6 +321,9 @@
 		}
 		{
 			dependencies: ["3E674458485820CC"]
+			icon: {
+				id: "mekanism:thermal_evaporation_valve"
+			}
 			id: "69AE4F5A8FF21D33"
 			rewards: [{
 				id: "662ADA5276CE4F8A"
@@ -328,8 +334,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "072C37528DC23ABA"
-				item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+				id: "3F7D0507C002D907"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:thermal_evaporation_valve)item(morethermalevaporation:basic_thermal_evaporation_valve)item(morethermalevaporation:advanced_thermal_evaporation_valve)item(morethermalevaporation:elite_thermal_evaporation_valve)item(morethermalevaporation:ultimate_thermal_evaporation_valve))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -337,6 +343,9 @@
 		}
 		{
 			dependencies: ["15162CAC2C5ED379"]
+			icon: {
+				id: "mekanism:thermal_evaporation_block"
+			}
 			id: "3E674458485820CC"
 			rewards: [{
 				id: "298A8D6C22FE8736"
@@ -347,8 +356,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6901C1C2917A2E1F"
-				item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+				id: "1403D5F77E5F8914"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:thermal_evaporation_block)item(morethermalevaporation:basic_thermal_evaporation_block)item(morethermalevaporation:advanced_thermal_evaporation_block)item(morethermalevaporation:elite_thermal_evaporation_block)item(morethermalevaporation:ultimate_thermal_evaporation_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -5.0d
