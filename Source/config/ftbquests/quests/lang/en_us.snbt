@@ -153,6 +153,7 @@
 	quest.0B35DE200673A337.quest_desc: ["A primitive tool used chop down trees "]
 	quest.0B592478EB281CBC.quest_desc: ["Made inside the &lIndustrial Strainer&r"]
 	quest.0B6CFA77F78F9359.quest_desc: ["A byproduct of running the &lSimulation Chamber&r. Can be used to make &lMolten Mob Essence&r later"]
+	quest.0BC192EC26F113B0.quest_desc: ["A blueprint containing the data to create a &lReplicator Motor&r. Right click on a &lChip Storage&r with a &lChip&r inside to learn how to craft something new"]
 	quest.0BC3D907EA723897.quest_desc: ["Saves learnt item"]
 	quest.0BE2D11B6AAFEC01.quest_desc: ["A nice gear"]
 	quest.0BE2D11B6AAFEC01.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
@@ -585,6 +586,7 @@
 	quest.3AF4B40E1A1225E3.quest_desc: ["Various different resources in the game contain &lMatter Values&r. These items can be transformed into &lMatter&r which can be used to make those items!"]
 	quest.3AFED249E73796AA.quest_desc: ["Unlocks Toms Storage, allows the viewing and crafting of items from connected inventories"]
 	quest.3B0ABF1D1830C835.quest_desc: ["Can be obtained through the &lCrusher&r"]
+	quest.3B49444CCD5EAE4A.quest_desc: ["Place it on a &lReplicator&r to make it even faster at the chance failing the replication!"]
 	quest.3B4A980A5AECA6FF.quest_desc: ["Can be crafted from &lTwigs&r and &lSticks&r "]
 	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&oWorld Specific - SF, Sky, SG&r&r"
 	quest.3B4A980A5AECA6FF.title: "Oak Sapling"
@@ -1163,7 +1165,7 @@
 	quest.783FCE5894B5465D.quest_desc: ["25% less time to complete &lResearch Crafting&r"]
 	quest.787346C90ADE56AF.quest_desc: ["&lTechnium&r is very expensive automation is much needed! You should be able to automate this with everything in the quests up to this point "]
 	quest.787346C90ADE56AF.quest_subtitle: "&7&oAdvanced Technium Part&r&r"
-	quest.78CF9DB8D153131B.quest_desc: ["Place on a &lReplicator&r to make it a bit faster!"]
+	quest.78CF9DB8D153131B.quest_desc: ["Place it on a &lReplicator&r to make it faster!"]
 	quest.78D84F25E62AE1CE.quest_desc: ["A nice rod"]
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&oAdvanced Technium Part&r&r&r"
 	quest.795B98C57909A168.quest_desc: ["Smelted &lNetherite Dust&r"]
