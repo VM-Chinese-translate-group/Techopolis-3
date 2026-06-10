@@ -192,7 +192,11 @@
 	quest.0F4BDDB5BE283D54.quest_subtitle: "&l&6&oBasic Technium Part&r&r"
 	quest.0FAC56A475DB164F.quest_desc: ["Allows the crafting of &lAdvanced Miners.&r These make double the amount compared to &lBasic Miners&r"]
 	quest.0FDC4D0B19E113B8.quest_desc: ["Control rods go ontop of your fuel rods"]
-	quest.1022FBAF8115651D.quest_desc: ["Can be used to make more advanced options for your &lAE2 &rnetwork. Can also be used to create &lEmpowered Blocks&r"]
+	quest.1022FBAF8115651D.quest_desc: [
+		"Can be used to make more advanced options for your &lAE2 &rnetwork. "
+		""
+		"Can also be used to create &lEmpowered Oil&r"
+	]
 	quest.1025BFD3B7686103.quest_desc: ["Seems pretty useless. &lDiamonds&r before gold feels strange "]
 	quest.106BD139F3CAB463.quest_desc: ["Can extract whatever &lDimensional Ore&r you place inside the structure. RF and time will vary. The &lDimensional Ore Extractor Placer&r will only place the frame, you must put your chosen dimensional ore inside"]
 	quest.1092DD1D298FA2C9.quest_desc: ["Unlocks a &lWireless Charger&r, which charges items in a players inventory up 128 blocks away! Works with &lCurios&r as well"]
@@ -1243,6 +1247,7 @@
 	quest.7E551B3EEF042958.quest_desc: ["A simple &lFurnace&r"]
 	quest.7E6B36EA11603917.quest_desc: ["A large amount of &lCobblestone&r"]
 	quest.7E93D28AC288DC0B.quest_desc: ["&lPurifying Salt Mulch&r can be made more efficently in the &lPurification Chamber&r"]
+	quest.7EBFCCB550E8DBDF.quest_desc: ["Multiblock Empowerer which is easier to automate than the regular Empowerer"]
 	quest.7ED9959F38B73908.quest_desc: ["The best protection, never runs out"]
 	quest.7F81760FA260294B.quest_desc: [
 		"Custom Machinery is the heart of Techopolis 3. Includes a lot of multiblock machines as well a simple machines."
