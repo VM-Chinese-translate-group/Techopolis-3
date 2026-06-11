@@ -391,5 +391,24 @@
 			x: 1.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["4E2F5B340EA252C3"]
+			id: "7EBFCCB550E8DBDF"
+			rewards: [{
+				id: "272D4D63A4F09D02"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07206FAF58FAEC38"
+				item: { count: 1, id: "techopolis:super_empowerer" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
 	]
 }
