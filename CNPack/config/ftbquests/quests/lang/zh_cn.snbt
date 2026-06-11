@@ -146,6 +146,7 @@
 	quest.0B1C5E41D5A8AE66.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.0B592478EB281CBC.quest_desc: ["在&l工业筛滤机&r中制成。"]
 	quest.0B6CFA77F78F9359.quest_desc: ["运行&l模拟室&r的副产品。之后可以用来制作&l熔融生物源质&r。"]
+	quest.0BC192EC26F113B0.quest_desc: ["A blueprint containing the data to create a &lReplicator Motor&r. Right click on a &lChip Storage&r with a &lChip&r inside to learn how to craft something new"]
 	quest.0BC3D907EA723897.quest_desc: ["保存已鉴定的物品。"]
 	quest.0BE2D11B6AAFEC01.quest_desc: ["一种不错的齿轮。"]
 	quest.0BE2D11B6AAFEC01.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
@@ -166,7 +167,13 @@
 	quest.0E2AE31FA80CF621.quest_subtitle: "&l&0地狱𬬸金部件&r&r"
 	quest.0E9C01587AF28CF7.quest_desc: ["更高级的机器。这些方块可用扳手回收。"]
 	quest.0EBD79868F379238.quest_desc: ["真正能用的桶，但高温流体会使其碎裂！"]
-	quest.0ED198E1D3F5C6AB.quest_desc: ["&l热力蒸馏塔&r的大脑。给它提供水和热能即可生产&l盐水&r。"]
+	quest.0ED198E1D3F5C6AB.quest_desc: [
+		"The brains of the &lThermal Evaporation Plant&r. "
+		""
+		"When provided with Water and Heat will produce &lBrine&r"
+		""
+		"An &l&5Ultimate Thermal Evaporation Plant&r max production is &l19080 mb/t&r at 18 block height which would require using at least &l5.3 kFE&r in a &lResistive Heater&r "
+	]
 	quest.0EFE2EA2AEE1E8FB.quest_desc: [
 		"&l村民交易&r功能已禁用，&l流浪商人&r也不会生成！"
 		""
@@ -178,7 +185,11 @@
 	quest.0F4BDDB5BE283D54.quest_subtitle: "&l&6&o基础𬬸金部件&r&r"
 	quest.0FAC56A475DB164F.quest_desc: ["解锁&l高级矿机&r的配方。与&l基础矿机&r相比，它的产量翻倍。"]
 	quest.0FDC4D0B19E113B8.quest_desc: ["控制棒需要放在燃料棒的上面。"]
-	quest.1022FBAF8115651D.quest_desc: ["可用于为您的&lAE2&r网络提供更多高级选项。还可用于制造&l充能方块&r。"]
+	quest.1022FBAF8115651D.quest_desc: [
+		"Can be used to make more advanced options for your &lAE2 &rnetwork. "
+		""
+		"Can also be used to create &lEmpowered Oil&r"
+	]
 	quest.1025BFD3B7686103.quest_desc: ["好像没什么用。真的有人连&l钻石&r都有了，还没有金子吗。"]
 	quest.106BD139F3CAB463.quest_desc: ["可以提取放置在结构内的任何&l超维矿石&r。所需的能量和时间会有所不同。&l超维矿石提取机放置器&r只会放置框架，您必须手动放置所需的超维矿石。"]
 	quest.1092DD1D298FA2C9.quest_desc: ["解锁&l无线充能台&r，它可以为128格内玩家物品栏中的物品充电！对&l饰品&r同样有效。"]
@@ -370,6 +381,12 @@
 	quest.24814E5E23240951.quest_desc: ["看着不错。"]
 	quest.2511C2023D150059.quest_desc: ["在Casting的固化器中制成。"]
 	quest.253ADDF82ACF3827.quest_desc: ["在&l压印器&r中制作。"]
+	quest.258C3ABFBB52E45E.quest_desc: [
+		"Useful to transfer things wirelessly"
+		""
+		"An &l&eElite Technium Nugget&r can be used to make them private"
+	]
+	quest.258C3ABFBB52E45E.title: "Ender Storage"
 	quest.25B104BF86722D76.quest_desc: ["你需要一套&l航天服&r来遨游星辰，而这是其中的一件。"]
 	quest.25BEDD3E36706DCB.quest_desc: ["产于&l下界&r，使用&l数字型采矿机&r可高效采集。"]
 	quest.25D117DF7A9ABBA9.quest_desc: ["更坚固的外壳，能产出多得多的能量。"]
@@ -541,6 +558,7 @@
 	quest.3AECEAE143DF01E3.quest_desc: ["更更复杂的蛋"]
 	quest.3AF4B40E1A1225E3.quest_desc: ["游戏中的各种物品都具有&l物质值&r。这些物品可以转化为&l物质&r，进而重新制造某些物品。"]
 	quest.3AFED249E73796AA.quest_desc: ["解锁&l汤姆的简易存储&r，此模组可以读取所有已连接的容器物品栏中的物品供你查看和合成。"]
+	quest.3B49444CCD5EAE4A.quest_desc: ["Place it on a &lReplicator&r to make it even faster at the chance failing the replication!"]
 	quest.3B4A980A5AECA6FF.quest_desc: ["通过&l树枝&r和&l木棍&r合成获得。"]
 	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.3B4A980A5AECA6FF.title: "橡树树苗"
@@ -599,7 +617,6 @@
 	quest.4296168019E02456.quest_desc: ["用于制作一些AE&l2&r中的高级物品。"]
 	quest.42AEF379BA248070.quest_desc: ["提高&l通用机械&r机器的运行速度，但会消耗更多能量！"]
 	quest.42DB2A01FF6A3716.quest_desc: ["无类型驱动器"]
-	quest.42FC776341163E83.quest_desc: ["可用于无线传输能量"]
 	quest.431FFFFC2D686F6F.quest_desc: ["这可真不少啊！"]
 	quest.4330A91B07B29A42.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
 	quest.43AAFECB58D05B68.quest_desc: ["用&l再处理器&r加工&l青氰锭&r制成，是更好的&l反应堆&r燃料。"]
@@ -978,7 +995,8 @@
 	quest.6B656CAFA613B835.quest_subtitle: "&l&o世界类型限定——空岛&r&r"
 	quest.6B656CAFA613B835.title: "额外掉落物"
 	quest.6B6EEF27517D11D4.quest_desc: ["在&l压印器&r中制作。"]
-	quest.6B94EDB5F4C3C12D.quest_desc: ["一种不错的放射性方块。"]
+	quest.6B94EDB5F4C3C12D.quest_desc: ["A nice block, &lRadioactive&r"]
+	quest.6B94EDB5F4C3C12D.quest_subtitle: "&lRadioactive&r"
 	quest.6B9A3F48C51E3A56.quest_desc: ["&l富集物质球&r。"]
 	quest.6BAC208511DD1765.quest_desc: ["在&l融合器&r中与大多数的矿石融合即可生产各种出新的&l矿石&r。"]
 	quest.6BACC14E3F05254E.quest_desc: ["所有高级研究的基石"]
@@ -1094,7 +1112,7 @@
 	quest.783FCE5894B5465D.quest_desc: ["&l研究合成&r的时间减少25%。"]
 	quest.787346C90ADE56AF.quest_desc: ["制作&l𬬸金&r的成本非常高昂，迫切需要一套自动化流程！任务进行到这一步，你已经掌握了搭建完整生产线所需的全部技术。"]
 	quest.787346C90ADE56AF.quest_subtitle: "&7&o高级𬬸金部件&r&r"
-	quest.78CF9DB8D153131B.quest_desc: ["将它放置在&l复制器&r上，可以使复制器运行地更快一点。"]
+	quest.78CF9DB8D153131B.quest_desc: ["Place it on a &lReplicator&r to make it faster!"]
 	quest.78D84F25E62AE1CE.quest_desc: ["一根优质的杆。"]
 	quest.78D84F25E62AE1CE.quest_subtitle: "&l&7&o高级𬬸金部件&r&r&r"
 	quest.795B98C57909A168.quest_desc: ["烧炼&l下界合金粉&r获得。"]
@@ -1129,7 +1147,8 @@
 	quest.7BD76766F64D6765.quest_desc: ["&l工业筛滤机&r可用于从&l月岩尘&r中提取有用的材料。"]
 	quest.7BE181E727195DFF.quest_desc: ["&l由矿物碎块加工而来&r。"]
 	quest.7BEE2BACAA3C2DAC.quest_desc: ["在&l𬬸金压缩机&r中制作。"]
-	quest.7C56CD67F68BBC10.quest_desc: ["可用于放置星际灌注机，内部需要至少24个本章节中的维度矿石才能使用！"]
+	quest.7C56CD67F68BBC10.quest_desc: ["Can be used to place the Interdimensional Infuser, the inside will need at least &l24 Dimensional Ores&r inside from this chapter to work!"]
+	quest.7C56CD67F68BBC10.quest_subtitle: "Important read this"
 	quest.7C71965881E41F72.quest_desc: ["此物品可通过常规的&l超维矿石处理&r流程来获取&l石英&r。此外，它还能用于从&l下界红宝石矿石、蓝宝石矿石&r和&l橄榄石矿石&r中提取宝石。"]
 	quest.7C9D956A4FA66C01.quest_desc: ["可以使用使用&l下界合金&r来升级你的武器和护甲。"]
 	quest.7CC9643D3ABBDBAA.quest_desc: ["在&l生物灌注机&r中制作。"]
@@ -1156,6 +1175,7 @@
 	quest.7E40BDDD788324CB.quest_desc: ["&lCasting&r模组的核心"]
 	quest.7E6B36EA11603917.quest_desc: ["很多很多&l圆石&r。"]
 	quest.7E93D28AC288DC0B.quest_desc: ["&l提纯仓&r可以更高效地制取&l纯化盐覆盖物&r。"]
+	quest.7EBFCCB550E8DBDF.quest_desc: ["Multiblock Empowerer which is easier to automate than the regular Empowerer"]
 	quest.7ED9959F38B73908.quest_desc: ["提供最好的保护，永不损耗。"]
 	quest.7F81760FA260294B.quest_desc: [
 		"自定义机械是科技城3的核心模组，它添加了许多大型多方块机器和一些简易的单方块机器。"
@@ -1180,12 +1200,14 @@
 	task.129C930020BB4752.title: "骨粉"
 	task.131757603072EC55.title: "Modular Machinery"
 	task.13CEAB9829DFFE2D.title: "任意#techopolis:infinity_cells"
+	task.1403D5F77E5F8914.title: "Thermal Evaporation Block"
 	task.19455DEF7D2AB6CE.title: "熔融奶酪"
 	task.19738CEF25EFDE55.title: "熔融不稳定物质"
 	task.1A550D252A5503FF.title: "欢迎游玩科技城3"
 	task.1A8D9E7716C12EBE.title: "龙息"
 	task.1C51863E1A236AAA.title: "连锁破坏"
 	task.1D64E0B82814E393.title: "更多残骸"
+	task.201F234B2506F932.title: "Thermal Evaporation Controller"
 	task.2224198B265FD610.title: "纯净石英浆液"
 	task.239067B1B53367A9.title: "任意#minecraft:axes"
 	task.2F14A9F9DC7C1C50.title: "橡树树苗"
@@ -1196,6 +1218,7 @@
 	task.39305F4029C79DF1.title: "研究"
 	task.3EE8B17228529C19.title: "悬浮方块"
 	task.3F6138F1A167493C.title: "纯化盐覆盖物"
+	task.3F7D0507C002D907.title: "Thermal Evaporation Valve"
 	task.3F845F17BE2F8EA1.title: "Villagers"
 	task.3FF159357783E9B0.title: "玻璃罩"
 	task.4028D61CA6E2356D.title: "熔融碳"
@@ -1214,6 +1237,7 @@
 	task.5835C0B24EB29833.title: "巧克力"
 	task.5AB30C491C1CDE4C.title: "熔融末影燃料"
 	task.5C60AAE147AA946E.title: "任意#techopolis:flux_crafters"
+	task.62C86944B1FBDD7E.title: "Ender Storage"
 	task.64547E943E87A7EB.title: "磁盘驱动器"
 	task.6508A54A7854CB76.title: "任意#techopolis:all_coils"
 	task.67CA130DCAB6E5CE.title: "末影乙醇"
