@@ -62,6 +62,7 @@ StartupEvents.registry("item", (event) => {
     event.create('techopolis:pure_matter_mold').tag('casting:molds')
     event.create('techopolis:catalog').tag('shops:catalogs').maxStackSize(1).glow(true)
 
+    event.create('techopolis:ultimine_scroll').texture('waystones:item/return_scroll')
 
     //Mod Mastery Books
     /*
@@ -172,7 +173,7 @@ StartupEvents.registry("item", (event) => {
 
     //Dimensional Ore Extractor
     event.create("techopolis:dimensional_ore_extractor_placer", 'roomopolis_key').templateId("techopolis:dimensional_ore_extractor")
-        .keyBlock("techopolis:dimensional_ore_extractor").heightAdjustment(2).consumeKey(false).frontAdjustment(-1).removeDoor(false).blocksRequired(true).tag('techopolis:placers').texture("minecraft:item/paper")
+        .keyBlock("#techopolis:valid_extractors").heightAdjustment(2).consumeKey(false).frontAdjustment(-1).removeDoor(false).blocksRequired(true).tag('techopolis:placers').texture("minecraft:item/paper")
 
     //Reprocessor
     event.create("techopolis:reprocessor_placer", 'roomopolis_key').templateId("techopolis:reprocessor")
@@ -210,6 +211,9 @@ StartupEvents.registry("item", (event) => {
     event.create("techopolis:technium_compressor_placer", 'roomopolis_key').templateId("techopolis:technium_compressor")
         .keyBlock("techopolis:technium_compressor").heightAdjustment(4).consumeKey(false).frontAdjustment(-1).removeDoor(false).blocksRequired(true).tag('techopolis:placers').texture("minecraft:item/paper")
 
+    //Super Empowerer
+    event.create("techopolis:super_empowerer_placer", 'roomopolis_key').templateId("techopolis:super_empowerer")
+        .keyBlock("techopolis:super_empowerer").heightAdjustment(2).consumeKey(false).frontAdjustment(-1).removeDoor(false).blocksRequired(true).tag('techopolis:placers').texture("minecraft:item/paper")
 
 
 
