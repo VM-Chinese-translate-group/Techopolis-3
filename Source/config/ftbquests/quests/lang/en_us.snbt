@@ -397,6 +397,7 @@
 	quest.2359C61CD8CE974E.quest_desc: ["&lCrafted Ore Pieces&r"]
 	quest.23A0D676ACC0C04D.quest_desc: ["Grout can be made from &lSand&r, &lGravel&r and &lClay&r"]
 	quest.23E7F88F7C88C7F8.quest_desc: ["Obtained when crushing &lSimulation Pearls&r"]
+	quest.23F7B473A7A6068E.quest_desc: ["SFM is an extremely powerful mod that can help your automation a lot. For dyes you can use the Dye Base or you can craft BBL Colors Grass Blocks and bone meal it for colored flower"]
 	quest.2436734739033064.quest_desc: ["Found inside &lThe Nether&r, a &lDigital Miner&r can be used to collect this quicker"]
 	quest.2447F9EEBDB0455A.quest_desc: ["Broken down &lTechnium Ingots&r"]
 	quest.246E1D3E59885EA4.quest_desc: ["A third &lThermal Evaporation Plant&r can be used to transform &lLithium&r into &lSulfuric Acid,&r inside the &lCrystalizer&r this can turn &lSulfuric Acid&r into &lSulfur&r"]
@@ -1107,6 +1108,7 @@
 	quest.70CE3624FE54C162.quest_desc: ["Unlocks the &lSummoning Block&r, a powerful item that can be used to spawn most passive mobs"]
 	quest.70FED206562250EE.quest_desc: ["Broken down &lTechnium Ingots&r and produce &lAdvanced Research&r"]
 	quest.70FFEFD9FA7F8F79.quest_desc: ["A very durable plate used in crafting &lSpace Parts&r"]
+	quest.7156F8554D3F633D.quest_desc: ["Multiblocks like &lTechnium Machines&r, the &lReprocessor&r, the &lAlloy Kiln&r, and the &lNuclear Reactor&r can have more than one multiblock controller on them. The only exceptions are the &lMiners&r, which can only have one controller"]
 	quest.717B7596A4D120B7.quest_desc: ["Can be made inside the &lSimple Sawmill&r using planks"]
 	quest.71BC21748842E49D.quest_desc: ["Allows you to craft &lHostile Mob Data Models&r and &lHostile Mob Drops&r"]
 	quest.71CE3D552A73D26D.quest_desc: ["Various upgrades to increase storage amounts and more"]
@@ -1293,6 +1295,7 @@
 	task.1A8D9E7716C12EBE.title: "Dragon Breath"
 	task.1C51863E1A236AAA.title: "Ultimine"
 	task.1D64E0B82814E393.title: "More Debris"
+	task.1F056AB0342F6031.title: "Multiblock Controllers"
 	task.201F234B2506F932.title: "Thermal Evaporation Controller"
 	task.210D9D0A1458DACC.title: "Copper "
 	task.2224198B265FD610.title: "Clean Quartz Slurry"

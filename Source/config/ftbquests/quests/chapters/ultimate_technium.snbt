@@ -136,6 +136,7 @@
 			}]
 			tasks: [{
 				id: "0D2A47ADC24314AB"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "extendedae:entro_budding_fully"
