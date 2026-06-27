@@ -221,5 +221,73 @@
 			x: -2.0d
 			y: -3.5d
 		}
+		{
+			dependencies: [
+				"3585D168B9471A60"
+				"0561C57B9F1E095C"
+				"15499AC0CD9B7843"
+			]
+			id: "3D99B05C1E3910DA"
+			rewards: [{
+				id: "5E45C49F39435518"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79455521E22BD5B4"
+				item: { components: { "hostilenetworks:data": 742, "hostilenetworks:data_model": "hostilenetworks:warden" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"378B1DDE3AEE1BF3"
+				"3D99B05C1E3910DA"
+			]
+			id: "158E6B1AC3E1437A"
+			rewards: [{
+				id: "3480D952F1C9B201"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B45E211A8AA837A"
+				item: { count: 1, id: "hostilenetworks:data_center" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"378B1DDE3AEE1BF3"
+				"3D99B05C1E3910DA"
+			]
+			id: "0984C7C146BBDD35"
+			rewards: [{
+				id: "5B988806517E59F5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "067648E1CDA6F309"
+				item: { count: 1, id: "hostilenetworks:data_center_io_port" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
 	]
 }

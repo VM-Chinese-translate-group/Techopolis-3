@@ -717,5 +717,24 @@
 			x: 5.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["3684A76E4D89E09E"]
+			id: "378B1DDE3AEE1BF3"
+			rewards: [{
+				id: "22429984C70C9BED"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BD08266355837D1"
+				item: { count: 1, id: "minecraft:crying_obsidian" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
 	]
 }

@@ -137,6 +137,7 @@
 	quest.097D5C49B448F3B9.quest_desc: ["Reduces the total time to grow crops, up to 3 can be placed in the &lCloche&r"]
 	quest.09827A07A75DF349.quest_desc: ["A nice rod"]
 	quest.09827A07A75DF349.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
+	quest.0984C7C146BBDD35.quest_desc: ["The IO Port is essential for interacting with the multiblock and can substitute any wall or ceiling block in the shell"]
 	quest.09ABAFBB12D74469.quest_desc: ["Comes from the &lRock Washer&r"]
 	quest.09D5E36EB0574F45.quest_desc: ["So Powerful"]
 	quest.09EF9B22F858DCE6.quest_desc: ["Allows the&l Rock Enricher&r to create &lDiorite&r"]
@@ -255,6 +256,11 @@
 	quest.15499AC0CD9B7843.quest_desc: ["Allows for &lBoss Data Models&r like &lWithers&r and &lDragons&r"]
 	quest.156D74B785F34B66.quest_desc: ["Simple fluid transport"]
 	quest.15829566832C5AB7.quest_desc: ["Smelted &lClay Balls &r"]
+	quest.158E6B1AC3E1437A.quest_desc: [
+		"The peak of simulation! Runs up to 25 &6Self Aware&r Data Models concurrently"
+		""
+		"You can hold G on this block in JEI for some more useful information"
+	]
 	quest.15E6A11E3325137D.quest_desc: ["Converts &lNuclear Waste&r into &lPlotonium&r. This machine will radiate your base if broken with radioactive materials inside"]
 	quest.15F835CD334040B1.quest_desc: ["A nice block"]
 	quest.161B4D2963F205F1.quest_desc: ["Providing more of these in the range of the Eye Crafter will increase its speed"]
@@ -520,7 +526,7 @@
 	quest.34444DB41F4FE551.quest_subtitle: "cyan"
 	quest.3491F0FBE638D596.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.34ACA6A6E5AA1790.quest_desc: ["Your first machine, Holding SHIFT will show you the blocks needed for the structure. When you have all the blocks place the Sawmill down and press the structure button in the GUI to place the blocks"]
-	quest.34FD3253812C2865.quest_desc: ["Used to create Waystones"]
+	quest.34FD3253812C2865.quest_desc: ["Used to create Waystones, Travel Anchors and Staff"]
 	quest.3508602627DFB450.quest_desc: [
 		"&lRouters&r is a mod that adds wireless &lItem, Fluid, Energy&r and &lChemical&r transportation. "
 		""
@@ -555,6 +561,7 @@
 		"Produces &lMilk&r when supplied with energy and having a &lCow&r nearby. Cows can be summoned with the "
 		"{ \"text\": \"Summoning Block\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63718127F5015BBD\" } }"
 	]
+	quest.378B1DDE3AEE1BF3.quest_desc: ["Made from &lAntimatter Gas&r, which can be made in the &lNuclear Reactor&r"]
 	quest.379DC4BB243A420A.quest_desc: ["&lSticks&r can be crafted into &lOak Planks&r"]
 	quest.379DC4BB243A420A.title: "Planks"
 	quest.37BC662493F856C4.quest_desc: ["Made inside the &lMixer&r"]
