@@ -170,7 +170,7 @@
 			}]
 			tasks: [{
 				id: "1B9E93EE63E6241E"
-				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:mogler" }, count: 1, id: "hostilenetworks:data_model" }
+				item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:mogler" }, count: 1, id: "hostilenetworks:data_model" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
@@ -190,7 +190,7 @@
 			}]
 			tasks: [{
 				id: "0123959E4B5F3F0F"
-				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:martian_raptor" }, count: 1, id: "hostilenetworks:data_model" }
+				item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:martian_raptor" }, count: 1, id: "hostilenetworks:data_model" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
@@ -212,14 +212,14 @@
 			tasks: [
 				{
 					id: "280E47347D8A1593"
-					item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:pygro" }, count: 1, id: "hostilenetworks:data_model" }
+					item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:pygro" }, count: 1, id: "hostilenetworks:data_model" }
 					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "78AC090203B8818A"
-					item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:pygro_brute" }, count: 1, id: "hostilenetworks:data_model" }
+					item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:pygro_brute" }, count: 1, id: "hostilenetworks:data_model" }
 					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
@@ -241,7 +241,7 @@
 			}]
 			tasks: [{
 				id: "5C014098887DFDC0"
-				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:star_crawler" }, count: 1, id: "hostilenetworks:data_model" }
+				item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:star_crawler" }, count: 1, id: "hostilenetworks:data_model" }
 				match_components: "fuzzy"
 				type: "item"
 			}]

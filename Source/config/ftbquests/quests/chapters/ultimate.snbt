@@ -92,7 +92,7 @@
 			}]
 			tasks: [{
 				id: "0377121F055316C5"
-				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:data_model" }
+				item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:data_model" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
@@ -169,7 +169,7 @@
 			}]
 			tasks: [{
 				id: "0420A53921125D6B"
-				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" }
+				item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
@@ -405,7 +405,7 @@
 			}]
 			tasks: [{
 				id: "04E6C26A7BB2F69F"
-				item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" }
+				item: { components: { "hostilenetworks:data": 998, "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
