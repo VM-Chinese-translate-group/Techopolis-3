@@ -132,7 +132,7 @@
 	quest.097D5C49B448F3B9.quest_desc: ["可以缩短作物生长周期，最多可在&l玻璃罩&r中放置3个。"]
 	quest.09827A07A75DF349.quest_desc: ["一种不错的棒。"]
 	quest.09827A07A75DF349.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
-	quest.0984C7C146BBDD35.quest_desc: ["The IO Port is essential for interacting with the multiblock and can substitute any wall or ceiling block in the shell"]
+	quest.0984C7C146BBDD35.quest_desc: ["&lIO端口&r是与多方块结构进行交互的核心部件，它可以替代外壳中的任何墙体或天花板方块。"]
 	quest.09ABAFBB12D74469.quest_desc: ["通过&l岩石洗矿机&r获得。"]
 	quest.09D5E36EB0574F45.quest_desc: ["如此强大"]
 	quest.09EF9B22F858DCE6.quest_desc: ["让&l岩石富集器&r制造&l闪长岩&r。"]
@@ -245,9 +245,9 @@
 	quest.156D74B785F34B66.quest_desc: ["简易的流体运输方式。"]
 	quest.15829566832C5AB7.quest_desc: ["烧炼&l黏土球&r获得。"]
 	quest.158E6B1AC3E1437A.quest_desc: [
-		"The peak of simulation! Runs up to 25 &6Self Aware&r Data Models concurrently"
+		"模拟技术的巅峰！能同时运行多达25个&6自我意识&r级别的数据模型。"
 		""
-		"You can hold G on this block in JEI for some more useful information"
+		"你可以在JEI中对该方块按住G键，以查看更多实用的详细信息。"
 	]
 	quest.15E6A11E3325137D.quest_desc: ["将&l核废料&r转化为&l钚&r。此机器若因放射性物质损坏，将会对你的基地造成辐射影响。"]
 	quest.15F835CD334040B1.quest_desc: ["一种不错的方块。"]
@@ -381,7 +381,7 @@
 	quest.23420AE8F3F5942F.quest_desc: ["来自于&l超维复制物质矿石&r。"]
 	quest.2359C61CD8CE974E.quest_desc: ["&l由矿物碎块加工而来&r。"]
 	quest.23E7F88F7C88C7F8.quest_desc: ["粉碎&l模拟珍珠&r获得。"]
-	quest.23F7B473A7A6068E.quest_desc: ["SFM is an extremely powerful mod that can help your automation a lot. For dyes you can use the Dye Base or you can craft BBL Colors Grass Blocks and bone meal it for colored flower"]
+	quest.23F7B473A7A6068E.quest_desc: ["SFM是一款极其强大的模组，能为你的自动化提供巨大帮助。关于染料，你可以直接使用染料基础，或者制作BBL Colors模组中的草方块并对其施加骨粉来获取彩色鲜花。"]
 	quest.2436734739033064.quest_desc: ["产于&l下界&r，使用&l数字型采矿机&r可高效采集。"]
 	quest.2447F9EEBDB0455A.quest_desc: ["分解&l𬬸金锭&r获得。"]
 	quest.246E1D3E59885EA4.quest_desc: ["第三个&l热力蒸馏塔&r能够将&l液态锂&r转化为&l液态硫酸&r，而&l化学结晶器&r能够将&l硫酸&r转化为&l硫磺&r。"]
@@ -496,7 +496,7 @@
 	quest.34444DB41F4FE551.quest_desc: ["眼睛在看着你合成。"]
 	quest.34444DB41F4FE551.quest_subtitle: "青色"
 	quest.3491F0FBE638D596.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
-	quest.34FD3253812C2865.quest_desc: ["Used to create Waystones, Travel Anchors and Staff"]
+	quest.34FD3253812C2865.quest_desc: ["用于制作传送石碑、旅行锚和法杖。"]
 	quest.3508602627DFB450.quest_desc: [
 		"&lRouters&r模组添加了无线&l物品、流体、能量&r及&l化学物质&r的传输功能。"
 		""
@@ -531,7 +531,7 @@
 		"当提供能量且附近有&l牛&r时，将会产出&l奶&r。可以使用"
 		"{ \"text\": \"召唤方块\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63718127F5015BBD\" } }来召唤牛。"
 	]
-	quest.378B1DDE3AEE1BF3.quest_desc: ["Made from &lAntimatter Gas&r, which can be made in the &lNuclear Reactor&r"]
+	quest.378B1DDE3AEE1BF3.quest_desc: ["由&l反物质&r制成，反物质可以在&l核反应堆&r中制作。"]
 	quest.379DC4BB243A420A.quest_desc: ["通过&l木棍&r合成&l橡木木板&r。"]
 	quest.379DC4BB243A420A.title: "木板"
 	quest.37BC662493F856C4.quest_desc: ["在&l搅拌机&r中制作。"]
@@ -1063,7 +1063,7 @@
 	quest.70CE3624FE54C162.quest_desc: ["解锁&l召唤方块&r的配方。这是一个强大的物品，可以用来生成大多数被动生物。"]
 	quest.70FED206562250EE.quest_desc: ["通过分解&l𬬸金锭&r获得，可用于开展&l高级研究&r。"]
 	quest.70FFEFD9FA7F8F79.quest_desc: ["一种非常耐用的板材，用于制造&l太空部件&r。"]
-	quest.7156F8554D3F633D.quest_desc: ["Multiblocks like &lTechnium Machines&r, the &lReprocessor&r, the &lAlloy Kiln&r, and the &lNuclear Reactor&r can have more than one multiblock controller on them. The only exceptions are the &lMiners&r, which can only have one controller"]
+	quest.7156F8554D3F633D.quest_desc: ["像&l𬬸金制备机&r、&l再处理器&r、&l合金窑&r以及&l核反应堆&r这样的多方块结构，可以拥有不止一个多方块控制器。唯一的例外是&l采矿机&r，它只能拥有一个控制器。"]
 	quest.71BC21748842E49D.quest_desc: ["用于合成&l敌对生物的数据模型&r并产出&l敌对生物的掉落物&r。"]
 	quest.71CE3D552A73D26D.quest_desc: ["多种升级，可以增加存储容量等等。"]
 	quest.71CE3D552A73D26D.title: "抽屉升级"
@@ -1216,7 +1216,7 @@
 	task.1A8D9E7716C12EBE.title: "龙息"
 	task.1C51863E1A236AAA.title: "连锁破坏"
 	task.1D64E0B82814E393.title: "更多残骸"
-	task.1F056AB0342F6031.title: "Multiblock Controllers"
+	task.1F056AB0342F6031.title: "多方块结构控制器"
 	task.201F234B2506F932.title: "热力蒸馏控制器"
 	task.2224198B265FD610.title: "纯净石英浆液"
 	task.239067B1B53367A9.title: "任意#minecraft:axes"
