@@ -56,13 +56,6 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "input_item",
-      "x": 85,
-      "y": 38,
-      "width": 0
-    },
-    {
-      "type": "custommachinery:slot",
       "id": "output_item",
       "x": 156,
       "y": 42

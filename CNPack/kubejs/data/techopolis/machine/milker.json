@@ -48,13 +48,6 @@
       "y": 82
     },
     {
-      "type": "custommachinery:slot",
-      "id": "input_item",
-      "x": 85,
-      "y": 38,
-      "width": 0
-    },
-    {
       "type": "custommachinery:status",
       "x": 196,
       "y": 3

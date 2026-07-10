@@ -15,15 +15,15 @@
     {
       "type": "custommachinery:energy",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
         "RIGHT": "OUTPUT",
         "BACK": "OUTPUT",
-        "LEFT": "OUTPUT"
+        "LEFT": "OUTPUT",
+        "output": true
       },
-      "capacity": 100000
+      "capacity": 50000000
     },
     {
       "type": "custommachinery:item",

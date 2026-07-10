@@ -21,24 +21,26 @@
     {
       "type": "custommachinery:energy",
       "config": {
-        "output": true,
         "TOP": "BOTH",
         "BOTTOM": "BOTH",
         "FRONT": "BOTH",
         "RIGHT": "BOTH",
         "BACK": "BOTH",
         "LEFT": "BOTH",
-        "input": true
+        "input": true,
+        "output": true
       },
-      "capacity": 50000000
+      "capacity": 1000000000
     },
     {
       "type": "custommachinery:item",
+      "blacklist": "mekanism:pellet_polonium",
       "id": "input_item_1",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "whitelist": "mekanism:pellet_polonium",
       "id": "input_item_2",
       "mode": "input"
     },
