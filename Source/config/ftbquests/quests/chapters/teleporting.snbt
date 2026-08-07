@@ -10,6 +10,7 @@
 	id: "7118110DAA84E0A3"
 	images: [{
 		height: 0.59d
+		id: "507EE619B422738C"
 		image: "techopolis:textures/quests/teleporting.png"
 		rotation: 0.0d
 		width: 5.8d

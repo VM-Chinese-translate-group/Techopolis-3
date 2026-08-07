@@ -10,6 +10,7 @@
 	id: "1F397164BBEF8D8C"
 	images: [{
 		height: 0.59d
+		id: "5300C49D29BF800F"
 		image: "techopolis:textures/quests/hellish_technium.png"
 		rotation: 0.0d
 		width: 8.23d

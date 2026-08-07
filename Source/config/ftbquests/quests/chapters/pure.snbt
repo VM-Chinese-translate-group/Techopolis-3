@@ -10,6 +10,7 @@
 	id: "15505F228A3E783D"
 	images: [{
 		height: 0.59d
+		id: "06A874AF72E90A5F"
 		image: "techopolis:textures/quests/pure.png"
 		rotation: 0.0d
 		width: 2.39d

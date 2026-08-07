@@ -10,6 +10,7 @@
 	id: "6F79DAF4007E988B"
 	images: [{
 		height: 0.59d
+		id: "7029442BF05FB9C8"
 		image: "techopolis:textures/quests/simulation.png"
 		rotation: 0.0d
 		width: 5.15d

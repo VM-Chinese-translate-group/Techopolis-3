@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 0.59d
+			id: "53E5F076ED8F8F3F"
 			image: "techopolis:textures/quests/ultimate_research.png"
 			rotation: 0.0d
 			width: 8.84d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7C62B652EBDFA593"
 			image: "techopolis:item/ultimate_research"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7BABEA3A0930A2A8"
 			image: "techopolis:item/ultimate_research"
 			rotation: 0.0d
 			width: 1.0d

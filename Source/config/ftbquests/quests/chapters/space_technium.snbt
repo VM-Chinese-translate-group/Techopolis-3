@@ -10,6 +10,7 @@
 	id: "2AD7999C77649A4B"
 	images: [{
 		height: 0.59d
+		id: "20EA793E03B2BC84"
 		image: "techopolis:textures/quests/lunar_technium.png"
 		rotation: 0.0d
 		width: 7.52d

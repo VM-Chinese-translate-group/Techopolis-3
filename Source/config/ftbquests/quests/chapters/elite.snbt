@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 0.59d
+			id: "00412FC62E7A696D"
 			image: "techopolis:textures/quests/elite_research.png"
 			rotation: 0.0d
 			width: 7.11d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5B36868EA2185E27"
 			image: "techopolis:item/elite_research"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "750CD648EA6D3784"
 			image: "techopolis:item/elite_research"
 			rotation: 0.0d
 			width: 1.0d

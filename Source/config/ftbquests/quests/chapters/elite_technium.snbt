@@ -10,6 +10,7 @@
 	id: "7895EEE1B43945DC"
 	images: [{
 		height: 0.59d
+		id: "5AA49459DF4DF8AC"
 		image: "techopolis:textures/quests/elite_technium.png"
 		rotation: 0.0d
 		width: 7.03d

@@ -10,6 +10,7 @@
 	id: "352D842B47601587"
 	images: [{
 		height: 0.59d
+		id: "4EB6F9E96C49ADA0"
 		image: "techopolis:textures/quests/dirt.png"
 		rotation: 0.0d
 		width: 2.1d

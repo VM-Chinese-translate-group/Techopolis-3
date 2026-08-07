@@ -10,6 +10,7 @@
 	id: "5E946E592C72AA24"
 	images: [{
 		height: 0.59d
+		id: "056036260A204FEC"
 		image: "techopolis:textures/quests/empowering.png"
 		rotation: 0.0d
 		width: 5.95d

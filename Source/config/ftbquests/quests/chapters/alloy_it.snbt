@@ -10,6 +10,7 @@
 	id: "4F56581EBA28EE04"
 	images: [{
 		height: 0.59d
+		id: "688D4AE63BB918D2"
 		image: "techopolis:textures/quests/alloy_it.png"
 		rotation: 0.0d
 		width: 3.66d

@@ -10,6 +10,7 @@
 	id: "75F2EB67B996B906"
 	images: [{
 		height: 0.59d
+		id: "07BFC40A39C675D2"
 		image: "techopolis:textures/quests/reactor.png"
 		rotation: 0.0d
 		width: 3.82d

@@ -9,6 +9,7 @@
 	id: "32CCCAE6DDC44589"
 	images: [{
 		height: 0.59d
+		id: "1AD5861C61C1F793"
 		image: "techopolis:textures/quests/advanced_technium.png"
 		rotation: 0.0d
 		width: 9.33d
@@ -347,6 +348,14 @@
 		{
 			dependencies: ["41278D9307F638FC"]
 			id: "375B3C974E203D4B"
+			rewards: [{
+				id: "68398B2D3FCA7266"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "19F03AA38EF39025"
 				item: { count: 1, id: "techopolis:milker" }

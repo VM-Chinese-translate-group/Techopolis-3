@@ -10,6 +10,7 @@
 	id: "2F964226768854CD"
 	images: [{
 		height: 0.59d
+		id: "41496D6094C76079"
 		image: "techopolis:textures/quests/deepslate.png"
 		rotation: 0.0d
 		width: 4.98d

@@ -16,6 +16,7 @@
 	id: "3DC9B3127DB86B0A"
 	images: [{
 		height: 0.59d
+		id: "25DAF3522BF973E8"
 		image: "techopolis:textures/quests/melting.png"
 		rotation: 0.0d
 		width: 3.72d
