@@ -1,12 +1,12 @@
 {
   "modpack": {
     "name": "Techopolis 3",
-    "version": "Techopolis_3-12.4",
+    "version": "12.4",
     "translation": {
       "id": "techopolis3",
       "url": "https://vmct-cn.top/modpacks/techopolis3/",
       "language": "zh_cn",
-      "version": "12.3",
+      "version": "12.4",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }
