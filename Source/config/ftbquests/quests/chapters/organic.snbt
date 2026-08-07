@@ -10,6 +10,7 @@
 	id: "20DFE1D59E6B033A"
 	images: [{
 		height: 0.59d
+		id: "5A330168F0461F4C"
 		image: "techopolis:textures/quests/organic.png"
 		rotation: 0.0d
 		width: 3.77d

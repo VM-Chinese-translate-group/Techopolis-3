@@ -11,6 +11,7 @@
 	id: "24E812A2E93C1D37"
 	images: [{
 		height: 0.59d
+		id: "351A45CE32092252"
 		image: "techopolis:textures/quests/easter_eggs.png"
 		rotation: 0.0d
 		width: 5.89d

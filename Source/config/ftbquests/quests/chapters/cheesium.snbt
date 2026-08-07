@@ -10,6 +10,7 @@
 	id: "48666630298DCB4B"
 	images: [{
 		height: 0.59d
+		id: "54F09E2A8F1204F5"
 		image: "techopolis:textures/quests/cheesium.png"
 		rotation: 0.0d
 		width: 4.43d

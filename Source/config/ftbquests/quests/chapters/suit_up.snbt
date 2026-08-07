@@ -10,6 +10,7 @@
 	id: "58C2785C6743FF34"
 	images: [{
 		height: 0.59d
+		id: "4FEDD4DBCF47214A"
 		image: "techopolis:textures/quests/suit_up.png"
 		rotation: 0.0d
 		width: 3.38d
@@ -289,7 +290,7 @@
 				item: { count: 1, id: "techopolis:canned_food" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -643,6 +644,25 @@
 			}]
 			x: 0.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["4D943C7F57CBB291"]
+			id: "7ABAE1B43A06FA4D"
+			rewards: [{
+				id: "6A6B67DC67B787F8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CA51E0FDA64BFAA"
+				item: { count: 1, id: "applied_extended_crafting:table_ultimate_pattern_provider" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
 		}
 	]
 }

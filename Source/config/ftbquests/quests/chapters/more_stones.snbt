@@ -10,6 +10,7 @@
 	id: "3A4A8A7628BC6589"
 	images: [{
 		height: 0.59d
+		id: "6C148B431EB90863"
 		image: "techopolis:textures/quests/more_stones.png"
 		rotation: 0.0d
 		width: 6.12d

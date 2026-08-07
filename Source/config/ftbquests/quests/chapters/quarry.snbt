@@ -10,6 +10,7 @@
 	id: "688AC1F4D490A72C"
 	images: [{
 		height: 0.59d
+		id: "69CB7B206E701FDF"
 		image: "techopolis:textures/quests/dimensional_ores.png"
 		rotation: 0.0d
 		width: 8.45d

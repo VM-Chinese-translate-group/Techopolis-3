@@ -10,6 +10,7 @@
 	id: "0E48DAD5B3DAC398"
 	images: [{
 		height: 0.59d
+		id: "776DAF773A7B8BB4"
 		image: "techopolis:textures/quests/ender_crafting.png"
 		rotation: 0.0d
 		width: 7.37d
@@ -616,6 +617,26 @@
 			}]
 			x: 1.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["1705CFCE2C0CA200"]
+			id: "6694357D503083DC"
+			optional: true
+			rewards: [{
+				id: "3A251DD5FDBC4A6D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33F7D617787C360C"
+				item: { count: 1, id: "applied_extended_crafting:ender_crafter_pattern_provider" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
 		}
 	]
 }

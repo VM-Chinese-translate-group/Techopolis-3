@@ -325,7 +325,7 @@
 	quest.1A27BF2E3F573C8C.quest_desc: [
 		"The &lBuilders Generator&r allows the creation of some &lDecorative Blocks&r."
 		""
-		"Works for most &lColored Caveopolis Stone Type Blocks&r."
+		"Works for most &l&zColored Colors Stone Type Blocks&r."
 	]
 	quest.1A3CA7CA2DB03736.quest_desc: ["Smelted &lCobblestone&r"]
 	quest.1A68742A30D301C3.quest_desc: ["The first step in making &lChocolate&r. Can be purchased in the &lCatalogue&r"]
@@ -350,7 +350,7 @@
 	quest.1D0CFC5EBD2BF4E9.quest_desc: ["Combined Singularities"]
 	quest.1D0CFC5EBD2BF4E9.quest_subtitle: "&5&lFinal Technium Part&r&r"
 	quest.1D5701EA3D0D3097.quest_desc: ["Never breaks "]
-	quest.1D5A0F86F791D59A.quest_desc: ["Allows the collection of &lChuros Flowers&r"]
+	quest.1D5A0F86F791D59A.quest_desc: ["Allows the collection of &lChorus Flowers&r"]
 	quest.1DD38714228384B1.quest_desc: ["A better &lBio Fuel&r, produces more power and lasts longer"]
 	quest.1DF02FB60B7BAFA8.quest_desc: ["9 Coal makes a &lCoal Block&r"]
 	quest.1DFE26F8448F9F1C.quest_desc: ["Right Clicking on a block of &lDirt&r with a &lExcavator&r will drop all loot that spawns when breaking &lDirt&r with the &lResource Curio&r"]
@@ -367,6 +367,13 @@
 	quest.1EF69C835377BC34.quest_desc: ["Allows the simulation of &lWither Skeletons&r"]
 	quest.1F1EEA9920E12A0D.quest_desc: ["Can be used to compact items and blocks, not very good but good enough for now"]
 	quest.1F353CFB1B7B7D8D.quest_desc: ["Battery Storage"]
+	quest.1F98945FE57E8E2D.quest_desc: [
+		"A more easily automatable &l&4Flux Crafter&r"
+		""
+		"Simply encode a &lProcessing Pattern&r with the &l&4Flux Crafter&r recipe and insert it into your &lAssembly Station&r."
+		""
+		"A powered &l&#FF0000Flux Alternator&r must be nearby because the assembly station will consume energy from the &l&#FF0000Alternators&r during crafting"
+	]
 	quest.1FD1F68CC0DBB2A0.quest_desc: ["&lCopper&r and &lTin&r inside the Alloy Kiln will create &lBronze&r"]
 	quest.1FEF2C4ED174C01C.quest_desc: ["Made on the &lEmpowerer&r"]
 	quest.203E2671B160424E.quest_desc: ["Displays items, used in the Empowerer"]
@@ -663,7 +670,11 @@
 	quest.43AAFECB58D05B68.quest_desc: ["Made from &lCyanite&r in a &lReprocessor&r. A better fuel in a &lReactor&r"]
 	quest.43CB79B36E9A7D1D.quest_desc: ["Passively collects &lWater&r at 1mb per tick"]
 	quest.43D6EA4605E23805.quest_desc: ["A hotter &lFurnace&r. Can be used to turn &lCobblestone&r straight into &lSmooth Stone&r"]
-	quest.441B845CE0BD714C.quest_desc: ["Allows the creation of &lPure Matter&r"]
+	quest.441B845CE0BD714C.quest_desc: [
+		"Allows the creation of &lPure Matter&r"
+		""
+		"You need to use a &lPure Matter Mold&r as a catalyst"
+	]
 	quest.44A82988C82DFF3D.quest_desc: ["Placing those crushers"]
 	quest.44B1393D77C479E5.quest_desc: ["Not of the &lOverworld&r"]
 	quest.44C3FB61DE144BCE.quest_desc: ["A plate of &lSilver&r"]
@@ -984,6 +995,13 @@
 	quest.65BA2A6A35C05B9D.quest_desc: ["Combination of &l&#8B4513Ancient Debris&r and &l&eGold&r"]
 	quest.66662070856AC6E2.quest_desc: ["&lCompresses&r items"]
 	quest.66873778F27A9365.quest_desc: ["A Specialist ore that can be used in making the Coal Miner "]
+	quest.6694357D503083DC.quest_desc: [
+		"A more easily automatable &l&2Ender Crafter&r"
+		""
+		"Simply encode a &lProcessing Pattern&r with the &l&2Ender Crafter&r recipe and insert it into your &lAssembly Station&r."
+		""
+		"An &l&aEnder Alternator&r must be nearby, the more Alternators present, the faster the crafting speed"
+	]
 	quest.66B53A2009510723.quest_desc: ["Thanks for playing &lTechopolis 3&r. I hope you enjoyed the pack please leave any feedback and suggestions in the discord"]
 	quest.66B6D2242D0D62C5.quest_desc: ["The next tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
 	quest.66B6D2242D0D62C5.quest_subtitle: "&e&lEnd Technium Part&r&r"
@@ -1197,6 +1215,13 @@
 	quest.7A873C3D4F693A8B.quest_desc: ["Made inside the &lPurification Chamber&r"]
 	quest.7A9B8E4BB8A9AE37.quest_desc: ["&lSalt &rcan be used the make the &lDust Mold&r. The Dust Mold when used inside the &lSolidifier&r will create &lDusts &r"]
 	quest.7A9C15D139B50B42.quest_desc: ["Allows the simulation of &lEndermites&r"]
+	quest.7ABAE1B43A06FA4D.quest_desc: [
+		"A more easily automatable &l&#00FF00Ultimate Crafting Table&r"
+		""
+		"Simply encode a &lProcessing Pattern&r that matches the original &lExtended Crafting table&r recipe and insert it into your &lUltimate Table Assembly Station&r"
+		""
+		"The pattern inputs and outputs must match the original recipe"
+	]
 	quest.7B04CB225182C5EA.quest_desc: ["Thats a lot!"]
 	quest.7B3ACB1B0EA43E3B.quest_desc: ["A nice plate"]
 	quest.7B3ACB1B0EA43E3B.quest_subtitle: "&5&lFinal Technium Part&r&r"

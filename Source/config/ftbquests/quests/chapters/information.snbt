@@ -6,6 +6,7 @@
 	id: "18F2AF0BE4B4F3DD"
 	images: [{
 		height: 0.59d
+		id: "189B905D1CAF915E"
 		image: "techopolis:textures/quests/information.png"
 		rotation: 0.0d
 		width: 5.84d

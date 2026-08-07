@@ -10,6 +10,7 @@
 	id: "1E5E113CDDCA318F"
 	images: [{
 		height: 0.59d
+		id: "615E2637443D1CA7"
 		image: "techopolis:textures/quests/hot_stone.png"
 		rotation: 0.0d
 		width: 4.76d

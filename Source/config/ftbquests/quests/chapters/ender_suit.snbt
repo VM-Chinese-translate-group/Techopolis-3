@@ -10,6 +10,7 @@
 	id: "709F991F6D4FB36A"
 	images: [{
 		height: 0.59d
+		id: "6CF40FFDE6E6638D"
 		image: "techopolis:textures/quests/eye_craft.png"
 		rotation: 0.0d
 		width: 4.73d
@@ -544,6 +545,25 @@
 			}]
 			x: 0.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["46822F1CB547D11E"]
+			id: "1F98945FE57E8E2D"
+			rewards: [{
+				id: "21FA971ED6E563F5"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3573A34041A4DC71"
+				item: { count: 1, id: "applied_extended_crafting:flux_crafter_pattern_provider" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
 		}
 	]
 }

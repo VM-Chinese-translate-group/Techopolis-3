@@ -10,6 +10,7 @@
 	id: "2E00C08CEA228C7A"
 	images: [{
 		height: 0.59d
+		id: "54EE206A4BCE0F2E"
 		image: "techopolis:textures/quests/end_technium.png"
 		rotation: 0.0d
 		width: 6.54d

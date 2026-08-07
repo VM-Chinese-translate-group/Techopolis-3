@@ -10,6 +10,7 @@
 	id: "1B3CA7208B639EE2"
 	images: [{
 		height: 0.59d
+		id: "62201572DE03F710"
 		image: "techopolis:textures/quests/replication.png"
 		rotation: 0.0d
 		width: 5.46d

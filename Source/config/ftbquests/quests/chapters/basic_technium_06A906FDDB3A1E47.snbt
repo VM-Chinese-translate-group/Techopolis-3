@@ -10,6 +10,7 @@
 	id: "06A906FDDB3A1E47"
 	images: [{
 		height: 0.59d
+		id: "450281900203E8C6"
 		image: "techopolis:textures/quests/basic_technium.png"
 		rotation: 0.0d
 		width: 7.26d

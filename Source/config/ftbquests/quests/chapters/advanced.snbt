@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 0.59d
+			id: "5831CF711796852A"
 			image: "techopolis:textures/quests/advanced_research.png"
 			rotation: 0.0d
 			width: 9.41d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0193BB7B51CBF4FA"
 			image: "techopolis:item/advanced_research"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3BD5E85DD5E8A77F"
 			image: "techopolis:item/advanced_research"
 			rotation: 0.0d
 			width: 1.0d

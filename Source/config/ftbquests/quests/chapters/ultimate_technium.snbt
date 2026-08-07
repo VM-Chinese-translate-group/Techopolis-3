@@ -10,6 +10,7 @@
 	id: "250D7F68E3C2814E"
 	images: [{
 		height: 0.59d
+		id: "328520781C169980"
 		image: "techopolis:textures/quests/ultimate_technium.png"
 		rotation: 0.0d
 		width: 8.76d

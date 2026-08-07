@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 0.59d
+			id: "6D55454BBE7390AE"
 			image: "techopolis:textures/quests/basic_research.png"
 			rotation: 0.0d
 			width: 7.35d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7BD2D97D5818F0EB"
 			image: "techopolis:item/basic_research"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "33B03BD57987427D"
 			image: "techopolis:item/basic_research"
 			rotation: 0.0d
 			width: 1.0d

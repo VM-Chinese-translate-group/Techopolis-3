@@ -10,6 +10,7 @@
 	id: "0FD91DAEE809C3EA"
 	images: [{
 		height: 0.59d
+		id: "378B71C6DE7B4717"
 		image: "techopolis:textures/quests/more_ore.png"
 		rotation: 0.0d
 		width: 4.53d

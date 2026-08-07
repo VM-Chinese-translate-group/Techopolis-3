@@ -10,6 +10,7 @@
 	id: "3C7DDDF726455D1A"
 	images: [{
 		height: 0.59d
+		id: "750486AE50EDF58E"
 		image: "techopolis:textures/quests/a_new_world.png"
 		rotation: 0.0d
 		width: 6.4d
