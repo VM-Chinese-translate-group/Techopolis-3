@@ -310,9 +310,9 @@
 	quest.1A1B32B71B33B49B.quest_desc: ["解锁&l终极矿机&r的配方。与&l精英矿机&r相比，它的产量翻倍。"]
 	quest.1A2093BEC631C4C8.quest_desc: ["无限复制物质？"]
 	quest.1A27BF2E3F573C8C.quest_desc: [
-		"The &lBuilders Generator&r allows the creation of some &lDecorative Blocks&r."
+		"&l建筑师造石机&r可以生成一些&l装饰性方块&r。"
 		""
-		"Works for most &l&zColored Colors Stone Type Blocks&r."
+		"对大多数&l&z彩色石头类方块&r都有效。"
 	]
 	quest.1A68742A30D301C3.quest_desc: ["制作&l巧克力&r的第一步。可以在&l贸易站&r中购买"]
 	quest.1ACB353EAB64C46D.quest_desc: ["压缩&l下界岩&r。"]
@@ -334,7 +334,7 @@
 	quest.1D0CFC5EBD2BF4E9.quest_desc: ["把所有的奇点融合起来。"]
 	quest.1D0CFC5EBD2BF4E9.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.1D5701EA3D0D3097.quest_desc: ["永不损坏"]
-	quest.1D5A0F86F791D59A.quest_desc: ["Allows the collection of &lChorus Flowers&r"]
+	quest.1D5A0F86F791D59A.quest_desc: ["可用于收集&l紫颂花&r。"]
 	quest.1DD38714228384B1.quest_desc: ["一种更优质的&l生物燃料&r，发电量更高，持续时间更长。"]
 	quest.1DFE26F8448F9F1C.quest_desc: ["用&l开掘铲&r右击&l泥土&r，会一次性掉落佩戴&l资源饰品&r挖掘泥土时可能产生的所有战利品。"]
 	quest.1DFE26F8448F9F1C.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
@@ -349,11 +349,11 @@
 	quest.1F1EEA9920E12A0D.quest_desc: ["可以用来压缩物品和方块，效果不是很好但目前够用了。"]
 	quest.1F353CFB1B7B7D8D.quest_desc: ["能量存储"]
 	quest.1F98945FE57E8E2D.quest_desc: [
-		"A more easily automatable &l&4Flux Crafter&r"
+		"更易于自动化的&l&4通量合成器&r"
 		""
-		"Simply encode a &lProcessing Pattern&r with the &l&4Flux Crafter&r recipe and insert it into your &lAssembly Station&r."
+		"只需编码一张包含&l&4通量合成器&r配方的&l处理样板&r，并将其放入你的&l装配站&r中。"
 		""
-		"A powered &l&#FF0000Flux Alternator&r must be nearby because the assembly station will consume energy from the &l&#FF0000Alternators&r during crafting"
+		"附近必须摆放已通电的&l&#FF0000末影发电机&r，因为装配站在合成过程中会消耗来自&l&#FF0000发电机&r的能量。"
 	]
 	quest.1FD1F68CC0DBB2A0.quest_desc: ["通过合金窑将&l铜&r和&l锡&r合金化制成&l青铜&r。"]
 	quest.1FEF2C4ED174C01C.quest_desc: ["在&l充能台&r中制作。"]
@@ -638,9 +638,9 @@
 	quest.43CB79B36E9A7D1D.quest_desc: ["被动产生1mB/t的&l水&r。"]
 	quest.43D6EA4605E23805.quest_desc: ["温度更高的&l熔炉&r，可以直接将&l圆石&r冶炼成&l平滑石头&r。"]
 	quest.441B845CE0BD714C.quest_desc: [
-		"Allows the creation of &lPure Matter&r"
+		"解锁&l纯净物质&r的配方。"
 		""
-		"You need to use a &lPure Matter Mold&r as a catalyst"
+		"你可以把&l纯净物质模具&r作为催化剂"
 	]
 	quest.44A82988C82DFF3D.quest_desc: ["用于搭建粉碎机。"]
 	quest.44B1393D77C479E5.quest_desc: ["不属于&l主世界&r。"]
@@ -949,11 +949,11 @@
 	quest.65BA2A6A35C05B9D.quest_desc: ["&l&#8B4513远古残骸&r和&l&e金&r的融合体"]
 	quest.66662070856AC6E2.quest_desc: ["&l压缩&r物质。"]
 	quest.6694357D503083DC.quest_desc: [
-		"A more easily automatable &l&2Ender Crafter&r"
+		"更易于自动化的&l&2末影合成器&r"
 		""
-		"Simply encode a &lProcessing Pattern&r with the &l&2Ender Crafter&r recipe and insert it into your &lAssembly Station&r."
+		"只需编码一张包含&l&2末影合成器&r配方的&l处理样板&r，并将其放入你的&l装配站&r中。"
 		""
-		"An &l&aEnder Alternator&r must be nearby, the more Alternators present, the faster the crafting speed"
+		"附近必须摆放&l&a末影发电机&r，摆放的发电机数量越多，合成速度就越快。"
 	]
 	quest.66B53A2009510723.quest_desc: ["感谢游玩&l《科技城3》&r。我们希望您喜欢这个包，如果您有任何反馈或建议，请在Discord上留言。"]
 	quest.66B6D2242D0D62C5.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
@@ -1158,11 +1158,11 @@
 	quest.7A9B8E4BB8A9AE37.quest_desc: ["&l盐&r可用于制作&l粉铸模&r。将粉铸模放入&l固化器&r内使用时，可以生产&l粉末&r"]
 	quest.7A9C15D139B50B42.quest_desc: ["用于模拟&l末影螨&r。"]
 	quest.7ABAE1B43A06FA4D.quest_desc: [
-		"A more easily automatable &l&#00FF00Ultimate Crafting Table&r"
+		"更易于自动化的&l&#00FF00终极合成器&r"
 		""
-		"Simply encode a &lProcessing Pattern&r that matches the original &lExtended Crafting table&r recipe and insert it into your &lUltimate Table Assembly Station&r"
+		"只需编码一张与原始&l扩展合成台&r配方一致的&l处理样板&r，并将其放入你的&l终极合成器装配站&r中。"
 		""
-		"The pattern inputs and outputs must match the original recipe"
+		"样板的输入与输出必须与原始配方完全一致。"
 	]
 	quest.7B04CB225182C5EA.quest_desc: ["这可真不少啊！"]
 	quest.7B3ACB1B0EA43E3B.quest_desc: ["一种不错的板。"]
@@ -1264,6 +1264,7 @@
 	task.49ECD681F161C132.title: "Dark Mode"
 	task.4F76C8BD7612A936.title: "Super Flat Recipes"
 	task.4FFAE2AF2484C2A4.title: "光影"
+	task.503721E7A651D66A.title: "末影存储"
 	task.5183E31E6E34E45C.title: "任意#techopolis:pure_matter"
 	task.53098F41A5A9FA30.title: "生物源质"
 	task.53423114EFEDF0F2.title: "世界类型"
@@ -1272,7 +1273,6 @@
 	task.5835C0B24EB29833.title: "巧克力"
 	task.5AB30C491C1CDE4C.title: "熔融末影燃料"
 	task.5C60AAE147AA946E.title: "任意#techopolis:flux_crafters"
-	task.62C86944B1FBDD7E.title: "末影存储"
 	task.64547E943E87A7EB.title: "磁盘驱动器"
 	task.6508A54A7854CB76.title: "任意#techopolis:all_coils"
 	task.67CA130DCAB6E5CE.title: "末影乙醇"
