@@ -2,7 +2,7 @@
 	autofocus_id: "69D18C63856B99DB"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "basic_technium_06A906FDDB3A1E47"
+	filename: "basic_technium_06a906fddb3a1e47"
 	group: "758C9087ACEC8F78"
 	icon: {
 		id: "techopolis:basic_technium_ingot"
