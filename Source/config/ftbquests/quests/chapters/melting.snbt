@@ -24,7 +24,12 @@
 		y: -6.0d
 	}]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "51BC4773C474F109"
+		linked_quest: "6C702C6D1CD2475A"
+		x: 1.5d
+		y: 3.5d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -303,6 +308,7 @@
 			dependencies: [
 				"3B581375F1A72F7D"
 				"515779B505E5D0A1"
+				"6C702C6D1CD2475A"
 			]
 			id: "737F13286F75F8B3"
 			rewards: [{
@@ -437,25 +443,6 @@
 			}]
 			x: -0.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["737F13286F75F8B3"]
-			id: "6C702C6D1CD2475A"
-			rewards: [{
-				id: "0C8C43CF83D78B47"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "72BC005A3680EDC2"
-				item: { count: 1, id: "immersiveengineering:hammer" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.5d
 		}
 		{
 			dependencies: ["3CC2216E4FE7DCF0"]
