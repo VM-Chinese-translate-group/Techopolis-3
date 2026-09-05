@@ -1030,7 +1030,7 @@
 	quest.6C12BA6141A6A6C5.quest_desc: ["你的&l科技城3&r之旅从这里开始。"]
 	quest.6C12BA6141A6A6C5.title: "一切从这里开始"
 	quest.6C573A6A2E342AFF.quest_desc: ["在&l岩石洗矿机&r中制作。"]
-	quest.6C702C6D1CD2475A.quest_desc: ["用于搭建&l沉浸工程&r的多方块结构。"]
+	quest.6C702C6D1CD2475A.quest_desc: ["Allows the creation of &lImmersive Engineering&r multiblocks"]
 	quest.6C7DFD686E52E2BF.quest_desc: ["&l末地&r的&l紫颂植物&r顶部会生成紫颂花。"]
 	quest.6CB6F2EF8B370BCF.quest_desc: ["可以轻松地移动熔融流体。"]
 	quest.6D1B624991EC9362.quest_desc: ["这些树可以在下界中找到，他们的木材都是&l抗火&r的。"]
