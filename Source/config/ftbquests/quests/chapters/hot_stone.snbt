@@ -15,7 +15,7 @@
 		rotation: 0.0d
 		width: 4.76d
 		x: -1.0d
-		y: -4.0d
+		y: -2.5d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -37,7 +37,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["428D51D0B5DF5295"]
@@ -55,11 +55,11 @@
 				item: { count: 1, id: "minecraft:smooth_stone" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["62F83F3D9065C896"]
+			dependencies: ["428D51D0B5DF5295"]
 			id: "68C3DE9661155584"
 			rewards: [{
 				id: "0FE4EA5507DC9B68"
@@ -389,7 +389,7 @@
 				item: { count: 1, id: "techopolis:stone_rod" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -602,6 +602,25 @@
 			}]
 			x: -6.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["62F83F3D9065C896"]
+			id: "6C702C6D1CD2475A"
+			rewards: [{
+				id: "0C8C43CF83D78B47"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72BC005A3680EDC2"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }
