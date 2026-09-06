@@ -638,8 +638,8 @@
 			id: "169DB21BB2060530"
 			optional: true
 			tasks: [{
-				id: "39B2F417A7EB55EA"
-				item: { count: 1, id: "minecraft:netherite_block" }
+				id: "6E85FE8C98389F0B"
+				item: { count: 1, id: "colors:white_asteroid_tiles" }
 				type: "item"
 			}]
 			x: 0.0d

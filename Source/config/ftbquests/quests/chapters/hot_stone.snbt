@@ -606,6 +606,7 @@
 		{
 			dependencies: ["62F83F3D9065C896"]
 			id: "6C702C6D1CD2475A"
+			optional: true
 			rewards: [{
 				id: "0C8C43CF83D78B47"
 				item: {

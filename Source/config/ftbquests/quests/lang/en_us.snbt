@@ -269,7 +269,7 @@
 	quest.166A2386E894F6B2.quest_desc: ["Made inside the &lInscriber&r"]
 	quest.169753582E9B8F26.quest_desc: ["The &lOuter End&r has large plants, breaking these will obtain &lChorus Fruit&r"]
 	quest.169DB21BB2060530.quest_desc: [
-		"The Stellaris Planet Selector is broken, so you have to make a Portal to the Moon from &l&#555555Block of Netherite&r and light it with the &l&9Rocket&r"
+		"The Stellaris Planet Selector is broken, so you have to make a Portal to the Moon from &lWhite Asteroid Tiles&r and light it with the &l&9Rocket&r"
 		""
 		"The Portal is built in the &l&bOverworld&r, and it just looks like a regular &l&4Nether Portal&r"
 	]
