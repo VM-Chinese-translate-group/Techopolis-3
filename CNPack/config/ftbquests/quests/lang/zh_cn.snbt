@@ -257,9 +257,9 @@
 	quest.166A2386E894F6B2.quest_desc: ["在&l压印器&r中制作。"]
 	quest.169753582E9B8F26.quest_desc: ["破坏&l末地外岛&r的大型植物可以获得&l紫颂果&r。"]
 	quest.169DB21BB2060530.quest_desc: [
-		"Stellaris行星选择器已损坏，因此需使用&l&#555555下界合金块&r建造月球传送门，并用&l&9火箭&r点燃。"
+		"The Stellaris Planet Selector is broken, so you have to make a Portal to the Moon from &lWhite Asteroid Tiles&r and light it with the &l&9Rocket&r"
 		""
-		"此传送门需建于&l&b主世界&r，外观与普通的&l&4下界传送门&r无异。"
+		"The Portal is built in the &l&bOverworld&r, and it just looks like a regular &l&4Nether Portal&r"
 	]
 	quest.169DB21BB2060530.title: "月球传送门"
 	quest.16BC5C3507E58E72.quest_desc: ["更好的合金"]
