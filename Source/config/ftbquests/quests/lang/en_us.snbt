@@ -782,7 +782,7 @@
 	quest.5032F157A62CBD0B.quest_desc: ["Eye see you crafting over there"]
 	quest.5032F157A62CBD0B.quest_subtitle: "light gray"
 	quest.503BC43B0FA47F12.quest_desc: ["Teleportation Cores have a vast range of uses "]
-	quest.50560F7E48E40996.quest_desc: ["Made inside the Casting Controller"]
+	quest.50560F7E48E40996.quest_desc: ["Made inside the Casting Solidifier"]
 	quest.5091E4B981020A04.quest_desc: ["Used for more complex Immersive Multiblocks"]
 	quest.50AF2C988B2EE05D.quest_desc: ["Part of the &lRocket&r"]
 	quest.50C94AC29D87B991.quest_desc: ["Allows you to remove and extract fuels and used fuels"]
@@ -960,6 +960,7 @@
 	quest.623E8B19B918318F.quest_desc: ["Used to Indentify items, these can be saved onto Memory Chips"]
 	quest.6246E91DC5BFEEC0.quest_desc: ["Better way to get fluids "]
 	quest.62915A582CCFF6AD.quest_desc: ["Reduces the total time to grow crops, up to 3 can be placed in the &lCloche&r"]
+	quest.62A2D5F830C78BC9.quest_desc: ["You can use the Stonecutter to craft &l&zColored Grasses&r. Once placed, use Bone Meal on them to grow &l&zColored Flowers&r."]
 	quest.62AD904AF9F057C7.quest_desc: ["Advanced Miners produce 2 items at a time!"]
 	quest.62BF4D616D05BB42.quest_desc: ["Used to extract loot from predictions"]
 	quest.62D482A82B885372.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
