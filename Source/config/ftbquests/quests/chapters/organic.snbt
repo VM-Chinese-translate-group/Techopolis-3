@@ -227,6 +227,7 @@
 			tasks: [{
 				id: "173A3C2A28408321"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:magma_cube" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 7.5d
