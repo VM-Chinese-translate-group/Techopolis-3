@@ -626,6 +626,7 @@
 		{
 			dependencies: ["441B845CE0BD714C"]
 			id: "48E5FBDCA6305B35"
+			optional: true
 			rewards: [{
 				id: "2054ED4C96903CAE"
 				item: {
@@ -645,6 +646,7 @@
 		{
 			dependencies: ["3AF4B40E1A1225E3"]
 			id: "441B845CE0BD714C"
+			optional: true
 			rewards: [{
 				id: "4BCB532F386E0D94"
 				item: {
@@ -664,6 +666,7 @@
 		{
 			dependencies: ["48E5FBDCA6305B35"]
 			id: "78CF9DB8D153131B"
+			optional: true
 			rewards: [{
 				id: "03C39491B67AE3F1"
 				item: {
@@ -678,44 +681,6 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["78CF9DB8D153131B"]
-			id: "0BC192EC26F113B0"
-			rewards: [{
-				id: "29C0AC52006FDFCD"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D6AB9ECAF0020BD"
-				item: { components: { "replication:blueprint": { Item: { count: 1b, id: "replication:replicator_motor" }, Progress: 1b } }, count: 1, id: "replication:matter_blueprint" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0BC192EC26F113B0"]
-			id: "3B49444CCD5EAE4A"
-			rewards: [{
-				id: "675222CB64D43434"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "612C9DE1E782BF99"
-				item: { count: 1, id: "replication:replicator_motor" }
-				type: "item"
-			}]
-			x: 5.5d
 			y: 1.0d
 		}
 		{
