@@ -147,7 +147,7 @@
 	quest.0B1C5E41D5A8AE66.quest_subtitle: "&5&l终末𬬸金部件&r&r"
 	quest.0B592478EB281CBC.quest_desc: ["在&l工业筛滤机&r中制成。"]
 	quest.0B6CFA77F78F9359.quest_desc: ["运行&l模拟室&r的副产品。之后可以用来制作&l熔融生物源质&r。"]
-	quest.0BC192EC26F113B0.quest_desc: ["包含&l复制器马达&r制造数据的蓝图。右击内含&l芯片&r的&l芯片存储器&r即可解锁新物品的合成。"]
+	quest.0BC192EC26F113B0.quest_desc: ["A blueprint containing the data to create &lReplicator Motors&r. Right click on a &lChip Storage&r with a &lChip&r inside to learn how to craft it"]
 	quest.0BC3D907EA723897.quest_desc: ["保存已鉴定的物品。"]
 	quest.0BE2D11B6AAFEC01.quest_desc: ["一种不错的齿轮。"]
 	quest.0BE2D11B6AAFEC01.quest_subtitle: "&l&a&o终极𬬸金部件&r&r&r"
@@ -169,11 +169,15 @@
 	quest.0E9C01587AF28CF7.quest_desc: ["更高级的机器。这些方块可用扳手回收。"]
 	quest.0EBD79868F379238.quest_desc: ["真正能用的桶，但高温流体会使其碎裂！"]
 	quest.0ED198E1D3F5C6AB.quest_desc: [
-		"&l热力蒸馏塔&r的控制中枢。"
+		"The brains of the &lThermal Evaporation Plant&r."
 		""
-		"提供水与热量即可产出&l盐水&r。"
+		"When supplied with &l&1Water&r and &lheat&r, it produces &l&#9AC0CDHot Water&r. A second &lThermal Evaporation Plant&r can then turn the &l&#9AC0CDHot Water&r into &l&#EBCB8BBrine&r."
 		""
-		"&l&5终极热力蒸馏塔&r在18格高度下的最大产出为&l19080mb/t&r，这需要向&l电阻型加热器&r输入至少&l5.3kFE&r。"
+		"An &l&5Ultimate Thermal Evaporation Plant&r reaches a maximum production of &l19080 mB/t&r at 18 blocks high. This requires at least &l5.26 kFE/t&r in a &lResistive Heater&r."
+		""
+		"If that is still not enough, build the &lLarge&r type: a gigantic &l9x9&r multiblock with far higher production capacity. Its size ranges from &l9 x 5 x 9&r (minimum) to &l9 x 18 x 9&r (maximum)."
+		""
+		"Not sure how to build it? Don't worry: JEI has a &lBuilding&r tab with a &lPreview&r button that shows how the &lThermal Evaporation Plant&r is built."
 	]
 	quest.0EFE2EA2AEE1E8FB.quest_desc: [
 		"&l村民交易&r功能已禁用，&l流浪商人&r也不会生成！"
@@ -391,7 +395,7 @@
 	quest.23F7B473A7A6068E.quest_desc: ["SFM是一款极其强大的模组，能为你的自动化提供巨大帮助。关于染料，你可以直接使用染料基础，或者制作BBL Colors模组中的草方块并对其施加骨粉来获取彩色鲜花。"]
 	quest.2436734739033064.quest_desc: ["产于&l下界&r，使用&l数字型采矿机&r可高效采集。"]
 	quest.2447F9EEBDB0455A.quest_desc: ["分解&l𬬸金锭&r获得。"]
-	quest.246E1D3E59885EA4.quest_desc: ["第三个&l热力蒸馏塔&r能够将&l液态锂&r转化为&l液态硫酸&r，而&l化学结晶器&r能够将&l硫酸&r转化为&l硫磺&r。"]
+	quest.246E1D3E59885EA4.quest_desc: ["A fourth &lThermal Evaporation Plant&r can be used to transform &lLithium&r into &lSulfuric Acid,&r inside the &lCrystalizer&r this can turn &lSulfuric Acid&r into &lSulfur&r"]
 	quest.24814E5E23240951.quest_desc: ["看着不错。"]
 	quest.2511C2023D150059.quest_desc: ["在Casting的固化器中制成。"]
 	quest.253ADDF82ACF3827.quest_desc: ["在&l压印器&r中制作。"]
@@ -573,7 +577,7 @@
 	quest.3AECEAE143DF01E3.quest_desc: ["更更复杂的蛋"]
 	quest.3AF4B40E1A1225E3.quest_desc: ["游戏中的各种物品都具有&l物质值&r。这些物品可以转化为&l物质&r，进而重新制造某些物品。"]
 	quest.3AFED249E73796AA.quest_desc: ["解锁&l汤姆的简易存储&r，此模组可以读取所有已连接的容器物品栏中的物品供你查看和合成。"]
-	quest.3B49444CCD5EAE4A.quest_desc: ["将其放置于&l复制器&r上可进一步提升其速度，但有几率导致复制失败！"]
+	quest.3B49444CCD5EAE4A.quest_desc: ["Place it on a &lReplicator&r to make it even faster at the chance failing the replication!"]
 	quest.3B4A980A5AECA6FF.quest_desc: ["通过&l树枝&r和&l木棍&r合成获得。"]
 	quest.3B4A980A5AECA6FF.quest_subtitle: "&l&o世界类型限定——超平坦、空岛、空岛网格&r&r"
 	quest.3B4A980A5AECA6FF.title: "橡树树苗"
@@ -741,7 +745,7 @@
 	quest.5032F157A62CBD0B.quest_desc: ["眼睛在看着你合成。"]
 	quest.5032F157A62CBD0B.quest_subtitle: "淡灰色"
 	quest.503BC43B0FA47F12.quest_desc: ["传送核心有很多用途。"]
-	quest.50560F7E48E40996.quest_desc: ["在Casting的固化器中制成。"]
+	quest.50560F7E48E40996.quest_desc: ["Made inside the Casting Solidifier"]
 	quest.5091E4B981020A04.quest_desc: ["用于搭建更复杂的沉浸工程多方块结构。"]
 	quest.50AF2C988B2EE05D.quest_desc: ["&l火箭&r的部件。"]
 	quest.50C94AC29D87B991.quest_desc: ["用于输入/输出燃料和废料。"]
@@ -916,6 +920,7 @@
 	quest.623E8B19B918318F.quest_desc: ["用于鉴定物品，并将结果保存到存储芯片中。"]
 	quest.6246E91DC5BFEEC0.quest_desc: ["更高效的液体获取方式。"]
 	quest.62915A582CCFF6AD.quest_desc: ["缩短作物总生长周期，最多可在&l玻璃罩&r中放置3个。"]
+	quest.62A2D5F830C78BC9.quest_desc: ["You can use the Stonecutter to craft &l&zColored Grasses&r. Once placed, use Bone Meal on them to grow &l&zColored Flowers&r."]
 	quest.62AD904AF9F057C7.quest_desc: ["&l高级矿机&r一次能产出两个物品！"]
 	quest.62BF4D616D05BB42.quest_desc: ["用于从预测产物中提取战利品。"]
 	quest.62D482A82B885372.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
@@ -1031,7 +1036,7 @@
 	quest.6C12BA6141A6A6C5.title: "一切从这里开始"
 	quest.6C573A6A2E342AFF.quest_desc: ["在&l岩石洗矿机&r中制作。"]
 	quest.6C702C6D1CD2475A.quest_desc: ["Allows the creation of &lImmersive Engineering&r multiblocks"]
-	quest.6C7DFD686E52E2BF.quest_desc: ["&l末地&r的&l紫颂植物&r顶部会生成紫颂花。"]
+	quest.6C7DFD686E52E2BF.quest_desc: ["Spawns on the top of &lChorus Plants&r in the &lEnd&r"]
 	quest.6CB6F2EF8B370BCF.quest_desc: ["可以轻松地移动熔融流体。"]
 	quest.6D1B624991EC9362.quest_desc: ["这些树可以在下界中找到，他们的木材都是&l抗火&r的。"]
 	quest.6D1B624991EC9362.title: "下界木材"
@@ -1132,7 +1137,7 @@
 	quest.77598D88D3876238.quest_desc: ["在&l战利品制造机&r中使用时，会产出该生物的掉落物。"]
 	quest.77B2D78EF43BBC13.quest_desc: ["&l量子压印机&r可用于制造&l量子压印模板&r。"]
 	quest.77E2D0A20E5B3A22.quest_desc: ["解锁&l终极速度饰品&r的配方。"]
-	quest.781EDB2D998E8C0A.quest_desc: ["第二个&l热力蒸馏塔&r能够将&l盐水&r转化为&l液态锂&r，而&l化学结晶器&r能够将&l锂&r转化为&l锂粉&r。"]
+	quest.781EDB2D998E8C0A.quest_desc: ["A third &lThermal Evaporation Plant&r can be used to transform &lBrine&r into &lLithium,&r inside the &lCrystalizer&r this can turn &lLithium&r into &lLithium Dust&r"]
 	quest.781EDB2D998E8C0A.quest_subtitle: "&l&e&o精英𬬸金部件&r&r&r"
 	quest.78321DD6F1C4E464.quest_desc: ["下一级&l𬬸金&r。恭喜达成！感谢游玩&lTechopolis 3&r。若你已准备好继续前行，更多挑战正等待着你……"]
 	quest.78321DD6F1C4E464.quest_subtitle: "&l&3月球𬬸金部件&r&r"
