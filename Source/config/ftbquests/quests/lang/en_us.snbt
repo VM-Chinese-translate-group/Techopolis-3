@@ -154,7 +154,7 @@
 	quest.0B35DE200673A337.quest_desc: ["A primitive tool used chop down trees "]
 	quest.0B592478EB281CBC.quest_desc: ["Made inside the &lIndustrial Strainer&r"]
 	quest.0B6CFA77F78F9359.quest_desc: ["A byproduct of running the &lSimulation Chamber&r. Can be used to make &lMolten Mob Essence&r later"]
-	quest.0BC192EC26F113B0.quest_desc: ["A blueprint containing the data to create a &lReplicator Motor&r. Right click on a &lChip Storage&r with a &lChip&r inside to learn how to craft something new"]
+	quest.0BC192EC26F113B0.quest_desc: ["A blueprint containing the data to create &lReplicator Motors&r. Right click on a &lChip Storage&r with a &lChip&r inside to learn how to craft it"]
 	quest.0BC3D907EA723897.quest_desc: ["Saves learnt item"]
 	quest.0BE2D11B6AAFEC01.quest_desc: ["A nice gear"]
 	quest.0BE2D11B6AAFEC01.quest_subtitle: "&l&a&oUltimate Technium Part&r&r&r"
@@ -176,11 +176,15 @@
 	quest.0E9C01587AF28CF7.quest_desc: ["Advanced machines, these blocks can be collected with a wrench"]
 	quest.0EBD79868F379238.quest_desc: ["A more useful bucket, Hot fluids will break this!"]
 	quest.0ED198E1D3F5C6AB.quest_desc: [
-		"The brains of the &lThermal Evaporation Plant&r. "
+		"The brains of the &lThermal Evaporation Plant&r."
 		""
-		"When provided with Water and Heat will produce &lBrine&r"
+		"When supplied with &l&1Water&r and &lheat&r, it produces &l&#9AC0CDHot Water&r. A second &lThermal Evaporation Plant&r can then turn the &l&#9AC0CDHot Water&r into &l&#EBCB8BBrine&r."
 		""
-		"An &l&5Ultimate Thermal Evaporation Plant&r max production is &l19080 mb/t&r at 18 block height which would require using at least &l5.3 kFE&r in a &lResistive Heater&r "
+		"An &l&5Ultimate Thermal Evaporation Plant&r reaches a maximum production of &l19080 mB/t&r at 18 blocks high. This requires at least &l5.26 kFE/t&r in a &lResistive Heater&r."
+		""
+		"If that is still not enough, build the &lLarge&r type: a gigantic &l9x9&r multiblock with far higher production capacity. Its size ranges from &l9 x 5 x 9&r (minimum) to &l9 x 18 x 9&r (maximum)."
+		""
+		"Not sure how to build it? Don't worry: JEI has a &lBuilding&r tab with a &lPreview&r button that shows how the &lThermal Evaporation Plant&r is built."
 	]
 	quest.0EFE2EA2AEE1E8FB.quest_desc: [
 		"&lVillager Trades&r are disabled and &lWandering Traders&r do not spawn!"
@@ -413,7 +417,7 @@
 	quest.23F7B473A7A6068E.quest_desc: ["SFM is an extremely powerful mod that can help your automation a lot. For dyes you can use the Dye Base or you can craft BBL Colors Grass Blocks and bone meal it for colored flower"]
 	quest.2436734739033064.quest_desc: ["Found inside &lThe Nether&r, a &lDigital Miner&r can be used to collect this quicker"]
 	quest.2447F9EEBDB0455A.quest_desc: ["Broken down &lTechnium Ingots&r"]
-	quest.246E1D3E59885EA4.quest_desc: ["A third &lThermal Evaporation Plant&r can be used to transform &lLithium&r into &lSulfuric Acid,&r inside the &lCrystalizer&r this can turn &lSulfuric Acid&r into &lSulfur&r"]
+	quest.246E1D3E59885EA4.quest_desc: ["A fourth &lThermal Evaporation Plant&r can be used to transform &lLithium&r into &lSulfuric Acid,&r inside the &lCrystalizer&r this can turn &lSulfuric Acid&r into &lSulfur&r"]
 	quest.24814E5E23240951.quest_desc: [" Seems fine"]
 	quest.2511C2023D150059.quest_desc: ["Made inside the Casting Solidifier"]
 	quest.253ADDF82ACF3827.quest_desc: ["Made inside the &lInscriber&r"]
@@ -1082,7 +1086,7 @@
 	quest.6C12BA6141A6A6C5.title: "Lets Start"
 	quest.6C573A6A2E342AFF.quest_desc: ["Made inside the &lRock Washer&r"]
 	quest.6C702C6D1CD2475A.quest_desc: ["Allows the creation of &lImmersive Engineering&r multiblocks"]
-	quest.6C7DFD686E52E2BF.quest_desc: ["Spawns on the top of &lChuros Plants&r in the &lEnd&r"]
+	quest.6C7DFD686E52E2BF.quest_desc: ["Spawns on the top of &lChorus Plants&r in the &lEnd&r"]
 	quest.6CB6F2EF8B370BCF.quest_desc: ["Allows for Molten Fluids to be moved, easy"]
 	quest.6D1B624991EC9362.quest_desc: ["These Trees can be found in The Nether, there wood is &lFire Resistant&r"]
 	quest.6D1B624991EC9362.title: "Nether Wood"
@@ -1190,7 +1194,7 @@
 	quest.77598D88D3876238.quest_desc: ["When used in a &lLoot Fabricatior &rproduces this mobs items"]
 	quest.77B2D78EF43BBC13.quest_desc: ["The &lQuantom Press&r can be used to make &lPrinted Quantom Presses&r"]
 	quest.77E2D0A20E5B3A22.quest_desc: ["Unlocks the recipe for the &lSpeed Curio 3"]
-	quest.781EDB2D998E8C0A.quest_desc: ["A second &lThermal Evaporation Plant&r can be used to transform &lBrine&r into &lLithium,&r inside the &lCrystalizer&r this can turn &lLithium&r into &lLithium Dust&r"]
+	quest.781EDB2D998E8C0A.quest_desc: ["A third &lThermal Evaporation Plant&r can be used to transform &lBrine&r into &lLithium,&r inside the &lCrystalizer&r this can turn &lLithium&r into &lLithium Dust&r"]
 	quest.781EDB2D998E8C0A.quest_subtitle: "&l&e&oElite Technium Part&r&r&r"
 	quest.78321DD6F1C4E464.quest_desc: ["The next tier of &lTechnium&r. You did it thanks for playing &lTechopolis 3&r, there more if your prepared to continue..."]
 	quest.78321DD6F1C4E464.quest_subtitle: "&l&3Lunar Technium Part&r&r"

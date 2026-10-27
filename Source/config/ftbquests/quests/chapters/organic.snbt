@@ -227,6 +227,7 @@
 			tasks: [{
 				id: "173A3C2A28408321"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:magma_cube" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 7.5d
@@ -514,6 +515,46 @@
 			}]
 			x: 4.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["0BC192EC26F113B0"]
+			id: "3B49444CCD5EAE4A"
+			optional: true
+			rewards: [{
+				id: "675222CB64D43434"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "612C9DE1E782BF99"
+				item: { count: 1, id: "replication:replicator_motor" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["370F677418D2D609"]
+			id: "0BC192EC26F113B0"
+			optional: true
+			rewards: [{
+				id: "29C0AC52006FDFCD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D6AB9ECAF0020BD"
+				item: { components: { "replication:blueprint": { Item: { count: 1b, id: "replication:replicator_motor" }, Progress: 1b } }, count: 1, id: "replication:matter_blueprint" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 }
