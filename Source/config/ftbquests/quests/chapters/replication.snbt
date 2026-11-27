@@ -613,11 +613,23 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5D2A32049BAC6C50"]
+			dependencies: [
+				"5D2A32049BAC6C50"
+				"170D6090A1967B58"
+			]
 			id: "4B0A731AAFA96C2F"
+			optional: true
+			rewards: [{
+				id: "0197D398825C30AB"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F5339F785C915E2"
-				item: { count: 1, id: "rep_ae2_bridge:rep_ae2_bridge" }
+				item: { count: 1, id: "apprep:replication_connector" }
 				type: "item"
 			}]
 			x: -2.0d
